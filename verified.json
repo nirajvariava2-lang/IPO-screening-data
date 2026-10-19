@@ -41,6 +41,21 @@
    "note": "F5 PASS: consolidated borrowings 7 / equity 260 = D/E 0.03; OCF FY26 +Rs 73 cr (Screener, Mar 2026). Promoter 53.22% (Sep 2026, above 50%); pledge unverified so F7 stays unverified. OFS-heavy fails F1. F8: Anchors Rs 128 cr (Outlook Business). No auditor qualification found (soft pass; confirm in RHP).",
    "src": "https://www.screener.in/company/GLASSWALL/consolidated/",
    "f8": "P"
+  },
+  "Zetwerk Manufacturing": {
+   "f3": "F",
+   "f5": "F",
+   "f6": "F",
+   "f7": "F",
+   "note": "Abridged prospectus (SEBI, Aug 2026): FY26 loss Rs 1,606 cr; operating cash flow negative all 3 years (FY26 -Rs 681.5 cr); borrowings 19,361.6 mn vs net worth 46,912.1 mn; promoters hold only 15.89% pre-issue (pp. 8). Pledge, post-issue %, anchors not stated. Auditor reports: no unaddressed qualifications (p.17).",
+   "src": "https://www.sebi.gov.in/sebi_data/commondocs/aug-2026/Zetwerk%20Manufacturing%20Businesses%20Limited%20-%20DAP_p.pdf"
+  },
+  "Paras Healthcare": {
+   "f1": "F",
+   "f5": "F",
+   "f6": "F",
+   "note": "DAP (SEBI, Jun 2026): fresh issue 5,000 of 18,000 mn = 27.8% (F1 fail). Borrowings 8,541.0 / net worth 3,949.4 = D/E 2.16 (F5 fail) though OCF +1,635 mn. Revenue CAGR FY24-26 19.3% but PAT FY24 -153, FY25 -580, FY26 +438 mn (CAGR not meaningful, F6 fail). Promoter 72.80% pre-issue; post-issue and pledge [blank]. No unaddressed auditor qualifications; audit-trail remarks FY24-26.",
+   "src": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Paras%20Healthcare%20Limited%20-%20Abridged_p.pdf"
   }
  },
  "rule": "Manual verifications. Apply after daily screening; keep unless newer exchange/RHP evidence contradicts.",
