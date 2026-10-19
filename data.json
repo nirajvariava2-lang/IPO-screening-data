@@ -1,6 +1,6 @@
 {
- "as_of": "2026-10-19T07:55:00+05:30",
- "as_of_label": "Mon 19 Oct 2026, 07:55 IST",
+ "as_of": "2026-10-20T02:05:57+05:30",
+ "as_of_label": "Tue 20 Oct 2026, 02:05 IST",
  "rows": [
   {
    "company": "HD Fire Protect",
@@ -24,7 +24,13 @@
    "f8": "U",
    "listed_on": "",
    "status": "Closed, awaiting listing",
-   "post_pe": 40.69
+   "post_pe": 40.69,
+   "sources": {},
+   "u_reasons": {
+    "f5": "SEBI filing is DRHP dated Oct 08, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
+    "f7": "SEBI filing is DRHP dated Oct 08, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
+    "f8": "SEBI filing is DRHP dated Oct 08, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI"
+   }
   },
   {
    "company": "Fusion CX",
@@ -48,7 +54,13 @@
    "f8": "U",
    "listed_on": "",
    "status": "Closed, awaiting listing",
-   "post_pe": 18.73
+   "post_pe": 18.73,
+   "sources": {},
+   "u_reasons": {
+    "f5": "SEBI filing is DRHP dated May 30, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
+    "f7": "SEBI filing is DRHP dated May 30, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
+    "f8": "SEBI filing is DRHP dated May 30, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI"
+   }
   },
   {
    "company": "Zetwerk Manufacturing",
@@ -72,7 +84,11 @@
    "f8": "U",
    "listed_on": "",
    "status": "Open now",
-   "post_pe": null
+   "post_pe": null,
+   "sources": {},
+   "u_reasons": {
+    "f8": "Not in SEBI Zetwerk Manufacturing Businesses Limited (Aug 14, 2026); needs RHP / price band"
+   }
   },
   {
    "company": "Tonbo Imaging",
@@ -96,7 +112,14 @@
    "f8": "U",
    "listed_on": "",
    "status": "Open now",
-   "post_pe": null
+   "post_pe": null,
+   "sources": {
+    "f8": "Auditors: no qualification (abridged prospectus p.11-12). Anchors not disclosed until RHP"
+   },
+   "u_reasons": {
+    "f5": "Not in SEBI Tonbo Imaging India Limited - DRHP Tonbo (Aug 14, 2026); needs RHP / price band",
+    "f8": "Not in SEBI Tonbo Imaging India Limited - DRHP Tonbo (Aug 14, 2026); needs RHP / price band"
+   }
   },
   {
    "company": "Bonfiglioli Transmissions",
@@ -120,7 +143,13 @@
    "f8": "U",
    "listed_on": "",
    "status": "Open now",
-   "post_pe": 37.07
+   "post_pe": 37.07,
+   "sources": {},
+   "u_reasons": {
+    "f5": "SEBI filing is DRHP dated Feb 16, 2026 with financials to FY2025 (older than FY26); RHP not on SEBI",
+    "f7": "SEBI filing is DRHP dated Feb 16, 2026 with financials to FY2025 (older than FY26); RHP not on SEBI",
+    "f8": "SEBI filing is DRHP dated Feb 16, 2026 with financials to FY2025 (older than FY26); RHP not on SEBI"
+   }
   },
   {
    "company": "Sahajanand Medical Tech",
@@ -144,7 +173,12 @@
    "f8": "U",
    "listed_on": "",
    "status": "Open now",
-   "post_pe": 57.91
+   "post_pe": 57.91,
+   "sources": {},
+   "u_reasons": {
+    "f5": "SEBI filing is DRHP dated Jul 31, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
+    "f8": "SEBI filing is DRHP dated Jul 31, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI"
+   }
   },
   {
    "company": "Jio Platforms",
@@ -167,7 +201,15 @@
    "f7": "U",
    "f8": "U",
    "listed_on": "",
-   "status": "Upcoming"
+   "status": "Upcoming",
+   "sources": {
+    "f8": "Auditors: no qualification (abridged prospectus p.11-12). Anchors not disclosed until RHP"
+   },
+   "u_reasons": {
+    "f5": "Not in SEBI Jio Platforms Ltd - DRHP Jio Platforms L (Jun 19, 2026); needs RHP / price band",
+    "f7": "Not in SEBI Jio Platforms Ltd - DRHP Jio Platforms L (Jun 19, 2026); needs RHP / price band",
+    "f8": "Not in SEBI Jio Platforms Ltd - DRHP Jio Platforms L (Jun 19, 2026); needs RHP / price band"
+   }
   },
   {
    "company": "Paras Healthcare",
@@ -191,7 +233,12 @@
    "f8": "U",
    "listed_on": "",
    "status": "Upcoming",
-   "post_pe": 37.72
+   "post_pe": 37.72,
+   "sources": {},
+   "u_reasons": {
+    "f7": "Not in SEBI Paras Healthcare Limited - DRHP Paras He (Jun 18, 2026); needs RHP / price band",
+    "f8": "Not in SEBI Paras Healthcare Limited - DRHP Paras He (Jun 18, 2026); needs RHP / price band"
+   }
   },
   {
    "company": "Vishal Nirmiti",
@@ -214,7 +261,12 @@
    "f7": "F",
    "f8": "U",
    "listed_on": "2026-10-08",
-   "post_pe": 23.26
+   "post_pe": 23.26,
+   "sources": {},
+   "u_reasons": {
+    "f5": "SEBI filing is DRHP dated Jan 12, 2026 with financials to FY2025 (older than FY26); RHP not on SEBI",
+    "f8": "SEBI filing is DRHP dated Jan 12, 2026 with financials to FY2025 (older than FY26); RHP not on SEBI"
+   }
   },
   {
    "company": "Nityas Gems & Jewellery",
@@ -237,7 +289,12 @@
    "f7": "F",
    "f8": "U",
    "listed_on": "2026-10-08",
-   "post_pe": 19.4
+   "post_pe": 19.4,
+   "sources": {},
+   "u_reasons": {
+    "f5": "SEBI filing is DRHP dated Apr 08, 2026 with financials to FY2025 (older than FY26); RHP not on SEBI",
+    "f8": "SEBI filing is DRHP dated Apr 08, 2026 with financials to FY2025 (older than FY26); RHP not on SEBI"
+   }
   },
   {
    "company": "SRIT India",
@@ -260,7 +317,11 @@
    "f7": "U",
    "f8": "P",
    "listed_on": "2026-10-06",
-   "post_pe": 19.29
+   "post_pe": 19.29,
+   "sources": {},
+   "u_reasons": {
+    "f7": "SEBI filing is DRHP dated Feb 06, 2026 with financials to FY2025 (older than FY26); RHP not on SEBI"
+   }
   },
   {
    "company": "Rays of Belief",
@@ -283,7 +344,12 @@
    "f7": "U",
    "f8": "U",
    "listed_on": "2026-09-08",
-   "post_pe": 100.84
+   "post_pe": 100.84,
+   "sources": {},
+   "u_reasons": {
+    "f7": "SEBI filing is DRHP dated Feb 17, 2026 with financials to FY2025 (older than FY26); RHP not on SEBI",
+    "f8": "SEBI filing is DRHP dated Feb 17, 2026 with financials to FY2025 (older than FY26); RHP not on SEBI"
+   }
   },
   {
    "company": "German Green Steel",
@@ -306,7 +372,11 @@
    "f7": "U",
    "f8": "P",
    "listed_on": "2026-10-05",
-   "post_pe": 13.11
+   "post_pe": 13.11,
+   "sources": {},
+   "u_reasons": {
+    "f7": "SEBI filing is DRHP dated Jul 08, 2025 with financials to FY2024 (older than FY26); RHP not on SEBI"
+   }
   },
   {
    "company": "Pranav Constructions",
@@ -329,7 +399,11 @@
    "f7": "F",
    "f8": "U",
    "listed_on": "2026-09-15",
-   "post_pe": 19.59
+   "post_pe": 19.59,
+   "sources": {},
+   "u_reasons": {
+    "f8": "SEBI filing is DRHP dated Mar 04, 2025 with financials to FY2024 (older than FY26); RHP not on SEBI"
+   }
   },
   {
    "company": "SS Retail",
@@ -352,7 +426,12 @@
    "f7": "U",
    "f8": "U",
    "listed_on": "2026-09-23",
-   "post_pe": 53.2
+   "post_pe": 53.2,
+   "sources": {},
+   "u_reasons": {
+    "f7": "SEBI filing is DRHP dated Jan 05, 2026 with financials to FY2025 (older than FY26); RHP not on SEBI",
+    "f8": "SEBI filing is DRHP dated Jan 05, 2026 with financials to FY2025 (older than FY26); RHP not on SEBI"
+   }
   },
   {
    "company": "ESDS Software",
@@ -375,7 +454,8 @@
    "f7": "F",
    "f8": "P",
    "listed_on": "2026-09-04",
-   "post_pe": 41.61
+   "post_pe": 41.61,
+   "sources": {}
   },
   {
    "company": "Kanohar Electricals",
@@ -398,7 +478,12 @@
    "f7": "U",
    "f8": "U",
    "listed_on": "2026-09-16",
-   "post_pe": 38.58
+   "post_pe": 38.58,
+   "sources": {},
+   "u_reasons": {
+    "f7": "SEBI filing is DRHP dated Jan 28, 2026 with financials to FYNone (older than FY26); RHP not on SEBI",
+    "f8": "SEBI filing is DRHP dated Jan 28, 2026 with financials to FYNone (older than FY26); RHP not on SEBI"
+   }
   },
   {
    "company": "Glass Wall Systems",
@@ -421,7 +506,11 @@
    "f7": "U",
    "f8": "P",
    "listed_on": "2026-09-16",
-   "post_pe": 19.1
+   "post_pe": 19.1,
+   "sources": {},
+   "u_reasons": {
+    "f7": "SEBI filing is DRHP dated Sep 11, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI"
+   }
   },
   {
    "company": "Moneyview",
@@ -444,7 +533,11 @@
    "f7": "F",
    "f8": "U",
    "listed_on": "2026-10-01",
-   "post_pe": 8.61
+   "post_pe": 8.61,
+   "sources": {},
+   "u_reasons": {
+    "f8": "SEBI filing is DRHP dated Mar 09, 2026 with financials to FY2025 (older than FY26); RHP not on SEBI"
+   }
   },
   {
    "company": "Shah Investor's Home",
@@ -467,7 +560,13 @@
    "f7": "U",
    "f8": "U",
    "listed_on": "2026-10-06",
-   "post_pe": 26.94
+   "post_pe": 26.94,
+   "sources": {},
+   "u_reasons": {
+    "f5": "SEBI filing is DRHP dated Oct 08, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
+    "f7": "SEBI filing is DRHP dated Oct 08, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
+    "f8": "SEBI filing is DRHP dated Oct 08, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI"
+   }
   },
   {
    "company": "Advit Jewels",
@@ -490,7 +589,12 @@
    "f7": "U",
    "f8": "U",
    "listed_on": "2026-07-01",
-   "post_pe": 18.64
+   "post_pe": 18.64,
+   "sources": {},
+   "u_reasons": {
+    "f7": "SEBI filing is DRHP dated Oct 08, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
+    "f8": "SEBI filing is DRHP dated Oct 08, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI"
+   }
   },
   {
    "company": "MV Electrosystems",
@@ -512,7 +616,13 @@
    "f6": "F",
    "f7": "U",
    "f8": "U",
-   "listed_on": "2026-08-06"
+   "listed_on": "2026-08-06",
+   "sources": {},
+   "u_reasons": {
+    "f5": "SEBI filing is DRHP dated Dec 10, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
+    "f7": "SEBI filing is DRHP dated Dec 10, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
+    "f8": "SEBI filing is DRHP dated Dec 10, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI"
+   }
   },
   {
    "company": "Orient Cables",
@@ -535,7 +645,13 @@
    "f7": "U",
    "f8": "U",
    "listed_on": "2026-10-05",
-   "post_pe": 23.61
+   "post_pe": 23.61,
+   "sources": {},
+   "u_reasons": {
+    "f5": "SEBI filing is DRHP dated Jul 22, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
+    "f7": "SEBI filing is DRHP dated Jul 22, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
+    "f8": "SEBI filing is DRHP dated Jul 22, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI"
+   }
   },
   {
    "company": "Ardee Industries",
@@ -558,7 +674,12 @@
    "f7": "U",
    "f8": "U",
    "listed_on": "2026-08-12",
-   "post_pe": 19.7
+   "post_pe": 19.7,
+   "sources": {},
+   "u_reasons": {
+    "f7": "SEBI filing is DRHP dated Oct 10, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
+    "f8": "SEBI filing is DRHP dated Oct 10, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI"
+   }
   },
   {
    "company": "Augmont Enterprises",
@@ -581,7 +702,13 @@
    "f7": "U",
    "f8": "U",
    "listed_on": "2026-08-31",
-   "post_pe": 20.67
+   "post_pe": 20.67,
+   "sources": {},
+   "u_reasons": {
+    "f5": "SEBI filing is DRHP dated Oct 09, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
+    "f7": "SEBI filing is DRHP dated Oct 09, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
+    "f8": "SEBI filing is DRHP dated Oct 09, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI"
+   }
   },
   {
    "company": "Rentomojo",
@@ -604,7 +731,12 @@
    "f7": "F",
    "f8": "U",
    "listed_on": "2026-09-17",
-   "post_pe": 40.73
+   "post_pe": 40.73,
+   "sources": {},
+   "u_reasons": {
+    "f5": "SEBI filing is DRHP dated Apr 06, 2026 with financials to FY2025 (older than FY26); RHP not on SEBI",
+    "f8": "SEBI filing is DRHP dated Apr 06, 2026 with financials to FY2025 (older than FY26); RHP not on SEBI"
+   }
   },
   {
    "company": "Karamtara Engineering",
@@ -627,7 +759,13 @@
    "f7": "U",
    "f8": "U",
    "listed_on": "2026-09-17",
-   "post_pe": 35.72
+   "post_pe": 35.72,
+   "sources": {},
+   "u_reasons": {
+    "f5": "SEBI filing is DRHP dated Jan 27, 2025 with financials to FY2024 (older than FY26); RHP not on SEBI",
+    "f7": "SEBI filing is DRHP dated Jan 27, 2025 with financials to FY2024 (older than FY26); RHP not on SEBI",
+    "f8": "SEBI filing is DRHP dated Jan 27, 2025 with financials to FY2024 (older than FY26); RHP not on SEBI"
+   }
   },
   {
    "company": "LCC Projects",
@@ -650,7 +788,13 @@
    "f7": "U",
    "f8": "U",
    "listed_on": "2026-09-17",
-   "post_pe": 14.76
+   "post_pe": 14.76,
+   "sources": {},
+   "u_reasons": {
+    "f5": "SEBI filing is DRHP dated Feb 27, 2025 with financials to FY2024 (older than FY26); RHP not on SEBI",
+    "f7": "SEBI filing is DRHP dated Feb 27, 2025 with financials to FY2024 (older than FY26); RHP not on SEBI",
+    "f8": "SEBI filing is DRHP dated Feb 27, 2025 with financials to FY2024 (older than FY26); RHP not on SEBI"
+   }
   },
   {
    "company": "Molbio Diagnostics",
@@ -673,7 +817,12 @@
    "f7": "F",
    "f8": "U",
    "listed_on": "2026-08-17",
-   "post_pe": 56.67
+   "post_pe": 56.67,
+   "sources": {},
+   "u_reasons": {
+    "f5": "SEBI filing is DRHP dated Aug 29, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
+    "f8": "SEBI filing is DRHP dated Aug 29, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI"
+   }
   },
   {
    "company": "Lalithaa Jewellery Mart",
@@ -696,7 +845,13 @@
    "f7": "U",
    "f8": "U",
    "listed_on": "2026-08-24",
-   "post_pe": 11.14
+   "post_pe": 11.14,
+   "sources": {},
+   "u_reasons": {
+    "f5": "SEBI filing is DRHP dated Jun 13, 2025 with financials to FY2024 (older than FY26); RHP not on SEBI",
+    "f7": "SEBI filing is DRHP dated Jun 13, 2025 with financials to FY2024 (older than FY26); RHP not on SEBI",
+    "f8": "SEBI filing is DRHP dated Jun 13, 2025 with financials to FY2024 (older than FY26); RHP not on SEBI"
+   }
   },
   {
    "company": "Milky Mist Dairy",
@@ -718,7 +873,12 @@
    "f6": "P",
    "f7": "U",
    "f8": "U",
-   "listed_on": "2026-08-18"
+   "listed_on": "2026-08-18",
+   "sources": {},
+   "u_reasons": {
+    "f7": "SEBI filing is DRHP dated Jul 24, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
+    "f8": "SEBI filing is DRHP dated Jul 24, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI"
+   }
   },
   {
    "company": "Steamhouse India",
@@ -741,16 +901,21 @@
    "f7": "U",
    "f8": "U",
    "listed_on": "2026-09-17",
-   "post_pe": 57.86
+   "post_pe": 57.86,
+   "sources": {},
+   "u_reasons": {
+    "f7": "SEBI filing is DRHP dated Dec 09, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
+    "f8": "SEBI filing is DRHP dated Dec 09, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI"
+   }
   },
   {
    "company": "Deepa Jewellers",
    "group": "Listed",
    "new": false,
    "timing": "08-Sep",
-   "passed": 3,
-   "fails": 1,
-   "unknown": 4,
+   "passed": 4,
+   "fails": 2,
+   "unknown": 2,
    "verdict": "Review",
    "flag": "fresh 54% | F3: post-issue P/E 16.24x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/deepa-jewellers-ipo/2827/",
@@ -759,12 +924,20 @@
    "f2": "P",
    "f3": "P",
    "f4": "U",
-   "f5": "U",
+   "f5": "F",
    "f6": "P",
    "f7": "U",
-   "f8": "U",
+   "f8": "P",
    "listed_on": "2026-09-08",
-   "post_pe": 16.24
+   "post_pe": 16.24,
+   "sources": {
+    "f5": "DRHP (SEBI, 2 Jan 2026) p.269: net cash from operating activities Rs (142.60) mn H1 FY26, (98.64) mn FY25 - negative; D/E 0.55 (p.119)",
+    "f8": "Soft pass: auditors no qualification (DRHP p.27); anchor portion in offer structure (p.3). Confirm allocation in RHP",
+    "f7": "Pledge: none (DRHP p.99). Post-issue holding blank until price band"
+   },
+   "u_reasons": {
+    "f7": "Not in SEBI Deepa Jewellers Limited (Jan 02, 2026); needs RHP / price band"
+   }
   },
   {
    "company": "Manika Plastech",
@@ -787,7 +960,13 @@
    "f7": "U",
    "f8": "U",
    "listed_on": "2026-09-21",
-   "post_pe": 9.58
+   "post_pe": 9.58,
+   "sources": {},
+   "u_reasons": {
+    "f5": "SEBI filing is DRHP dated Jul 02, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
+    "f7": "SEBI filing is DRHP dated Jul 02, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
+    "f8": "SEBI filing is DRHP dated Jul 02, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI"
+   }
   },
   {
    "company": "Technocraft Ventures",
@@ -810,7 +989,13 @@
    "f7": "U",
    "f8": "U",
    "listed_on": "2026-08-14",
-   "post_pe": 19.38
+   "post_pe": 19.38,
+   "sources": {},
+   "u_reasons": {
+    "f5": "SEBI filing is DRHP dated Aug 13, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
+    "f7": "SEBI filing is DRHP dated Aug 13, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
+    "f8": "SEBI filing is DRHP dated Aug 13, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI"
+   }
   },
   {
    "company": "Jindal Supreme",
@@ -833,7 +1018,12 @@
    "f7": "U",
    "f8": "U",
    "listed_on": "2026-09-23",
-   "post_pe": 14.33
+   "post_pe": 14.33,
+   "sources": {},
+   "u_reasons": {
+    "f7": "SEBI filing is DRHP dated May 05, 2026 with financials to FY2025 (older than FY26); RHP not on SEBI",
+    "f8": "SEBI filing is DRHP dated May 05, 2026 with financials to FY2025 (older than FY26); RHP not on SEBI"
+   }
   },
   {
    "company": "Hy-Tech Engineers",
@@ -856,7 +1046,13 @@
    "f7": "U",
    "f8": "U",
    "listed_on": "2026-09-01",
-   "post_pe": 22.27
+   "post_pe": 22.27,
+   "sources": {},
+   "u_reasons": {
+    "f5": "No offer document on SEBI site",
+    "f7": "No offer document on SEBI site",
+    "f8": "No offer document on SEBI site"
+   }
   },
   {
    "company": "Tempsens Instruments",
@@ -879,7 +1075,13 @@
    "f7": "U",
    "f8": "U",
    "listed_on": "2026-08-28",
-   "post_pe": 35.38
+   "post_pe": 35.38,
+   "sources": {},
+   "u_reasons": {
+    "f5": "SEBI filing is DRHP dated Oct 08, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
+    "f7": "SEBI filing is DRHP dated Oct 08, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
+    "f8": "SEBI filing is DRHP dated Oct 08, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI"
+   }
   },
   {
    "company": "Adroit Industries",
@@ -902,7 +1104,13 @@
    "f7": "U",
    "f8": "U",
    "listed_on": "2026-09-30",
-   "post_pe": 22.95
+   "post_pe": 22.95,
+   "sources": {},
+   "u_reasons": {
+    "f5": "SEBI filing is DRHP dated Apr 07, 2026 with financials to FY2025 (older than FY26); RHP not on SEBI",
+    "f7": "SEBI filing is DRHP dated Apr 07, 2026 with financials to FY2025 (older than FY26); RHP not on SEBI",
+    "f8": "SEBI filing is DRHP dated Apr 07, 2026 with financials to FY2025 (older than FY26); RHP not on SEBI"
+   }
   },
   {
    "company": "Caliber Mining & Logistics",
@@ -925,7 +1133,12 @@
    "f7": "U",
    "f8": "U",
    "listed_on": "2026-07-24",
-   "post_pe": 17.55
+   "post_pe": 17.55,
+   "sources": {},
+   "u_reasons": {
+    "f7": "SEBI filing is DRHP dated Jan 09, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
+    "f8": "SEBI filing is DRHP dated Jan 09, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI"
+   }
   },
   {
    "company": "Lumino Industries",
@@ -948,7 +1161,13 @@
    "f7": "U",
    "f8": "U",
    "listed_on": "2026-09-03",
-   "post_pe": 15.62
+   "post_pe": 15.62,
+   "sources": {},
+   "u_reasons": {
+    "f5": "SEBI filing is DRHP dated Jan 23, 2025 with financials to FY2024 (older than FY26); RHP not on SEBI",
+    "f7": "SEBI filing is DRHP dated Jan 23, 2025 with financials to FY2024 (older than FY26); RHP not on SEBI",
+    "f8": "SEBI filing is DRHP dated Jan 23, 2025 with financials to FY2024 (older than FY26); RHP not on SEBI"
+   }
   },
   {
    "company": "Behari Lal Engineering",
@@ -971,7 +1190,13 @@
    "f7": "U",
    "f8": "U",
    "listed_on": "2026-08-19",
-   "post_pe": 18.65
+   "post_pe": 18.65,
+   "sources": {},
+   "u_reasons": {
+    "f5": "SEBI filing is DRHP dated Oct 01, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
+    "f7": "SEBI filing is DRHP dated Oct 01, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
+    "f8": "SEBI filing is DRHP dated Oct 01, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI"
+   }
   },
   {
    "company": "Sunshine Pictures",
@@ -994,7 +1219,13 @@
    "f7": "U",
    "f8": "U",
    "listed_on": "2026-08-25",
-   "post_pe": 28.02
+   "post_pe": 28.02,
+   "sources": {},
+   "u_reasons": {
+    "f5": "SEBI filing is DRHP dated Jan 10, 2025 with financials to FY2024 (older than FY26); RHP not on SEBI",
+    "f7": "SEBI filing is DRHP dated Jan 10, 2025 with financials to FY2024 (older than FY26); RHP not on SEBI",
+    "f8": "SEBI filing is DRHP dated Jan 10, 2025 with financials to FY2024 (older than FY26); RHP not on SEBI"
+   }
   },
   {
    "company": "Priority Jewels",
@@ -1017,7 +1248,13 @@
    "f7": "U",
    "f8": "U",
    "listed_on": "2026-09-04",
-   "post_pe": 13.9
+   "post_pe": 13.9,
+   "sources": {},
+   "u_reasons": {
+    "f5": "SEBI filing is DRHP dated May 06, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
+    "f7": "SEBI filing is DRHP dated May 06, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
+    "f8": "SEBI filing is DRHP dated May 06, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI"
+   }
   },
   {
    "company": "Knack Packaging",
@@ -1040,7 +1277,13 @@
    "f7": "U",
    "f8": "U",
    "listed_on": "2026-07-08",
-   "post_pe": 22.43
+   "post_pe": 22.43,
+   "sources": {},
+   "u_reasons": {
+    "f5": "SEBI filing is DRHP dated Sep 09, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
+    "f7": "SEBI filing is DRHP dated Sep 09, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
+    "f8": "SEBI filing is DRHP dated Sep 09, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI"
+   }
   },
   {
    "company": "Shiprocket",
@@ -1062,7 +1305,12 @@
    "f6": "F",
    "f7": "F",
    "f8": "U",
-   "listed_on": "2026-08-19"
+   "listed_on": "2026-08-19",
+   "sources": {},
+   "u_reasons": {
+    "f5": "SEBI filing is DRHP dated Dec 15, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
+    "f8": "SEBI filing is DRHP dated Dec 15, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI"
+   }
   },
   {
    "company": "Dhoot Transmission",
@@ -1085,7 +1333,13 @@
    "f7": "U",
    "f8": "U",
    "listed_on": "2026-08-17",
-   "post_pe": 44.9
+   "post_pe": 44.9,
+   "sources": {},
+   "u_reasons": {
+    "f5": "SEBI filing is DRHP dated May 29, 2026 with financials to FY2025 (older than FY26); RHP not on SEBI",
+    "f7": "SEBI filing is DRHP dated May 29, 2026 with financials to FY2025 (older than FY26); RHP not on SEBI",
+    "f8": "SEBI filing is DRHP dated May 29, 2026 with financials to FY2025 (older than FY26); RHP not on SEBI"
+   }
   },
   {
    "company": "Indo-MIM",
@@ -1108,7 +1362,13 @@
    "f7": "U",
    "f8": "U",
    "listed_on": "2026-07-30",
-   "post_pe": 44.95
+   "post_pe": 44.95,
+   "sources": {},
+   "u_reasons": {
+    "f5": "No offer document on SEBI site",
+    "f7": "No offer document on SEBI site",
+    "f8": "No offer document on SEBI site"
+   }
   },
   {
    "company": "SBI Funds Management",
@@ -1131,7 +1391,13 @@
    "f7": "U",
    "f8": "U",
    "listed_on": "2026-07-21",
-   "post_pe": 38.12
+   "post_pe": 38.12,
+   "sources": {},
+   "u_reasons": {
+    "f5": "SEBI filing is DRHP dated Mar 24, 2026 with financials to FY2025 (older than FY26); RHP not on SEBI",
+    "f7": "SEBI filing is DRHP dated Mar 24, 2026 with financials to FY2025 (older than FY26); RHP not on SEBI",
+    "f8": "SEBI filing is DRHP dated Mar 24, 2026 with financials to FY2025 (older than FY26); RHP not on SEBI"
+   }
   },
   {
    "company": "Laser Power & Infra",
@@ -1154,7 +1420,12 @@
    "f7": "U",
    "f8": "U",
    "listed_on": "2026-07-16",
-   "post_pe": 19.82
+   "post_pe": 19.82,
+   "sources": {},
+   "u_reasons": {
+    "f7": "SEBI filing is DRHP dated Oct 09, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
+    "f8": "SEBI filing is DRHP dated Oct 09, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI"
+   }
   },
   {
    "company": "Kusumgar",
@@ -1177,7 +1448,13 @@
    "f7": "U",
    "f8": "U",
    "listed_on": "2026-07-15",
-   "post_pe": 44.8
+   "post_pe": 44.8,
+   "sources": {},
+   "u_reasons": {
+    "f5": "SEBI filing is DRHP dated Oct 09, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
+    "f7": "SEBI filing is DRHP dated Oct 09, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
+    "f8": "SEBI filing is DRHP dated Oct 09, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI"
+   }
   },
   {
    "company": "CMR Green Technologies",
@@ -1200,7 +1477,13 @@
    "f7": "U",
    "f8": "U",
    "listed_on": "2026-06-10",
-   "post_pe": 19.42
+   "post_pe": 19.42,
+   "sources": {},
+   "u_reasons": {
+    "f5": "SEBI filing is DRHP dated Sep 10, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
+    "f7": "SEBI filing is DRHP dated Sep 10, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
+    "f8": "SEBI filing is DRHP dated Sep 10, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI"
+   }
   },
   {
    "company": "Hexagon Nutrition",
@@ -1223,7 +1506,13 @@
    "f7": "F",
    "f8": "U",
    "listed_on": "2026-06-12",
-   "post_pe": 15.35
+   "post_pe": 15.35,
+   "sources": {},
+   "u_reasons": {
+    "f5": "SEBI filing is DRHP dated Oct 08, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
+    "f8": "SEBI filing is DRHP dated Oct 08, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI"
+   }
   }
- ]
+ ],
+ "sebi_note": "Only filings with FY26+ financials used for F5-F8. 51/53 IPOs have SEBI filings; most are older DRHPs. See u_reasons."
 }
