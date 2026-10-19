@@ -22,6 +22,21 @@
    "f5": "P",
    "note": "F4 PASS: final subscription 135.88x overall, QIB 261.51x, NII 192.94x, retail 39.64x (Swastika; Inc42 135.9x); Chittorgarh page showed 99.45x, earlier snapshot. F5 PASS: borrowings 96 / equity 544 = D/E 0.18 (Chittorgarh 0.08), operating cash flow positive every year; FY26 OCF Rs 1,368 cr looks unusually large, verify in annual report. F7 FAIL: promoter 39.47% post-issue (below 50%). Anchors Rs 216 cr (Y). F3 peer P/E and F8 auditor opinion unverified; post-issue P/E 41.6x, current Screener P/E 144.",
    "src": "https://www.screener.in/company/ESDS/consolidated/"
+  },
+  "SS Retail": {
+   "f5": "F",
+   "note": "F5 FAIL: standalone borrowings 238 / equity 220 = D/E 1.08 (>1); OCF FY26 +Rs 30 cr (Screener, Mar 2026; consolidated not checked). Promoter 64.86% (Sep 2026); pledge unverified. Fresh issue 72% fails F1.",
+   "src": "https://www.screener.in/company/SSRETAIL/"
+  },
+  "Kanohar Electricals": {
+   "f5": "P",
+   "note": "F5 PASS: borrowings 39 / equity 373 = D/E 0.10; OCF FY26 +Rs 26 cr (Screener, Mar 2026). Promoter 74.65% (Sep 2026, above 50%); pledge unverified so F7 stays unverified. OFS-heavy fails F1.",
+   "src": "https://www.screener.in/company/KANOHAR/"
+  },
+  "Glass Wall Systems": {
+   "f5": "P",
+   "note": "F5 PASS: consolidated borrowings 7 / equity 260 = D/E 0.03; OCF FY26 +Rs 73 cr (Screener, Mar 2026). Promoter 53.22% (Sep 2026, above 50%); pledge unverified so F7 stays unverified. OFS-heavy fails F1.",
+   "src": "https://www.screener.in/company/GLASSWALL/consolidated/"
   }
  },
  "rule": "Manual verifications. Apply after daily screening; keep unless newer exchange/RHP evidence contradicts."
