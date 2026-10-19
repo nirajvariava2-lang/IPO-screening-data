@@ -39,5 +39,6 @@
    "src": "https://www.screener.in/company/GLASSWALL/consolidated/"
   }
  },
- "rule": "Manual verifications. Apply after daily screening; keep unless newer exchange/RHP evidence contradicts."
+ "rule": "Manual verifications. Apply after daily screening; keep unless newer exchange/RHP evidence contradicts.",
+ "f3_rule": "F3 = post-issue P/E at or below 25x (positive). Loss-making or above 25x = FAIL. Source: Chittorgarh post-issue P/E; some use annualised recent-period earnings."
 }
