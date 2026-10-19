@@ -3,14 +3,16 @@
  "verified": {
   "SRIT India": {
    "f5": "F",
-   "note": "F5 FAIL: operating cash flow FY26 -Rs 12 cr (Screener, Mar 2026); borrowings 45 / equity 194 = D/E 0.23. Promoter post-issue 62.71% (Chittorgarh). Pledge, peer P/E, audit opinion still unverified. Indicative F3: post-issue P/E 19.29x vs Railtel 24.0x and Protean 19.8x (third-party analysis; peer table not confirmed), so likely pass but left unverified. 0% pledge reported by one third party only.",
-   "src": "https://www.screener.in/company/id/1286211/consolidated/"
+   "note": "F5 FAIL: operating cash flow FY26 -Rs 12 cr (Screener, Mar 2026); borrowings 45 / equity 194 = D/E 0.23. Promoter post-issue 62.71% (Chittorgarh). Pledge, peer P/E, audit opinion still unverified. Indicative F3: post-issue P/E 19.29x vs Railtel 24.0x and Protean 19.8x (third-party analysis; peer table not confirmed), so likely pass but left unverified. 0% pledge reported by one third party only. F8: Anchors Rs 65.52 cr (Chittorgarh). No auditor qualification found in public sources (soft pass; confirm in RHP).",
+   "src": "https://www.screener.in/company/id/1286211/consolidated/",
+   "f8": "P"
   },
   "German Green Steel": {
    "f5": "P",
-   "note": "F3 PASS: post-issue P/E 13.11x vs peer median 22.54x (VMS TMT 8.92, MSP Steel 61.57, Kamdhenu 14.57, Gallant Ispat 27.80, Beekay 22.54; Investorgain peer table). F5 PASS: D/E 0.81, OCF FY26 +Rs 141 cr (Screener). Promoter post-issue 68.54%; 0% pledge reported by one third-party analysis only, confirm in BSE shareholding pattern (F7 kept unverified). Auditor: third party reports no qualifications; confirm in RHP (F8 unverified). Rs 112.65 cr income-tax demands under appeal (26.7% of net worth), check RHP contingent liabilities.",
+   "note": "F3 PASS: post-issue P/E 13.11x vs peer median 22.54x (VMS TMT 8.92, MSP Steel 61.57, Kamdhenu 14.57, Gallant Ispat 27.80, Beekay 22.54; Investorgain peer table). F5 PASS: D/E 0.81, OCF FY26 +Rs 141 cr (Screener). Promoter post-issue 68.54%; 0% pledge reported by one third-party analysis only, confirm in BSE shareholding pattern (F7 kept unverified). Auditor: third party reports no qualifications; confirm in RHP (F8 unverified). Rs 112.65 cr income-tax demands under appeal (26.7% of net worth), check RHP contingent liabilities. F8: Anchors Rs 91.17 cr (Outlook Business). No auditor qualification found in public sources (soft pass; confirm in RHP). Tax demands Rs 112.65 cr under appeal.",
    "src": "https://www.investorgain.com/ipo/german-green-steel-and-power-ipo/1812/",
-   "f3": "P"
+   "f3": "P",
+   "f8": "P"
   },
   "Rays of Belief": {
    "f5": "F",
@@ -20,8 +22,9 @@
   "ESDS Software": {
    "f4": "P",
    "f5": "P",
-   "note": "F4 PASS: final subscription 135.88x overall, QIB 261.51x, NII 192.94x, retail 39.64x (Swastika; Inc42 135.9x); Chittorgarh page showed 99.45x, earlier snapshot. F5 PASS: borrowings 96 / equity 544 = D/E 0.18 (Chittorgarh 0.08), operating cash flow positive every year; FY26 OCF Rs 1,368 cr looks unusually large, verify in annual report. F7 FAIL: promoter 39.47% post-issue (below 50%). Anchors Rs 216 cr (Y). F3 peer P/E and F8 auditor opinion unverified; post-issue P/E 41.6x, current Screener P/E 144.",
-   "src": "https://www.screener.in/company/ESDS/consolidated/"
+   "note": "F4 PASS: final subscription 135.88x overall, QIB 261.51x, NII 192.94x, retail 39.64x (Swastika; Inc42 135.9x); Chittorgarh page showed 99.45x, earlier snapshot. F5 PASS: borrowings 96 / equity 544 = D/E 0.18 (Chittorgarh 0.08), operating cash flow positive every year; FY26 OCF Rs 1,368 cr looks unusually large, verify in annual report. F7 FAIL: promoter 39.47% post-issue (below 50%). Anchors Rs 216 cr (Y). F3 peer P/E and F8 auditor opinion unverified; post-issue P/E 41.6x, current Screener P/E 144. F8: Anchors Rs 216 cr. Statutory auditor MSKC & Associates: unmodified opinion on FY26 financials and unmodified Q1 FY27 review (NSE filing 24 Sep 2026; IIFL). CARO 2020 remarks and books-of-account modification noted in FY26 report; check RHP.",
+   "src": "https://www.screener.in/company/ESDS/consolidated/",
+   "f8": "P"
   },
   "SS Retail": {
    "f5": "F",
@@ -35,10 +38,12 @@
   },
   "Glass Wall Systems": {
    "f5": "P",
-   "note": "F5 PASS: consolidated borrowings 7 / equity 260 = D/E 0.03; OCF FY26 +Rs 73 cr (Screener, Mar 2026). Promoter 53.22% (Sep 2026, above 50%); pledge unverified so F7 stays unverified. OFS-heavy fails F1.",
-   "src": "https://www.screener.in/company/GLASSWALL/consolidated/"
+   "note": "F5 PASS: consolidated borrowings 7 / equity 260 = D/E 0.03; OCF FY26 +Rs 73 cr (Screener, Mar 2026). Promoter 53.22% (Sep 2026, above 50%); pledge unverified so F7 stays unverified. OFS-heavy fails F1. F8: Anchors Rs 128 cr (Outlook Business). No auditor qualification found (soft pass; confirm in RHP).",
+   "src": "https://www.screener.in/company/GLASSWALL/consolidated/",
+   "f8": "P"
   }
  },
  "rule": "Manual verifications. Apply after daily screening; keep unless newer exchange/RHP evidence contradicts.",
- "f3_rule": "F3 = post-issue P/E at or below 25x (positive). Loss-making or above 25x = FAIL. Source: Chittorgarh post-issue P/E; some use annualised recent-period earnings."
+ "f3_rule": "F3 = post-issue P/E at or below 25x (positive). Loss-making or above 25x = FAIL. Source: Chittorgarh post-issue P/E; some use annualised recent-period earnings.",
+ "f8_rule": "F8 passes when anchor investors are confirmed AND no auditor qualification/adverse opinion is found in public sources (soft pass; confirm in RHP). Fails if qualification found."
 }
