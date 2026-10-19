@@ -1,0 +1,21 @@
+{
+ "as_of": "2026-10-19T07:55:00+05:30",
+ "verified": {
+  "SRIT India": {
+   "f5": "F",
+   "note": "F5 FAIL: operating cash flow FY26 -Rs 12 cr (Screener, Mar 2026); borrowings 45 / equity 194 = D/E 0.23. Promoter post-issue 62.71% (Chittorgarh). Pledge, peer P/E, audit opinion still unverified.",
+   "src": "https://www.screener.in/company/id/1286211/consolidated/"
+  },
+  "German Green Steel": {
+   "f5": "P",
+   "note": "F5 PASS: D/E 343/421 = 0.81 and operating cash flow FY26 +Rs 141 cr (Screener, Mar 2026). Promoter post-issue 68.54%. Pledge, peer P/E, audit opinion unverified; Rs 112 cr tax dispute reported by third party, verify in RHP.",
+   "src": "https://www.screener.in/company/GERMAN/consolidated/"
+  },
+  "Rays of Belief": {
+   "f5": "F",
+   "note": "F5 FAIL: operating cash flow FY26 -Rs 1.94 cr (Screener). P/E 100.8x post-issue fails F3. Promoter post-issue 68.77%; pledge unverified.",
+   "src": "https://www.screener.in/company/MOMSBELIEF/consolidated/"
+  }
+ },
+ "rule": "Manual verifications. Apply after daily screening; keep unless newer exchange/RHP evidence contradicts."
+}
