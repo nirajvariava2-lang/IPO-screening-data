@@ -3,13 +3,14 @@
  "verified": {
   "SRIT India": {
    "f5": "F",
-   "note": "F5 FAIL: operating cash flow FY26 -Rs 12 cr (Screener, Mar 2026); borrowings 45 / equity 194 = D/E 0.23. Promoter post-issue 62.71% (Chittorgarh). Pledge, peer P/E, audit opinion still unverified.",
+   "note": "F5 FAIL: operating cash flow FY26 -Rs 12 cr (Screener, Mar 2026); borrowings 45 / equity 194 = D/E 0.23. Promoter post-issue 62.71% (Chittorgarh). Pledge, peer P/E, audit opinion still unverified. Indicative F3: post-issue P/E 19.29x vs Railtel 24.0x and Protean 19.8x (third-party analysis; peer table not confirmed), so likely pass but left unverified. 0% pledge reported by one third party only.",
    "src": "https://www.screener.in/company/id/1286211/consolidated/"
   },
   "German Green Steel": {
    "f5": "P",
-   "note": "F5 PASS: D/E 343/421 = 0.81 and operating cash flow FY26 +Rs 141 cr (Screener, Mar 2026). Promoter post-issue 68.54%. Pledge, peer P/E, audit opinion unverified; Rs 112 cr tax dispute reported by third party, verify in RHP.",
-   "src": "https://www.screener.in/company/GERMAN/consolidated/"
+   "note": "F3 PASS: post-issue P/E 13.11x vs peer median 22.54x (VMS TMT 8.92, MSP Steel 61.57, Kamdhenu 14.57, Gallant Ispat 27.80, Beekay 22.54; Investorgain peer table). F5 PASS: D/E 0.81, OCF FY26 +Rs 141 cr (Screener). Promoter post-issue 68.54%; 0% pledge reported by one third-party analysis only, confirm in BSE shareholding pattern (F7 kept unverified). Auditor: third party reports no qualifications; confirm in RHP (F8 unverified). Rs 112.65 cr income-tax demands under appeal (26.7% of net worth), check RHP contingent liabilities.",
+   "src": "https://www.investorgain.com/ipo/german-green-steel-and-power-ipo/1812/",
+   "f3": "P"
   },
   "Rays of Belief": {
    "f5": "F",
