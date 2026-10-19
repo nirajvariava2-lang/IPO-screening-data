@@ -15,6 +15,12 @@
    "f5": "F",
    "note": "F5 FAIL: operating cash flow FY26 -Rs 1.94 cr (Screener). P/E 100.8x post-issue fails F3. Promoter post-issue 68.77%; pledge unverified.",
    "src": "https://www.screener.in/company/MOMSBELIEF/consolidated/"
+  },
+  "ESDS Software": {
+   "f4": "P",
+   "f5": "P",
+   "note": "F4 PASS: final subscription 135.88x overall, QIB 261.51x, NII 192.94x, retail 39.64x (Swastika; Inc42 135.9x); Chittorgarh page showed 99.45x, earlier snapshot. F5 PASS: borrowings 96 / equity 544 = D/E 0.18 (Chittorgarh 0.08), operating cash flow positive every year; FY26 OCF Rs 1,368 cr looks unusually large, verify in annual report. F7 FAIL: promoter 39.47% post-issue (below 50%). Anchors Rs 216 cr (Y). F3 peer P/E and F8 auditor opinion unverified; post-issue P/E 41.6x, current Screener P/E 144.",
+   "src": "https://www.screener.in/company/ESDS/consolidated/"
   }
  },
  "rule": "Manual verifications. Apply after daily screening; keep unless newer exchange/RHP evidence contradicts."
