@@ -150,7 +150,7 @@ details.gl dt{font-weight:600}details.gl dd{margin:0;color:var(--color-fg-muted)
 <dt>OFS (offer for sale)</dt><dd>Existing owners sell their shares; the company gets nothing.</dd>
 <dt>QIB</dt><dd>Large institutions (mutual funds, insurers). Their strong demand is a good sign.</dd>
 <dt>Anchor investors</dt><dd>Big investors who commit before the IPO opens.</dd>
-<dt>P/E</dt><dd>Share price divided by yearly profit per share. Lower means cheaper. Your limit is 25x.</dd>
+<dt>P/E</dt><dd>Share price divided by yearly profit per share. Lower means cheaper. Compared with the industry median, or a fixed 25x cap if you switch.</dd>
 <dt>D/E</dt><dd>Debt divided by owners’ money. Above 1 means more borrowed than owned.</dd>
 <dt>Promoter pledge</dt><dd>Founders have borrowed against their own shares. Should be nil.</dd>
 <dt>RHP</dt><dd>The final offer document filed with SEBI. Source for the checks marked “not verified”.</dd>
@@ -176,15 +176,15 @@ details.gl dt{font-weight:600}details.gl dd{margin:0;color:var(--color-fg-muted)
    <div class="field" style="margin-top:12px"><label for="nof">Red flags</label>
     <select id="nof"><option value="all">Show all</option><option value="0">No failed filter</option></select></div>
    <div class="field" style="margin-top:12px"><label>P/E test (F3)</label>
-    <div class="seg" id="pe"><button data-p="abs" class="on">Fixed 25x</button><button data-p="ind">Vs industry</button></div>
-    <div class="pill" id="pe-note" style="margin-top:4px;line-height:1.4">Pass if post-issue P/E is positive and 25x or less.</div></div>
+    <div class="seg" id="pe"><button data-p="abs">Fixed 25x</button><button data-p="ind" class="on">Vs industry</button></div>
+    <div class="pill" id="pe-note" style="margin-top:4px;line-height:1.4">Pass if post-issue P/E is positive and at or below its industry median.</div></div>
    <button class="btn" id="reset" style="margin-top:12px;width:100%">Reset filters</button>
   </div>
   <div class="card meth">
    <h2>How to read</h2>
    <p class="note">Eight filters, scored per IPO</p>
    <p><b>✓</b> pass · <b>✕</b> fail · <b>?</b> not verified (counted as no pass).</p>
-   <ul style="margin:0 0 8px;padding:0;list-style:none;display:flex;flex-direction:column;gap:3px"><li><b>F1</b> Fresh issue at least 90% of the issue</li><li><b>F2</b> Proceeds used productively (capex, growth), not debt or OFS exit</li><li><b>F3</b> Post-issue P/E positive and at or below 25x</li><li><b>F4</b> Overall subscription 3x or more, with real QIB demand</li><li><b>F5</b> Debt/equity 1 or less, operating cash flow positive</li><li><b>F6</b> Revenue and PAT CAGR 15% or more</li><li><b>F7</b> Promoter holding 50% or more after issue, pledge nil</li><li><b>F8</b> Anchor investors present, unmodified auditor opinion</li></ul><p><b>Lighter ✓/✕ with a year (e.g. FY25)</b> means the value comes from an older SEBI draft offer document (DRHP), not the final RHP. “total” on F4 means overall subscription only; the QIB split was not available. Hover a cell or open a row for the source. “?” rows give the reason in the detail panel.</p>
+   <ul style="margin:0 0 8px;padding:0;list-style:none;display:flex;flex-direction:column;gap:3px"><li><b>F1</b> Fresh issue at least 90% of the issue</li><li><b>F2</b> Proceeds used productively (capex, growth), not debt or OFS exit</li><li><b>F3</b> Post-issue P/E positive and at or below its industry median (switch to a fixed 25x cap on the left)</li><li><b>F4</b> Overall subscription 3x or more, with real QIB demand</li><li><b>F5</b> Debt/equity 1 or less, operating cash flow positive</li><li><b>F6</b> Revenue and PAT CAGR 15% or more</li><li><b>F7</b> Promoter holding 50% or more after issue, pledge nil</li><li><b>F8</b> Anchor investors present, unmodified auditor opinion</li></ul><p><b>Lighter ✓/✕ with a year (e.g. FY25)</b> means the value comes from an older SEBI draft offer document (DRHP), not the final RHP. “total” on F4 means overall subscription only; the QIB split was not available. Hover a cell or open a row for the source. “?” rows give the reason in the detail panel.</p>
   </div>
  </aside>
 
@@ -198,7 +198,7 @@ details.gl dt{font-weight:600}details.gl dd{margin:0;color:var(--color-fg-muted)
      <th class="s" data-k="group" data-field="group">Segment</th>
      <th data-field="timing">Date / timing</th>
      <th class="s c" data-k="passed" data-field="passed">Passed</th>
-     <th class="c fh" data-field="f1">F1<span class="fn">Fresh issue ≥90%</span></th><th class="c fh" data-field="f2">F2<span class="fn">Proceeds productive</span></th><th class="c fh" data-field="f3">F3<span class="fn">P/E ≤25x</span></th><th class="c fh" data-field="f4">F4<span class="fn">Subscription ≥3x + QIB</span></th>
+     <th class="c fh" data-field="f1">F1<span class="fn">Fresh issue ≥90%</span></th><th class="c fh" data-field="f2">F2<span class="fn">Proceeds productive</span></th><th class="c fh" data-field="f3">F3<span class="fn">P/E ≤ industry</span></th><th class="c fh" data-field="f4">F4<span class="fn">Subscription ≥3x + QIB</span></th>
      <th class="c fh" data-field="f5">F5<span class="fn">D/E ≤1, OCF positive</span></th><th class="c fh" data-field="f6">F6<span class="fn">Growth CAGR ≥15%</span></th><th class="c fh" data-field="f7">F7<span class="fn">Promoter ≥50%, no pledge</span></th><th class="c fh" data-field="f8">F8<span class="fn">Anchors + clean audit</span></th>
      <th class="s" data-k="verdict" data-field="verdict">Verdict</th>
     </tr></thead><tbody id="tb"></tbody></table></div>
@@ -225,14 +225,14 @@ details.gl dt{font-weight:600}details.gl dd{margin:0;color:var(--color-fg-muted)
 <div class="tt" id="tip" hidden></div>
 <script>
 (function(){
-const FN={f1:'Fresh issue ≥90%',f2:'Proceeds genuinely productive',f3:'Post-issue P/E ≤25x',f4:'Subscription ≥3x, QIB demand',f5:'D/E ≤1 and positive OCF',f6:'Revenue and PAT CAGR ≥15%',f7:'Promoter ≥50%, pledge nil',f8:'Anchors and clean audit'};
+const FN={f1:'Fresh issue ≥90%',f2:'Proceeds genuinely productive',f3:'Post-issue P/E vs industry',f4:'Subscription ≥3x, QIB demand',f5:'D/E ≤1 and positive OCF',f6:'Revenue and PAT CAGR ≥15%',f7:'Promoter ≥50%, pledge nil',f8:'Anchors and clean audit'};
 dash.calc('kpi',{inputs:['screen'],title:'Headline counts',description:'Counts of IPOs by verdict and segment.',fn:(all)=>{const screen=all.filter(r=>r.unknown===0);return [
  {k:'total',n:screen.length},{k:'qualified',n:screen.filter(r=>r.verdict==='Qualified').length},{k:'provisional',n:screen.filter(r=>r.verdict==='Provisional').length},
  {k:'review',n:screen.filter(r=>r.verdict==='Review').length},{k:'rejected',n:screen.filter(r=>r.verdict==='Rejected').length},{k:'live',n:screen.filter(r=>r.group==='Open / upcoming').length}];}});
 dash.calc('byfilter',{inputs:['screen'],title:'Result per filter',description:'Pass, fail and unverified counts for each of F1 to F8.',fn:(all)=>{const screen=all.filter(r=>r.unknown===0);return ['f1','f2','f3','f4','f5','f6','f7','f8'].map(f=>({filter:f,pass:screen.filter(r=>r[f]==='P').length,fail:screen.filter(r=>r[f]==='F').length,unknown:screen.filter(r=>r[f]==='U').length}));}});
 dash.calc('dist',{inputs:['screen'],title:'Filters passed',description:'Number of IPOs by count of filters passed.',fn:(all)=>{const screen=all.filter(r=>r.unknown===0);return [0,1,2,3,4,5,6,7,8].map(p=>({passed:p,n:screen.filter(r=>r.passed===p).length}));}});
 
-const S={g:'all',v:'all',q:'',minp:0,nof:'all',sort:'default',dir:1,sel:null,pe:'abs'};
+const S={g:'all',v:'all',q:'',minp:0,nof:'all',sort:'default',dir:1,sel:null,pe:'ind'};
 const $=id=>document.getElementById(id);
 const tip=$('tip');
 function showTip(e,html){tip.innerHTML='';tip.append(...html);tip.hidden=false;const w=tip.offsetWidth;tip.style.left=Math.min(window.innerWidth-w-8,e.clientX+12)+'px';tip.style.top=(e.clientY+14)+'px';}
@@ -267,8 +267,8 @@ function view(rows){
   const x=a[k],y=b[k];return (typeof x==='number'?x-y:String(x).localeCompare(String(y)))*S.dir||a.company.localeCompare(b.company);});
  return r;}
 
-const PASS={f1:'Mostly new shares, so the money reaches the company',f2:'Money goes into growth, not just paying old debt',f3:'Post-issue P/E at or below 25x',f4:'Strong investor demand, including big institutions',f5:'Manageable debt and positive cash flow',f6:'Sales and profit growing 15%+ a year',f7:'Promoters keep 50%+ with no pledged shares',f8:'Anchors present and clean audit report'};
-const FAIL={f1:'Existing owners are selling a big part (OFS)',f2:'Money mostly repays debt or has unclear use',f3:'Priced above 25x earnings, or loss-making',f4:'Weak demand, under 3x or little institutional interest',f5:'Heavy debt or weak cash flow',f6:'Sales or profit growth below 15% a year',f7:'Promoters hold too little or have pledged shares',f8:'Anchor or audit check not clean'};
+const PASS={f1:'Mostly new shares, so the money reaches the company',f2:'Money goes into growth, not just paying old debt',f3:'Post-issue P/E at or below its industry',f4:'Strong investor demand, including big institutions',f5:'Manageable debt and positive cash flow',f6:'Sales and profit growing 15%+ a year',f7:'Promoters keep 50%+ with no pledged shares',f8:'Anchors present and clean audit report'};
+const FAIL={f1:'Existing owners are selling a big part (OFS)',f2:'Money mostly repays debt or has unclear use',f3:'Priced above its industry P/E, or loss-making',f4:'Weak demand, under 3x or little institutional interest',f5:'Heavy debt or weak cash flow',f6:'Sales or profit growth below 15% a year',f7:'Promoters hold too little or have pledged shares',f8:'Anchor or audit check not clean'};
 const FK=['f1','f2','f3','f4','f5','f6','f7','f8'];
 function act(r){
  if(r.status==='Closed, awaiting listing')return['Bidding over','mut'];
@@ -398,7 +398,7 @@ $('nof').addEventListener('change',e=>{S.nof=e.target.value;draw();});
 $('pe').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;S.pe=b.dataset.p;document.querySelectorAll('#pe button').forEach(x=>x.classList.toggle('on',x===b));draw();});
 $('seg').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;S.g=b.dataset.g;document.querySelectorAll('#seg button').forEach(x=>x.classList.toggle('on',x===b));draw();});
 $('kpis').addEventListener('click',e=>{const t=e.target.closest('.tile.click');if(!t)return;S.v=(t.dataset.v===S.v)?'all':t.dataset.v;draw();});
-$('reset').addEventListener('click',()=>{Object.assign(S,{g:'all',v:'all',q:'',minp:0,nof:'all',sort:'default',dir:1,pe:'abs'});document.querySelectorAll('#pe button').forEach(x=>x.classList.toggle('on',x.dataset.p==='abs'));$('q').value='';$('minp').value='0';$('nof').value='all';document.querySelectorAll('#seg button').forEach(x=>x.classList.toggle('on',x.dataset.g==='all'));draw();});
+$('reset').addEventListener('click',()=>{Object.assign(S,{g:'all',v:'all',q:'',minp:0,nof:'all',sort:'default',dir:1,pe:'ind'});document.querySelectorAll('#pe button').forEach(x=>x.classList.toggle('on',x.dataset.p==='ind'));$('q').value='';$('minp').value='0';$('nof').value='all';document.querySelectorAll('#seg button').forEach(x=>x.classList.toggle('on',x.dataset.g==='all'));draw();});
 dash.onData(draw);
 })();
 </script>
