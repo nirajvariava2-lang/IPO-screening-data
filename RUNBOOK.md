@@ -16,7 +16,7 @@ Goal: every Indian mainboard IPO (open, upcoming, listed in the last 6 months) h
 2. `python scripts/fill.py` then `python scripts/post.py` : download PDFs, extract text, compute latest financial year (`fy_fixed`).
 3. `python scripts/chitt.py`, `scripts/screener.py`, `scripts/f4.py`, `scripts/apply3.py`, `scripts/derive.py data.json` : fill U cells only. Never overwrite P/F.
 4. Anything still U: resolve by hand and record source text/page in `sources.<fK>`.
-5. `python scripts/metrics.py`, then `scripts/merge_metrics.py` and `scripts/merge_ocf.py` : refresh the decision numbers (row['m']) shown in the dashboard detail panel and ranking. Verdict is computed by `derive.verdict` (Rejected = 0-2 passes or row['gov_flag']).
+5. `python scripts/industry.py` then `scripts/merge_industry.py` (industry median P/E, row['f3_ind']), `python scripts/metrics.py`, then `scripts/merge_metrics.py` and `scripts/merge_ocf.py` : refresh the decision numbers (row['m']) shown in the dashboard detail panel and ranking. Verdict is computed by `derive.verdict` (Rejected = 0-2 passes or row['gov_flag']).
 6. `python scripts/flat.py` : writes `ipo_screen_v3.json` for the dashboard.
 
 ## Rules
@@ -32,4 +32,5 @@ Goal: every Indian mainboard IPO (open, upcoming, listed in the last 6 months) h
 
 ## Public website
 Public page: https://nirajvariava2-lang.github.io/IPO-screening-data/ (GitHub Pages, branch main, root). After each data refresh also copy `ipo_screen_v3.json` into the repo root and commit it; the page fetches it. Rebuild `index.html` only if the dashboard page code changes: `python scripts/build_site.py <saved dashboard page>`.
+
 

@@ -175,6 +175,9 @@ details.gl dt{font-weight:600}details.gl dd{margin:0;color:var(--color-fg-muted)
     <select id="minp"><option value="0">Any</option><option value="2">2 or more</option><option value="3">3 or more</option><option value="4">4 or more</option></select></div>
    <div class="field" style="margin-top:12px"><label for="nof">Red flags</label>
     <select id="nof"><option value="all">Show all</option><option value="0">No failed filter</option></select></div>
+   <div class="field" style="margin-top:12px"><label>P/E test (F3)</label>
+    <div class="seg" id="pe"><button data-p="abs" class="on">Fixed 25x</button><button data-p="ind">Vs industry</button></div>
+    <div class="pill" id="pe-note" style="margin-top:4px;line-height:1.4">Pass if post-issue P/E is positive and 25x or less.</div></div>
    <button class="btn" id="reset" style="margin-top:12px;width:100%">Reset filters</button>
   </div>
   <div class="card meth">
@@ -229,7 +232,7 @@ dash.calc('kpi',{inputs:['screen'],title:'Headline counts',description:'Counts o
 dash.calc('byfilter',{inputs:['screen'],title:'Result per filter',description:'Pass, fail and unverified counts for each of F1 to F8.',fn:(all)=>{const screen=all.filter(r=>r.unknown===0);return ['f1','f2','f3','f4','f5','f6','f7','f8'].map(f=>({filter:f,pass:screen.filter(r=>r[f]==='P').length,fail:screen.filter(r=>r[f]==='F').length,unknown:screen.filter(r=>r[f]==='U').length}));}});
 dash.calc('dist',{inputs:['screen'],title:'Filters passed',description:'Number of IPOs by count of filters passed.',fn:(all)=>{const screen=all.filter(r=>r.unknown===0);return [0,1,2,3,4,5,6,7,8].map(p=>({passed:p,n:screen.filter(r=>r.passed===p).length}));}});
 
-const S={g:'all',v:'all',q:'',minp:0,nof:'all',sort:'default',dir:1,sel:null};
+const S={g:'all',v:'all',q:'',minp:0,nof:'all',sort:'default',dir:1,sel:null,pe:'abs'};
 const $=id=>document.getElementById(id);
 const tip=$('tip');
 function showTip(e,html){tip.innerHTML='';tip.append(...html);tip.hidden=false;const w=tip.offsetWidth;tip.style.left=Math.min(window.innerWidth-w-8,e.clientX+12)+'px';tip.style.top=(e.clientY+14)+'px';}
@@ -238,7 +241,7 @@ function line(t,b){const d=document.createElement('div');if(b){const s=document.
 function fx(v,d){return v==null?'n/a':(Math.abs(v)>=100?Math.round(v).toLocaleString('en-IN'):v.toFixed(d==null?1:d));}
 function cellv(r,f){const m=r.mm||{};
  if(f==='f1')return m.fresh_pct!=null?Math.round(m.fresh_pct)+'% fresh':'';
- if(f==='f3')return m.pe_post!=null?(m.pe_post<0?'loss':m.pe_post.toFixed(1)+'x P/E'):'';
+ if(f==='f3')return m.pe_post!=null?(m.pe_post<0?'loss':m.pe_post.toFixed(1)+'x'+(S.pe==='ind'&&m.ind_pe!=null?' vs '+m.ind_pe.toFixed(1)+'x':' P/E')):'';
  if(f==='f4')return m.sub_total!=null?fx(m.sub_total)+'x':'';
  if(f==='f5')return m.de!=null?'D/E '+m.de.toFixed(2):'';
  if(f==='f6')return(m.rev_cagr!=null&&m.pat_cagr!=null)?Math.round(m.rev_cagr)+'% / '+Math.round(m.pat_cagr)+'%':'';
@@ -248,7 +251,7 @@ function cellv(r,f){const m=r.mm||{};
 function numtxt(r,f){const m=r.mm||{};
  if(f==='f1'){if(m.fresh_pct==null)return null;return m.fresh_pct.toFixed(1)+'% fresh'+(m.fresh_cr!=null?' (₹'+fx(m.fresh_cr,0)+' cr':'')+(m.ofs_cr!=null?' + OFS ₹'+fx(m.ofs_cr,0)+' cr)':(m.fresh_cr!=null?')':''));}
  if(f==='f2'){if(!m.objects||!m.objects.length)return null;const tot=m.objects.reduce((a,o)=>a+(o[1]||0),0)||1;return m.objects.slice(0,4).map(o=>o[0].replace(/^(Funding|Repayment\/pre-payment, in full or in part, of)\s*/i,'').slice(0,55)+' ₹'+fx(o[1],0)+' cr ('+Math.round(o[1]/tot*100)+'%)').join(' · ');}
- if(f==='f3'){if(m.pe_post==null)return null;return 'Post-issue P/E '+(m.pe_post<0?'negative (loss)':m.pe_post.toFixed(1)+'x')+(m.pe_pre!=null?' · pre-issue '+m.pe_pre.toFixed(1)+'x':'')+(m.mcap_post!=null?' · market cap ₹'+fx(m.mcap_post,0)+' cr':'');}
+ if(f==='f3'){if(m.pe_post==null)return null;return 'Post-issue P/E '+(m.pe_post<0?'negative (loss)':m.pe_post.toFixed(1)+'x')+(m.pe_pre!=null?' · pre-issue '+m.pe_pre.toFixed(1)+'x':'')+(m.mcap_post!=null?' · market cap ₹'+fx(m.mcap_post,0)+' cr':'')+(m.ind_pe!=null?' · industry median '+m.ind_pe.toFixed(1)+'x ('+m.ind_name+', top '+m.ind_n+' listed)'+(m.rel!=null?' → '+m.rel.toFixed(2)+'x of industry':''):'')+(m.cur_pe!=null?' · trading P/E now '+m.cur_pe.toFixed(1)+'x':'');}
  if(f==='f4'){if(m.sub_total==null)return null;let s='Overall '+fx(m.sub_total)+'x';if(m.sub_qib!=null)s+=' · QIB '+fx(m.sub_qib)+'x';if(m.sub_nii!=null)s+=' · NII '+fx(m.sub_nii)+'x';if(m.sub_retail!=null)s+=' · Retail '+fx(m.sub_retail)+'x';return s;}
  if(f==='f5'){const p=[];if(m.de!=null)p.push('D/E '+m.de.toFixed(2));if(m.ocf!=null)p.push('Operating cash flow '+fx(m.ocf,1)+(m.ocf_unit?' '+m.ocf_unit:' cr'));if(m.roe)p.push('ROE '+m.roe);if(m.roce)p.push('ROCE '+m.roce);return p.length?p.join(' · '):null;}
  if(f==='f6'){if(m.rev_cagr==null&&m.pat_cagr==null)return null;const per=m.periods?m.periods.filter(x=>/Mar/.test(x)).map(x=>x.slice(-4)).reverse():[];return 'Revenue CAGR '+(m.rev_cagr!=null?m.rev_cagr+'%':'n/a')+' · PAT CAGR '+(m.pat_cagr!=null?m.pat_cagr+'%':'n/a')+(per.length>1?' (FY'+per[0].slice(2)+' to FY'+per[per.length-1].slice(2)+')':'');}
@@ -321,9 +324,15 @@ function drawTop(rows,pend){
 function draw(){
  const sc=dash.data('screen');
  const ok=sc.status==='ok';
- const allr=ok?sc.data:[];allr.forEach(r=>{if(!r.mm){try{r.mm=JSON.parse(r.m||'{}')}catch(e){r.mm={}}}});const rows=allr.filter(r=>r.unknown===0);const pend=allr.filter(r=>r.unknown>0);
+ const raw=ok?sc.data:[];raw.forEach(r=>{if(!r.mm){try{r.mm=JSON.parse(r.m||'{}')}catch(e){r.mm={}}}});
+ const allr=raw.map(r=>{if(S.pe!=='ind'||!r.f3_ind||r.f3_ind===r.f3)return r;const c=Object.assign({},r,{f3:r.f3_ind});
+  c.passed=FK.filter(f=>c[f]==='P').length;c.fails=FK.filter(f=>c[f]==='F').length;c.unknown=FK.filter(f=>c[f]==='U').length;
+  const older=FK.some(f=>c['old_'+f]);c.verdict=(c.passed<=2||c.gov_flag)?'Rejected':(c.passed>=7&&!older)?'Qualified':c.passed>=5?'Provisional':'Review';return c;});
+ const rows=allr.filter(r=>r.unknown===0);const pend=allr.filter(r=>r.unknown>0);
+ $('pe-note').textContent=S.pe==='ind'?'Pass if post-issue P/E is positive and at or below the median P/E of the largest listed companies in the same industry (Screener, up to 25 companies). IPOs with no industry data keep the 25x result.':'Pass if post-issue P/E is positive and 25x or less.';
+ const f3h=document.querySelector('th[data-field=f3] .fn');if(f3h)f3h.textContent=S.pe==='ind'?'P/E ≤ industry':'P/E ≤25x';
  if(ok){drawTop(rows,pend);drawRank(rows);if(rows[0])$('asof').textContent=rows[0].as_of_label;}
- const kp=dash.data('kpi');
+ const kp={status:ok?'ok':'loading',data:[{k:'total',n:rows.length},{k:'qualified',n:rows.filter(r=>r.verdict==='Qualified').length},{k:'provisional',n:rows.filter(r=>r.verdict==='Provisional').length},{k:'review',n:rows.filter(r=>r.verdict==='Review').length},{k:'rejected',n:rows.filter(r=>r.verdict==='Rejected').length},{k:'live',n:rows.filter(r=>r.group==='Open / upcoming').length}]};
  if(ok&&kp.status==='ok'){
   document.querySelectorAll('#kpis b').forEach(b=>{const rec=kp.data.find(r=>r.k===b.dataset.where.split('=')[1]);b.textContent=rec?String(rec.n):'—';});
   const g=k=>(kp.data.find(r=>r.k===k)||{n:0}).n;
@@ -355,7 +364,7 @@ function draw(){
    row.append(bar);
    row.addEventListener('mousemove',e=>showTip(e,[line(d.f.toUpperCase()+' '+FN[d.f],1),line('Pass '+d.p+' · Fail '+d.x+' · Unverified '+d.u)]));row.addEventListener('mouseleave',hideTip);
    bf.append(row);});
-  const dd=dash.data('dist');const bd=$('c-dist');bd.replaceChildren();
+  const dd={status:'ok',data:[0,1,2,3,4,5,6,7,8].map(p=>({passed:p,n:rows.filter(r=>r.passed===p).length}))};const bd=$('c-dist');bd.replaceChildren();
   if(dd.status==='ok'){const mx=Math.max(1,...dd.data.map(r=>r.n));
    dd.data.forEach(d=>{const row=document.createElement('div');row.className='br';row.style.gridTemplateColumns='4.5rem minmax(0,1fr) 2rem';
     const l=document.createElement('span');l.className='l';l.textContent=d.passed+' of 8';row.append(l);
@@ -372,7 +381,7 @@ function draw(){
   const body=$('d-body');body.replaceChildren();
   FK.forEach(f=>{const tr=document.createElement('tr');tr.className=r[f]+(r['old_'+f]?' old':'');
    const c1=document.createElement('td');c1.innerHTML='<span class="fk"></span><div class="rl"></div>';c1.querySelector('.fk').textContent=f.toUpperCase();c1.querySelector('.rl').textContent=FN[f];
-   const c2=document.createElement('td');c2.className='rl';c2.textContent=RULE[f];
+   const c2=document.createElement('td');c2.className='rl';c2.textContent=(f==='f3'&&S.pe==='ind')?'Post-issue P/E ≤ industry median':RULE[f];
    const c3=document.createElement('td');const nv=numtxt(r,f);const v=document.createElement('div');v.className='val';v.textContent=nv||(r[f]==='U'?'Not yet available':'See note');c3.append(v);
    const src=r['src_'+f];if(src){const n=document.createElement('div');n.className='nt';n.textContent=src;c3.append(n);}
    const c4=document.createElement('td');c4.className='c';const s=document.createElement('span');s.className='fc '+r[f]+(r['old_'+f]?' old':'');s.textContent=sym(r[f]);c4.append(s);if(r['old_'+f]){const sm=document.createElement('div');sm.className='nt';sm.textContent=r['old_'+f]==='total only'?'overall only':'older data '+r['old_'+f];c4.append(sm);}
@@ -386,9 +395,10 @@ document.querySelector('#tbl thead').addEventListener('click',e=>{const th=e.tar
 $('q').addEventListener('input',e=>{S.q=e.target.value.trim().toLowerCase();draw();});
 $('minp').addEventListener('change',e=>{S.minp=+e.target.value;draw();});
 $('nof').addEventListener('change',e=>{S.nof=e.target.value;draw();});
+$('pe').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;S.pe=b.dataset.p;document.querySelectorAll('#pe button').forEach(x=>x.classList.toggle('on',x===b));draw();});
 $('seg').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;S.g=b.dataset.g;document.querySelectorAll('#seg button').forEach(x=>x.classList.toggle('on',x===b));draw();});
 $('kpis').addEventListener('click',e=>{const t=e.target.closest('.tile.click');if(!t)return;S.v=(t.dataset.v===S.v)?'all':t.dataset.v;draw();});
-$('reset').addEventListener('click',()=>{Object.assign(S,{g:'all',v:'all',q:'',minp:0,nof:'all',sort:'default',dir:1});$('q').value='';$('minp').value='0';$('nof').value='all';document.querySelectorAll('#seg button').forEach(x=>x.classList.toggle('on',x.dataset.g==='all'));draw();});
+$('reset').addEventListener('click',()=>{Object.assign(S,{g:'all',v:'all',q:'',minp:0,nof:'all',sort:'default',dir:1,pe:'abs'});document.querySelectorAll('#pe button').forEach(x=>x.classList.toggle('on',x.dataset.p==='abs'));$('q').value='';$('minp').value='0';$('nof').value='all';document.querySelectorAll('#seg button').forEach(x=>x.classList.toggle('on',x.dataset.g==='all'));draw();});
 dash.onData(draw);
 })();
 </script>

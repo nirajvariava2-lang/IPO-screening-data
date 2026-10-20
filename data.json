@@ -90,7 +90,8 @@
     "ebitda_margin": "27.26%",
     "ocf": 92.0,
     "ocf_unit": "cr"
-   }
+   },
+   "f3_ind": "F"
   },
   {
    "company": "Fusion CX",
@@ -205,7 +206,8 @@
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 1012.46,
     "ocf_unit": "mn"
-   }
+   },
+   "f3_ind": "P"
   },
   {
    "company": "Zetwerk Manufacturing",
@@ -236,7 +238,8 @@
     "f8": "Not available yet"
    },
    "stale": {},
-   "m": {}
+   "m": {},
+   "f3_ind": "F"
   },
   {
    "company": "Tonbo Imaging",
@@ -331,7 +334,8 @@
     "ebitda_margin": "-36.21%",
     "de": 0.24,
     "de_period": "latest restated period (borrowing / net worth)"
-   }
+   },
+   "f3_ind": "F"
   },
   {
    "company": "Bonfiglioli Transmissions",
@@ -430,7 +434,8 @@
     "ocf": 1418.02,
     "ocf_unit": "mn",
     "ocf_period": "FY25 DRHP"
-   }
+   },
+   "f3_ind": "F"
   },
   {
    "company": "Sahajanand Medical Tech",
@@ -529,7 +534,8 @@
     "ocf": 735.22,
     "ocf_unit": "mn",
     "ocf_period": "FY25 DRHP"
-   }
+   },
+   "f3_ind": "F"
   },
   {
    "company": "Jio Platforms",
@@ -630,7 +636,8 @@
     "ebitda_margin": "53.26%",
     "de": 0.18,
     "de_period": "latest restated period (borrowing / net worth)"
-   }
+   },
+   "f3_ind": "U"
   },
   {
    "company": "Paras Healthcare",
@@ -731,7 +738,8 @@
     "ebitda_margin": "23.70%",
     "de": 3.21,
     "de_period": "latest restated period (borrowing / net worth)"
-   }
+   },
+   "f3_ind": "F"
   },
   {
    "company": "Vishal Nirmiti",
@@ -837,8 +845,13 @@
     "de": 1.01,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -14.0,
-    "ocf_unit": "mn"
-   }
+    "ocf_unit": "mn",
+    "ind_name": "Civil Construction",
+    "ind_pe": 21.3,
+    "ind_n": 25,
+    "rel": 1.09
+   },
+   "f3_ind": "F"
   },
   {
    "company": "Nityas Gems & Jewellery",
@@ -940,8 +953,14 @@
     "de": 0.11,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -15.0,
-    "ocf_unit": "cr"
-   }
+    "ocf_unit": "cr",
+    "ind_name": "Gems, Jewellery And Watches",
+    "ind_pe": 25.4,
+    "ind_n": 25,
+    "cur_pe": 19.5,
+    "rel": 0.76
+   },
+   "f3_ind": "P"
   },
   {
    "company": "SRIT India",
@@ -1046,8 +1065,14 @@
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -175.17,
     "ocf_unit": "mn",
-    "ocf_period": "FY25 DRHP"
-   }
+    "ocf_period": "FY25 DRHP",
+    "ind_name": "IT Enabled Services",
+    "ind_pe": 36.7,
+    "ind_n": 25,
+    "cur_pe": 17.8,
+    "rel": 0.53
+   },
+   "f3_ind": "P"
   },
   {
    "company": "Rays of Belief",
@@ -1165,8 +1190,14 @@
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -31.91,
     "ocf_unit": "mn",
-    "ocf_period": "FY25 DRHP"
-   }
+    "ocf_period": "FY25 DRHP",
+    "ind_name": "Hospital",
+    "ind_pe": 45.9,
+    "ind_n": 25,
+    "cur_pe": 71.7,
+    "rel": 2.2
+   },
+   "f3_ind": "F"
   },
   {
    "company": "German Green Steel",
@@ -1272,8 +1303,14 @@
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 4492.46,
     "ocf_unit": "mn",
-    "ocf_period": "FY24 DRHP"
-   }
+    "ocf_period": "FY24 DRHP",
+    "ind_name": "Iron & Steel Products",
+    "ind_pe": 29.4,
+    "ind_n": 25,
+    "cur_pe": 11.0,
+    "rel": 0.45
+   },
+   "f3_ind": "P"
   },
   {
    "company": "Pranav Constructions",
@@ -1376,8 +1413,14 @@
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -607.75,
     "ocf_unit": "mn",
-    "ocf_period": "FY24 DRHP"
-   }
+    "ocf_period": "FY24 DRHP",
+    "ind_name": "Residential, Commercial Projects",
+    "ind_pe": 30.2,
+    "ind_n": 20,
+    "cur_pe": 14.1,
+    "rel": 0.65
+   },
+   "f3_ind": "P"
   },
   {
    "company": "SS Retail",
@@ -1482,8 +1525,14 @@
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 3.0,
     "ocf_unit": "mn",
-    "ocf_period": "FY25 DRHP"
-   }
+    "ocf_period": "FY25 DRHP",
+    "ind_name": "Speciality Retail",
+    "ind_pe": 39.5,
+    "ind_n": 22,
+    "cur_pe": 74.5,
+    "rel": 1.35
+   },
+   "f3_ind": "F"
   },
   {
    "company": "ESDS Software",
@@ -1514,7 +1563,8 @@
     "ocf": 498.3,
     "ocf_unit": "mn",
     "ocf_period": "FY25 DRHP"
-   }
+   },
+   "f3_ind": "F"
   },
   {
    "company": "Kanohar Electricals",
@@ -1616,8 +1666,13 @@
     "pat_margin": "19.57%",
     "ebitda_margin": "27.59%",
     "de": 0.1,
-    "de_period": "latest restated period (borrowing / net worth)"
-   }
+    "de_period": "latest restated period (borrowing / net worth)",
+    "ind_name": "Heavy Electrical Equipment",
+    "ind_pe": 56.9,
+    "ind_n": 25,
+    "rel": 0.68
+   },
+   "f3_ind": "P"
   },
   {
    "company": "Glass Wall Systems",
@@ -1652,7 +1707,8 @@
     "ocf": 671.67,
     "ocf_unit": "mn",
     "ocf_period": "FY25 DRHP"
-   }
+   },
+   "f3_ind": "P"
   },
   {
    "company": "Moneyview",
@@ -1765,8 +1821,14 @@
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -11453.83,
     "ocf_unit": "mn",
-    "ocf_period": "FY25 DRHP"
-   }
+    "ocf_period": "FY25 DRHP",
+    "ind_name": "Financial Technology (Fintech)",
+    "ind_pe": 25.8,
+    "ind_n": 12,
+    "cur_pe": 25.2,
+    "rel": 0.33
+   },
+   "f3_ind": "P"
   },
   {
    "company": "Shah Investor's Home",
@@ -1870,8 +1932,14 @@
     "de": 0.1,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -3186.22,
-    "ocf_unit": "mn"
-   }
+    "ocf_unit": "mn",
+    "ind_name": "Stockbroking & Allied",
+    "ind_pe": 21.2,
+    "ind_n": 24,
+    "cur_pe": 22.4,
+    "rel": 1.27
+   },
+   "f3_ind": "F"
   },
   {
    "company": "Advit Jewels",
@@ -1984,8 +2052,13 @@
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -3697.69,
     "ocf_unit": "mn",
-    "ocf_period": "FY25 DRHP"
-   }
+    "ocf_period": "FY25 DRHP",
+    "ind_name": "Gems, Jewellery And Watches",
+    "ind_pe": 25.4,
+    "ind_n": 25,
+    "rel": 0.73
+   },
+   "f3_ind": "P"
   },
   {
    "company": "MV Electrosystems",
@@ -2090,8 +2163,12 @@
     "de": 0.8,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -90.42,
-    "ocf_unit": "mn"
-   }
+    "ocf_unit": "mn",
+    "ind_name": "Industrial Products",
+    "ind_pe": 67.2,
+    "ind_n": 24
+   },
+   "f3_ind": "F"
   },
   {
    "company": "Orient Cables",
@@ -2205,8 +2282,14 @@
     "de": 0.96,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -97.85,
-    "ocf_unit": "mn"
-   }
+    "ocf_unit": "mn",
+    "ind_name": "Telecom -  Equipment & Accessories",
+    "ind_pe": 58.5,
+    "ind_n": 8,
+    "cur_pe": 81.4,
+    "rel": 0.4
+   },
+   "f3_ind": "P"
   },
   {
    "company": "Ardee Industries",
@@ -2315,8 +2398,13 @@
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 78.4,
     "ocf_unit": "mn",
-    "ocf_period": "FY25 DRHP"
-   }
+    "ocf_period": "FY25 DRHP",
+    "ind_name": "Metals & Mining",
+    "ind_pe": 23.3,
+    "ind_n": 24,
+    "rel": 0.85
+   },
+   "f3_ind": "P"
   },
   {
    "company": "Augmont Enterprises",
@@ -2422,8 +2510,14 @@
     "de": 0.01,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 216.25,
-    "ocf_unit": "mn"
-   }
+    "ocf_unit": "mn",
+    "ind_name": "Non - Ferrous Metals",
+    "ind_pe": 22.4,
+    "ind_n": 23,
+    "cur_pe": 36.2,
+    "rel": 0.92
+   },
+   "f3_ind": "P"
   },
   {
    "company": "Rentomojo",
@@ -2525,8 +2619,14 @@
     "de": 0.63,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 173.0,
-    "ocf_unit": "cr"
-   }
+    "ocf_unit": "cr",
+    "ind_name": "E-Retail/ E-Commerce",
+    "ind_pe": 20.7,
+    "ind_n": 13,
+    "cur_pe": 53.4,
+    "rel": 1.97
+   },
+   "f3_ind": "F"
   },
   {
    "company": "Karamtara Engineering",
@@ -2626,8 +2726,14 @@
     "de": 0.84,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 675.0,
-    "ocf_unit": "cr"
-   }
+    "ocf_unit": "cr",
+    "ind_name": "Heavy Electrical Equipment",
+    "ind_pe": 56.9,
+    "ind_n": 25,
+    "cur_pe": 46.5,
+    "rel": 0.63
+   },
+   "f3_ind": "P"
   },
   {
    "company": "LCC Projects",
@@ -2737,8 +2843,14 @@
     "de": 0.97,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -1772.65,
-    "ocf_unit": "mn"
-   }
+    "ocf_unit": "mn",
+    "ind_name": "Civil Construction",
+    "ind_pe": 21.3,
+    "ind_n": 25,
+    "cur_pe": 14.4,
+    "rel": 0.69
+   },
+   "f3_ind": "P"
   },
   {
    "company": "Molbio Diagnostics",
@@ -2845,8 +2957,14 @@
     "de": 0.36,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 50.0,
-    "ocf_unit": "cr"
-   }
+    "ocf_unit": "cr",
+    "ind_name": "Medical Equipment & Supplies",
+    "ind_pe": 28.8,
+    "ind_n": 23,
+    "cur_pe": 66.2,
+    "rel": 1.97
+   },
+   "f3_ind": "F"
   },
   {
    "company": "Lalithaa Jewellery Mart",
@@ -2954,8 +3072,14 @@
     "de": 0.53,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -398.0,
-    "ocf_unit": "cr"
-   }
+    "ocf_unit": "cr",
+    "ind_name": "Gems, Jewellery And Watches",
+    "ind_pe": 25.4,
+    "ind_n": 25,
+    "cur_pe": 21.0,
+    "rel": 0.44
+   },
+   "f3_ind": "P"
   },
   {
    "company": "Milky Mist Dairy",
@@ -3067,8 +3191,14 @@
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 3148.57,
     "ocf_unit": "mn",
-    "ocf_period": "FY25 DRHP"
-   }
+    "ocf_period": "FY25 DRHP",
+    "ind_name": "Dairy Products",
+    "ind_pe": 25.0,
+    "ind_n": 12,
+    "cur_pe": 122.0,
+    "rel": 3.39
+   },
+   "f3_ind": "F"
   },
   {
    "company": "Steamhouse India",
@@ -3174,8 +3304,14 @@
     "pat_margin": "7.81%",
     "ebitda_margin": "16.99%",
     "de": 1.72,
-    "de_period": "latest restated period (borrowing / net worth)"
-   }
+    "de_period": "latest restated period (borrowing / net worth)",
+    "ind_name": "Chemicals & Petrochemicals",
+    "ind_pe": 37.2,
+    "ind_n": 24,
+    "cur_pe": 76.4,
+    "rel": 1.56
+   },
+   "f3_ind": "F"
   },
   {
    "company": "Deepa Jewellers",
@@ -3280,8 +3416,13 @@
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -142.6,
     "ocf_unit": "mn",
-    "ocf_period": "FY26 DRHP"
-   }
+    "ocf_period": "FY26 DRHP",
+    "ind_name": "Gems, Jewellery And Watches",
+    "ind_pe": 25.4,
+    "ind_n": 25,
+    "rel": 0.64
+   },
+   "f3_ind": "P"
   },
   {
    "company": "Manika Plastech",
@@ -3396,8 +3537,14 @@
     "de": 0.59,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 245.91,
-    "ocf_unit": "mn"
-   }
+    "ocf_unit": "mn",
+    "ind_name": "Plastic Products - Industrial",
+    "ind_pe": 23.9,
+    "ind_n": 21,
+    "cur_pe": 25.0,
+    "rel": 0.4
+   },
+   "f3_ind": "P"
   },
   {
    "company": "Technocraft Ventures",
@@ -3503,8 +3650,14 @@
     "de": 0.55,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 216.84,
-    "ocf_unit": "mn"
-   }
+    "ocf_unit": "mn",
+    "ind_name": "Water Supply & Management",
+    "ind_pe": 18.5,
+    "ind_n": 8,
+    "cur_pe": 44.3,
+    "rel": 1.05
+   },
+   "f3_ind": "F"
   },
   {
    "company": "Jindal Supreme",
@@ -3607,8 +3760,13 @@
     "pat_margin": "4.33%",
     "ebitda_margin": "7.20%",
     "de": 0.88,
-    "de_period": "latest restated period (borrowing / net worth)"
-   }
+    "de_period": "latest restated period (borrowing / net worth)",
+    "ind_name": "Iron & Steel Products",
+    "ind_pe": 29.4,
+    "ind_n": 25,
+    "rel": 0.49
+   },
+   "f3_ind": "P"
   },
   {
    "company": "Hy-Tech Engineers",
@@ -3717,8 +3875,14 @@
     "de": 0.24,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 30.0,
-    "ocf_unit": "cr"
-   }
+    "ocf_unit": "cr",
+    "ind_name": "Other Industrial Products",
+    "ind_pe": 28.1,
+    "ind_n": 23,
+    "cur_pe": 34.6,
+    "rel": 0.79
+   },
+   "f3_ind": "P"
   },
   {
    "company": "Tempsens Instruments",
@@ -3828,8 +3992,14 @@
     "de": 0.16,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 541.5,
-    "ocf_unit": "mn"
-   }
+    "ocf_unit": "mn",
+    "ind_name": "Industrial Products",
+    "ind_pe": 67.2,
+    "ind_n": 24,
+    "cur_pe": 65.3,
+    "rel": 0.53
+   },
+   "f3_ind": "P"
   },
   {
    "company": "Adroit Industries",
@@ -3941,8 +4111,14 @@
     "de": 0.41,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 29.0,
-    "ocf_unit": "cr"
-   }
+    "ocf_unit": "cr",
+    "ind_name": "Auto Components & Equipments",
+    "ind_pe": 44.5,
+    "ind_n": 25,
+    "cur_pe": 27.9,
+    "rel": 0.52
+   },
+   "f3_ind": "P"
   },
   {
    "company": "Caliber Mining & Logistics",
@@ -4050,8 +4226,14 @@
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 9661.36,
     "ocf_unit": "mn",
-    "ocf_period": "FY25 DRHP"
-   }
+    "ocf_period": "FY25 DRHP",
+    "ind_name": "Oil, Gas & Consumable Fuels",
+    "ind_pe": 12.2,
+    "ind_n": 24,
+    "cur_pe": 23.4,
+    "rel": 1.44
+   },
+   "f3_ind": "F"
   },
   {
    "company": "Lumino Industries",
@@ -4161,8 +4343,14 @@
     "de": 0.53,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -2985.14,
-    "ocf_unit": "mn"
-   }
+    "ocf_unit": "mn",
+    "ind_name": "Cables - Electricals",
+    "ind_pe": 24.6,
+    "ind_n": 24,
+    "cur_pe": 18.0,
+    "rel": 0.63
+   },
+   "f3_ind": "P"
   },
   {
    "company": "Behari Lal Engineering",
@@ -4284,8 +4472,13 @@
     "de": 0.06,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 618.86,
-    "ocf_unit": "mn"
-   }
+    "ocf_unit": "mn",
+    "ind_name": "Iron & Steel Products",
+    "ind_pe": 29.4,
+    "ind_n": 25,
+    "rel": 0.63
+   },
+   "f3_ind": "P"
   },
   {
    "company": "Sunshine Pictures",
@@ -4381,8 +4574,14 @@
     "de": 0.06,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 1671.26,
-    "ocf_unit": "mn"
-   }
+    "ocf_unit": "mn",
+    "ind_name": "Film Production, Distribution & Exhibition",
+    "ind_pe": 35.8,
+    "ind_n": 16,
+    "cur_pe": 41.2,
+    "rel": 0.78
+   },
+   "f3_ind": "P"
   },
   {
    "company": "Priority Jewels",
@@ -4492,8 +4691,14 @@
     "de": 0.76,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 93.6,
-    "ocf_unit": "mn"
-   }
+    "ocf_unit": "mn",
+    "ind_name": "Gems, Jewellery And Watches",
+    "ind_pe": 25.4,
+    "ind_n": 25,
+    "cur_pe": 34.2,
+    "rel": 0.55
+   },
+   "f3_ind": "P"
   },
   {
    "company": "Knack Packaging",
@@ -4604,8 +4809,14 @@
     "de": 0.62,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 931.71,
-    "ocf_unit": "mn"
-   }
+    "ocf_unit": "mn",
+    "ind_name": "Packaging",
+    "ind_pe": 19.0,
+    "ind_n": 24,
+    "cur_pe": 24.3,
+    "rel": 1.18
+   },
+   "f3_ind": "F"
   },
   {
    "company": "Shiprocket",
@@ -4711,8 +4922,12 @@
     "de": 0.16,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 53.0,
-    "ocf_unit": "cr"
-   }
+    "ocf_unit": "cr",
+    "ind_name": "E-Retail/ E-Commerce",
+    "ind_pe": 20.7,
+    "ind_n": 13
+   },
+   "f3_ind": "F"
   },
   {
    "company": "Dhoot Transmission",
@@ -4825,8 +5040,14 @@
     "de": 0.35,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 348.0,
-    "ocf_unit": "cr"
-   }
+    "ocf_unit": "cr",
+    "ind_name": "Auto Components & Equipments",
+    "ind_pe": 44.5,
+    "ind_n": 25,
+    "cur_pe": 68.0,
+    "rel": 1.01
+   },
+   "f3_ind": "F"
   },
   {
    "company": "Indo-MIM",
@@ -4931,8 +5152,14 @@
     "de": 0.39,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 1077.0,
-    "ocf_unit": "cr"
-   }
+    "ocf_unit": "cr",
+    "ind_name": "Industrial Products",
+    "ind_pe": 67.2,
+    "ind_n": 24,
+    "cur_pe": 89.0,
+    "rel": 0.67
+   },
+   "f3_ind": "P"
   },
   {
    "company": "SBI Funds Management",
@@ -5016,8 +5243,14 @@
     "ronw": "43.02%",
     "ebitda_margin": "92.46%",
     "ocf": 2488.0,
-    "ocf_unit": "cr"
-   }
+    "ocf_unit": "cr",
+    "ind_name": "Asset Management Company",
+    "ind_pe": 32.6,
+    "ind_n": 9,
+    "cur_pe": 32.6,
+    "rel": 1.17
+   },
+   "f3_ind": "F"
   },
   {
    "company": "Laser Power & Infra",
@@ -5119,8 +5352,14 @@
     "pat_margin": "6.46%",
     "ebitda_margin": "12.96%",
     "de": 1.14,
-    "de_period": "latest restated period (borrowing / net worth)"
-   }
+    "de_period": "latest restated period (borrowing / net worth)",
+    "ind_name": "Cables - Electricals",
+    "ind_pe": 24.6,
+    "ind_n": 24,
+    "cur_pe": 29.4,
+    "rel": 0.81
+   },
+   "f3_ind": "P"
   },
   {
    "company": "Kusumgar",
@@ -5215,8 +5454,14 @@
     "de": 0.44,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -1549.77,
-    "ocf_unit": "mn"
-   }
+    "ocf_unit": "mn",
+    "ind_name": "Other Textile Products",
+    "ind_pe": 40.0,
+    "ind_n": 24,
+    "cur_pe": 45.4,
+    "rel": 1.12
+   },
+   "f3_ind": "F"
   },
   {
    "company": "CMR Green Technologies",
@@ -5316,8 +5561,14 @@
     "de": 2.19,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -920.03,
-    "ocf_unit": "mn"
-   }
+    "ocf_unit": "mn",
+    "ind_name": "Aluminium, Copper & Zinc Products",
+    "ind_pe": 18.8,
+    "ind_n": 23,
+    "cur_pe": 20.0,
+    "rel": 1.03
+   },
+   "f3_ind": "F"
   },
   {
    "company": "Hexagon Nutrition",
@@ -5415,8 +5666,14 @@
     "de": 0.18,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 377.94,
-    "ocf_unit": "mn"
-   }
+    "ocf_unit": "mn",
+    "ind_name": "Packaged Foods",
+    "ind_pe": 46.0,
+    "ind_n": 24,
+    "cur_pe": 22.7,
+    "rel": 0.33
+   },
+   "f3_ind": "P"
   }
  ],
  "sebi_note": "Only filings with FY26+ financials used for F5-F8. 51/53 IPOs have SEBI filings; most are older DRHPs. See u_reasons."
