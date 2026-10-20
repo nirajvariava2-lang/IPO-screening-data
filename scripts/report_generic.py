@@ -201,10 +201,10 @@ def build(name):
     if rating_ok:
         sign = "upside" if upside >= 0 else "downside"
         reco = f"""<div class="reco {cls}"><div class="r1">Investment Recommendation</div><div class="r2">{rec}</div>
-<div class="r3"><span><b>Target Price:</b> <span class="hl">{inr(target)}</span> ({abs(upside):.0f}% {sign} to CMP {inr(price)})</span><span><b>Investment Horizon:</b> {hz}</span></div></div>"""
+<div class="r3"><span><b>Target Price:</b> <span class="hl">{inr(target)}</span> ({abs(upside):.0f}% {sign} to CMP {inr(price)})</span><span><b>Investment Horizon:</b> {hz}</span></div><div class="r4">Model-based estimate using the stated assumptions. Not investment advice.</div></div>"""
     else:
         reco = f"""<div class="reco hold"><div class="r1">Investment Recommendation</div><div class="r2">NOT RATED</div>
-<div class="r3"><span>No target price: latest earnings are zero, negative or unavailable, so earnings-based valuation is not meaningful.</span></div></div>"""
+<div class="r3"><span>No target price: latest earnings are zero, negative or unavailable, so earnings-based valuation is not meaningful.</span></div><div class="r4">Model-based estimate using the stated assumptions. Not investment advice.</div></div>"""
 
     # table helpers
     W = min(5, n)

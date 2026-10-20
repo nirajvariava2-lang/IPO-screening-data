@@ -164,7 +164,7 @@ CSS = """
 .rpt .reco.hold{border-left-color:#d98200}.rpt .reco.sell{border-left-color:#c0392b}
 .rpt .reco .r1{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:#5b6b7d}
 .rpt .reco .r2{font-size:26px;font-weight:800;color:#1a7f4b}.rpt .reco.hold .r2{color:#d98200}.rpt .reco.sell .r2{color:#c0392b}
-.rpt .reco .r3{display:flex;gap:28px;flex-wrap:wrap;margin-top:4px;font-size:14px}
+.rpt .reco .r4{margin-top:6px;font-size:11.5px;color:#5b6b7d;font-style:italic}.rpt .reco .r3{display:flex;gap:28px;flex-wrap:wrap;margin-top:4px;font-size:14px}
 .rpt .kt{background:#f7f3e6;border-left:4px solid #c8a24a;padding:8px 12px;margin:8px 0;font-size:14px}
 .rpt .ta{background:#f0f4f8;border-left:4px solid #12355b;padding:8px 12px;margin:8px 0}
 .rpt .lbl{font:700 12px system-ui,sans-serif;letter-spacing:.06em;text-transform:uppercase;color:#12355b}
@@ -231,7 +231,7 @@ def build(code, name, content):
     cls = {"BUY": "", "HOLD": "hold", "SELL": "sell"}[rec]
     sign = "upside" if upside >= 0 else "downside"
     reco_html = f"""<div class="reco {cls}"><div class="r1">Investment Recommendation</div><div class="r2">{rec}</div>
-<div class="r3"><span><b>Target Price:</b> <span class="hl">{inr(target)}</span> ({abs(upside):.0f}% {sign} to CMP {inr(price)})</span><span><b>Investment Horizon:</b> {content['horizon']}</span></div></div>"""
+<div class="r3"><span><b>Target Price:</b> <span class="hl">{inr(target)}</span> ({abs(upside):.0f}% {sign} to CMP {inr(price)})</span><span><b>Investment Horizon:</b> {content['horizon']}</span></div><div class="r4">Model-based estimate using the stated assumptions. Not investment advice.</div></div>"""
 
     def mrow(label, vals, dp=1, suf="", hib=True, tcol=True):
         t = trend(vals[L] if len(vals) == 6 else vals, hib)
