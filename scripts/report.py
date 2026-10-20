@@ -130,7 +130,7 @@ def svg_lines(labels, series, colors, title, w=520, h=210):
         for (x, y), v in zip(pts, [v for v in s if v is not None]):
             g.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="2.8" fill="{colors[j]}"/>')
         if pts:
-            g.append(f'<text x="{pts[-1][0]:.1f}" y="{pts[-1][1]-6:.1f}" class="vl" text-anchor="end">{s[-1]:.0f}%</text>')
+            g.append(f'<text x="{pts[-1][0]:.1f}" y="{pts[-1][1]-6:.1f}" class="vl" text-anchor="end">{[v for v in s if v is not None][-1]:.0f}%</text>')
     for i, lab in enumerate(labels):
         g.append(f'<text x="{xs[i]:.1f}" y="{h-12}" class="xl">{lab}</text>')
     lg = "".join(f'<tspan fill="{colors[j]}">●</tspan> {nm}   ' for j, (nm, _) in enumerate(series))

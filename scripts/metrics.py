@@ -47,6 +47,7 @@ def parse(url):
                 kv.setdefault(r[0], r[1])
     out["price_band"] = kv.get("Price Band"); out["issue_price"] = num(kv.get("Issue Price")); out["lot"] = kv.get("Lot Size")
     out["sale_type"] = kv.get("Sale Type"); out["dates"] = kv.get("IPO Date"); out["listed_on"] = kv.get("Listed on")
+    out["last_trade"] = num(kv.get("Last Trade")); out["shares_post"] = num((kv.get("Share Holding Post Issue") or "").split(" ")[0])
     out["issue_cr"] = cr(kv.get("Total Issue Size")); out["fresh_cr"] = cr(kv.get("Fresh Issue"))
     out["ofs_cr"] = cr(kv.get("Offer for Sale"))
     if out["issue_cr"] and out["fresh_cr"] is not None:
@@ -104,6 +105,7 @@ def parse(url):
             if r and r[0] == "No. of times subscribed" and len(r) > 1 and num(r[-1]):
                 out.setdefault("sub_total", num(r[-1]))
             if r and r[0].startswith("Anchor Portion"): out["anchor_cr"] = num(r[1])
+            if r and r[0] == "Last Trade" and len(r) > 1: out["last_trade"] = num(r[-1])
             if r and r[0].startswith("−") and "Anchor Investor" in r[0] and len(r) > 1: out["anchor_shares"] = num(r[1])
     return out
 

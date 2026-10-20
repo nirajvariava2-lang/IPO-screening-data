@@ -38,3 +38,7 @@ Public page: https://nirajvariava2-lang.github.io/IPO-screening-data/ (GitHub Pa
 ## Equity research reports
 Reports use the 7-section format: `python scripts/screener_full.py <CODE>` then `python scripts/report.py <CODE> "<Company>"` (company text lives in `scripts/report_content_<company>.py`). `flat.py` embeds `reports/<slug>.frag.html` in the dashboard data as the `report` column. Pilot: Karamtara Engineering.
 
+
+## Bulk reports
+`scripts/collect_all.py` fetches Screener + About text for all listed IPOs; `reports/qual_batch*.py` hold the hand-written business sections (merge into `reports/qual.json`); `scripts/report_generic.py --all` builds every report (valuation: industry P/E blended with a growth-adjusted P/E, Buy needs a quality screen, targets capped at +/-35%). Karamtara keeps its hand-built report via `scripts/report.py`.
+
