@@ -7,9 +7,9 @@
    "group": "Open / upcoming",
    "new": false,
    "timing": "Opened 13 Oct; closed 15 Oct; allotment 16 Oct; lists 21 Oct (tentative)",
-   "passed": 1,
+   "passed": 2,
    "fails": 4,
-   "unknown": 3,
+   "unknown": 2,
    "verdict": "Rejected",
    "flag": "100% OFS Rs 712 cr (promoters sell 2.63 cr shares); band 258-271; anchors Rs 213.11 cr (Y). FINAL subscription 131.73x overall, QIB 256.65x, NII 203.21x, retail 30.55x (Chittorgarh, 15 Oct 17:54) - F4 now PASS. Post P/E 49.7x (IPOPlatform) vs 40.69x (IPO Premium): conflict. Revenue CAGR 13.5% (prior version). Promoter post-issue 85% (Chittorgarh), pledge unverified | F3: post-issue P/E 40.69x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo_subscription/hd-fire-protect-ipo/2628/",
@@ -21,15 +21,20 @@
    "f5": "U",
    "f6": "F",
    "f7": "U",
-   "f8": "U",
+   "f8": "P",
    "listed_on": "",
    "status": "Closed, awaiting listing",
    "post_pe": 40.69,
-   "sources": {},
+   "sources": {
+    "f7": "No pledge (SEBI HD Fire Protect Limited DRHP (Oct 08, 2025) p.108); post-issue % not in DRHP",
+    "f8": "Soft pass: no auditor qualification (SEBI HD Fire Protect Limited DRHP (Oct 08, 2025) p.20); anchor portion in offer structure (p.3). Confirm in RHP"
+   },
    "u_reasons": {
-    "f5": "SEBI filing is DRHP dated Oct 08, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
-    "f7": "SEBI filing is DRHP dated Oct 08, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
-    "f8": "SEBI filing is DRHP dated Oct 08, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI"
+    "f5": "Not found in SEBI HD Fire Protect Limited DRHP (Oct 08, 2025); needs RHP",
+    "f7": "No pledge (SEBI HD Fire Protect Limited DRHP (Oct 08, 2025) p.108); post-issue % not in DRHP"
+   },
+   "stale": {
+    "f8": "FY25"
    }
   },
   {
@@ -37,10 +42,10 @@
    "group": "Open / upcoming",
    "new": false,
    "timing": "Opened 14 Oct; closed 16 Oct; allotment 19 Oct; lists 22 Oct (tentative)",
-   "passed": 3,
+   "passed": 5,
    "fails": 2,
-   "unknown": 3,
-   "verdict": "Review",
+   "unknown": 1,
+   "verdict": "Provisional",
    "flag": "Band 275-289; fresh 71.2% of Rs 702 cr (Rs 500 cr + OFS Rs 202 cr); Rs 275.70 cr of Rs 336.84 cr objects (81.8%) is debt repayment; post P/E 18.73x; promoter 81.82% post (pledge unverified); D/E 0.48 (266.86/552.46); FY26 income +37.0%, PAT +128.6% (one year only); Subscription 4.63x overall, QIB 4.21x, NII 4.70x, retail 5.80x at 16 Oct 15:59 (Chittorgarh; F4 PASS. Final per IPO Ji: 4.68x overall, QIB 4.21x, NII 4.73x, retail 5.99x; ScanX/IPOwiz showed 1.8-1.9x, QIB 0.24-0.34x earlier in the day, so QIB surged late) | F3: post-issue P/E 18.73x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/fusion-cx-ipo/2455/",
    "source_label": "Chittorgarh",
@@ -50,16 +55,21 @@
    "f4": "P",
    "f5": "U",
    "f6": "P",
-   "f7": "U",
-   "f8": "U",
+   "f7": "P",
+   "f8": "P",
    "listed_on": "",
    "status": "Closed, awaiting listing",
    "post_pe": 18.73,
-   "sources": {},
+   "sources": {
+    "f7": "Post-issue promoter holding 81.82% (Chittorgarh); no pledge (SEBI FUSION CX LIMITED (May 30, 2025) p.88)",
+    "f8": "Soft pass: no auditor qualification (SEBI FUSION CX LIMITED (May 30, 2025) p.291); anchor portion in offer structure (p.3). Confirm in RHP"
+   },
    "u_reasons": {
-    "f5": "SEBI filing is DRHP dated May 30, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
-    "f7": "SEBI filing is DRHP dated May 30, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
-    "f8": "SEBI filing is DRHP dated May 30, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI"
+    "f5": "Not found in SEBI FUSION CX LIMITED (May 30, 2025); needs RHP"
+   },
+   "stale": {
+    "f7": "FY25",
+    "f8": "FY25"
    }
   },
   {
@@ -87,7 +97,7 @@
    "post_pe": null,
    "sources": {},
    "u_reasons": {
-    "f8": "Not in SEBI Zetwerk Manufacturing Businesses Limited (Aug 14, 2026); needs RHP / price band"
+    "f8": "Not found in SEBI Zetwerk Manufacturing Business (Aug 14, 2026); needs RHP"
    }
   },
   {
@@ -117,8 +127,8 @@
     "f8": "Auditors: no qualification (abridged prospectus p.11-12). Anchors not disclosed until RHP"
    },
    "u_reasons": {
-    "f5": "Not in SEBI Tonbo Imaging India Limited - DRHP Tonbo (Aug 14, 2026); needs RHP / price band",
-    "f8": "Not in SEBI Tonbo Imaging India Limited - DRHP Tonbo (Aug 14, 2026); needs RHP / price band"
+    "f5": "Not found in SEBI Tonbo Imaging India Limited -  (Aug 14, 2026); needs RHP",
+    "f8": "Not found in SEBI Tonbo Imaging India Limited -  (Aug 14, 2026); needs RHP"
    }
   },
   {
@@ -126,9 +136,9 @@
    "group": "Open / upcoming",
    "new": false,
    "timing": "Opened 15 Oct; closes 19 Oct; lists 23 Oct (tentative)",
-   "passed": 0,
+   "passed": 1,
    "fails": 4,
-   "unknown": 4,
+   "unknown": 3,
    "verdict": "Rejected",
    "flag": "100% OFS of 4.32 cr shares (Rs 2,534 cr) by Bonfiglioli S.p.A.; band 558-586; anchors Rs 759.26 cr (Y); post P/E 37.07x; promoter post-issue 77% (pledge unverified); CY23-25 total income CAGR 9.0% (FAIL), PAT CAGR 26.6%; borrowings not shown for latest year; subscription 0.99x at Day 2 close (IPO Ji; IPOGyani earlier snapshot 0.47x), F4 not met | F3: post-issue P/E 37.07x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/bonfiglioli-transmissions-ipo/2861/",
@@ -140,15 +150,20 @@
    "f5": "U",
    "f6": "F",
    "f7": "U",
-   "f8": "U",
+   "f8": "P",
    "listed_on": "",
    "status": "Open now",
    "post_pe": 37.07,
-   "sources": {},
+   "sources": {
+    "f7": "No pledge (SEBI Bonfiglioli Transmissions Limited (Feb 16, 2026) p.97); post-issue % not in DRHP",
+    "f8": "Soft pass: no auditor qualification (SEBI Bonfiglioli Transmissions Limited (Feb 16, 2026) p.26); anchor portion in offer structure (p.2). Confirm in RHP"
+   },
    "u_reasons": {
-    "f5": "SEBI filing is DRHP dated Feb 16, 2026 with financials to FY2025 (older than FY26); RHP not on SEBI",
-    "f7": "SEBI filing is DRHP dated Feb 16, 2026 with financials to FY2025 (older than FY26); RHP not on SEBI",
-    "f8": "SEBI filing is DRHP dated Feb 16, 2026 with financials to FY2025 (older than FY26); RHP not on SEBI"
+    "f5": "Not found in SEBI Bonfiglioli Transmissions Limi (Feb 16, 2026); needs RHP",
+    "f7": "No pledge (SEBI Bonfiglioli Transmissions Limited (Feb 16, 2026) p.97); post-issue % not in DRHP"
+   },
+   "stale": {
+    "f8": "FY25"
    }
   },
   {
@@ -156,9 +171,9 @@
    "group": "Open / upcoming",
    "new": false,
    "timing": "Opened 15 Oct; closes 19 Oct; lists 23 Oct (tentative)",
-   "passed": 0,
+   "passed": 1,
    "fails": 4,
-   "unknown": 4,
+   "unknown": 3,
    "verdict": "Rejected",
    "flag": "Pure OFS 1.38 cr shares, Rs 475.48 cr, band 327-344; post P/E 57.91x; promoter post-issue 36.2% (F7 FAIL); FY24-26 revenue CAGR 15.9% but FY24 PAT was a loss so PAT CAGR is not computable (F6 UNKNOWN); D/E 0.27 per Chittorgarh KPI vs 0.44 computed (269.53/616.05); subscription 0.83x at Day 2 close (IPO Ji; earlier snapshot 0.34x) | F3: post-issue P/E 57.91x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/sahajanand-medical-technologies-ipo/2550/",
@@ -170,14 +185,18 @@
    "f5": "U",
    "f6": "U",
    "f7": "F",
-   "f8": "U",
+   "f8": "P",
    "listed_on": "",
    "status": "Open now",
    "post_pe": 57.91,
-   "sources": {},
+   "sources": {
+    "f8": "Soft pass: no auditor qualification (SEBI SAHAJANAND MEDICAL TECHNOLOGIES LIMITED (Jul 31, 2025) p.25); anchor portion in offer structure (p.3). Confirm in RHP"
+   },
    "u_reasons": {
-    "f5": "SEBI filing is DRHP dated Jul 31, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
-    "f8": "SEBI filing is DRHP dated Jul 31, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI"
+    "f5": "Not found in SEBI SAHAJANAND MEDICAL TECHNOLOGIE (Jul 31, 2025); needs RHP"
+   },
+   "stale": {
+    "f8": "FY25"
    }
   },
   {
@@ -206,9 +225,9 @@
     "f8": "Auditors: no qualification (abridged prospectus p.11-12). Anchors not disclosed until RHP"
    },
    "u_reasons": {
-    "f5": "Not in SEBI Jio Platforms Ltd - DRHP Jio Platforms L (Jun 19, 2026); needs RHP / price band",
-    "f7": "Not in SEBI Jio Platforms Ltd - DRHP Jio Platforms L (Jun 19, 2026); needs RHP / price band",
-    "f8": "Not in SEBI Jio Platforms Ltd - DRHP Jio Platforms L (Jun 19, 2026); needs RHP / price band"
+    "f5": "Not found in SEBI Jio Platforms Ltd - DRHP Jio P (Jun 19, 2026); needs RHP",
+    "f7": "Promoter holding/pledge not found in DRHP text; needs RHP",
+    "f8": "Not found in SEBI Jio Platforms Ltd - DRHP Jio P (Jun 19, 2026); needs RHP"
    }
   },
   {
@@ -236,8 +255,8 @@
    "post_pe": 37.72,
    "sources": {},
    "u_reasons": {
-    "f7": "Not in SEBI Paras Healthcare Limited - DRHP Paras He (Jun 18, 2026); needs RHP / price band",
-    "f8": "Not in SEBI Paras Healthcare Limited - DRHP Paras He (Jun 18, 2026); needs RHP / price band"
+    "f7": "Promoter holding/pledge not found in DRHP text; needs RHP",
+    "f8": "Not found in SEBI Paras Healthcare Limited - DRH (Jun 18, 2026); needs RHP"
    }
   },
   {
@@ -245,9 +264,9 @@
    "group": "Listed",
    "new": true,
    "timing": "08-Oct",
-   "passed": 1,
-   "fails": 5,
-   "unknown": 2,
+   "passed": 2,
+   "fails": 6,
+   "unknown": 0,
    "verdict": "Rejected",
    "flag": "Fresh 81.5% of Rs 178 cr; sub 1.79x, QIB 1.33x (Day 3); revenue and PAT +6% FY26; post-issue promoter 49.4%; listed below issue price | F3: post-issue P/E 23.26x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/vishal-nirmiti-ipo/2665/",
@@ -256,16 +275,20 @@
    "f2": "F",
    "f3": "P",
    "f4": "F",
-   "f5": "U",
+   "f5": "F",
    "f6": "F",
    "f7": "F",
-   "f8": "U",
+   "f8": "P",
    "listed_on": "2026-10-08",
    "post_pe": 23.26,
-   "sources": {},
-   "u_reasons": {
-    "f5": "SEBI filing is DRHP dated Jan 12, 2026 with financials to FY2025 (older than FY26); RHP not on SEBI",
-    "f8": "SEBI filing is DRHP dated Jan 12, 2026 with financials to FY2025 (older than FY26); RHP not on SEBI"
+   "sources": {
+    "f5": "SEBI Vishal Nirmiti Limited (Jan 12, 2026): operating cash flow -14 mn (p.136; prior 479.17, 3680.44); D/E 1.22 (p.136)",
+    "f8": "Soft pass: no auditor qualification (SEBI Vishal Nirmiti Limited (Jan 12, 2026) p.26); anchor portion in offer structure (p.3). Confirm in RHP"
+   },
+   "u_reasons": {},
+   "stale": {
+    "f5": "FY25",
+    "f8": "FY25"
    }
   },
   {
@@ -292,8 +315,8 @@
    "post_pe": 19.4,
    "sources": {},
    "u_reasons": {
-    "f5": "SEBI filing is DRHP dated Apr 08, 2026 with financials to FY2025 (older than FY26); RHP not on SEBI",
-    "f8": "SEBI filing is DRHP dated Apr 08, 2026 with financials to FY2025 (older than FY26); RHP not on SEBI"
+    "f5": "Not found in SEBI Nityas Gems and Jewellery Limi (Apr 08, 2026); needs RHP",
+    "f8": "Not found in SEBI Nityas Gems and Jewellery Limi (Apr 08, 2026); needs RHP"
    }
   },
   {
@@ -318,20 +341,23 @@
    "f8": "P",
    "listed_on": "2026-10-06",
    "post_pe": 19.29,
-   "sources": {},
+   "sources": {
+    "f7": "No pledge (SEBI SRIT INDIA LIMITED - DRHP (Feb 06, 2026) p.116); post-issue % not in DRHP"
+   },
    "u_reasons": {
-    "f7": "SEBI filing is DRHP dated Feb 06, 2026 with financials to FY2025 (older than FY26); RHP not on SEBI"
-   }
+    "f7": "No pledge (SEBI SRIT INDIA LIMITED - DRHP (Feb 06, 2026) p.116); post-issue % not in DRHP"
+   },
+   "stale": {}
   },
   {
    "company": "Rays of Belief",
    "group": "Listed",
    "new": false,
    "timing": "08-Sep",
-   "passed": 4,
+   "passed": 6,
    "fails": 2,
-   "unknown": 2,
-   "verdict": "Review",
+   "unknown": 0,
+   "verdict": "Provisional",
    "flag": "F5 FAIL: operating cash flow FY26 -Rs 1.94 cr (Screener). P/E 100.8x post-issue fails F3. Promoter post-issue 68.77%; pledge unverified.",
    "source_url": "https://www.screener.in/company/MOMSBELIEF/consolidated/",
    "source_label": "Screener.in",
@@ -341,14 +367,18 @@
    "f4": "P",
    "f5": "F",
    "f6": "P",
-   "f7": "U",
-   "f8": "U",
+   "f7": "P",
+   "f8": "P",
    "listed_on": "2026-09-08",
    "post_pe": 100.84,
-   "sources": {},
-   "u_reasons": {
-    "f7": "SEBI filing is DRHP dated Feb 17, 2026 with financials to FY2025 (older than FY26); RHP not on SEBI",
-    "f8": "SEBI filing is DRHP dated Feb 17, 2026 with financials to FY2025 (older than FY26); RHP not on SEBI"
+   "sources": {
+    "f7": "Post-issue promoter holding 68.77% (Chittorgarh); no pledge (SEBI Rays of Belief Limited (Feb 17, 2026) p.112)",
+    "f8": "Soft pass: no auditor qualification (SEBI Rays of Belief Limited (Feb 17, 2026) p.32); anchor portion in offer structure (p.2). Confirm in RHP"
+   },
+   "u_reasons": {},
+   "stale": {
+    "f7": "FY25",
+    "f8": "FY25"
    }
   },
   {
@@ -359,7 +389,7 @@
    "passed": 7,
    "fails": 0,
    "unknown": 1,
-   "verdict": "Provisional",
+   "verdict": "Qualified",
    "flag": "7/8 passed. Only F7 (pledge) unverified; F8 is a soft pass (anchors Rs 91 cr, no auditor qualification found; confirm in RHP). Check Rs 112.65 cr tax demands.",
    "source_url": "https://www.investorgain.com/ipo/german-green-steel-and-power-ipo/1812/",
    "source_label": "Investorgain, Screener.in",
@@ -373,20 +403,23 @@
    "f8": "P",
    "listed_on": "2026-10-05",
    "post_pe": 13.11,
-   "sources": {},
+   "sources": {
+    "f7": "No pledge (SEBI German Green Steel and Power Limited - D (Jul 08, 2025) p.130); post-issue % not in DRHP"
+   },
    "u_reasons": {
-    "f7": "SEBI filing is DRHP dated Jul 08, 2025 with financials to FY2024 (older than FY26); RHP not on SEBI"
-   }
+    "f7": "No pledge (SEBI German Green Steel and Power Limited - D (Jul 08, 2025) p.130); post-issue % not in DRHP"
+   },
+   "stale": {}
   },
   {
    "company": "Pranav Constructions",
    "group": "Listed",
    "new": false,
    "timing": "15-Sep",
-   "passed": 4,
+   "passed": 5,
    "fails": 3,
-   "unknown": 1,
-   "verdict": "Review",
+   "unknown": 0,
+   "verdict": "Provisional",
    "flag": "proceeds not growth-led; D/E 1.08; promoter 49.0% | F3: post-issue P/E 19.59x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/pranav-constructions-ipo/2127/",
    "source_label": "Chittorgarh",
@@ -397,12 +430,15 @@
    "f5": "F",
    "f6": "P",
    "f7": "F",
-   "f8": "U",
+   "f8": "P",
    "listed_on": "2026-09-15",
    "post_pe": 19.59,
-   "sources": {},
-   "u_reasons": {
-    "f8": "SEBI filing is DRHP dated Mar 04, 2025 with financials to FY2024 (older than FY26); RHP not on SEBI"
+   "sources": {
+    "f8": "Soft pass: no auditor qualification (SEBI Pranav Constructions Limited (Mar 04, 2025) p.276); anchor portion in offer structure (p.2). Confirm in RHP"
+   },
+   "u_reasons": {},
+   "stale": {
+    "f8": "FY24"
    }
   },
   {
@@ -410,9 +446,9 @@
    "group": "Listed",
    "new": false,
    "timing": "23-Sep",
-   "passed": 3,
+   "passed": 4,
    "fails": 3,
-   "unknown": 2,
+   "unknown": 1,
    "verdict": "Review",
    "flag": "F5 FAIL: standalone borrowings 238 / equity 220 = D/E 1.08 (>1); OCF FY26 +Rs 30 cr (Screener, Mar 2026; consolidated not checked). Promoter 64.86% (Sep 2026); pledge unverified. Fresh issue 72% fails F1. | F3: post-issue P/E 53.2x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.screener.in/company/SSRETAIL/",
@@ -424,13 +460,18 @@
    "f5": "F",
    "f6": "P",
    "f7": "U",
-   "f8": "U",
+   "f8": "P",
    "listed_on": "2026-09-23",
    "post_pe": 53.2,
-   "sources": {},
+   "sources": {
+    "f7": "No pledge (SEBI SS RETAIL LIMITED (Jan 05, 2026) p.152); post-issue % not in DRHP",
+    "f8": "Soft pass: no auditor qualification (SEBI SS RETAIL LIMITED (Jan 05, 2026) p.30); anchor portion in offer structure (p.3). Confirm in RHP"
+   },
    "u_reasons": {
-    "f7": "SEBI filing is DRHP dated Jan 05, 2026 with financials to FY2025 (older than FY26); RHP not on SEBI",
-    "f8": "SEBI filing is DRHP dated Jan 05, 2026 with financials to FY2025 (older than FY26); RHP not on SEBI"
+    "f7": "No pledge (SEBI SS RETAIL LIMITED (Jan 05, 2026) p.152); post-issue % not in DRHP"
+   },
+   "stale": {
+    "f8": "FY25"
    }
   },
   {
@@ -455,7 +496,9 @@
    "f8": "P",
    "listed_on": "2026-09-04",
    "post_pe": 41.61,
-   "sources": {}
+   "sources": {},
+   "stale": {},
+   "u_reasons": {}
   },
   {
    "company": "Kanohar Electricals",
@@ -481,8 +524,8 @@
    "post_pe": 38.58,
    "sources": {},
    "u_reasons": {
-    "f7": "SEBI filing is DRHP dated Jan 28, 2026 with financials to FYNone (older than FY26); RHP not on SEBI",
-    "f8": "SEBI filing is DRHP dated Jan 28, 2026 with financials to FYNone (older than FY26); RHP not on SEBI"
+    "f7": "Promoter holding/pledge not found in DRHP text; needs RHP",
+    "f8": "Not found in SEBI Kanohar Electricals Limited Ka (Jan 28, 2026); needs RHP"
    }
   },
   {
@@ -509,18 +552,19 @@
    "post_pe": 19.1,
    "sources": {},
    "u_reasons": {
-    "f7": "SEBI filing is DRHP dated Sep 11, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI"
-   }
+    "f7": "Promoter holding/pledge not found in DRHP text; needs RHP"
+   },
+   "stale": {}
   },
   {
    "company": "Moneyview",
    "group": "Listed",
    "new": false,
    "timing": "01-Oct",
-   "passed": 4,
+   "passed": 5,
    "fails": 3,
-   "unknown": 1,
-   "verdict": "Review",
+   "unknown": 0,
+   "verdict": "Provisional",
    "flag": "fresh 69%; D/E 2.32; promoter 19.3% | F3: post-issue P/E 8.61x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/moneyview-ipo/2936/",
    "source_label": "Chittorgarh",
@@ -531,12 +575,15 @@
    "f5": "F",
    "f6": "P",
    "f7": "F",
-   "f8": "U",
+   "f8": "P",
    "listed_on": "2026-10-01",
    "post_pe": 8.61,
-   "sources": {},
-   "u_reasons": {
-    "f8": "SEBI filing is DRHP dated Mar 09, 2026 with financials to FY2025 (older than FY26); RHP not on SEBI"
+   "sources": {
+    "f8": "Soft pass: no auditor qualification (SEBI Moneyview Limited (Mar 09, 2026) p.35); anchor portion in offer structure (p.3). Confirm in RHP"
+   },
+   "u_reasons": {},
+   "stale": {
+    "f8": "FY25"
    }
   },
   {
@@ -544,9 +591,9 @@
    "group": "Listed",
    "new": false,
    "timing": "06-Oct",
-   "passed": 3,
-   "fails": 2,
-   "unknown": 3,
+   "passed": 4,
+   "fails": 3,
+   "unknown": 1,
    "verdict": "Review",
    "flag": "growth <15%/loss | F3: post-issue P/E 26.94x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/shah-investors-home-ipo/2657/",
@@ -555,17 +602,23 @@
    "f2": "P",
    "f3": "F",
    "f4": "P",
-   "f5": "U",
+   "f5": "F",
    "f6": "F",
    "f7": "U",
-   "f8": "U",
+   "f8": "P",
    "listed_on": "2026-10-06",
    "post_pe": 26.94,
-   "sources": {},
+   "sources": {
+    "f5": "SEBI SHAH INVESTOR'S HOME LIMITED - DRHP (Oct 08, 2025): operating cash flow -3186.22 mn (p.59; prior 11019.4, 0.45); D/E 0.03 (p.371)",
+    "f7": "No pledge (SEBI SHAH INVESTOR'S HOME LIMITED - DRHP (Oct 08, 2025) p.358); post-issue % not in DRHP",
+    "f8": "Soft pass: no auditor qualification (SEBI SHAH INVESTOR'S HOME LIMITED - DRHP (Oct 08, 2025) p.511); anchor portion in offer structure (p.2). Confirm in RHP"
+   },
    "u_reasons": {
-    "f5": "SEBI filing is DRHP dated Oct 08, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
-    "f7": "SEBI filing is DRHP dated Oct 08, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
-    "f8": "SEBI filing is DRHP dated Oct 08, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI"
+    "f7": "No pledge (SEBI SHAH INVESTOR'S HOME LIMITED - DRHP (Oct 08, 2025) p.358); post-issue % not in DRHP"
+   },
+   "stale": {
+    "f5": "FY25",
+    "f8": "FY25"
    }
   },
   {
@@ -573,9 +626,9 @@
    "group": "Listed",
    "new": false,
    "timing": "01-Jul",
-   "passed": 3,
+   "passed": 4,
    "fails": 2,
-   "unknown": 3,
+   "unknown": 2,
    "verdict": "Review",
    "flag": "proceeds not growth-led; D/E 1.29 | F3: post-issue P/E 18.64x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/advit-jewels-ipo/2686/",
@@ -583,17 +636,23 @@
    "f1": "P",
    "f2": "F",
    "f3": "P",
-   "f4": "U",
+   "f4": "P",
    "f5": "F",
    "f6": "P",
    "f7": "U",
    "f8": "U",
    "listed_on": "2026-07-01",
    "post_pe": 18.64,
-   "sources": {},
+   "sources": {
+    "f4": "Final subscription 147.53x overall (Chittorgarh https://www.chittorgarh.com/ipo_subscription/advit-jewels-ipo/2686/); QIB split not shown on page, so QIB demand not separately verified"
+   },
    "u_reasons": {
-    "f7": "SEBI filing is DRHP dated Oct 08, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
-    "f8": "SEBI filing is DRHP dated Oct 08, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI"
+    "f7": "Promoter holding/pledge not found in DRHP text; needs RHP",
+    "f8": "Not found in SEBI Advit Jewels Limited (Oct 08, 2025); needs RHP"
+   },
+   "stale": {},
+   "soft": {
+    "f4": "total only"
    }
   },
   {
@@ -601,9 +660,9 @@
    "group": "Listed",
    "new": false,
    "timing": "06-Aug",
-   "passed": 2,
-   "fails": 2,
-   "unknown": 4,
+   "passed": 4,
+   "fails": 3,
+   "unknown": 1,
    "verdict": "Rejected",
    "flag": "P/E negative; growth <15%/loss",
    "source_url": "https://www.chittorgarh.com/ipo/mv-electrosystems-ipo/2800/",
@@ -611,17 +670,27 @@
    "f1": "P",
    "f2": "P",
    "f3": "F",
-   "f4": "U",
-   "f5": "U",
+   "f4": "P",
+   "f5": "F",
    "f6": "F",
    "f7": "U",
-   "f8": "U",
+   "f8": "P",
    "listed_on": "2026-08-06",
-   "sources": {},
+   "sources": {
+    "f5": "SEBI MV Electrosystems Limited (Dec 10, 2025): operating cash flow -90.42 mn (p.94; prior 42.92, -52.15); D/E 2.79 (p.144)",
+    "f7": "No pledge (SEBI MV Electrosystems Limited (Dec 10, 2025) p.120); post-issue % not in DRHP",
+    "f8": "Soft pass: no auditor qualification (SEBI MV Electrosystems Limited (Dec 10, 2025) p.32); anchor portion in offer structure (p.3). Confirm in RHP",
+    "f4": "Final subscription 109.59x overall (Chittorgarh https://www.chittorgarh.com/ipo_subscription/mv-electrosystems-ipo/2800/); QIB split not shown on page, so QIB demand not separately verified"
+   },
    "u_reasons": {
-    "f5": "SEBI filing is DRHP dated Dec 10, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
-    "f7": "SEBI filing is DRHP dated Dec 10, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
-    "f8": "SEBI filing is DRHP dated Dec 10, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI"
+    "f7": "No pledge (SEBI MV Electrosystems Limited (Dec 10, 2025) p.120); post-issue % not in DRHP"
+   },
+   "stale": {
+    "f5": "FY25",
+    "f8": "FY25"
+   },
+   "soft": {
+    "f4": "total only"
    }
   },
   {
@@ -630,8 +699,8 @@
    "new": false,
    "timing": "05-Oct",
    "passed": 3,
-   "fails": 2,
-   "unknown": 3,
+   "fails": 3,
+   "unknown": 2,
    "verdict": "Review",
    "flag": "fresh 58%; proceeds not growth-led | F3: post-issue P/E 23.61x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/orient-cables-ipo/2532/",
@@ -640,17 +709,22 @@
    "f2": "F",
    "f3": "P",
    "f4": "P",
-   "f5": "U",
+   "f5": "F",
    "f6": "P",
    "f7": "U",
    "f8": "U",
    "listed_on": "2026-10-05",
    "post_pe": 23.61,
-   "sources": {},
+   "sources": {
+    "f5": "SEBI Orient Cables Limited - DRHP (Jul 22, 2025): operating cash flow -97.85 mn (p.49; prior 421.81, 197.98); D/E 0.63 (p.127)",
+    "f7": "No pledge (SEBI Orient Cables Limited - DRHP (Jul 22, 2025) p.104); post-issue % not in DRHP"
+   },
    "u_reasons": {
-    "f5": "SEBI filing is DRHP dated Jul 22, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
-    "f7": "SEBI filing is DRHP dated Jul 22, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
-    "f8": "SEBI filing is DRHP dated Jul 22, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI"
+    "f7": "No pledge (SEBI Orient Cables Limited - DRHP (Jul 22, 2025) p.104); post-issue % not in DRHP",
+    "f8": "Not found in SEBI Orient Cables Limited - DRHP (Jul 22, 2025); needs RHP"
+   },
+   "stale": {
+    "f5": "FY25"
    }
   },
   {
@@ -658,27 +732,36 @@
    "group": "Listed",
    "new": false,
    "timing": "12-Aug",
-   "passed": 3,
+   "passed": 5,
    "fails": 2,
-   "unknown": 3,
-   "verdict": "Review",
+   "unknown": 1,
+   "verdict": "Provisional",
    "flag": "fresh 75%; D/E 1.25 | F3: post-issue P/E 19.7x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/ardee-industries-ipo/2860/",
    "source_label": "Chittorgarh",
    "f1": "F",
    "f2": "P",
    "f3": "P",
-   "f4": "U",
+   "f4": "P",
    "f5": "F",
    "f6": "P",
    "f7": "U",
-   "f8": "U",
+   "f8": "P",
    "listed_on": "2026-08-12",
    "post_pe": 19.7,
-   "sources": {},
+   "sources": {
+    "f7": "No pledge (SEBI ARDEE INDUSTRIES LIMITED (Oct 10, 2025) p.98); post-issue % not in DRHP",
+    "f8": "Soft pass: no auditor qualification (SEBI ARDEE INDUSTRIES LIMITED (Oct 10, 2025) p.30); anchor portion in offer structure (p.3). Confirm in RHP",
+    "f4": "Final subscription 96.6x overall (Chittorgarh https://www.chittorgarh.com/ipo_subscription/ardee-industries-ipo/2860/); QIB split not shown on page, so QIB demand not separately verified"
+   },
    "u_reasons": {
-    "f7": "SEBI filing is DRHP dated Oct 10, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
-    "f8": "SEBI filing is DRHP dated Oct 10, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI"
+    "f7": "No pledge (SEBI ARDEE INDUSTRIES LIMITED (Oct 10, 2025) p.98); post-issue % not in DRHP"
+   },
+   "stale": {
+    "f8": "FY25"
+   },
+   "soft": {
+    "f4": "total only"
    }
   },
   {
@@ -686,28 +769,38 @@
    "group": "Listed",
    "new": false,
    "timing": "31-Aug",
-   "passed": 3,
+   "passed": 6,
    "fails": 1,
-   "unknown": 4,
-   "verdict": "Review",
+   "unknown": 1,
+   "verdict": "Provisional",
    "flag": "fresh 75% | F3: post-issue P/E 20.67x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/augmont-enterprises-ipo/2673/",
    "source_label": "Chittorgarh",
    "f1": "F",
    "f2": "P",
    "f3": "P",
-   "f4": "U",
-   "f5": "U",
+   "f4": "P",
+   "f5": "P",
    "f6": "P",
    "f7": "U",
-   "f8": "U",
+   "f8": "P",
    "listed_on": "2026-08-31",
    "post_pe": 20.67,
-   "sources": {},
+   "sources": {
+    "f5": "SEBI Augmont Enterprises Limited (Oct 09, 2025): operating cash flow 216.25 mn (p.67; prior 1574.54, -93.18); D/E 0.05 (p.356)",
+    "f7": "No pledge (SEBI Augmont Enterprises Limited (Oct 09, 2025) p.112); post-issue % not in DRHP",
+    "f8": "Soft pass: no auditor qualification (SEBI Augmont Enterprises Limited (Oct 09, 2025) p.495); anchor portion in offer structure (p.3). Confirm in RHP",
+    "f4": "Final subscription 77.62x overall (Chittorgarh https://www.chittorgarh.com/ipo_subscription/augmont-enterprises-ipo/2673/); QIB split not shown on page, so QIB demand not separately verified"
+   },
    "u_reasons": {
-    "f5": "SEBI filing is DRHP dated Oct 09, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
-    "f7": "SEBI filing is DRHP dated Oct 09, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
-    "f8": "SEBI filing is DRHP dated Oct 09, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI"
+    "f7": "No pledge (SEBI Augmont Enterprises Limited (Oct 09, 2025) p.112); post-issue % not in DRHP"
+   },
+   "stale": {
+    "f5": "FY25",
+    "f8": "FY25"
+   },
+   "soft": {
+    "f4": "total only"
    }
   },
   {
@@ -734,8 +827,8 @@
    "post_pe": 40.73,
    "sources": {},
    "u_reasons": {
-    "f5": "SEBI filing is DRHP dated Apr 06, 2026 with financials to FY2025 (older than FY26); RHP not on SEBI",
-    "f8": "SEBI filing is DRHP dated Apr 06, 2026 with financials to FY2025 (older than FY26); RHP not on SEBI"
+    "f5": "Not found in SEBI Rentomojo Limited - DRHP Rento (Apr 06, 2026); needs RHP",
+    "f8": "Not found in SEBI Rentomojo Limited - DRHP Rento (Apr 06, 2026); needs RHP"
    }
   },
   {
@@ -743,9 +836,9 @@
    "group": "Listed",
    "new": false,
    "timing": "17-Sep",
-   "passed": 2,
+   "passed": 3,
    "fails": 3,
-   "unknown": 3,
+   "unknown": 2,
    "verdict": "Rejected",
    "flag": "fresh 77%; proceeds not growth-led | F3: post-issue P/E 35.72x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/karamtara-engineering-ipo-ipo/2020/",
@@ -757,14 +850,18 @@
    "f5": "U",
    "f6": "P",
    "f7": "U",
-   "f8": "U",
+   "f8": "P",
    "listed_on": "2026-09-17",
    "post_pe": 35.72,
-   "sources": {},
+   "sources": {
+    "f8": "Soft pass: no auditor qualification (SEBI Karamtara Engineering Limited (Jan 27, 2025) p.22); anchor portion in offer structure (p.3). Confirm in RHP"
+   },
    "u_reasons": {
-    "f5": "SEBI filing is DRHP dated Jan 27, 2025 with financials to FY2024 (older than FY26); RHP not on SEBI",
-    "f7": "SEBI filing is DRHP dated Jan 27, 2025 with financials to FY2024 (older than FY26); RHP not on SEBI",
-    "f8": "SEBI filing is DRHP dated Jan 27, 2025 with financials to FY2024 (older than FY26); RHP not on SEBI"
+    "f5": "Not found in SEBI Karamtara Engineering Limited (Jan 27, 2025); needs RHP",
+    "f7": "Promoter holding/pledge not found in DRHP text; needs RHP"
+   },
+   "stale": {
+    "f8": "FY24"
    }
   },
   {
@@ -772,9 +869,9 @@
    "group": "Listed",
    "new": false,
    "timing": "17-Sep",
-   "passed": 3,
-   "fails": 2,
-   "unknown": 3,
+   "passed": 4,
+   "fails": 3,
+   "unknown": 1,
    "verdict": "Review",
    "flag": "fresh 60%; proceeds not growth-led | F3: post-issue P/E 14.76x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/lcc-projects-ipo/2086/",
@@ -783,17 +880,23 @@
    "f2": "F",
    "f3": "P",
    "f4": "P",
-   "f5": "U",
+   "f5": "F",
    "f6": "P",
    "f7": "U",
-   "f8": "U",
+   "f8": "P",
    "listed_on": "2026-09-17",
    "post_pe": 14.76,
-   "sources": {},
+   "sources": {
+    "f5": "SEBI LCC Projects Limited (Feb 27, 2025): operating cash flow -1772.65 mn (p.80; prior 293.49, -488.23); D/E 1.32 (p.56)",
+    "f7": "No pledge (SEBI LCC Projects Limited (Feb 27, 2025) p.94); post-issue % not in DRHP",
+    "f8": "Soft pass: no auditor qualification (SEBI LCC Projects Limited (Feb 27, 2025) p.26); anchor portion in offer structure (p.3). Confirm in RHP"
+   },
    "u_reasons": {
-    "f5": "SEBI filing is DRHP dated Feb 27, 2025 with financials to FY2024 (older than FY26); RHP not on SEBI",
-    "f7": "SEBI filing is DRHP dated Feb 27, 2025 with financials to FY2024 (older than FY26); RHP not on SEBI",
-    "f8": "SEBI filing is DRHP dated Feb 27, 2025 with financials to FY2024 (older than FY26); RHP not on SEBI"
+    "f7": "No pledge (SEBI LCC Projects Limited (Feb 27, 2025) p.94); post-issue % not in DRHP"
+   },
+   "stale": {
+    "f5": "FY24",
+    "f8": "FY24"
    }
   },
   {
@@ -801,9 +904,9 @@
    "group": "Listed",
    "new": false,
    "timing": "17-Aug",
-   "passed": 2,
+   "passed": 4,
    "fails": 3,
-   "unknown": 3,
+   "unknown": 1,
    "verdict": "Rejected",
    "flag": "OFS-heavy; promoter 41.3% | F3: post-issue P/E 56.67x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/molbio-diagnostics-ipo/2579/",
@@ -811,17 +914,25 @@
    "f1": "F",
    "f2": "P",
    "f3": "F",
-   "f4": "U",
+   "f4": "P",
    "f5": "U",
    "f6": "P",
    "f7": "F",
-   "f8": "U",
+   "f8": "P",
    "listed_on": "2026-08-17",
    "post_pe": 56.67,
-   "sources": {},
+   "sources": {
+    "f8": "Soft pass: no auditor qualification (SEBI Molbio Diagnostics Limited - DRHP (Aug 29, 2025) p.32); anchor portion in offer structure (p.3). Confirm in RHP",
+    "f4": "Final subscription 49.35x overall (Chittorgarh https://www.chittorgarh.com/ipo_subscription/molbio-diagnostics-ipo/2579/); QIB split not shown on page, so QIB demand not separately verified"
+   },
    "u_reasons": {
-    "f5": "SEBI filing is DRHP dated Aug 29, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
-    "f8": "SEBI filing is DRHP dated Aug 29, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI"
+    "f5": "Not found in SEBI Molbio Diagnostics Limited - D (Aug 29, 2025); needs RHP"
+   },
+   "stale": {
+    "f8": "FY25"
+   },
+   "soft": {
+    "f4": "total only"
    }
   },
   {
@@ -829,28 +940,36 @@
    "group": "Listed",
    "new": false,
    "timing": "24-Aug",
-   "passed": 3,
+   "passed": 5,
    "fails": 1,
-   "unknown": 4,
-   "verdict": "Review",
+   "unknown": 2,
+   "verdict": "Provisional",
    "flag": "fresh 71% | F3: post-issue P/E 11.14x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/lalithaa-jewellery-mart-ipo/2469/",
    "source_label": "Chittorgarh",
    "f1": "F",
    "f2": "P",
    "f3": "P",
-   "f4": "U",
+   "f4": "P",
    "f5": "U",
    "f6": "P",
    "f7": "U",
-   "f8": "U",
+   "f8": "P",
    "listed_on": "2026-08-24",
    "post_pe": 11.14,
-   "sources": {},
+   "sources": {
+    "f8": "Soft pass: no auditor qualification (SEBI Lalithaa Jewellery Mart Limited (Jun 13, 2025) p.404); anchor portion in offer structure (p.3). Confirm in RHP",
+    "f4": "Final subscription 46.78x overall (Chittorgarh https://www.chittorgarh.com/ipo_subscription/lalithaa-jewellery-mart-ipo/2469/); QIB split not shown on page, so QIB demand not separately verified"
+   },
    "u_reasons": {
-    "f5": "SEBI filing is DRHP dated Jun 13, 2025 with financials to FY2024 (older than FY26); RHP not on SEBI",
-    "f7": "SEBI filing is DRHP dated Jun 13, 2025 with financials to FY2024 (older than FY26); RHP not on SEBI",
-    "f8": "SEBI filing is DRHP dated Jun 13, 2025 with financials to FY2024 (older than FY26); RHP not on SEBI"
+    "f5": "Not found in SEBI Lalithaa Jewellery Mart Limite (Jun 13, 2025); needs RHP",
+    "f7": "Promoter holding/pledge not found in DRHP text; needs RHP"
+   },
+   "stale": {
+    "f8": "FY24"
+   },
+   "soft": {
+    "f4": "total only"
    }
   },
   {
@@ -858,9 +977,9 @@
    "group": "Listed",
    "new": false,
    "timing": "18-Aug",
-   "passed": 2,
+   "passed": 4,
    "fails": 3,
-   "unknown": 3,
+   "unknown": 1,
    "verdict": "Rejected",
    "flag": "proceeds not growth-led; P/E 85x; D/E 3.61",
    "source_url": "https://www.chittorgarh.com/ipo/milky-mist-dairy-food-ipo/2541/",
@@ -868,16 +987,25 @@
    "f1": "P",
    "f2": "F",
    "f3": "F",
-   "f4": "U",
+   "f4": "P",
    "f5": "F",
    "f6": "P",
    "f7": "U",
-   "f8": "U",
+   "f8": "P",
    "listed_on": "2026-08-18",
-   "sources": {},
+   "sources": {
+    "f7": "No pledge (SEBI MILKY MIST DAIRY FOOD LIMITED (Jul 24, 2025) p.123); post-issue % not in DRHP",
+    "f8": "Soft pass: no auditor qualification (SEBI MILKY MIST DAIRY FOOD LIMITED (Jul 24, 2025) p.59); anchor portion in offer structure (p.3). Confirm in RHP",
+    "f4": "Final subscription 41.52x overall (Chittorgarh https://www.chittorgarh.com/ipo_subscription/milky-mist-dairy-food-ipo/2541/); QIB split not shown on page, so QIB demand not separately verified"
+   },
    "u_reasons": {
-    "f7": "SEBI filing is DRHP dated Jul 24, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
-    "f8": "SEBI filing is DRHP dated Jul 24, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI"
+    "f7": "No pledge (SEBI MILKY MIST DAIRY FOOD LIMITED (Jul 24, 2025) p.123); post-issue % not in DRHP"
+   },
+   "stale": {
+    "f8": "FY25"
+   },
+   "soft": {
+    "f4": "total only"
    }
   },
   {
@@ -902,28 +1030,31 @@
    "f8": "U",
    "listed_on": "2026-09-17",
    "post_pe": 57.86,
-   "sources": {},
+   "sources": {
+    "f7": "No pledge (SEBI SteamHouse India Limited - UDRHP (Dec 09, 2025) p.129); post-issue % not in DRHP"
+   },
    "u_reasons": {
-    "f7": "SEBI filing is DRHP dated Dec 09, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
-    "f8": "SEBI filing is DRHP dated Dec 09, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI"
-   }
+    "f7": "No pledge (SEBI SteamHouse India Limited - UDRHP (Dec 09, 2025) p.129); post-issue % not in DRHP",
+    "f8": "Not found in SEBI SteamHouse India Limited - UDR (Dec 09, 2025); needs RHP"
+   },
+   "stale": {}
   },
   {
    "company": "Deepa Jewellers",
    "group": "Listed",
    "new": false,
    "timing": "08-Sep",
-   "passed": 4,
+   "passed": 5,
    "fails": 2,
-   "unknown": 2,
-   "verdict": "Review",
+   "unknown": 1,
+   "verdict": "Provisional",
    "flag": "fresh 54% | F3: post-issue P/E 16.24x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/deepa-jewellers-ipo/2827/",
    "source_label": "Chittorgarh",
    "f1": "F",
    "f2": "P",
    "f3": "P",
-   "f4": "U",
+   "f4": "P",
    "f5": "F",
    "f6": "P",
    "f7": "U",
@@ -933,10 +1064,15 @@
    "sources": {
     "f5": "DRHP (SEBI, 2 Jan 2026) p.269: net cash from operating activities Rs (142.60) mn H1 FY26, (98.64) mn FY25 - negative; D/E 0.55 (p.119)",
     "f8": "Soft pass: auditors no qualification (DRHP p.27); anchor portion in offer structure (p.3). Confirm allocation in RHP",
-    "f7": "Pledge: none (DRHP p.99). Post-issue holding blank until price band"
+    "f7": "No pledge (SEBI Deepa Jewellers Limited (Jan 02, 2026) p.99); post-issue % not in DRHP",
+    "f4": "Final subscription 30.49x overall (Chittorgarh https://www.chittorgarh.com/ipo_subscription/deepa-jewellers-ipo/2827/); QIB split not shown on page, so QIB demand not separately verified"
    },
    "u_reasons": {
-    "f7": "Not in SEBI Deepa Jewellers Limited (Jan 02, 2026); needs RHP / price band"
+    "f7": "No pledge (SEBI Deepa Jewellers Limited (Jan 02, 2026) p.99); post-issue % not in DRHP"
+   },
+   "stale": {},
+   "soft": {
+    "f4": "total only"
    }
   },
   {
@@ -944,10 +1080,10 @@
    "group": "Listed",
    "new": false,
    "timing": "21-Sep",
-   "passed": 3,
+   "passed": 5,
    "fails": 2,
-   "unknown": 3,
-   "verdict": "Review",
+   "unknown": 1,
+   "verdict": "Provisional",
    "flag": "fresh 74%; growth <15%/loss | F3: post-issue P/E 9.58x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/manika-plastech-ipo/2483/",
    "source_label": "Chittorgarh",
@@ -955,17 +1091,23 @@
    "f2": "P",
    "f3": "P",
    "f4": "P",
-   "f5": "U",
+   "f5": "P",
    "f6": "F",
    "f7": "U",
-   "f8": "U",
+   "f8": "P",
    "listed_on": "2026-09-21",
    "post_pe": 9.58,
-   "sources": {},
+   "sources": {
+    "f5": "SEBI MANIKA PLASTECH LIMITED (Jul 02, 2025): operating cash flow 245.91 mn (p.77; prior 354.21, 379.29); D/E 0.85 (p.125)",
+    "f7": "No pledge (SEBI MANIKA PLASTECH LIMITED (Jul 02, 2025) p.100); post-issue % not in DRHP",
+    "f8": "Soft pass: no auditor qualification (SEBI MANIKA PLASTECH LIMITED (Jul 02, 2025) p.31); anchor portion in offer structure (p.3). Confirm in RHP"
+   },
    "u_reasons": {
-    "f5": "SEBI filing is DRHP dated Jul 02, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
-    "f7": "SEBI filing is DRHP dated Jul 02, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
-    "f8": "SEBI filing is DRHP dated Jul 02, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI"
+    "f7": "No pledge (SEBI MANIKA PLASTECH LIMITED (Jul 02, 2025) p.100); post-issue % not in DRHP"
+   },
+   "stale": {
+    "f5": "FY25",
+    "f8": "FY25"
    }
   },
   {
@@ -973,28 +1115,37 @@
    "group": "Listed",
    "new": false,
    "timing": "14-Aug",
-   "passed": 3,
+   "passed": 6,
    "fails": 1,
-   "unknown": 4,
-   "verdict": "Review",
+   "unknown": 1,
+   "verdict": "Provisional",
    "flag": "fresh 80% | F3: post-issue P/E 19.38x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/technocraft-ventures-ipo/2565/",
    "source_label": "Chittorgarh",
    "f1": "F",
    "f2": "P",
    "f3": "P",
-   "f4": "U",
-   "f5": "U",
+   "f4": "P",
+   "f5": "P",
    "f6": "P",
    "f7": "U",
-   "f8": "U",
+   "f8": "P",
    "listed_on": "2026-08-14",
    "post_pe": 19.38,
-   "sources": {},
+   "sources": {
+    "f5": "SEBI Technocraft Ventures Limited - DRHP (Aug 13, 2025): operating cash flow 216.84 mn (p.92; prior 13.99, 100.35); D/E 0.73 (p.40)",
+    "f8": "Soft pass: no auditor qualification (SEBI Technocraft Ventures Limited - DRHP (Aug 13, 2025) p.33); anchor portion in offer structure (p.2). Confirm in RHP",
+    "f4": "Final subscription 27.19x overall (Chittorgarh https://www.chittorgarh.com/ipo_subscription/technocraft-ventures-ipo/2565/); QIB split not shown on page, so QIB demand not separately verified"
+   },
    "u_reasons": {
-    "f5": "SEBI filing is DRHP dated Aug 13, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
-    "f7": "SEBI filing is DRHP dated Aug 13, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
-    "f8": "SEBI filing is DRHP dated Aug 13, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI"
+    "f7": "Promoter holding/pledge not found in DRHP text; needs RHP"
+   },
+   "stale": {
+    "f5": "FY25",
+    "f8": "FY25"
+   },
+   "soft": {
+    "f4": "total only"
    }
   },
   {
@@ -1021,8 +1172,8 @@
    "post_pe": 14.33,
    "sources": {},
    "u_reasons": {
-    "f7": "SEBI filing is DRHP dated May 05, 2026 with financials to FY2025 (older than FY26); RHP not on SEBI",
-    "f8": "SEBI filing is DRHP dated May 05, 2026 with financials to FY2025 (older than FY26); RHP not on SEBI"
+    "f7": "Promoter holding/pledge not found in DRHP text; needs RHP",
+    "f8": "Not found in SEBI Jindal Supreme (India) Limited (May 05, 2026); needs RHP"
    }
   },
   {
@@ -1030,9 +1181,9 @@
    "group": "Listed",
    "new": false,
    "timing": "01-Sep",
-   "passed": 2,
+   "passed": 3,
    "fails": 2,
-   "unknown": 4,
+   "unknown": 3,
    "verdict": "Rejected",
    "flag": "OFS-heavy; proceeds not growth-led | F3: post-issue P/E 22.27x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/hy-tech-engineers-ipo/2591/",
@@ -1040,18 +1191,23 @@
    "f1": "F",
    "f2": "F",
    "f3": "P",
-   "f4": "U",
+   "f4": "P",
    "f5": "U",
    "f6": "P",
    "f7": "U",
    "f8": "U",
    "listed_on": "2026-09-01",
    "post_pe": 22.27,
-   "sources": {},
+   "sources": {
+    "f4": "Final subscription 171.69x overall (Chittorgarh https://www.chittorgarh.com/ipo_subscription/hy-tech-engineers-ipo/2591/); QIB split not shown on page, so QIB demand not separately verified"
+   },
    "u_reasons": {
     "f5": "No offer document on SEBI site",
     "f7": "No offer document on SEBI site",
     "f8": "No offer document on SEBI site"
+   },
+   "soft": {
+    "f4": "total only"
    }
   },
   {
@@ -1059,9 +1215,9 @@
    "group": "Listed",
    "new": false,
    "timing": "28-Aug",
-   "passed": 1,
+   "passed": 4,
    "fails": 3,
-   "unknown": 4,
+   "unknown": 1,
    "verdict": "Rejected",
    "flag": "OFS-heavy; proceeds not growth-led | F3: post-issue P/E 35.38x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/tempsens-instruments-india-ipo/2668/",
@@ -1069,18 +1225,28 @@
    "f1": "F",
    "f2": "F",
    "f3": "F",
-   "f4": "U",
-   "f5": "U",
+   "f4": "P",
+   "f5": "P",
    "f6": "P",
    "f7": "U",
-   "f8": "U",
+   "f8": "P",
    "listed_on": "2026-08-28",
    "post_pe": 35.38,
-   "sources": {},
+   "sources": {
+    "f5": "SEBI Tempsens Instruments India Limited (Oct 08, 2025): operating cash flow 541.5 mn (p.87; prior 370.89, 241.39); D/E 0.16 (p.463)",
+    "f7": "No pledge (SEBI Tempsens Instruments India Limited (Oct 08, 2025) p.117); post-issue % not in DRHP",
+    "f8": "Soft pass: no auditor qualification (SEBI Tempsens Instruments India Limited (Oct 08, 2025) p.22); anchor portion in offer structure (p.3). Confirm in RHP",
+    "f4": "Final subscription 128.3x overall (Chittorgarh https://www.chittorgarh.com/ipo_subscription/tempsens-instruments-india-ipo/2668/); QIB split not shown on page, so QIB demand not separately verified"
+   },
    "u_reasons": {
-    "f5": "SEBI filing is DRHP dated Oct 08, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
-    "f7": "SEBI filing is DRHP dated Oct 08, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
-    "f8": "SEBI filing is DRHP dated Oct 08, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI"
+    "f7": "No pledge (SEBI Tempsens Instruments India Limited (Oct 08, 2025) p.117); post-issue % not in DRHP"
+   },
+   "stale": {
+    "f5": "FY25",
+    "f8": "FY25"
+   },
+   "soft": {
+    "f4": "total only"
    }
   },
   {
@@ -1107,9 +1273,9 @@
    "post_pe": 22.95,
    "sources": {},
    "u_reasons": {
-    "f5": "SEBI filing is DRHP dated Apr 07, 2026 with financials to FY2025 (older than FY26); RHP not on SEBI",
-    "f7": "SEBI filing is DRHP dated Apr 07, 2026 with financials to FY2025 (older than FY26); RHP not on SEBI",
-    "f8": "SEBI filing is DRHP dated Apr 07, 2026 with financials to FY2025 (older than FY26); RHP not on SEBI"
+    "f5": "Not found in SEBI Adroit Industries (India) Limi (Apr 07, 2026); needs RHP",
+    "f7": "Promoter holding/pledge not found in DRHP text; needs RHP",
+    "f8": "Not found in SEBI Adroit Industries (India) Limi (Apr 07, 2026); needs RHP"
    }
   },
   {
@@ -1117,9 +1283,9 @@
    "group": "Listed",
    "new": false,
    "timing": "24-Jul",
-   "passed": 2,
+   "passed": 4,
    "fails": 3,
-   "unknown": 3,
+   "unknown": 1,
    "verdict": "Rejected",
    "flag": "fresh 89%; proceeds not growth-led; D/E 1.63 | F3: post-issue P/E 17.55x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/caliber-mining-ipo/1999/",
@@ -1127,17 +1293,26 @@
    "f1": "F",
    "f2": "F",
    "f3": "P",
-   "f4": "U",
+   "f4": "P",
    "f5": "F",
    "f6": "P",
    "f7": "U",
-   "f8": "U",
+   "f8": "P",
    "listed_on": "2026-07-24",
    "post_pe": 17.55,
-   "sources": {},
+   "sources": {
+    "f7": "No pledge (SEBI CALIBER MINING AND LOGISTICS LIMITED (Jan 09, 2025) p.115); post-issue % not in DRHP",
+    "f8": "Soft pass: no auditor qualification (SEBI CALIBER MINING AND LOGISTICS LIMITED (Jan 09, 2025) p.33); anchor portion in offer structure (p.4). Confirm in RHP",
+    "f4": "Final subscription 107.52x overall (Chittorgarh https://www.chittorgarh.com/ipo_subscription/caliber-mining-ipo/1999/); QIB split not shown on page, so QIB demand not separately verified"
+   },
    "u_reasons": {
-    "f7": "SEBI filing is DRHP dated Jan 09, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
-    "f8": "SEBI filing is DRHP dated Jan 09, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI"
+    "f7": "No pledge (SEBI CALIBER MINING AND LOGISTICS LIMITED (Jan 09, 2025) p.115); post-issue % not in DRHP"
+   },
+   "stale": {
+    "f8": "FY25"
+   },
+   "soft": {
+    "f4": "total only"
    }
   },
   {
@@ -1145,9 +1320,9 @@
    "group": "Listed",
    "new": false,
    "timing": "03-Sep",
-   "passed": 2,
-   "fails": 2,
-   "unknown": 4,
+   "passed": 3,
+   "fails": 3,
+   "unknown": 2,
    "verdict": "Rejected",
    "flag": "fresh 71%; proceeds not growth-led | F3: post-issue P/E 15.62x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/lumino-industries-ipo/2013/",
@@ -1155,18 +1330,27 @@
    "f1": "F",
    "f2": "F",
    "f3": "P",
-   "f4": "U",
-   "f5": "U",
+   "f4": "P",
+   "f5": "F",
    "f6": "P",
    "f7": "U",
    "f8": "U",
    "listed_on": "2026-09-03",
    "post_pe": 15.62,
-   "sources": {},
+   "sources": {
+    "f5": "SEBI LUMINO INDUSTRIES LIMITED (Jan 23, 2025): operating cash flow -2985.14 mn (p.43; prior -921.72, 718.33); D/E 1.44 (p.346)",
+    "f7": "No pledge (SEBI LUMINO INDUSTRIES LIMITED (Jan 23, 2025) p.125); post-issue % not in DRHP",
+    "f4": "Final subscription 87.25x overall (Chittorgarh https://www.chittorgarh.com/ipo_subscription/lumino-industries-ipo/2013/); QIB split not shown on page, so QIB demand not separately verified"
+   },
    "u_reasons": {
-    "f5": "SEBI filing is DRHP dated Jan 23, 2025 with financials to FY2024 (older than FY26); RHP not on SEBI",
-    "f7": "SEBI filing is DRHP dated Jan 23, 2025 with financials to FY2024 (older than FY26); RHP not on SEBI",
-    "f8": "SEBI filing is DRHP dated Jan 23, 2025 with financials to FY2024 (older than FY26); RHP not on SEBI"
+    "f7": "No pledge (SEBI LUMINO INDUSTRIES LIMITED (Jan 23, 2025) p.125); post-issue % not in DRHP",
+    "f8": "Not found in SEBI LUMINO INDUSTRIES LIMITED (Jan 23, 2025); needs RHP"
+   },
+   "stale": {
+    "f5": "FY24"
+   },
+   "soft": {
+    "f4": "total only"
    }
   },
   {
@@ -1174,9 +1358,9 @@
    "group": "Listed",
    "new": false,
    "timing": "19-Aug",
-   "passed": 2,
+   "passed": 5,
    "fails": 2,
-   "unknown": 4,
+   "unknown": 1,
    "verdict": "Rejected",
    "flag": "OFS-heavy; growth <15%/loss | F3: post-issue P/E 18.65x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/behari-lal-engineering-ipo/2659/",
@@ -1184,18 +1368,28 @@
    "f1": "F",
    "f2": "P",
    "f3": "P",
-   "f4": "U",
-   "f5": "U",
+   "f4": "P",
+   "f5": "P",
    "f6": "F",
    "f7": "U",
-   "f8": "U",
+   "f8": "P",
    "listed_on": "2026-08-19",
    "post_pe": 18.65,
-   "sources": {},
+   "sources": {
+    "f5": "SEBI Behari Lal Engineering Limited - DRHP (Oct 01, 2025): operating cash flow 618.86 mn (p.386; prior 371.44, 133.83); D/E 0.03 (p.163)",
+    "f7": "No pledge (SEBI Behari Lal Engineering Limited - DRHP (Oct 01, 2025) p.121); post-issue % not in DRHP",
+    "f8": "Soft pass: no auditor qualification (SEBI Behari Lal Engineering Limited - DRHP (Oct 01, 2025) p.28); anchor portion in offer structure (p.4). Confirm in RHP",
+    "f4": "Final subscription 76.03x overall (Chittorgarh https://www.chittorgarh.com/ipo_subscription/behari-lal-engineering-ipo/2659/); QIB split not shown on page, so QIB demand not separately verified"
+   },
    "u_reasons": {
-    "f5": "SEBI filing is DRHP dated Oct 01, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
-    "f7": "SEBI filing is DRHP dated Oct 01, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
-    "f8": "SEBI filing is DRHP dated Oct 01, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI"
+    "f7": "No pledge (SEBI Behari Lal Engineering Limited - DRHP (Oct 01, 2025) p.121); post-issue % not in DRHP"
+   },
+   "stale": {
+    "f5": "FY25",
+    "f8": "FY25"
+   },
+   "soft": {
+    "f4": "total only"
    }
   },
   {
@@ -1203,9 +1397,9 @@
    "group": "Listed",
    "new": false,
    "timing": "25-Aug",
-   "passed": 1,
-   "fails": 3,
-   "unknown": 4,
+   "passed": 2,
+   "fails": 4,
+   "unknown": 2,
    "verdict": "Rejected",
    "flag": "fresh 61%; growth <15%/loss | F3: post-issue P/E 28.02x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/sunshine-pictures-ipo/2002/",
@@ -1213,18 +1407,27 @@
    "f1": "F",
    "f2": "P",
    "f3": "F",
-   "f4": "U",
-   "f5": "U",
+   "f4": "P",
+   "f5": "F",
    "f6": "F",
    "f7": "U",
    "f8": "U",
    "listed_on": "2026-08-25",
    "post_pe": 28.02,
-   "sources": {},
+   "sources": {
+    "f5": "SEBI Sunshine Pictures Limited - DRHP (Jan 10, 2025): operating cash flow 1671.26 mn (p.81; prior 3157.07, -500.56); D/E 1.9 (p.170)",
+    "f7": "No pledge (SEBI Sunshine Pictures Limited - DRHP (Jan 10, 2025) p.105); post-issue % not in DRHP",
+    "f4": "Final subscription 73.72x overall (Chittorgarh https://www.chittorgarh.com/ipo_subscription/sunshine-pictures-ipo/2002/); QIB split not shown on page, so QIB demand not separately verified"
+   },
    "u_reasons": {
-    "f5": "SEBI filing is DRHP dated Jan 10, 2025 with financials to FY2024 (older than FY26); RHP not on SEBI",
-    "f7": "SEBI filing is DRHP dated Jan 10, 2025 with financials to FY2024 (older than FY26); RHP not on SEBI",
-    "f8": "SEBI filing is DRHP dated Jan 10, 2025 with financials to FY2024 (older than FY26); RHP not on SEBI"
+    "f7": "No pledge (SEBI Sunshine Pictures Limited - DRHP (Jan 10, 2025) p.105); post-issue % not in DRHP",
+    "f8": "Not found in SEBI Sunshine Pictures Limited - DR (Jan 10, 2025); needs RHP"
+   },
+   "stale": {
+    "f5": "FY24"
+   },
+   "soft": {
+    "f4": "total only"
    }
   },
   {
@@ -1232,9 +1435,9 @@
    "group": "Listed",
    "new": false,
    "timing": "04-Sep",
-   "passed": 2,
-   "fails": 2,
-   "unknown": 4,
+   "passed": 4,
+   "fails": 3,
+   "unknown": 1,
    "verdict": "Rejected",
    "flag": "proceeds not growth-led; growth <15%/loss | F3: post-issue P/E 13.9x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/priority-jewels-ipo/2435/",
@@ -1242,18 +1445,28 @@
    "f1": "P",
    "f2": "F",
    "f3": "P",
-   "f4": "U",
-   "f5": "U",
+   "f4": "P",
+   "f5": "F",
    "f6": "F",
    "f7": "U",
-   "f8": "U",
+   "f8": "P",
    "listed_on": "2026-09-04",
    "post_pe": 13.9,
-   "sources": {},
+   "sources": {
+    "f5": "SEBI PRIORITY JEWELS LIMITED (May 06, 2025): operating cash flow 93.6 mn (p.278; prior 113.53); D/E 1.17 (p.20)",
+    "f7": "No pledge (SEBI PRIORITY JEWELS LIMITED (May 06, 2025) p.86); post-issue % not in DRHP",
+    "f8": "Soft pass: no auditor qualification (SEBI PRIORITY JEWELS LIMITED (May 06, 2025) p.348); anchor portion in offer structure (p.3). Confirm in RHP",
+    "f4": "Final subscription 69.7x overall (Chittorgarh https://www.chittorgarh.com/ipo_subscription/priority-jewels-ipo/2435/); QIB split not shown on page, so QIB demand not separately verified"
+   },
    "u_reasons": {
-    "f5": "SEBI filing is DRHP dated May 06, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
-    "f7": "SEBI filing is DRHP dated May 06, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
-    "f8": "SEBI filing is DRHP dated May 06, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI"
+    "f7": "No pledge (SEBI PRIORITY JEWELS LIMITED (May 06, 2025) p.86); post-issue % not in DRHP"
+   },
+   "stale": {
+    "f5": "FY25",
+    "f8": "FY25"
+   },
+   "soft": {
+    "f4": "total only"
    }
   },
   {
@@ -1261,9 +1474,9 @@
    "group": "Listed",
    "new": false,
    "timing": "08-Jul",
-   "passed": 2,
+   "passed": 5,
    "fails": 2,
-   "unknown": 4,
+   "unknown": 1,
    "verdict": "Rejected",
    "flag": "fresh 87%; growth <15%/loss | F3: post-issue P/E 22.43x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/knack-packaging-ipo/2592/",
@@ -1271,18 +1484,28 @@
    "f1": "F",
    "f2": "P",
    "f3": "P",
-   "f4": "U",
-   "f5": "U",
+   "f4": "P",
+   "f5": "P",
    "f6": "F",
    "f7": "U",
-   "f8": "U",
+   "f8": "P",
    "listed_on": "2026-07-08",
    "post_pe": 22.43,
-   "sources": {},
+   "sources": {
+    "f5": "SEBI Knack Packaging Limited - DRHP (Sep 09, 2025): operating cash flow 931.71 mn (p.101; prior 331.67, 410.82); D/E 0.8 (p.153)",
+    "f7": "No pledge (SEBI Knack Packaging Limited - DRHP (Sep 09, 2025) p.121); post-issue % not in DRHP",
+    "f8": "Soft pass: no auditor qualification (SEBI Knack Packaging Limited - DRHP (Sep 09, 2025) p.34); anchor portion in offer structure (p.3). Confirm in RHP",
+    "f4": "Final subscription 61.1x overall (Chittorgarh https://www.chittorgarh.com/ipo_subscription/knack-packaging-ipo/2592/); QIB split not shown on page, so QIB demand not separately verified"
+   },
    "u_reasons": {
-    "f5": "SEBI filing is DRHP dated Sep 09, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
-    "f7": "SEBI filing is DRHP dated Sep 09, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
-    "f8": "SEBI filing is DRHP dated Sep 09, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI"
+    "f7": "No pledge (SEBI Knack Packaging Limited - DRHP (Sep 09, 2025) p.121); post-issue % not in DRHP"
+   },
+   "stale": {
+    "f5": "FY25",
+    "f8": "FY25"
+   },
+   "soft": {
+    "f4": "total only"
    }
   },
   {
@@ -1290,9 +1513,9 @@
    "group": "Listed",
    "new": false,
    "timing": "19-Aug",
-   "passed": 1,
+   "passed": 3,
    "fails": 4,
-   "unknown": 3,
+   "unknown": 1,
    "verdict": "Rejected",
    "flag": "fresh 55%; P/E negative; growth <15%/loss; no promoter",
    "source_url": "https://www.chittorgarh.com/ipo/shiprocket-ipo/2450/",
@@ -1300,16 +1523,24 @@
    "f1": "F",
    "f2": "P",
    "f3": "F",
-   "f4": "U",
+   "f4": "P",
    "f5": "U",
    "f6": "F",
    "f7": "F",
-   "f8": "U",
+   "f8": "P",
    "listed_on": "2026-08-19",
-   "sources": {},
+   "sources": {
+    "f8": "Soft pass: no auditor qualification (SEBI Shiprocket Limited - UDRHP (Dec 15, 2025) p.39); anchor portion in offer structure (p.3). Confirm in RHP",
+    "f4": "Final subscription 56.48x overall (Chittorgarh https://www.chittorgarh.com/ipo_subscription/shiprocket-ipo/2450/); QIB split not shown on page, so QIB demand not separately verified"
+   },
    "u_reasons": {
-    "f5": "SEBI filing is DRHP dated Dec 15, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
-    "f8": "SEBI filing is DRHP dated Dec 15, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI"
+    "f5": "Not found in SEBI Shiprocket Limited - UDRHP (Dec 15, 2025); needs RHP"
+   },
+   "stale": {
+    "f8": "FY25"
+   },
+   "soft": {
+    "f4": "total only"
    }
   },
   {
@@ -1317,9 +1548,9 @@
    "group": "Listed",
    "new": false,
    "timing": "17-Aug",
-   "passed": 1,
+   "passed": 2,
    "fails": 3,
-   "unknown": 4,
+   "unknown": 3,
    "verdict": "Rejected",
    "flag": "OFS-heavy; proceeds not growth-led | F3: post-issue P/E 44.9x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/dhoot-transmission-ipo/2859/",
@@ -1327,18 +1558,23 @@
    "f1": "F",
    "f2": "F",
    "f3": "F",
-   "f4": "U",
+   "f4": "P",
    "f5": "U",
    "f6": "P",
    "f7": "U",
    "f8": "U",
    "listed_on": "2026-08-17",
    "post_pe": 44.9,
-   "sources": {},
+   "sources": {
+    "f4": "Final subscription 52.71x overall (Chittorgarh https://www.chittorgarh.com/ipo_subscription/dhoot-transmission-ipo/2859/); QIB split not shown on page, so QIB demand not separately verified"
+   },
    "u_reasons": {
-    "f5": "SEBI filing is DRHP dated May 29, 2026 with financials to FY2025 (older than FY26); RHP not on SEBI",
-    "f7": "SEBI filing is DRHP dated May 29, 2026 with financials to FY2025 (older than FY26); RHP not on SEBI",
-    "f8": "SEBI filing is DRHP dated May 29, 2026 with financials to FY2025 (older than FY26); RHP not on SEBI"
+    "f5": "Not found in SEBI Dhoot Transmission Limited  -  (May 29, 2026); needs RHP",
+    "f7": "Promoter holding/pledge not found in DRHP text; needs RHP",
+    "f8": "Not found in SEBI Dhoot Transmission Limited  -  (May 29, 2026); needs RHP"
+   },
+   "soft": {
+    "f4": "total only"
    }
   },
   {
@@ -1346,9 +1582,9 @@
    "group": "Listed",
    "new": false,
    "timing": "30-Jul",
-   "passed": 1,
+   "passed": 2,
    "fails": 3,
-   "unknown": 4,
+   "unknown": 3,
    "verdict": "Rejected",
    "flag": "OFS-heavy; proceeds not growth-led | F3: post-issue P/E 44.95x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/indo-mim-ipo/2682/",
@@ -1356,18 +1592,23 @@
    "f1": "F",
    "f2": "F",
    "f3": "F",
-   "f4": "U",
+   "f4": "P",
    "f5": "U",
    "f6": "P",
    "f7": "U",
    "f8": "U",
    "listed_on": "2026-07-30",
    "post_pe": 44.95,
-   "sources": {},
+   "sources": {
+    "f4": "Final subscription 50.89x overall (Chittorgarh https://www.chittorgarh.com/ipo_subscription/indo-mim-ipo/2682/); QIB split not shown on page, so QIB demand not separately verified"
+   },
    "u_reasons": {
     "f5": "No offer document on SEBI site",
     "f7": "No offer document on SEBI site",
     "f8": "No offer document on SEBI site"
+   },
+   "soft": {
+    "f4": "total only"
    }
   },
   {
@@ -1375,9 +1616,9 @@
    "group": "Listed",
    "new": false,
    "timing": "21-Jul",
-   "passed": 1,
+   "passed": 2,
    "fails": 3,
-   "unknown": 4,
+   "unknown": 3,
    "verdict": "Rejected",
    "flag": "OFS-heavy; proceeds not growth-led | F3: post-issue P/E 38.12x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/sbi-funds-management-ipo/2949/",
@@ -1385,18 +1626,23 @@
    "f1": "F",
    "f2": "F",
    "f3": "F",
-   "f4": "U",
+   "f4": "P",
    "f5": "U",
    "f6": "P",
    "f7": "U",
    "f8": "U",
    "listed_on": "2026-07-21",
    "post_pe": 38.12,
-   "sources": {},
+   "sources": {
+    "f4": "Final subscription 30.47x overall (Chittorgarh https://www.chittorgarh.com/ipo_subscription/sbi-funds-management-ipo/2949/); QIB split not shown on page, so QIB demand not separately verified"
+   },
    "u_reasons": {
-    "f5": "SEBI filing is DRHP dated Mar 24, 2026 with financials to FY2025 (older than FY26); RHP not on SEBI",
-    "f7": "SEBI filing is DRHP dated Mar 24, 2026 with financials to FY2025 (older than FY26); RHP not on SEBI",
-    "f8": "SEBI filing is DRHP dated Mar 24, 2026 with financials to FY2025 (older than FY26); RHP not on SEBI"
+    "f5": "Not found in SEBI SBI Funds Management Limited - (Mar 24, 2026); needs RHP",
+    "f7": "Promoter holding/pledge not found in DRHP text; needs RHP",
+    "f8": "Not found in SEBI SBI Funds Management Limited - (Mar 24, 2026); needs RHP"
+   },
+   "soft": {
+    "f4": "total only"
    }
   },
   {
@@ -1404,9 +1650,9 @@
    "group": "Listed",
    "new": false,
    "timing": "16-Jul",
-   "passed": 2,
+   "passed": 4,
    "fails": 3,
-   "unknown": 3,
+   "unknown": 1,
    "verdict": "Rejected",
    "flag": "fresh 73%; proceeds not growth-led; D/E 1.1 | F3: post-issue P/E 19.82x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/laser-power-infra-ipo/2654/",
@@ -1414,17 +1660,26 @@
    "f1": "F",
    "f2": "F",
    "f3": "P",
-   "f4": "U",
+   "f4": "P",
    "f5": "F",
    "f6": "P",
    "f7": "U",
-   "f8": "U",
+   "f8": "P",
    "listed_on": "2026-07-16",
    "post_pe": 19.82,
-   "sources": {},
+   "sources": {
+    "f7": "No pledge (SEBI Laser Power and Infra Limited  - DRHP (Oct 09, 2025) p.132); post-issue % not in DRHP",
+    "f8": "Soft pass: no auditor qualification (SEBI Laser Power and Infra Limited  - DRHP (Oct 09, 2025) p.344); anchor portion in offer structure (p.2). Confirm in RHP",
+    "f4": "Final subscription 28.97x overall (Chittorgarh https://www.chittorgarh.com/ipo_subscription/laser-power-infra-ipo/2654/); QIB split not shown on page, so QIB demand not separately verified"
+   },
    "u_reasons": {
-    "f7": "SEBI filing is DRHP dated Oct 09, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
-    "f8": "SEBI filing is DRHP dated Oct 09, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI"
+    "f7": "No pledge (SEBI Laser Power and Infra Limited  - DRHP (Oct 09, 2025) p.132); post-issue % not in DRHP"
+   },
+   "stale": {
+    "f8": "FY25"
+   },
+   "soft": {
+    "f4": "total only"
    }
   },
   {
@@ -1432,9 +1687,9 @@
    "group": "Listed",
    "new": false,
    "timing": "15-Jul",
-   "passed": 0,
-   "fails": 4,
-   "unknown": 4,
+   "passed": 2,
+   "fails": 5,
+   "unknown": 1,
    "verdict": "Rejected",
    "flag": "OFS-heavy; proceeds not growth-led; growth <15%/loss | F3: post-issue P/E 44.8x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/kusumgar-ipo/2670/",
@@ -1442,18 +1697,28 @@
    "f1": "F",
    "f2": "F",
    "f3": "F",
-   "f4": "U",
-   "f5": "U",
+   "f4": "P",
+   "f5": "F",
    "f6": "F",
    "f7": "U",
-   "f8": "U",
+   "f8": "P",
    "listed_on": "2026-07-15",
    "post_pe": 44.8,
-   "sources": {},
+   "sources": {
+    "f5": "SEBI KUSUMGAR LIMITED (Oct 09, 2025): operating cash flow -1549.77 mn (p.46; prior 2009.64, 175.84)",
+    "f7": "No pledge (SEBI KUSUMGAR LIMITED (Oct 09, 2025) p.110); post-issue % not in DRHP",
+    "f8": "Soft pass: no auditor qualification (SEBI KUSUMGAR LIMITED (Oct 09, 2025) p.261); anchor portion in offer structure (p.3). Confirm in RHP",
+    "f4": "Final subscription 94.75x overall (Chittorgarh https://www.chittorgarh.com/ipo_subscription/kusumgar-ipo/2670/); QIB split not shown on page, so QIB demand not separately verified"
+   },
    "u_reasons": {
-    "f5": "SEBI filing is DRHP dated Oct 09, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
-    "f7": "SEBI filing is DRHP dated Oct 09, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
-    "f8": "SEBI filing is DRHP dated Oct 09, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI"
+    "f7": "No pledge (SEBI KUSUMGAR LIMITED (Oct 09, 2025) p.110); post-issue % not in DRHP"
+   },
+   "stale": {
+    "f5": "FY25",
+    "f8": "FY25"
+   },
+   "soft": {
+    "f4": "total only"
    }
   },
   {
@@ -1461,9 +1726,9 @@
    "group": "Listed",
    "new": false,
    "timing": "10-Jun",
-   "passed": 1,
-   "fails": 3,
-   "unknown": 4,
+   "passed": 3,
+   "fails": 4,
+   "unknown": 1,
    "verdict": "Rejected",
    "flag": "OFS-heavy; proceeds not growth-led; growth <15%/loss | F3: post-issue P/E 19.42x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/cmr-green-technologies-ipo/2586/",
@@ -1471,18 +1736,28 @@
    "f1": "F",
    "f2": "F",
    "f3": "P",
-   "f4": "U",
-   "f5": "U",
+   "f4": "P",
+   "f5": "F",
    "f6": "F",
    "f7": "U",
-   "f8": "U",
+   "f8": "P",
    "listed_on": "2026-06-10",
    "post_pe": 19.42,
-   "sources": {},
+   "sources": {
+    "f5": "SEBI CMR GREEN TECHNOLOGIES LIMITED (Sep 10, 2025): operating cash flow -920.03 mn (p.59; prior 741.02, 6108.95); D/E 0.59 (p.440)",
+    "f7": "No pledge (SEBI CMR GREEN TECHNOLOGIES LIMITED (Sep 10, 2025) p.123); post-issue % not in DRHP",
+    "f8": "Soft pass: no auditor qualification (SEBI CMR GREEN TECHNOLOGIES LIMITED (Sep 10, 2025) p.30); anchor portion in offer structure (p.2). Confirm in RHP",
+    "f4": "Final subscription 88.69x overall (Chittorgarh https://www.chittorgarh.com/ipo_subscription/cmr-green-technologies-ipo/2586/); QIB split not shown on page, so QIB demand not separately verified"
+   },
    "u_reasons": {
-    "f5": "SEBI filing is DRHP dated Sep 10, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
-    "f7": "SEBI filing is DRHP dated Sep 10, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
-    "f8": "SEBI filing is DRHP dated Sep 10, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI"
+    "f7": "No pledge (SEBI CMR GREEN TECHNOLOGIES LIMITED (Sep 10, 2025) p.123); post-issue % not in DRHP"
+   },
+   "stale": {
+    "f5": "FY25",
+    "f8": "FY25"
+   },
+   "soft": {
+    "f4": "total only"
    }
   },
   {
@@ -1490,9 +1765,9 @@
    "group": "Listed",
    "new": false,
    "timing": "12-Jun",
-   "passed": 1,
+   "passed": 4,
    "fails": 4,
-   "unknown": 3,
+   "unknown": 0,
    "verdict": "Rejected",
    "flag": "OFS-heavy; proceeds not growth-led; growth <15%/loss; promoter 45.7% | F3: post-issue P/E 15.35x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/hexagon-nutrition-ipo/2658/",
@@ -1500,17 +1775,25 @@
    "f1": "F",
    "f2": "F",
    "f3": "P",
-   "f4": "U",
-   "f5": "U",
+   "f4": "P",
+   "f5": "P",
    "f6": "F",
    "f7": "F",
-   "f8": "U",
+   "f8": "P",
    "listed_on": "2026-06-12",
    "post_pe": 15.35,
-   "sources": {},
-   "u_reasons": {
-    "f5": "SEBI filing is DRHP dated Oct 08, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI",
-    "f8": "SEBI filing is DRHP dated Oct 08, 2025 with financials to FY2025 (older than FY26); RHP not on SEBI"
+   "sources": {
+    "f5": "SEBI Hexagon Nutrition Limited (Oct 08, 2025): operating cash flow 377.94 mn (p.349; prior 233.8, -0.01); D/E 0.14 (p.152)",
+    "f8": "Soft pass: no auditor qualification (SEBI Hexagon Nutrition Limited (Oct 08, 2025) p.36); anchor portion in offer structure (p.2). Confirm in RHP",
+    "f4": "Final subscription 37.47x overall (Chittorgarh https://www.chittorgarh.com/ipo_subscription/hexagon-nutrition-ipo/2658/); QIB split not shown on page, so QIB demand not separately verified"
+   },
+   "u_reasons": {},
+   "stale": {
+    "f5": "FY25",
+    "f8": "FY25"
+   },
+   "soft": {
+    "f4": "total only"
    }
   }
  ],
