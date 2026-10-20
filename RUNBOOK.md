@@ -34,3 +34,7 @@ Goal: every Indian mainboard IPO (open, upcoming, listed in the last 6 months) h
 Public page: https://nirajvariava2-lang.github.io/IPO-screening-data/ (GitHub Pages, branch main, root). After each data refresh also copy `ipo_screen_v3.json` into the repo root and commit it; the page fetches it. Rebuild `index.html` only if the dashboard page code changes: `python scripts/build_site.py <saved dashboard page>`.
 
 
+
+## Equity research reports
+Reports use the 7-section format: `python scripts/screener_full.py <CODE>` then `python scripts/report.py <CODE> "<Company>"` (company text lives in `scripts/report_content_<company>.py`). `flat.py` embeds `reports/<slug>.frag.html` in the dashboard data as the `report` column. Pilot: Karamtara Engineering.
+

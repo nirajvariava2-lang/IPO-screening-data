@@ -86,6 +86,10 @@ _load(){fetch('ipo_screen_v3.json?'+Date.now()).then(r=>r.json()).then(j=>{rows=
 .rk td{padding:7px 8px;border-bottom:1px solid var(--color-border-line)}.rk tbody tr{cursor:pointer}.rk tbody tr:hover{background:var(--color-bg)}
 .rk .c{text-align:center}.rk td.nm{font-weight:600}.rk .dq{font-size:var(--cds-font-size-caption);color:var(--color-fg-muted)}.rk .dq.ok{color:var(--color-ok)}
 .rk .rn{font-family:var(--font-anthropic-serif);font-size:1.15rem}
+.rvbar{display:flex;gap:8px;justify-content:space-between;flex-wrap:wrap;padding:8px 0 12px;max-width:900px;margin:0 auto}
+.rvbar .btn{padding:7px 14px;font-size:var(--cds-font-size-body)}
+.repbtn{margin-top:10px;background:var(--color-fg)!important;color:var(--color-bg)!important;border-color:var(--color-fg)!important;padding:8px 14px!important;font-weight:600}
+@media print{#rv .rvbar{display:none}}
 .charts{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,22rem),1fr));gap:var(--cds-gap-md)}
 .br{display:grid;grid-template-columns:7.5rem minmax(0,1fr);gap:8px;align-items:center;margin:5px 0;font-size:var(--cds-font-size-caption)}
 .br span.l{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
@@ -209,6 +213,7 @@ details.gl dt{font-weight:600}details.gl dd{margin:0;color:var(--color-fg-muted)
    <div class="pill" id="d-meta">Click any row or card to see the number behind every filter.</div>
    <div class="facts" id="d-facts"></div>
    <div class="tw" style="max-height:none"><table class="dt" id="d-tbl"><thead><tr><th>Filter</th><th>Your rule</th><th>Actual number</th><th class="c">Result</th></tr></thead><tbody id="d-body"></tbody></table></div>
+   <div><button class="btn repbtn" id="d-rep" hidden>Open equity research report</button></div>
    <div class="flag" id="d-flag" style="margin-top:10px;line-height:1.5;overflow-wrap:anywhere"></div><a id="d-src" target="_blank" rel="noopener" style="font-size:var(--cds-font-size-caption)"></a>
   </div>
 
@@ -222,6 +227,7 @@ details.gl dt{font-weight:600}details.gl dd{margin:0;color:var(--color-fg-muted)
  </div>
 </div>
 </div>
+<div id="rv" style="display:none"><div class="rvbar"><button class="btn" id="rv-back">← Back to screener</button><button class="btn" id="rv-print">Print / Save as PDF</button></div><div id="rv-body"></div></div>
 <div class="tt" id="tip" hidden></div>
 <script>
 (function(){
@@ -386,6 +392,7 @@ function draw(){
    const src=r['src_'+f];if(src){const n=document.createElement('div');n.className='nt';n.textContent=src;c3.append(n);}
    const c4=document.createElement('td');c4.className='c';const s=document.createElement('span');s.className='fc '+r[f]+(r['old_'+f]?' old':'');s.textContent=sym(r[f]);c4.append(s);if(r['old_'+f]){const sm=document.createElement('div');sm.className='nt';sm.textContent=r['old_'+f]==='total only'?'overall only':'older data '+r['old_'+f];c4.append(sm);}
    tr.append(c1,c2,c3,c4);body.append(tr);});
+  window.curRow=r;$('d-rep').hidden=!r.report;
   $('d-flag').textContent=r.flag||'';const a=$('d-src');if(r.source_url){a.href=r.source_url;a.textContent='Open source: '+(r.source_label||'link')+' ↗';}else{a.removeAttribute('href');a.textContent='';}
  }
 }
@@ -399,6 +406,9 @@ $('pe').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)re
 $('seg').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;S.g=b.dataset.g;document.querySelectorAll('#seg button').forEach(x=>x.classList.toggle('on',x===b));draw();});
 $('kpis').addEventListener('click',e=>{const t=e.target.closest('.tile.click');if(!t)return;S.v=(t.dataset.v===S.v)?'all':t.dataset.v;draw();});
 $('reset').addEventListener('click',()=>{Object.assign(S,{g:'all',v:'all',q:'',minp:0,nof:'all',sort:'default',dir:1,pe:'ind'});document.querySelectorAll('#pe button').forEach(x=>x.classList.toggle('on',x.dataset.p==='ind'));$('q').value='';$('minp').value='0';$('nof').value='all';document.querySelectorAll('#seg button').forEach(x=>x.classList.toggle('on',x.dataset.g==='all'));draw();});
+$('d-rep').addEventListener('click',()=>{const r=window.curRow;if(!r||!r.report)return;$('rv-body').innerHTML=r.report;$('desk').style.display='none';$('rv').style.display='block';window.scrollTo(0,0);});
+$('rv-back').addEventListener('click',()=>{$('rv').style.display='none';$('desk').style.display='';});
+$('rv-print').addEventListener('click',()=>window.print());
 dash.onData(draw);
 })();
 </script>

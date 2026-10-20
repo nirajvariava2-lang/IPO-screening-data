@@ -847,9 +847,9 @@
     "ocf": -14.0,
     "ocf_unit": "mn",
     "ind_name": "Civil Construction",
-    "ind_pe": 21.3,
-    "ind_n": 25,
-    "rel": 1.09
+    "ind_pe": 15.9,
+    "ind_n": 121,
+    "rel": 1.46
    },
    "f3_ind": "F"
   },
@@ -955,10 +955,10 @@
     "ocf": -15.0,
     "ocf_unit": "cr",
     "ind_name": "Gems, Jewellery And Watches",
-    "ind_pe": 25.4,
-    "ind_n": 25,
+    "ind_pe": 22.0,
+    "ind_n": 60,
     "cur_pe": 19.5,
-    "rel": 0.76
+    "rel": 0.88
    },
    "f3_ind": "P"
   },
@@ -1067,10 +1067,10 @@
     "ocf_unit": "mn",
     "ocf_period": "FY25 DRHP",
     "ind_name": "IT Enabled Services",
-    "ind_pe": 36.7,
-    "ind_n": 25,
+    "ind_pe": 25.8,
+    "ind_n": 71,
     "cur_pe": 17.8,
-    "rel": 0.53
+    "rel": 0.75
    },
    "f3_ind": "P"
   },
@@ -1192,10 +1192,10 @@
     "ocf_unit": "mn",
     "ocf_period": "FY25 DRHP",
     "ind_name": "Hospital",
-    "ind_pe": 45.9,
-    "ind_n": 25,
+    "ind_pe": 44.9,
+    "ind_n": 30,
     "cur_pe": 71.7,
-    "rel": 2.2
+    "rel": 2.25
    },
    "f3_ind": "F"
   },
@@ -1305,10 +1305,10 @@
     "ocf_unit": "mn",
     "ocf_period": "FY24 DRHP",
     "ind_name": "Iron & Steel Products",
-    "ind_pe": 29.4,
-    "ind_n": 25,
+    "ind_pe": 21.9,
+    "ind_n": 91,
     "cur_pe": 11.0,
-    "rel": 0.45
+    "rel": 0.6
    },
    "f3_ind": "P"
   },
@@ -1415,10 +1415,10 @@
     "ocf_unit": "mn",
     "ocf_period": "FY24 DRHP",
     "ind_name": "Residential, Commercial Projects",
-    "ind_pe": 30.2,
-    "ind_n": 20,
+    "ind_pe": 23.1,
+    "ind_n": 93,
     "cur_pe": 14.1,
-    "rel": 0.65
+    "rel": 0.85
    },
    "f3_ind": "P"
   },
@@ -1527,10 +1527,10 @@
     "ocf_unit": "mn",
     "ocf_period": "FY25 DRHP",
     "ind_name": "Speciality Retail",
-    "ind_pe": 39.5,
-    "ind_n": 22,
+    "ind_pe": 38.9,
+    "ind_n": 23,
     "cur_pe": 74.5,
-    "rel": 1.35
+    "rel": 1.37
    },
    "f3_ind": "F"
   },
@@ -1668,11 +1668,11 @@
     "de": 0.1,
     "de_period": "latest restated period (borrowing / net worth)",
     "ind_name": "Heavy Electrical Equipment",
-    "ind_pe": 56.9,
-    "ind_n": 25,
-    "rel": 0.68
+    "ind_pe": 32.9,
+    "ind_n": 48,
+    "rel": 1.17
    },
-   "f3_ind": "P"
+   "f3_ind": "F"
   },
   {
    "company": "Glass Wall Systems",
@@ -1823,7 +1823,7 @@
     "ocf_unit": "mn",
     "ocf_period": "FY25 DRHP",
     "ind_name": "Financial Technology (Fintech)",
-    "ind_pe": 25.8,
+    "ind_pe": 26.3,
     "ind_n": 12,
     "cur_pe": 25.2,
     "rel": 0.33
@@ -1934,10 +1934,10 @@
     "ocf": -3186.22,
     "ocf_unit": "mn",
     "ind_name": "Stockbroking & Allied",
-    "ind_pe": 21.2,
-    "ind_n": 24,
+    "ind_pe": 19.5,
+    "ind_n": 32,
     "cur_pe": 22.4,
-    "rel": 1.27
+    "rel": 1.38
    },
    "f3_ind": "F"
   },
@@ -2054,9 +2054,9 @@
     "ocf_unit": "mn",
     "ocf_period": "FY25 DRHP",
     "ind_name": "Gems, Jewellery And Watches",
-    "ind_pe": 25.4,
-    "ind_n": 25,
-    "rel": 0.73
+    "ind_pe": 22.0,
+    "ind_n": 60,
+    "rel": 0.85
    },
    "f3_ind": "P"
   },
@@ -2165,8 +2165,8 @@
     "ocf": -90.42,
     "ocf_unit": "mn",
     "ind_name": "Industrial Products",
-    "ind_pe": 67.2,
-    "ind_n": 24
+    "ind_pe": 34.1,
+    "ind_n": 132
    },
    "f3_ind": "F"
   },
@@ -2284,10 +2284,10 @@
     "ocf": -97.85,
     "ocf_unit": "mn",
     "ind_name": "Telecom -  Equipment & Accessories",
-    "ind_pe": 58.5,
-    "ind_n": 8,
+    "ind_pe": 69.7,
+    "ind_n": 11,
     "cur_pe": 81.4,
-    "rel": 0.4
+    "rel": 0.34
    },
    "f3_ind": "P"
   },
@@ -2621,12 +2621,12 @@
     "ocf": 173.0,
     "ocf_unit": "cr",
     "ind_name": "E-Retail/ E-Commerce",
-    "ind_pe": 20.7,
-    "ind_n": 13,
+    "ind_pe": 53.4,
+    "ind_n": 14,
     "cur_pe": 53.4,
-    "rel": 1.97
+    "rel": 0.76
    },
-   "f3_ind": "F"
+   "f3_ind": "P"
   },
   {
    "company": "Karamtara Engineering",
@@ -2728,12 +2728,12 @@
     "ocf": 675.0,
     "ocf_unit": "cr",
     "ind_name": "Heavy Electrical Equipment",
-    "ind_pe": 56.9,
-    "ind_n": 25,
+    "ind_pe": 32.9,
+    "ind_n": 48,
     "cur_pe": 46.5,
-    "rel": 0.63
+    "rel": 1.09
    },
-   "f3_ind": "P"
+   "f3_ind": "F"
   },
   {
    "company": "LCC Projects",
@@ -2845,10 +2845,10 @@
     "ocf": -1772.65,
     "ocf_unit": "mn",
     "ind_name": "Civil Construction",
-    "ind_pe": 21.3,
-    "ind_n": 25,
+    "ind_pe": 15.9,
+    "ind_n": 121,
     "cur_pe": 14.4,
-    "rel": 0.69
+    "rel": 0.93
    },
    "f3_ind": "P"
   },
@@ -2959,10 +2959,10 @@
     "ocf": 50.0,
     "ocf_unit": "cr",
     "ind_name": "Medical Equipment & Supplies",
-    "ind_pe": 28.8,
-    "ind_n": 23,
+    "ind_pe": 32.7,
+    "ind_n": 17,
     "cur_pe": 66.2,
-    "rel": 1.97
+    "rel": 1.73
    },
    "f3_ind": "F"
   },
@@ -3074,10 +3074,10 @@
     "ocf": -398.0,
     "ocf_unit": "cr",
     "ind_name": "Gems, Jewellery And Watches",
-    "ind_pe": 25.4,
-    "ind_n": 25,
+    "ind_pe": 22.0,
+    "ind_n": 60,
     "cur_pe": 21.0,
-    "rel": 0.44
+    "rel": 0.51
    },
    "f3_ind": "P"
   },
@@ -3193,10 +3193,10 @@
     "ocf_unit": "mn",
     "ocf_period": "FY25 DRHP",
     "ind_name": "Dairy Products",
-    "ind_pe": 25.0,
-    "ind_n": 12,
+    "ind_pe": 27.8,
+    "ind_n": 11,
     "cur_pe": 122.0,
-    "rel": 3.39
+    "rel": 3.05
    },
    "f3_ind": "F"
   },
@@ -3418,9 +3418,9 @@
     "ocf_unit": "mn",
     "ocf_period": "FY26 DRHP",
     "ind_name": "Gems, Jewellery And Watches",
-    "ind_pe": 25.4,
-    "ind_n": 25,
-    "rel": 0.64
+    "ind_pe": 22.0,
+    "ind_n": 60,
+    "rel": 0.74
    },
    "f3_ind": "P"
   },
@@ -3539,10 +3539,10 @@
     "ocf": 245.91,
     "ocf_unit": "mn",
     "ind_name": "Plastic Products - Industrial",
-    "ind_pe": 23.9,
-    "ind_n": 21,
+    "ind_pe": 19.7,
+    "ind_n": 35,
     "cur_pe": 25.0,
-    "rel": 0.4
+    "rel": 0.49
    },
    "f3_ind": "P"
   },
@@ -3652,12 +3652,12 @@
     "ocf": 216.84,
     "ocf_unit": "mn",
     "ind_name": "Water Supply & Management",
-    "ind_pe": 18.5,
+    "ind_pe": 19.6,
     "ind_n": 8,
     "cur_pe": 44.3,
-    "rel": 1.05
+    "rel": 0.99
    },
-   "f3_ind": "F"
+   "f3_ind": "P"
   },
   {
    "company": "Jindal Supreme",
@@ -3762,9 +3762,9 @@
     "de": 0.88,
     "de_period": "latest restated period (borrowing / net worth)",
     "ind_name": "Iron & Steel Products",
-    "ind_pe": 29.4,
-    "ind_n": 25,
-    "rel": 0.49
+    "ind_pe": 21.9,
+    "ind_n": 91,
+    "rel": 0.65
    },
    "f3_ind": "P"
   },
@@ -3877,10 +3877,10 @@
     "ocf": 30.0,
     "ocf_unit": "cr",
     "ind_name": "Other Industrial Products",
-    "ind_pe": 28.1,
-    "ind_n": 23,
+    "ind_pe": 25.9,
+    "ind_n": 32,
     "cur_pe": 34.6,
-    "rel": 0.79
+    "rel": 0.86
    },
    "f3_ind": "P"
   },
@@ -3994,12 +3994,12 @@
     "ocf": 541.5,
     "ocf_unit": "mn",
     "ind_name": "Industrial Products",
-    "ind_pe": 67.2,
-    "ind_n": 24,
+    "ind_pe": 34.1,
+    "ind_n": 132,
     "cur_pe": 65.3,
-    "rel": 0.53
+    "rel": 1.04
    },
-   "f3_ind": "P"
+   "f3_ind": "F"
   },
   {
    "company": "Adroit Industries",
@@ -4113,10 +4113,10 @@
     "ocf": 29.0,
     "ocf_unit": "cr",
     "ind_name": "Auto Components & Equipments",
-    "ind_pe": 44.5,
-    "ind_n": 25,
+    "ind_pe": 29.2,
+    "ind_n": 132,
     "cur_pe": 27.9,
-    "rel": 0.52
+    "rel": 0.79
    },
    "f3_ind": "P"
   },
@@ -4345,10 +4345,10 @@
     "ocf": -2985.14,
     "ocf_unit": "mn",
     "ind_name": "Cables - Electricals",
-    "ind_pe": 24.6,
-    "ind_n": 24,
+    "ind_pe": 26.0,
+    "ind_n": 21,
     "cur_pe": 18.0,
-    "rel": 0.63
+    "rel": 0.6
    },
    "f3_ind": "P"
   },
@@ -4474,9 +4474,9 @@
     "ocf": 618.86,
     "ocf_unit": "mn",
     "ind_name": "Iron & Steel Products",
-    "ind_pe": 29.4,
-    "ind_n": 25,
-    "rel": 0.63
+    "ind_pe": 21.9,
+    "ind_n": 91,
+    "rel": 0.85
    },
    "f3_ind": "P"
   },
@@ -4576,10 +4576,10 @@
     "ocf": 1671.26,
     "ocf_unit": "mn",
     "ind_name": "Film Production, Distribution & Exhibition",
-    "ind_pe": 35.8,
-    "ind_n": 16,
+    "ind_pe": 55.8,
+    "ind_n": 14,
     "cur_pe": 41.2,
-    "rel": 0.78
+    "rel": 0.5
    },
    "f3_ind": "P"
   },
@@ -4693,10 +4693,10 @@
     "ocf": 93.6,
     "ocf_unit": "mn",
     "ind_name": "Gems, Jewellery And Watches",
-    "ind_pe": 25.4,
-    "ind_n": 25,
+    "ind_pe": 22.0,
+    "ind_n": 60,
     "cur_pe": 34.2,
-    "rel": 0.55
+    "rel": 0.63
    },
    "f3_ind": "P"
   },
@@ -4811,10 +4811,10 @@
     "ocf": 931.71,
     "ocf_unit": "mn",
     "ind_name": "Packaging",
-    "ind_pe": 19.0,
-    "ind_n": 24,
+    "ind_pe": 18.6,
+    "ind_n": 48,
     "cur_pe": 24.3,
-    "rel": 1.18
+    "rel": 1.21
    },
    "f3_ind": "F"
   },
@@ -4924,8 +4924,8 @@
     "ocf": 53.0,
     "ocf_unit": "cr",
     "ind_name": "E-Retail/ E-Commerce",
-    "ind_pe": 20.7,
-    "ind_n": 13
+    "ind_pe": 52.6,
+    "ind_n": 14
    },
    "f3_ind": "F"
   },
@@ -5042,10 +5042,10 @@
     "ocf": 348.0,
     "ocf_unit": "cr",
     "ind_name": "Auto Components & Equipments",
-    "ind_pe": 44.5,
-    "ind_n": 25,
+    "ind_pe": 29.2,
+    "ind_n": 132,
     "cur_pe": 68.0,
-    "rel": 1.01
+    "rel": 1.54
    },
    "f3_ind": "F"
   },
@@ -5154,12 +5154,12 @@
     "ocf": 1077.0,
     "ocf_unit": "cr",
     "ind_name": "Industrial Products",
-    "ind_pe": 67.2,
-    "ind_n": 24,
+    "ind_pe": 34.1,
+    "ind_n": 132,
     "cur_pe": 89.0,
-    "rel": 0.67
+    "rel": 1.32
    },
-   "f3_ind": "P"
+   "f3_ind": "F"
   },
   {
    "company": "SBI Funds Management",
@@ -5246,7 +5246,7 @@
     "ocf_unit": "cr",
     "ind_name": "Asset Management Company",
     "ind_pe": 32.6,
-    "ind_n": 9,
+    "ind_n": 10,
     "cur_pe": 32.6,
     "rel": 1.17
    },
@@ -5354,10 +5354,10 @@
     "de": 1.14,
     "de_period": "latest restated period (borrowing / net worth)",
     "ind_name": "Cables - Electricals",
-    "ind_pe": 24.6,
-    "ind_n": 24,
+    "ind_pe": 26.0,
+    "ind_n": 21,
     "cur_pe": 29.4,
-    "rel": 0.81
+    "rel": 0.76
    },
    "f3_ind": "P"
   },
@@ -5456,10 +5456,10 @@
     "ocf": -1549.77,
     "ocf_unit": "mn",
     "ind_name": "Other Textile Products",
-    "ind_pe": 40.0,
-    "ind_n": 24,
+    "ind_pe": 19.1,
+    "ind_n": 118,
     "cur_pe": 45.4,
-    "rel": 1.12
+    "rel": 2.35
    },
    "f3_ind": "F"
   },
@@ -5563,10 +5563,10 @@
     "ocf": -920.03,
     "ocf_unit": "mn",
     "ind_name": "Aluminium, Copper & Zinc Products",
-    "ind_pe": 18.8,
-    "ind_n": 23,
+    "ind_pe": 19.1,
+    "ind_n": 18,
     "cur_pe": 20.0,
-    "rel": 1.03
+    "rel": 1.02
    },
    "f3_ind": "F"
   },
@@ -5668,10 +5668,10 @@
     "ocf": 377.94,
     "ocf_unit": "mn",
     "ind_name": "Packaged Foods",
-    "ind_pe": 46.0,
-    "ind_n": 24,
+    "ind_pe": 42.8,
+    "ind_n": 29,
     "cur_pe": 22.7,
-    "rel": 0.33
+    "rel": 0.36
    },
    "f3_ind": "P"
   }

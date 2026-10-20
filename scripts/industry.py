@@ -1,4 +1,4 @@
-"""Industry P/E per IPO: Screener industry classification + median P/E of the industry's listed companies.
+﻿"""Industry P/E per IPO: Screener industry classification + median P/E of the industry's listed companies.
 
 Writes C:\\ipo_cache\\industry.json: {company: {industry, level, peers, median_pe, current_pe, code}}
 """
@@ -25,6 +25,7 @@ def industry_pes(path):
         return _pe_cache[path]
     r = requests.get("https://www.screener.in" + path, headers=H, timeout=60)
     pes = []
+    med = None
     if r.status_code == 200:
         s = BeautifulSoup(r.text, "html.parser")
         tb = s.select_one("table")
@@ -36,13 +37,16 @@ def industry_pes(path):
                 for x in rows[1:]:
                     try:
                         v = float(x[i].replace(",", ""))
-                        if v > 0:
-                            pes.append(v)
                     except Exception:
-                        pass
-    _pe_cache[path] = pes
+                        continue
+                    mm = re.match(r"Median:\s*(\d+)\s*Co", x[1]) if len(x) > 1 else None
+                    if mm:
+                        med = (v, int(mm.group(1)))
+                    elif v > 0:
+                        pes.append(v)
+    _pe_cache[path] = (pes, med)
     time.sleep(0.5)
-    return pes
+    return pes, med
 
 
 def company(code):
@@ -56,8 +60,23 @@ def company(code):
         m = re.search(r"Stock P/E\s*([\d\.]+)", s.get_text(" ", strip=True))
         if m:
             cur = float(m.group(1))
+        pm = None
+        wid = re.search(r"data-warehouse-id=.(\d+)", r.text) or re.search(r"/api/company/(\d+)/peers", r.text)
+        if wid:
+            pr = requests.get(f"https://www.screener.in/api/company/{wid.group(1)}/peers/", headers=H, timeout=60)
+            if pr.status_code == 200:
+                tb = BeautifulSoup(pr.text, "html.parser").select_one("table")
+                if tb:
+                    for tr in tb.find_all("tr"):
+                        x = [t.get_text(" ", strip=True) for t in tr.find_all(["th", "td"])]
+                        mm = re.match(r"Median:\s*(\d+)\s*Co", x[1]) if len(x) > 3 else None
+                        if mm:
+                            try:
+                                pm = (float(x[3]), int(mm.group(1)))
+                            except ValueError:
+                                pass
         if links:
-            return {"links": links, "current_pe": cur, "url": r.url}
+            return {"links": links, "current_pe": cur, "url": r.url, "peer_median": pm}
     return None
 
 
@@ -78,12 +97,27 @@ if __name__ == "__main__":
         if not info:
             print(f"{c:28} no Screener page"); continue
         res = {"code": info["code"], "current_pe": info["current_pe"]}
+        if info.get("peer_median") and info["peer_median"][1] >= 8:
+            res.update({"industry": info["links"][-1][1], "peers": info["peer_median"][1], "median_pe": round(info["peer_median"][0], 1), "src": "api"})
+            out[c] = res
+            print(f"{c:28} {res}", flush=True)
+            time.sleep(0.5)
+            continue
         for href, name in info["links"][::-1]:  # narrowest industry first
-            pes = industry_pes(href)
-            if len(pes) >= 8:
-                res.update({"industry": name, "peers": len(pes), "median_pe": round(statistics.median(pes), 1)})
+            pes, med = industry_pes(href)
+            n = med[1] if med else len(pes)
+            if n >= 8 and (med or len(pes) >= 8):
+                res.update({"industry": name, "peers": n, "median_pe": round(med[0] if med else statistics.median(pes), 1)})
                 break
         out[c] = res
         print(f"{c:28} {res}", flush=True)
         time.sleep(0.5)
+    api = {v["industry"]: v for v in out.values() if v.get("src") == "api"}
+    for v in out.values():
+        if v.get("src") != "api" and v.get("industry") in api:
+            a = api[v["industry"]]
+            v.update({"peers": a["peers"], "median_pe": a["median_pe"], "src": "api-shared"})
     json.dump(out, open(CACHE + r"\industry.json", "w"), indent=1)
+
+
+
