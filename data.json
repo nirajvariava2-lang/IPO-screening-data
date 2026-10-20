@@ -10,7 +10,7 @@
    "passed": 4,
    "fails": 4,
    "unknown": 0,
-   "verdict": "Rejected",
+   "verdict": "Review",
    "flag": "100% OFS Rs 712 cr (promoters sell 2.63 cr shares); band 258-271; anchors Rs 213.11 cr (Y). FINAL subscription 131.73x overall, QIB 256.65x, NII 203.21x, retail 30.55x (Chittorgarh, 15 Oct 17:54) - F4 now PASS. Post P/E 49.7x (IPOPlatform) vs 40.69x (IPO Premium): conflict. Revenue CAGR 13.5% (prior version). Promoter post-issue 85% (Chittorgarh), pledge unverified | F3: post-issue P/E 40.69x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo_subscription/hd-fire-protect-ipo/2628/",
    "source_label": "Chittorgarh sub.",
@@ -34,6 +34,62 @@
    "stale": {
     "f8": "FY25",
     "f7": "FY25"
+   },
+   "m": {
+    "price_band": "₹258 to ₹271",
+    "issue_price": 271.0,
+    "lot": "55 Shares",
+    "sale_type": "OFS only",
+    "dates": "13 to 15 Oct, 2026",
+    "issue_cr": 712.0,
+    "ofs_cr": 712.0,
+    "fresh_pct": 0.0,
+    "pe_pre": 40.69,
+    "pe_post": 49.72,
+    "eps_pre": 6.66,
+    "eps_post": 5.45,
+    "mcap_pre": 4748.73,
+    "mcap_post": 4748.73,
+    "promoter_pre": 100.0,
+    "promoter_post": 85.0,
+    "anchor_cr": 213.11,
+    "sub_total": 131.73,
+    "sub_qib": 256.65,
+    "sub_nii": 203.21,
+    "sub_retail": 30.55,
+    "rev_cagr": 13.5,
+    "pat_cagr": 15.3,
+    "revenue": [
+     114.07,
+     505.12,
+     450.68,
+     392.02
+    ],
+    "pat": [
+     23.87,
+     116.79,
+     109.72,
+     87.92
+    ],
+    "periods": [
+     "30 Jun 2026",
+     "31 Mar 2026",
+     "31 Mar 2025",
+     "31 Mar 2024"
+    ],
+    "networth": [
+     null,
+     375.93,
+     396.01,
+     342.19
+    ],
+    "roe": "6.13%",
+    "roce": "8.36%",
+    "ronw": "5.97%",
+    "pat_margin": "20.92%",
+    "ebitda_margin": "27.26%",
+    "ocf": 92.0,
+    "ocf_unit": "cr"
    }
   },
   {
@@ -69,6 +125,86 @@
     "f7": "FY25",
     "f8": "FY25",
     "f5": "FY25"
+   },
+   "m": {
+    "price_band": "₹275 to ₹289",
+    "issue_price": 289.0,
+    "lot": "51 Shares",
+    "sale_type": "Fresh capital cum OFS",
+    "dates": "14 to 16 Oct, 2026",
+    "issue_cr": 702.0,
+    "fresh_cr": 500.0,
+    "ofs_cr": 202.0,
+    "fresh_pct": 71.2,
+    "objects": [
+     [
+      "Repayment/prepayment, in full or in part, of certain outstanding borrowings availed by (i) Company; (ii) certain Subsidiaries (direct and certain step-down subsidiaries)",
+      275.7
+     ],
+     [
+      "Investment in step-down subsidiaries, Omind Technologies Inc. and Omind Technologies Pvt.Ltd., for upgrading IT tools i.e. Arya and MindVoice",
+      61.15
+     ],
+     [
+      "Pursuing inorganic growth through unidentified acquisitions and other strategic initiatives and general corporate purposes",
+      126.11
+     ]
+    ],
+    "pe_pre": 21.62,
+    "pe_post": 18.73,
+    "eps_pre": 13.37,
+    "eps_post": 15.43,
+    "mcap_pre": 3672.01,
+    "mcap_post": 4172.01,
+    "promoter_pre": 93.02,
+    "promoter_post": 78.94,
+    "anchor_cr": 315.9,
+    "sub_total": 4.68,
+    "sub_qib": 4.21,
+    "sub_nii": 4.73,
+    "sub_retail": 5.99,
+    "rev_cagr": 34.6,
+    "pat_cagr": 116.4,
+    "revenue": [
+     503.85,
+     1851.83,
+     1352.03,
+     1021.53
+    ],
+    "pat": [
+     55.7,
+     169.84,
+     74.31,
+     36.26
+    ],
+    "periods": [
+     "30 Jun 2026",
+     "31 Mar 2026",
+     "31 Mar 2025",
+     "31 Mar 2024"
+    ],
+    "borrowing": [
+     238.13,
+     266.86,
+     306.73,
+     210.61
+    ],
+    "networth": [
+     610.84,
+     552.46,
+     354.58,
+     270.15
+    ],
+    "de_calc": 0.39,
+    "roe": "8.99%",
+    "roce": "19.84%",
+    "ronw": "9.12%",
+    "pat_margin": "11.36%",
+    "ebitda_margin": "20.03%",
+    "de": 0.39,
+    "de_period": "latest restated period (borrowing / net worth)",
+    "ocf": 1012.46,
+    "ocf_unit": "mn"
    }
   },
   {
@@ -99,7 +235,8 @@
     "f4": "Day 3 final subscription not found yet (last: 0.31x at Day 2)",
     "f8": "Not available yet"
    },
-   "stale": {}
+   "stale": {},
+   "m": {}
   },
   {
    "company": "Tonbo Imaging",
@@ -133,6 +270,67 @@
    },
    "stale": {
     "f8": "FY25"
+   },
+   "m": {
+    "price_band": "₹665 to ₹700",
+    "issue_price": 700.0,
+    "lot": "21 Shares",
+    "sale_type": "OFS only",
+    "dates": "15 to 19 Oct, 2026",
+    "issue_cr": 852.0,
+    "ofs_cr": 852.0,
+    "fresh_pct": 0.0,
+    "pe_pre": 78.83,
+    "eps_pre": 8.88,
+    "mcap_pre": 4009.75,
+    "mcap_post": 4009.75,
+    "promoter_pre": 18.58,
+    "promoter_post": 15.72,
+    "anchor_cr": 255.36,
+    "sub_total": 132.81,
+    "sub_qib": 293.56,
+    "sub_nii": 156.36,
+    "sub_retail": 31.11,
+    "rev_cagr": -7.5,
+    "pat_cagr": -13.8,
+    "revenue": [
+     37.32,
+     369.94,
+     474.39,
+     431.9
+    ],
+    "pat": [
+     -17.74,
+     50.88,
+     72.76,
+     68.54
+    ],
+    "periods": [
+     "30 Jun 2026",
+     "31 Mar 2026",
+     "31 Mar 2025",
+     "31 Mar 2024"
+    ],
+    "borrowing": [
+     129.72,
+     116.06,
+     78.14,
+     96.36
+    ],
+    "networth": [
+     538.54,
+     553.16,
+     490.14,
+     230.13
+    ],
+    "de_calc": 0.24,
+    "roe": "-3.25%",
+    "roce": "-4.31%",
+    "ronw": "-3.25%",
+    "pat_margin": "-47.52%",
+    "ebitda_margin": "-36.21%",
+    "de": 0.24,
+    "de_period": "latest restated period (borrowing / net worth)"
    }
   },
   {
@@ -143,7 +341,7 @@
    "passed": 3,
    "fails": 4,
    "unknown": 1,
-   "verdict": "Rejected",
+   "verdict": "Review",
    "flag": "100% OFS of 4.32 cr shares (Rs 2,534 cr) by Bonfiglioli S.p.A.; band 558-586; anchors Rs 759.26 cr (Y); post P/E 37.07x; promoter post-issue 77% (pledge unverified); CY23-25 total income CAGR 9.0% (FAIL), PAT CAGR 26.6%; borrowings not shown for latest year; subscription 0.99x at Day 2 close (IPO Ji; IPOGyani earlier snapshot 0.47x), F4 not met | F3: post-issue P/E 37.07x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/bonfiglioli-transmissions-ipo/2861/",
    "source_label": "Chittorgarh",
@@ -169,6 +367,69 @@
    "stale": {
     "f8": "FY25",
     "f7": "FY25"
+   },
+   "m": {
+    "price_band": "₹558 to ₹586",
+    "lot": "25 Shares",
+    "sale_type": "OFS only",
+    "dates": "15 to 19 Oct, 2026",
+    "issue_cr": 2534.0,
+    "ofs_cr": 2534.0,
+    "fresh_pct": 0.0,
+    "pe_pre": 46.32,
+    "pe_post": 37.07,
+    "eps_pre": 12.65,
+    "eps_post": 15.81,
+    "mcap_pre": 11016.56,
+    "mcap_post": 11016.56,
+    "promoter_pre": 100.0,
+    "promoter_post": 77.0,
+    "anchor_cr": 759.26,
+    "sub_total": 46.05,
+    "sub_qib": 120.78,
+    "sub_nii": 40.39,
+    "sub_retail": 5.9,
+    "revenue": [
+     1139.17,
+     2023.59,
+     1861.16,
+     1701.8
+    ],
+    "pat": [
+     148.58,
+     237.87,
+     195.16,
+     148.49
+    ],
+    "periods": [
+     "30 Jun 2026",
+     "31 Dec 2025",
+     "31 Dec 2024",
+     "31 Dec 2023"
+    ],
+    "borrowing": [
+     null,
+     null,
+     null,
+     110.79
+    ],
+    "networth": [
+     1034.27,
+     975.25,
+     860.95,
+     801.36
+    ],
+    "de_calc": 0.0,
+    "roe": "14.66%",
+    "roce": "20.03%",
+    "ronw": "14.37%",
+    "pat_margin": "13.04%",
+    "ebitda_margin": "19.78%",
+    "de": 0.0,
+    "de_period": "latest restated period (borrowing / net worth)",
+    "ocf": 1418.02,
+    "ocf_unit": "mn",
+    "ocf_period": "FY25 DRHP"
    }
   },
   {
@@ -204,6 +465,70 @@
    },
    "stale": {
     "f8": "FY25"
+   },
+   "m": {
+    "price_band": "₹327 to ₹344",
+    "lot": "43 Shares",
+    "sale_type": "OFS only",
+    "dates": "15 to 19 Oct, 2026",
+    "issue_cr": 475.0,
+    "ofs_cr": 475.0,
+    "fresh_pct": 0.0,
+    "pe_pre": 50.59,
+    "pe_post": 57.91,
+    "eps_pre": 6.8,
+    "eps_post": 5.94,
+    "mcap_pre": 3496.65,
+    "mcap_post": 3496.65,
+    "promoter_pre": 40.82,
+    "promoter_post": 36.2,
+    "anchor_cr": 140.06,
+    "sub_total": 14.21,
+    "sub_qib": 34.7,
+    "sub_nii": 14.64,
+    "sub_retail": 3.04,
+    "rev_cagr": 15.8,
+    "revenue": [
+     354.33,
+     1218.73,
+     1035.96,
+     908.59
+    ],
+    "pat": [
+     15.09,
+     69.08,
+     25.15,
+     -7.35
+    ],
+    "periods": [
+     "30 Jun 2026",
+     "31 Mar 2026",
+     "31 Mar 2025",
+     "31 Mar 2024"
+    ],
+    "borrowing": [
+     320.63,
+     269.53,
+     224.96,
+     175.27
+    ],
+    "networth": [
+     631.72,
+     616.05,
+     545.23,
+     526.3
+    ],
+    "de_calc": 0.51,
+    "roe": "2.07%",
+    "roce": "3.16%",
+    "ronw": "2.31%",
+    "pat_margin": "4.29%",
+    "ebitda_margin": "13.81%",
+    "de": 0.51,
+    "de_period": "latest restated period (borrowing / net worth)",
+    "ocf": 735.22,
+    "ocf_unit": "mn",
+    "ocf_period": "FY25 DRHP"
    }
   },
   {
@@ -214,7 +539,7 @@
    "passed": 3,
    "fails": 1,
    "unknown": 4,
-   "verdict": "Rejected",
+   "verdict": "Review",
    "flag": "Fresh-only (up to 27 cr shares, no OFS); GMP Rs 225 (+20.1%, IPO Watch 17 Oct, unofficial); band 1,065-1,119 per RHP; Rs 30,213 cr at cap (27 cr x 1,119, verified); proceeds mainly repay RJIL borrowings (DRHP: up to Rs 27,500 cr), so F2 FAIL; post-issue P/E, D/E, promoter and auditor not verified from RHP",
    "source_url": "https://www.businesstoday.in/markets/ipo-corner/story/jio-platforms-files-rhp-for-ipo-of-up-to-27-crore-shares-issue-to-open-on-october-21-561644-2026-10-14",
    "source_label": "Business Today (RHP)",
@@ -240,6 +565,71 @@
    },
    "stale": {
     "f7": "pledge unconfirmed"
+   },
+   "m": {
+    "price_band": "₹1065 to ₹1119",
+    "lot": "12 Shares",
+    "sale_type": "Fresh capital only",
+    "dates": "21 to 23 Oct, 2026",
+    "issue_cr": 30213.0,
+    "fresh_cr": 30213.0,
+    "fresh_pct": 100.0,
+    "objects": [
+     [
+      "Prepayment, in full or in part, of certain outstanding borrowings availed by the Material Subsidiary, namely, RJIL",
+      27500.0
+     ],
+     [
+      "General corporate purposes.",
+      null
+     ]
+    ],
+    "pe_pre": 33.28,
+    "pe_post": 33.19,
+    "eps_pre": 33.62,
+    "eps_post": 33.72,
+    "mcap_pre": 1000277.55,
+    "mcap_post": 1030490.55,
+    "promoter_pre": 66.43,
+    "promoter_post": 64.48,
+    "rev_cagr": 16.6,
+    "pat_cagr": 18.4,
+    "revenue": [
+     40197.9,
+     149759.1,
+     129333.0,
+     110175.4
+    ],
+    "pat": [
+     7764.1,
+     30052.7,
+     26120.3,
+     21434.0
+    ],
+    "periods": [
+     "30 Jun 2026",
+     "31 Mar 2026",
+     "31 Mar 2025",
+     "31 Mar 2024"
+    ],
+    "borrowing": [
+     61372.2,
+     70781.0,
+     73060.3,
+     54348.9
+    ],
+    "networth": [
+     341778.5,
+     334013.4,
+     304022.4,
+     277866.1
+    ],
+    "de_calc": 0.18,
+    "ronw": "2.30%",
+    "pat_margin": "19.82%",
+    "ebitda_margin": "53.26%",
+    "de": 0.18,
+    "de_period": "latest restated period (borrowing / net worth)"
    }
   },
   {
@@ -271,7 +661,77 @@
     "f7": "Not available yet",
     "f8": "Not available yet"
    },
-   "stale": {}
+   "stale": {},
+   "m": {
+    "price_band": "₹660 to ₹693",
+    "lot": "21 Shares",
+    "sale_type": "Fresh capital cum OFS",
+    "dates": "21 to 23 Oct, 2026",
+    "issue_cr": 1450.0,
+    "fresh_cr": 500.0,
+    "ofs_cr": 950.0,
+    "fresh_pct": 34.5,
+    "objects": [
+     [
+      "Prepayment or scheduled re-payment, in full or part, of certain outstanding borrowings availed by Company",
+      320.9
+     ],
+     [
+      "Investment in our wholly owned Subsidiary, PMHPL (which also operates hospital in Srinagar), for repayment/prepayment of borrowings, in full or part, of PMHPL",
+      54.1
+     ],
+     [
+      "General Corporate Purposes",
+      null
+     ]
+    ],
+    "pe_pre": 159.68,
+    "pe_post": 37.72,
+    "eps_pre": 4.34,
+    "eps_post": 18.37,
+    "mcap_pre": 6998.34,
+    "mcap_post": 7498.34,
+    "promoter_pre": 72.8,
+    "rev_cagr": 19.0,
+    "revenue": [
+     478.75,
+     1628.78,
+     1314.21,
+     1151.02
+    ],
+    "pat": [
+     49.68,
+     43.83,
+     -57.98,
+     -15.33
+    ],
+    "periods": [
+     "30 Jun 2026",
+     "31 Mar 2026",
+     "31 Mar 2025",
+     "31 Mar 2024"
+    ],
+    "borrowing": [
+     1429.49,
+     1393.86,
+     1232.12,
+     923.92
+    ],
+    "networth": [
+     444.96,
+     394.94,
+     280.49,
+     338.51
+    ],
+    "de_calc": 3.21,
+    "roe": "11.83%",
+    "roce": "4.23%",
+    "ronw": "11.83%",
+    "pat_margin": "10.38%",
+    "ebitda_margin": "23.70%",
+    "de": 3.21,
+    "de_period": "latest restated period (borrowing / net worth)"
+   }
   },
   {
    "company": "Vishal Nirmiti",
@@ -303,6 +763,81 @@
    "stale": {
     "f5": "FY25",
     "f8": "FY25"
+   },
+   "m": {
+    "price_band": "₹208 to ₹220",
+    "issue_price": 220.0,
+    "lot": "68 Shares",
+    "sale_type": "Fresh capital cum OFS",
+    "dates": "30 Sep to 5 Oct, 2026",
+    "listed_on": "Thu, Oct 8, 2026",
+    "issue_cr": 178.0,
+    "fresh_cr": 145.0,
+    "ofs_cr": 33.0,
+    "fresh_pct": 81.5,
+    "objects": [
+     [
+      "Funding working capital requirements of the Company",
+      75.0
+     ],
+     [
+      "Repayment and/ or pre-payment, in part or full of term loans",
+      19.0
+     ],
+     [
+      "General Corporate Purposes",
+      34.29
+     ]
+    ],
+    "pe_pre": 17.45,
+    "pe_post": 23.26,
+    "eps_pre": 12.61,
+    "eps_post": 9.46,
+    "mcap_pre": 435.6,
+    "mcap_post": 580.6,
+    "promoter_pre": 73.42,
+    "promoter_post": 49.4,
+    "sub_total": 1.79,
+    "sub_qib": 1.33,
+    "sub_nii": 1.89,
+    "sub_retail": 1.75,
+    "rev_cagr": 17.8,
+    "pat_cagr": 169.1,
+    "revenue": [
+     344.13,
+     324.86,
+     247.93
+    ],
+    "pat": [
+     24.98,
+     23.64,
+     3.45
+    ],
+    "periods": [
+     "31 Mar 2026",
+     "31 Mar 2025",
+     "31 Mar 2024"
+    ],
+    "borrowing": [
+     87.42,
+     88.05,
+     91.75
+    ],
+    "networth": [
+     86.34,
+     61.12,
+     38.12
+    ],
+    "de_calc": 1.01,
+    "roe": "33.67%",
+    "roce": "28.02%",
+    "ronw": "33.87%",
+    "pat_margin": "7.37%",
+    "ebitda_margin": "15.10%",
+    "de": 1.01,
+    "de_period": "latest restated period (borrowing / net worth)",
+    "ocf": -14.0,
+    "ocf_unit": "mn"
    }
   },
   {
@@ -313,7 +848,7 @@
    "passed": 4,
    "fails": 4,
    "unknown": 0,
-   "verdict": "Rejected",
+   "verdict": "Review",
    "flag": "100% fresh (Rs 108 cr); sub 2.26x, QIB 1.06x (Day 3); post-issue promoter 43.5%; post P/E 19.4x | F3: post-issue P/E 19.4x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/nityas-gems-jewellery-ipo/2974/",
    "source_label": "Chittorgarh",
@@ -337,6 +872,75 @@
    "stale": {
     "f2": "FY25",
     "f6": "FY25"
+   },
+   "m": {
+    "price_band": "₹70 to ₹75",
+    "issue_price": 75.0,
+    "lot": "200 Shares",
+    "sale_type": "Fresh capital only",
+    "dates": "30 Sep to 5 Oct, 2026",
+    "listed_on": "Thu, Oct 8, 2026",
+    "issue_cr": 108.0,
+    "fresh_cr": 108.0,
+    "fresh_pct": 100.0,
+    "objects": [
+     [
+      "Funding Working Capital requirements of the Company",
+      70.0
+     ],
+     [
+      "General corporate purposes",
+      21.47
+     ]
+    ],
+    "pe_pre": 14.51,
+    "pe_post": 19.38,
+    "eps_pre": 5.17,
+    "eps_post": 3.87,
+    "mcap_pre": 323.53,
+    "mcap_post": 431.95,
+    "promoter_pre": 58.1,
+    "promoter_post": 43.51,
+    "sub_total": 2.26,
+    "sub_qib": 1.06,
+    "sub_nii": 2.05,
+    "sub_retail": 4.07,
+    "rev_cagr": 94.7,
+    "pat_cagr": 135.6,
+    "revenue": [
+     203.33,
+     96.85,
+     53.66
+    ],
+    "pat": [
+     22.32,
+     9.79,
+     4.02
+    ],
+    "periods": [
+     "31 Mar 2026",
+     "31 Mar 2025",
+     "31 Mar 2024"
+    ],
+    "borrowing": [
+     9.08,
+     7.11,
+     3.26
+    ],
+    "networth": [
+     79.43,
+     22.57,
+     5.33
+    ],
+    "de_calc": 0.11,
+    "roce": "42.93%",
+    "ronw": "43.75%",
+    "pat_margin": "11.00%",
+    "ebitda_margin": "15.27%",
+    "de": 0.11,
+    "de_period": "latest restated period (borrowing / net worth)",
+    "ocf": -15.0,
+    "ocf_unit": "cr"
    }
   },
   {
@@ -367,6 +971,82 @@
    "u_reasons": {},
    "stale": {
     "f7": "FY25"
+   },
+   "m": {
+    "price_band": "₹123 to ₹130",
+    "issue_price": 130.0,
+    "lot": "115 Shares",
+    "sale_type": "Fresh capital only",
+    "dates": "28 to 30 Sep, 2026",
+    "listed_on": "Tue, Oct 6, 2026",
+    "issue_cr": 218.0,
+    "fresh_cr": 218.0,
+    "fresh_pct": 100.0,
+    "objects": [
+     [
+      "Funding of capital expenditure requirements towards modernization of existing products and redevelopment",
+      12.86
+     ],
+     [
+      "Funding working capital requirements of the Company",
+      124.0
+     ],
+     [
+      "Achieving inorganic growth through unidentified acquisitions and other strategic initiatives and general corporate purposes",
+      55.13
+     ]
+    ],
+    "pe_pre": 14.25,
+    "pe_post": 19.29,
+    "eps_pre": 9.12,
+    "eps_post": 6.74,
+    "mcap_pre": 617.13,
+    "mcap_post": 835.53,
+    "promoter_pre": 84.91,
+    "promoter_post": 62.71,
+    "anchor_cr": 65.52,
+    "sub_total": 125.16,
+    "sub_qib": 91.84,
+    "sub_nii": 312.99,
+    "sub_retail": 63.7,
+    "rev_cagr": 28.0,
+    "pat_cagr": 22.0,
+    "revenue": [
+     462.54,
+     400.5,
+     282.22
+    ],
+    "pat": [
+     43.29,
+     33.6,
+     29.08
+    ],
+    "periods": [
+     "31 Mar 2026",
+     "31 Mar 2025",
+     "31 Mar 2024"
+    ],
+    "borrowing": [
+     36.15,
+     51.3,
+     22.28
+    ],
+    "networth": [
+     193.27,
+     93.17,
+     80.47
+    ],
+    "de_calc": 0.19,
+    "roe": "30.23%",
+    "roce": "28.79%",
+    "ronw": "30.23%",
+    "pat_margin": "9.62%",
+    "ebitda_margin": "14.39%",
+    "de": 0.19,
+    "de_period": "latest restated period (borrowing / net worth)",
+    "ocf": -175.17,
+    "ocf_unit": "mn",
+    "ocf_period": "FY25 DRHP"
    }
   },
   {
@@ -399,6 +1079,93 @@
    "stale": {
     "f7": "FY25",
     "f8": "FY25"
+   },
+   "m": {
+    "price_band": "₹227 to ₹239",
+    "issue_price": 239.0,
+    "lot": "62 Shares",
+    "sale_type": "Fresh capital only",
+    "dates": "1 to 3 Sep, 2026",
+    "listed_on": "Tue, Sep 8, 2026",
+    "issue_cr": 125.0,
+    "fresh_cr": 125.0,
+    "fresh_pct": 100.0,
+    "objects": [
+     [
+      "Company Learning Centres and Company Learning Centres in partnership with Licensed Professionals",
+      26.88
+     ],
+     [
+      "School Collaboration Centres",
+      5.54
+     ],
+     [
+      "Centre for Excellence and Research",
+      2.45
+     ],
+     [
+      "Upskilling Academy",
+      2.05
+     ],
+     [
+      "Technology (hardware) costs",
+      4.44
+     ],
+     [
+      "Expenditure for lease payments for existing centres in India",
+      14.45
+     ],
+     [
+      "Investment in Subsidiary, Moms Belief US Inc., for making lease / license payments for existing centres in the USA",
+      10.13
+     ],
+     [
+      "Expenditure for brand awareness and inclusive outreach programs",
+      10.21
+     ],
+     [
+      "Funding inorganic growth through unidentified acquisition and General corporate purposes",
+      38.55
+     ]
+    ],
+    "pe_pre": 75.63,
+    "pe_post": 100.84,
+    "eps_pre": 3.16,
+    "eps_post": 2.37,
+    "mcap_pre": 374.55,
+    "mcap_post": 499.55,
+    "promoter_pre": 91.72,
+    "promoter_post": 68.77,
+    "anchor_cr": 50.0,
+    "sub_total": 63.69,
+    "rev_cagr": 63.3,
+    "pat_cagr": 141.6,
+    "revenue": [
+     43.27
+    ],
+    "pat": [
+     1.35
+    ],
+    "periods": [
+     "30 Sep 2025"
+    ],
+    "borrowing": [
+     4.0
+    ],
+    "networth": [
+     23.76
+    ],
+    "de_calc": 0.17,
+    "roe": "21.64%",
+    "roce": "29.74%",
+    "ronw": "21.64%",
+    "pat_margin": "6.07%",
+    "ebitda_margin": "14.59%",
+    "de": 0.17,
+    "de_period": "latest restated period (borrowing / net worth)",
+    "ocf": -31.91,
+    "ocf_unit": "mn",
+    "ocf_period": "FY25 DRHP"
    }
   },
   {
@@ -429,6 +1196,83 @@
    "u_reasons": {},
    "stale": {
     "f7": "FY24"
+   },
+   "m": {
+    "price_band": "₹132 to ₹139",
+    "issue_price": 139.0,
+    "lot": "107 Shares",
+    "sale_type": "Fresh capital cum OFS",
+    "dates": "25 to 29 Sep, 2026",
+    "listed_on": "Mon, Oct 5, 2026",
+    "issue_cr": 304.0,
+    "fresh_cr": 290.0,
+    "ofs_cr": 14.0,
+    "fresh_pct": 95.4,
+    "objects": [
+     [
+      "Funding the capital expenditure requirements of its manufacturing facility at Samakhiyali, Kutch, Gujarat and hybrid wind and solar power plant",
+      226.33
+     ],
+     [
+      "Prepayment or re-payment, in full or in part, of certain outstanding borrowings availed by the Company",
+      7.7
+     ],
+     [
+      "General Corporate Purposes",
+      29.5
+     ]
+    ],
+    "pe_pre": 9.48,
+    "pe_post": 13.11,
+    "eps_pre": 14.66,
+    "eps_post": 10.6,
+    "mcap_pre": 757.35,
+    "mcap_post": 1047.35,
+    "promoter_pre": 96.63,
+    "promoter_post": 68.54,
+    "anchor_cr": 91.17,
+    "sub_total": 30.42,
+    "sub_qib": 21.91,
+    "sub_nii": 56.77,
+    "sub_retail": 23.98,
+    "rev_cagr": 21.7,
+    "pat_cagr": 38.5,
+    "revenue": [
+     1685.38,
+     1517.21,
+     1137.54
+    ],
+    "pat": [
+     79.89,
+     59.94,
+     41.67
+    ],
+    "periods": [
+     "31 Mar 2026",
+     "31 Mar 2025",
+     "31 Mar 2024"
+    ],
+    "borrowing": [
+     334.37,
+     347.86,
+     198.39
+    ],
+    "networth": [
+     421.55,
+     292.55,
+     176.06
+    ],
+    "de_calc": 0.79,
+    "roe": "18.86%",
+    "roce": "19.31%",
+    "ronw": "18.86%",
+    "pat_margin": "4.76%",
+    "ebitda_margin": "9.94%",
+    "de": 0.79,
+    "de_period": "latest restated period (borrowing / net worth)",
+    "ocf": 4492.46,
+    "ocf_unit": "mn",
+    "ocf_period": "FY24 DRHP"
    }
   },
   {
@@ -459,6 +1303,80 @@
    "u_reasons": {},
    "stale": {
     "f8": "FY24"
+   },
+   "m": {
+    "price_band": "₹118 to ₹124",
+    "issue_price": 124.0,
+    "lot": "120 Shares",
+    "sale_type": "Fresh capital cum OFS",
+    "dates": "7 to 9 Sep, 2026",
+    "listed_on": "Tue, Sep 15, 2026",
+    "issue_cr": 351.0,
+    "fresh_cr": 316.0,
+    "ofs_cr": 35.0,
+    "fresh_pct": 90.0,
+    "objects": [
+     [
+      "Funding costs towards obtaining government and statutory approvals and purchase of additional FSI and cost towards Compensation to members towards alternate accommodation, and hardship compensation, in relation to the development of certain of the Under-construction Redevelopment Projects, and certain of the Upcoming Redevelopment Projects (Funding Redevelopment Expenses",
+      145.72
+     ],
+     [
+      "Repayment and/ or pre-payment, in full or part, of certain borrowings availed by the Company",
+      91.5
+     ],
+     [
+      "Funding acquisition of future redevelopment projects and general corporate purposes.",
+      42.57
+     ]
+    ],
+    "pe_pre": 15.16,
+    "pe_post": 19.59,
+    "eps_pre": 8.18,
+    "eps_post": 6.33,
+    "mcap_pre": 1080.92,
+    "mcap_post": 1396.52,
+    "promoter_pre": 63.35,
+    "promoter_post": 49.03,
+    "anchor_cr": 84.25,
+    "sub_total": 95.39,
+    "rev_cagr": 30.3,
+    "pat_cagr": 34.2,
+    "revenue": [
+     763.93,
+     638.24,
+     449.75
+    ],
+    "pat": [
+     71.32,
+     62.25,
+     39.62
+    ],
+    "periods": [
+     "31 Mar 2026",
+     "31 Mar 2025",
+     "31 Mar 2024"
+    ],
+    "borrowing": [
+     258.44,
+     196.5,
+     99.34
+    ],
+    "networth": [
+     246.7,
+     175.59,
+     88.37
+    ],
+    "de_calc": 1.05,
+    "roe": "33.78%",
+    "roce": "24.34%",
+    "ronw": "33.78%",
+    "pat_margin": "9.37%",
+    "ebitda_margin": "17.18%",
+    "de": 1.05,
+    "de_period": "latest restated period (borrowing / net worth)",
+    "ocf": -607.75,
+    "ocf_unit": "mn",
+    "ocf_period": "FY24 DRHP"
    }
   },
   {
@@ -491,6 +1409,80 @@
    "stale": {
     "f8": "FY25",
     "f7": "FY25"
+   },
+   "m": {
+    "price_band": "₹403 to ₹424",
+    "issue_price": 424.0,
+    "lot": "35 Shares",
+    "sale_type": "Fresh capital cum OFS",
+    "dates": "16 to 18 Sep, 2026",
+    "listed_on": "Wed, Sep 23, 2026",
+    "issue_cr": 500.0,
+    "fresh_cr": 360.0,
+    "ofs_cr": 140.0,
+    "fresh_pct": 72.0,
+    "objects": [
+     [
+      "Funding capital expenditure for Fit Outs towards setting up of new stores in Fiscal 2027 and Fiscal 2028",
+      12.45
+     ],
+     [
+      "Part funding of the incremental working capital requirements of Company",
+      241.35
+     ],
+     [
+      "General Corporate Purposes",
+      79.75
+     ]
+    ],
+    "pe_pre": 47.11,
+    "pe_post": 53.2,
+    "eps_pre": 9.0,
+    "eps_post": 7.97,
+    "mcap_pre": 2792.61,
+    "mcap_post": 3153.36,
+    "promoter_pre": 75.74,
+    "promoter_post": 64.86,
+    "anchor_cr": 146.4,
+    "sub_total": 76.61,
+    "rev_cagr": 39.6,
+    "pat_cagr": 49.1,
+    "revenue": [
+     2352.85,
+     1599.96,
+     1208.04
+    ],
+    "pat": [
+     59.28,
+     39.86,
+     26.65
+    ],
+    "periods": [
+     "31 Mar 2026",
+     "31 Mar 2025",
+     "31 Mar 2024"
+    ],
+    "borrowing": [
+     162.59,
+     125.36,
+     110.43
+    ],
+    "networth": [
+     225.71,
+     141.37,
+     101.51
+    ],
+    "de_calc": 0.72,
+    "roe": "30.60%",
+    "roce": "29.30%",
+    "ronw": "32.60%",
+    "pat_margin": "2.52%",
+    "ebitda_margin": "5.32%",
+    "de": 0.72,
+    "de_period": "latest restated period (borrowing / net worth)",
+    "ocf": 3.0,
+    "ocf_unit": "mn",
+    "ocf_period": "FY25 DRHP"
    }
   },
   {
@@ -517,7 +1509,12 @@
    "post_pe": 41.61,
    "sources": {},
    "stale": {},
-   "u_reasons": {}
+   "u_reasons": {},
+   "m": {
+    "ocf": 498.3,
+    "ocf_unit": "mn",
+    "ocf_period": "FY25 DRHP"
+   }
   },
   {
    "company": "Kanohar Electricals",
@@ -549,6 +1546,77 @@
    "stale": {
     "f7": "pledge unconfirmed",
     "f8": "RHP unread"
+   },
+   "m": {
+    "price_band": "₹601 to ₹632",
+    "issue_price": 632.0,
+    "lot": "23 Shares",
+    "sale_type": "Fresh capital cum OFS",
+    "dates": "8 to 10 Sep, 2026",
+    "listed_on": "Wed, Sep 16, 2026",
+    "issue_cr": 1056.0,
+    "fresh_cr": 300.0,
+    "ofs_cr": 756.0,
+    "fresh_pct": 28.4,
+    "objects": [
+     [
+      "Funding the capital expenditure requirements of Company",
+      64.18
+     ],
+     [
+      "Funding the incremental working capital requirements of Company",
+      155.0
+     ],
+     [
+      "General Corporate Purposes",
+      55.5
+     ]
+    ],
+    "pe_pre": 36.26,
+    "pe_post": 38.58,
+    "eps_pre": 17.43,
+    "eps_post": 16.38,
+    "mcap_pre": 4704.61,
+    "mcap_post": 5004.61,
+    "promoter_pre": 95.47,
+    "promoter_post": 74.65,
+    "anchor_cr": 316.72,
+    "sub_total": 63.6,
+    "rev_cagr": 53.6,
+    "pat_cagr": 170.3,
+    "revenue": [
+     662.86,
+     457.3,
+     281.12
+    ],
+    "pat": [
+     129.73,
+     65.12,
+     17.76
+    ],
+    "periods": [
+     "31 Mar 2026",
+     "31 Mar 2025",
+     "31 Mar 2024"
+    ],
+    "borrowing": [
+     39.04,
+     32.27,
+     42.08
+    ],
+    "networth": [
+     372.84,
+     243.13,
+     178.12
+    ],
+    "de_calc": 0.1,
+    "roe": "42.12%",
+    "roce": "70.13%",
+    "ronw": "34.80%",
+    "pat_margin": "19.57%",
+    "ebitda_margin": "27.59%",
+    "de": 0.1,
+    "de_period": "latest restated period (borrowing / net worth)"
    }
   },
   {
@@ -579,6 +1647,11 @@
    "u_reasons": {},
    "stale": {
     "f7": "pledge unconfirmed"
+   },
+   "m": {
+    "ocf": 671.67,
+    "ocf_unit": "mn",
+    "ocf_period": "FY25 DRHP"
    }
   },
   {
@@ -609,6 +1682,90 @@
    "u_reasons": {},
    "stale": {
     "f8": "FY25"
+   },
+   "m": {
+    "price_band": "₹32 to ₹34",
+    "issue_price": 34.0,
+    "lot": "441 Shares",
+    "sale_type": "Fresh capital cum OFS",
+    "dates": "24 to 28 Sep, 2026",
+    "listed_on": "Thu, Oct 1, 2026",
+    "issue_cr": 1092.0,
+    "fresh_cr": 750.0,
+    "ofs_cr": 342.0,
+    "fresh_pct": 68.7,
+    "objects": [
+     [
+      "Investment to drive growth in loan disbursals under default loss guarantee (DLG) arrangements",
+      325.0
+     ],
+     [
+      "Investment in WFPL, the Material Subsidiary, for the purpose of augmenting its capital base",
+      250.0
+     ],
+     [
+      "General corporate purposes",
+      111.72
+     ]
+    ],
+    "pe_pre": 21.52,
+    "pe_post": 8.61,
+    "eps_pre": 1.58,
+    "eps_post": 3.95,
+    "mcap_pre": 5234.79,
+    "mcap_post": 5984.79,
+    "promoter_pre": 23.96,
+    "promoter_post": 19.31,
+    "anchor_cr": 327.5,
+    "sub_total": 101.87,
+    "sub_qib": 230.54,
+    "sub_nii": 120.37,
+    "sub_retail": 20.41,
+    "rev_cagr": 56.5,
+    "pat_cagr": 19.1,
+    "revenue": [
+     1065.09,
+     3404.27,
+     702.92,
+     2378.53,
+     1389.24
+    ],
+    "pat": [
+     173.8,
+     242.71,
+     67.15,
+     240.28,
+     171.15
+    ],
+    "periods": [
+     "30 Jun 2026",
+     "31 Mar 2026",
+     "30 Jun 2025",
+     "31 Mar 2025",
+     "31 Mar 2024"
+    ],
+    "borrowing": [
+     5484.76,
+     5157.04,
+     4070.14,
+     3413.37,
+     1708.92
+    ],
+    "networth": [
+     2415.2,
+     2225.42,
+     1991.01,
+     1918.66,
+     1606.64
+    ],
+    "de_calc": 2.27,
+    "roe": "15.98%",
+    "ronw": "9.67%",
+    "de": 2.27,
+    "de_period": "latest restated period (borrowing / net worth)",
+    "ocf": -11453.83,
+    "ocf_unit": "mn",
+    "ocf_period": "FY25 DRHP"
    }
   },
   {
@@ -643,6 +1800,77 @@
     "f5": "FY25",
     "f8": "FY25",
     "f7": "FY25"
+   },
+   "m": {
+    "price_band": "₹159 to ₹167",
+    "issue_price": 167.0,
+    "lot": "85 Shares",
+    "sale_type": "Fresh capital only",
+    "dates": "28 to 30 Sep, 2026",
+    "listed_on": "Tue, Oct 6, 2026",
+    "issue_cr": 90.0,
+    "fresh_cr": 90.0,
+    "fresh_pct": 100.0,
+    "objects": [
+     [
+      "Funding working capital requirements of the Company",
+      60.0
+     ],
+     [
+      "General Corporate Purposes",
+      18.56
+     ]
+    ],
+    "pe_pre": 20.07,
+    "pe_post": 26.94,
+    "eps_pre": 8.32,
+    "eps_post": 6.2,
+    "mcap_pre": 263.09,
+    "mcap_post": 353.26,
+    "promoter_pre": 84.34,
+    "promoter_post": 62.81,
+    "anchor_cr": 27.05,
+    "sub_total": 38.12,
+    "sub_qib": 28.05,
+    "sub_nii": 95.54,
+    "sub_retail": 19.26,
+    "rev_cagr": -4.3,
+    "pat_cagr": -14.8,
+    "revenue": [
+     72.4,
+     94.47,
+     79.05
+    ],
+    "pat": [
+     13.11,
+     23.42,
+     18.05
+    ],
+    "periods": [
+     "31 Mar 2026",
+     "31 Mar 2025",
+     "31 Mar 2024"
+    ],
+    "borrowing": [
+     18.47,
+     5.71,
+     3.54
+    ],
+    "networth": [
+     179.71,
+     168.09,
+     150.54
+    ],
+    "de_calc": 0.1,
+    "roe": "7.59%",
+    "roce": "10.61%",
+    "ronw": "7.35%",
+    "pat_margin": "18.24%",
+    "ebitda_margin": "30.24%",
+    "de": 0.1,
+    "de_period": "latest restated period (borrowing / net worth)",
+    "ocf": -3186.22,
+    "ocf_unit": "mn"
    }
   },
   {
@@ -679,6 +1907,84 @@
    },
    "soft": {
     "f4": "total only"
+   },
+   "m": {
+    "price_band": "₹130 to ₹138",
+    "issue_price": 138.0,
+    "lot": "100 Shares",
+    "sale_type": "Fresh capital only",
+    "dates": "23 to 25 Jun, 2026",
+    "listed_on": "Wed, Jul 1, 2026",
+    "issue_cr": 165.0,
+    "fresh_cr": 165.0,
+    "fresh_pct": 100.0,
+    "objects": [
+     [
+      "Funding incremental working capital requirements of Company",
+      65.0
+     ],
+     [
+      "Repayment/pre-payment, in full or in part, of certain outstanding borrowings availed by Company from scheduled commercial banks",
+      65.0
+     ],
+     [
+      "General Corporate Purposes",
+      14.21
+     ]
+    ],
+    "pe_pre": 18.41,
+    "pe_post": 18.64,
+    "eps_pre": 7.5,
+    "eps_post": 7.41,
+    "mcap_pre": 467.02,
+    "mcap_post": 632.18,
+    "promoter_pre": 94.59,
+    "promoter_post": 69.88,
+    "anchor_cr": 49.52,
+    "sub_total": 147.53,
+    "rev_cagr": 63.7,
+    "pat_cagr": 56.3,
+    "revenue": [
+     123.8,
+     124.94,
+     69.45,
+     46.6
+    ],
+    "pat": [
+     25.44,
+     25.37,
+     14.71,
+     10.39
+    ],
+    "periods": [
+     "31 Dec 2025",
+     "31 Mar 2025",
+     "31 Mar 2024",
+     "31 Mar 2023"
+    ],
+    "borrowing": [
+     64.92,
+     74.8,
+     19.7,
+     5.84
+    ],
+    "networth": [
+     83.65,
+     58.13,
+     32.8,
+     18.08
+    ],
+    "de_calc": 0.78,
+    "roe": "35.89%",
+    "roce": "24.09%",
+    "ronw": "30.41%",
+    "pat_margin": "20.55%",
+    "ebitda_margin": "29.63%",
+    "de": 0.78,
+    "de_period": "latest restated period (borrowing / net worth)",
+    "ocf": -3697.69,
+    "ocf_unit": "mn",
+    "ocf_period": "FY25 DRHP"
    }
   },
   {
@@ -689,7 +1995,7 @@
    "passed": 5,
    "fails": 3,
    "unknown": 0,
-   "verdict": "Rejected",
+   "verdict": "Provisional",
    "flag": "P/E negative; growth <15%/loss",
    "source_url": "https://www.chittorgarh.com/ipo/mv-electrosystems-ipo/2800/",
    "source_label": "Chittorgarh",
@@ -716,6 +2022,75 @@
    },
    "soft": {
     "f4": "total only"
+   },
+   "m": {
+    "price_band": "₹400 to ₹425",
+    "issue_price": 425.0,
+    "lot": "34 Shares",
+    "sale_type": "Fresh capital only",
+    "dates": "30 Jul to 3 Aug, 2026",
+    "listed_on": "Thu, Aug 6, 2026",
+    "issue_cr": 290.0,
+    "fresh_cr": 290.0,
+    "fresh_pct": 100.0,
+    "objects": [
+     [
+      "Funding long-term working capital requirements of the Company",
+      180.0
+     ],
+     [
+      "Investment in research design and development activities for new power electronic equipment",
+      21.0
+     ],
+     [
+      "General corporate purpose",
+      53.46
+     ]
+    ],
+    "pe_pre": -68.88,
+    "eps_pre": -6.17,
+    "mcap_pre": 869.52,
+    "mcap_post": 1159.52,
+    "promoter_pre": 76.92,
+    "promoter_post": 57.68,
+    "anchor_cr": 130.5,
+    "sub_total": 109.59,
+    "rev_cagr": -0.8,
+    "revenue": [
+     49.79,
+     64.64,
+     50.57
+    ],
+    "pat": [
+     -12.63,
+     1.4,
+     0.56
+    ],
+    "periods": [
+     "31 Mar 2026",
+     "31 Mar 2025",
+     "31 Mar 2024"
+    ],
+    "borrowing": [
+     49.89,
+     27.5,
+     27.59
+    ],
+    "networth": [
+     62.57,
+     17.91,
+     16.53
+    ],
+    "de_calc": 0.8,
+    "roe": "-31.55%",
+    "roce": "-17.69%",
+    "ronw": "-20.29%",
+    "pat_margin": "-25.36%",
+    "ebitda_margin": "-19.97%",
+    "de": 0.8,
+    "de_period": "latest restated period (borrowing / net worth)",
+    "ocf": -90.42,
+    "ocf_unit": "mn"
    }
   },
   {
@@ -750,6 +2125,87 @@
     "f5": "FY25",
     "f7": "FY25",
     "f8": "FY25"
+   },
+   "m": {
+    "price_band": "₹258 to ₹272",
+    "issue_price": 272.0,
+    "lot": "55 Shares",
+    "sale_type": "Fresh capital cum OFS",
+    "dates": "25 to 29 Sep, 2026",
+    "listed_on": "Mon, Oct 5, 2026",
+    "issue_cr": 552.0,
+    "fresh_cr": 320.0,
+    "ofs_cr": 232.0,
+    "fresh_pct": 58.0,
+    "objects": [
+     [
+      "Funding of capital expenditure requirements of Company towards purchase of machinery, equipment and civil works at Manufacturing Facilities",
+      91.5
+     ],
+     [
+      "Repayment or prepayment, in full or in part, of all or a portion of certain outstanding borrowings availed by Company",
+      155.5
+     ],
+     [
+      "General Corporate Purposes",
+      48.34
+     ]
+    ],
+    "pe_pre": 51.81,
+    "pe_post": 23.61,
+    "eps_pre": 5.25,
+    "eps_post": 13.04,
+    "mcap_pre": 2775.35,
+    "mcap_post": 3095.35,
+    "promoter_pre": 98.38,
+    "promoter_post": 80.71,
+    "anchor_cr": 165.6,
+    "sub_total": 97.28,
+    "sub_qib": 192.68,
+    "sub_nii": 121.9,
+    "sub_retail": 32.21,
+    "rev_cagr": 33.3,
+    "pat_cagr": 15.6,
+    "revenue": [
+     490.94,
+     1181.67,
+     831.86,
+     664.98
+    ],
+    "pat": [
+     32.78,
+     53.56,
+     53.32,
+     40.07
+    ],
+    "periods": [
+     "30 Jun 2026",
+     "31 Mar 2026",
+     "31 Mar 2025",
+     "31 Mar 2024"
+    ],
+    "borrowing": [
+     258.46,
+     234.19,
+     113.45,
+     36.73
+    ],
+    "networth": [
+     268.76,
+     235.84,
+     180.7,
+     127.54
+    ],
+    "de_calc": 0.96,
+    "roe": "13.17%",
+    "roce": "10.36%",
+    "ronw": "13.17%",
+    "pat_margin": "6.77%",
+    "ebitda_margin": "11.22%",
+    "de": 0.96,
+    "de_period": "latest restated period (borrowing / net worth)",
+    "ocf": -97.85,
+    "ocf_unit": "mn"
    }
   },
   {
@@ -786,6 +2242,80 @@
    },
    "soft": {
     "f4": "total only"
+   },
+   "m": {
+    "price_band": "₹50 to ₹53",
+    "issue_price": 53.0,
+    "lot": "281 Shares",
+    "sale_type": "Fresh capital cum OFS",
+    "dates": "5 to 7 Aug, 2026",
+    "listed_on": "Wed, Aug 12, 2026",
+    "issue_cr": 426.0,
+    "fresh_cr": 320.0,
+    "ofs_cr": 106.0,
+    "fresh_pct": 75.1,
+    "objects": [
+     [
+      "Funding incremental working capital requirement of Company",
+      220.0
+     ],
+     [
+      "Repayment and/or pre-payment, in full or in part, of certain borrowings availed by Company",
+      20.0
+     ],
+     [
+      "General Corporate Purposes",
+      46.27
+     ]
+    ],
+    "pe_pre": 15.96,
+    "pe_post": 19.7,
+    "eps_pre": 3.32,
+    "eps_post": 2.69,
+    "mcap_pre": 1350.57,
+    "mcap_post": 1670.57,
+    "promoter_pre": 91.48,
+    "promoter_post": 67.62,
+    "anchor_cr": 127.76,
+    "sub_total": 96.6,
+    "rev_cagr": 58.8,
+    "pat_cagr": 207.6,
+    "revenue": [
+     1168.88,
+     743.53,
+     463.39
+    ],
+    "pat": [
+     84.68,
+     33.27,
+     8.95
+    ],
+    "periods": [
+     "31 Mar 2026",
+     "31 Mar 2025",
+     "31 Mar 2024"
+    ],
+    "borrowing": [
+     182.75,
+     165.77,
+     142.36
+    ],
+    "networth": [
+     147.38,
+     62.6,
+     29.25
+    ],
+    "de_calc": 1.24,
+    "roe": "81%",
+    "roce": "44.26%",
+    "ronw": "57.46%",
+    "pat_margin": "7.25%",
+    "ebitda_margin": "12.60%",
+    "de": 1.24,
+    "de_period": "latest restated period (borrowing / net worth)",
+    "ocf": 78.4,
+    "ocf_unit": "mn",
+    "ocf_period": "FY25 DRHP"
    }
   },
   {
@@ -824,6 +2354,75 @@
    },
    "soft": {
     "f4": "total only"
+   },
+   "m": {
+    "price_band": "₹750 to ₹788",
+    "issue_price": 788.0,
+    "lot": "19 Shares",
+    "sale_type": "Fresh capital cum OFS",
+    "dates": "21 to 25 Aug, 2026",
+    "listed_on": "Mon, Aug 31, 2026",
+    "issue_cr": 825.0,
+    "fresh_cr": 620.0,
+    "ofs_cr": 205.0,
+    "fresh_pct": 75.2,
+    "objects": [
+     [
+      "Funding future working capital requirements towards procurement, maintenance and scaling up of inventory and funding advance margin requirements for procurement of inventory by the Company",
+      465.0
+     ],
+     [
+      "General Corporate Purposes",
+      107.76
+     ]
+    ],
+    "pe_pre": 18.89,
+    "pe_post": 20.67,
+    "eps_pre": 41.71,
+    "eps_post": 38.12,
+    "mcap_pre": 6580.23,
+    "mcap_post": 7200.23,
+    "promoter_pre": 92.75,
+    "promoter_post": 81.91,
+    "anchor_cr": 246.3,
+    "sub_total": 77.62,
+    "rev_cagr": 64.2,
+    "pat_cagr": 114.1,
+    "revenue": [
+     94282.47,
+     66252.05,
+     34948.9
+    ],
+    "pat": [
+     348.3,
+     227.19,
+     75.97
+    ],
+    "periods": [
+     "31 Mar 2026",
+     "31 Mar 2025",
+     "31 Mar 2024"
+    ],
+    "borrowing": [
+     12.67,
+     21.54,
+     54.86
+    ],
+    "networth": [
+     926.87,
+     422.94,
+     204.87
+    ],
+    "de_calc": 0.01,
+    "roe": "51.04%",
+    "roce": "40.27%",
+    "ronw": "49.52%",
+    "pat_margin": "0.37%",
+    "ebitda_margin": "0.41%",
+    "de": 0.01,
+    "de_period": "latest restated period (borrowing / net worth)",
+    "ocf": 216.25,
+    "ocf_unit": "mn"
    }
   },
   {
@@ -853,7 +2452,81 @@
     "f8": "SEBI DRHP (abridged p.11) refers to auditor qualifications given effect in the restated financials; see DRHP pages 246 and 334"
    },
    "u_reasons": {},
-   "stale": {}
+   "stale": {},
+   "gov_flag": "Auditor qualifications referred to in DRHP (given effect in restated financials)",
+   "m": {
+    "price_band": "₹384 to ₹404",
+    "issue_price": 404.0,
+    "lot": "37 Shares",
+    "sale_type": "Fresh capital cum OFS",
+    "dates": "9 to 11 Sep, 2026",
+    "listed_on": "Thu, Sep 17, 2026",
+    "issue_cr": 1256.0,
+    "fresh_cr": 150.0,
+    "ofs_cr": 1106.0,
+    "fresh_pct": 11.9,
+    "objects": [
+     [
+      "Repayment/ prepayment, in full or in part, of certain outstanding borrowings and accrued interest thereon availed by our Company",
+      70.0
+     ],
+     [
+      "Payment of lease rental/ license fee for our warehouses and experience stores",
+      42.5
+     ],
+     [
+      "General corporate purposes",
+      28.87
+     ]
+    ],
+    "pe_pre": 39.26,
+    "pe_post": 40.73,
+    "eps_pre": 10.29,
+    "eps_post": 9.92,
+    "mcap_pre": 4096.2,
+    "mcap_post": 4246.3,
+    "promoter_pre": 21.49,
+    "promoter_post": 19.74,
+    "anchor_cr": 376.07,
+    "sub_total": 51.13,
+    "rev_cagr": 41.9,
+    "pat_cagr": 115.7,
+    "revenue": [
+     394.09,
+     271.96,
+     195.8
+    ],
+    "pat": [
+     104.3,
+     43.11,
+     22.41
+    ],
+    "periods": [
+     "31 Mar 2026",
+     "31 Mar 2025",
+     "31 Mar 2024"
+    ],
+    "borrowing": [
+     187.59,
+     154.58,
+     147.22
+    ],
+    "networth": [
+     295.81,
+     183.61,
+     139.61
+    ],
+    "de_calc": 0.63,
+    "roe": "43.51%",
+    "roce": "25.34%",
+    "ronw": "43.51%",
+    "pat_margin": "26.95%",
+    "ebitda_margin": "41.48%",
+    "de": 0.63,
+    "de_period": "latest restated period (borrowing / net worth)",
+    "ocf": 173.0,
+    "ocf_unit": "cr"
+   }
   },
   {
    "company": "Karamtara Engineering",
@@ -863,7 +2536,7 @@
    "passed": 5,
    "fails": 3,
    "unknown": 0,
-   "verdict": "Rejected",
+   "verdict": "Provisional",
    "flag": "fresh 77%; proceeds not growth-led | F3: post-issue P/E 35.72x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/karamtara-engineering-ipo-ipo/2020/",
    "source_label": "Chittorgarh",
@@ -886,6 +2559,74 @@
    "stale": {
     "f8": "FY24",
     "f7": "pledge unconfirmed"
+   },
+   "m": {
+    "price_band": "₹241 to ₹254",
+    "issue_price": 254.0,
+    "lot": "59 Shares",
+    "sale_type": "Fresh capital cum OFS",
+    "dates": "9 to 11 Sep, 2026",
+    "listed_on": "Thu, Sep 17, 2026",
+    "issue_cr": 875.0,
+    "fresh_cr": 675.0,
+    "ofs_cr": 200.0,
+    "fresh_pct": 77.1,
+    "objects": [
+     [
+      "Funding prepayment, repayment and/ or payment obligations to lenders towards borrowings and Acceptances, in part or full",
+      600.0
+     ],
+     [
+      "General corporate purposes",
+      28.39
+     ]
+    ],
+    "pe_pre": 32.77,
+    "pe_post": 35.72,
+    "eps_pre": 7.75,
+    "eps_post": 7.11,
+    "mcap_pre": 7499.3,
+    "mcap_post": 8174.3,
+    "promoter_pre": 92.06,
+    "promoter_post": 82.01,
+    "anchor_cr": 262.5,
+    "sub_total": 46.38,
+    "rev_cagr": 33.4,
+    "pat_cagr": 49.3,
+    "revenue": [
+     4316.36,
+     3165.36,
+     2427.12
+    ],
+    "pat": [
+     228.75,
+     139.33,
+     102.65
+    ],
+    "periods": [
+     "31 Mar 2026",
+     "31 Mar 2025",
+     "31 Mar 2024"
+    ],
+    "borrowing": [
+     1030.13,
+     556.28,
+     508.51
+    ],
+    "networth": [
+     1219.4,
+     982.67,
+     552.92
+    ],
+    "de_calc": 0.84,
+    "roe": "20.77%",
+    "roce": "23.27%",
+    "ronw": "20.78%",
+    "ebitda_margin": "11.55%",
+    "de": 0.84,
+    "de_period": "latest restated period (borrowing / net worth)",
+    "ocf": 675.0,
+    "ocf_unit": "cr"
    }
   },
   {
@@ -920,6 +2661,83 @@
     "f5": "FY24",
     "f8": "FY24",
     "f7": "FY24"
+   },
+   "m": {
+    "price_band": "₹139 to ₹146",
+    "issue_price": 146.0,
+    "lot": "102 Shares",
+    "sale_type": "Fresh capital cum OFS",
+    "dates": "9 to 11 Sep, 2026",
+    "listed_on": "Thu, Sep 17, 2026",
+    "issue_cr": 427.0,
+    "fresh_cr": 258.0,
+    "ofs_cr": 169.0,
+    "fresh_pct": 60.4,
+    "objects": [
+     [
+      "Purchase of equipment",
+      14.69
+     ],
+     [
+      "Prepayment and/or repayment, in full or in part, of all or a portion of certain outstanding borrowings availed by Company",
+      180.0
+     ],
+     [
+      "General corporate purposes",
+      41.73
+     ],
+     [
+      "Issue Expense",
+      35.69
+     ]
+    ],
+    "pe_pre": 13.87,
+    "pe_post": 14.76,
+    "eps_pre": 10.53,
+    "eps_post": 9.89,
+    "mcap_pre": 3971.2,
+    "mcap_post": 4229.2,
+    "promoter_pre": 100.0,
+    "promoter_post": 89.9,
+    "anchor_cr": 128.14,
+    "sub_total": 34.76,
+    "rev_cagr": 21.9,
+    "pat_cagr": 53.2,
+    "revenue": [
+     3639.45,
+     2941.01,
+     2449.79
+    ],
+    "pat": [
+     286.44,
+     223.63,
+     122.0
+    ],
+    "periods": [
+     "31 Mar 2026",
+     "31 Mar 2025",
+     "31 Mar 2024"
+    ],
+    "borrowing": [
+     860.65,
+     649.55,
+     422.3
+    ],
+    "networth": [
+     888.41,
+     604.99,
+     382.83
+    ],
+    "de_calc": 0.97,
+    "roe": "32.24%",
+    "roce": "27.13%",
+    "ronw": "32.24%",
+    "pat_margin": "7.96%",
+    "ebitda_margin": "14.44%",
+    "de": 0.97,
+    "de_period": "latest restated period (borrowing / net worth)",
+    "ocf": -1772.65,
+    "ocf_unit": "mn"
    }
   },
   {
@@ -930,7 +2748,7 @@
    "passed": 5,
    "fails": 3,
    "unknown": 0,
-   "verdict": "Rejected",
+   "verdict": "Provisional",
    "flag": "OFS-heavy; promoter 41.3% | F3: post-issue P/E 56.67x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/molbio-diagnostics-ipo/2579/",
    "source_label": "Chittorgarh",
@@ -955,6 +2773,79 @@
    },
    "soft": {
     "f4": "total only"
+   },
+   "m": {
+    "price_band": "₹768 to ₹807",
+    "issue_price": 807.0,
+    "lot": "18 Shares",
+    "sale_type": "Fresh capital cum OFS",
+    "dates": "10 to 12 Aug, 2026",
+    "listed_on": "Mon, Aug 17, 2026",
+    "issue_cr": 940.0,
+    "fresh_cr": 200.0,
+    "ofs_cr": 740.0,
+    "fresh_pct": 21.3,
+    "objects": [
+     [
+      "Funding capital expenditure towards the setting up of infrastructure for research and development facility, Center of Excellence and connected office space.",
+      105.54
+     ],
+     [
+      "Funding capital expenditure towards the purchase of certain plant, machinery and other equipment for Goa Unit I, Goa Unit II and Visakhapatnam Unit, and",
+      72.28
+     ],
+     [
+      "General Corporate Purposes",
+      9.47
+     ]
+    ],
+    "pe_pre": 55.43,
+    "pe_post": 56.67,
+    "eps_pre": 14.56,
+    "eps_post": 14.24,
+    "mcap_pre": 9099.71,
+    "mcap_post": 9299.87,
+    "promoter_pre": 44.89,
+    "promoter_post": 41.29,
+    "anchor_cr": 281.46,
+    "sub_total": 49.35,
+    "rev_cagr": 31.6,
+    "pat_cagr": 40.2,
+    "revenue": [
+     1455.17,
+     1027.94,
+     840.66
+    ],
+    "pat": [
+     164.14,
+     138.58,
+     83.54
+    ],
+    "periods": [
+     "31 Mar 2026",
+     "31 Mar 2025",
+     "31 Mar 2024"
+    ],
+    "borrowing": [
+     412.64,
+     123.16,
+     174.58
+    ],
+    "networth": [
+     1144.68,
+     952.95,
+     807.94
+    ],
+    "de_calc": 0.36,
+    "roe": "15.59%",
+    "roce": "17.55%",
+    "ronw": "14.55%",
+    "pat_margin": "11.28%",
+    "ebitda_margin": "22.56%",
+    "de": 0.36,
+    "de_period": "latest restated period (borrowing / net worth)",
+    "ocf": 50.0,
+    "ocf_unit": "cr"
    }
   },
   {
@@ -992,6 +2883,78 @@
    },
    "soft": {
     "f4": "total only"
+   },
+   "m": {
+    "price_band": "₹190 to ₹201",
+    "issue_price": 201.0,
+    "lot": "74 Shares",
+    "sale_type": "Fresh capital cum OFS",
+    "dates": "17 to 19 Aug, 2026",
+    "listed_on": "Mon, Aug 24, 2026",
+    "issue_cr": 1700.0,
+    "fresh_cr": 1200.0,
+    "ofs_cr": 500.0,
+    "fresh_pct": 70.6,
+    "objects": [
+     [
+      "Funding expenditure towards setting-up of 10 New Stores: (a) Capital expenditure for fit-outs in the nature of furniture and fixtures, equipment, IT hardware and software",
+      34.55
+     ],
+     [
+      "Funding expenditure towards setting-up of 10 New Stores: (b) Expenditure towards inventory costs for setting up of New Stores",
+      998.68
+     ],
+     [
+      "General corporate purposes",
+      84.58
+     ]
+    ],
+    "pe_pre": 9.95,
+    "pe_post": 11.14,
+    "eps_pre": 20.2,
+    "eps_post": 18.04,
+    "mcap_pre": 10049.54,
+    "mcap_post": 11250.17,
+    "promoter_pre": 97.72,
+    "promoter_post": 82.85,
+    "anchor_cr": 508.2,
+    "sub_total": 46.78,
+    "rev_cagr": 22.1,
+    "pat_cagr": 67.5,
+    "revenue": [
+     25039.8,
+     16907.88,
+     16800.62
+    ],
+    "pat": [
+     1009.82,
+     364.73,
+     359.83
+    ],
+    "periods": [
+     "31 Mar 2026",
+     "31 Mar 2025",
+     "31 Mar 2024"
+    ],
+    "borrowing": [
+     1604.14,
+     949.26,
+     824.18
+    ],
+    "networth": [
+     3033.14,
+     2028.8,
+     1667.78
+    ],
+    "de_calc": 0.53,
+    "roe": "41.60%",
+    "roce": "42.60%",
+    "ronw": "39.90%",
+    "pat_margin": "4.04%",
+    "de": 0.53,
+    "de_period": "latest restated period (borrowing / net worth)",
+    "ocf": -398.0,
+    "ocf_unit": "cr"
    }
   },
   {
@@ -1002,7 +2965,7 @@
    "passed": 5,
    "fails": 3,
    "unknown": 0,
-   "verdict": "Rejected",
+   "verdict": "Provisional",
    "flag": "proceeds not growth-led; P/E 85x; D/E 3.61",
    "source_url": "https://www.chittorgarh.com/ipo/milky-mist-dairy-food-ipo/2541/",
    "source_label": "Chittorgarh",
@@ -1027,6 +2990,84 @@
    },
    "soft": {
     "f4": "total only"
+   },
+   "m": {
+    "price_band": "₹133 to ₹140",
+    "issue_price": 140.0,
+    "lot": "107 Shares",
+    "sale_type": "Fresh capital cum OFS",
+    "dates": "11 to 13 Aug, 2026",
+    "listed_on": "Tue, Aug 18, 2026",
+    "issue_cr": 1553.0,
+    "fresh_cr": 1428.0,
+    "ofs_cr": 125.0,
+    "fresh_pct": 92.0,
+    "objects": [
+     [
+      "Repayment/ prepayment, in full or in part, of certain outstanding borrowings availed by Company",
+      496.86
+     ],
+     [
+      "Financing the capital expenditure requirements in relation to the expansion and modernisation of Perundurai Manufacturing Facility",
+      469.24
+     ],
+     [
+      "Deployment of visi coolers, ice cream freezers and chocolate coolers",
+      155.31
+     ],
+     [
+      "General corporate purposes",
+      206.62
+     ]
+    ],
+    "pe_pre": 73.68,
+    "pe_post": 84.85,
+    "eps_pre": 1.9,
+    "eps_post": 1.65,
+    "mcap_pre": 9349.6,
+    "mcap_post": 10777.81,
+    "promoter_pre": 93.0,
+    "promoter_post": 79.51,
+    "anchor_cr": 465.3,
+    "sub_total": 41.52,
+    "rev_cagr": 31.2,
+    "pat_cagr": 155.6,
+    "revenue": [
+     3145.01,
+     2354.79,
+     1826.86
+    ],
+    "pat": [
+     127.01,
+     46.07,
+     19.44
+    ],
+    "periods": [
+     "31 Mar 2026",
+     "31 Mar 2025",
+     "31 Mar 2024"
+    ],
+    "borrowing": [
+     1671.85,
+     1376.38,
+     1036.72
+    ],
+    "networth": [
+     378.0,
+     242.77,
+     197.05
+    ],
+    "de_calc": 4.42,
+    "roe": "32.12%",
+    "roce": "11.73%",
+    "ronw": "33.60%",
+    "pat_margin": "4.05%",
+    "ebitda_margin": "13.87%",
+    "de": 4.42,
+    "de_period": "latest restated period (borrowing / net worth)",
+    "ocf": 3148.57,
+    "ocf_unit": "mn",
+    "ocf_period": "FY25 DRHP"
    }
   },
   {
@@ -1037,7 +3078,7 @@
    "passed": 4,
    "fails": 4,
    "unknown": 0,
-   "verdict": "Rejected",
+   "verdict": "Review",
    "flag": "fresh 85%; proceeds not growth-led; D/E 1.57 | F3: post-issue P/E 57.86x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/steamhouse-india-ipo/2514/",
    "source_label": "Chittorgarh",
@@ -1059,6 +3100,81 @@
    "stale": {
     "f7": "FY25",
     "f8": "FY25"
+   },
+   "m": {
+    "price_band": "₹77 to ₹81",
+    "issue_price": 81.0,
+    "lot": "185 Shares",
+    "sale_type": "Fresh capital cum OFS",
+    "dates": "9 to 11 Sep, 2026",
+    "listed_on": "Thu, Sep 17, 2026",
+    "issue_cr": 414.0,
+    "fresh_cr": 353.0,
+    "ofs_cr": 61.0,
+    "fresh_pct": 85.3,
+    "objects": [
+     [
+      "Repayment or prepayment of all or a portion of certain outstanding borrowings availed by Company",
+      180.0
+     ],
+     [
+      "Funding capital expenditure requirements for augmenting infrastructure development of the Company towards capacity expansion of the Ankleshwar Facility (Phase 3",
+      75.95
+     ],
+     [
+      "Funding capital expenditure in relation to the setting up of a manufacturing facility for generation of steam at Dahej SEZ",
+      38.17
+     ],
+     [
+      "General Corporate Purposes",
+      23.13
+     ]
+    ],
+    "pe_pre": 48.8,
+    "pe_post": 57.86,
+    "eps_pre": 1.66,
+    "eps_post": 1.4,
+    "mcap_pre": 1885.89,
+    "mcap_post": 2238.89,
+    "promoter_pre": 95.79,
+    "promoter_post": 77.96,
+    "anchor_cr": 124.2,
+    "sub_total": 22.59,
+    "rev_cagr": 29.9,
+    "pat_cagr": 19.2,
+    "revenue": [
+     494.97,
+     398.53,
+     293.16
+    ],
+    "pat": [
+     38.64,
+     31.16,
+     27.19
+    ],
+    "periods": [
+     "31 Mar 2026",
+     "31 Mar 2025",
+     "31 Mar 2024"
+    ],
+    "borrowing": [
+     281.62,
+     222.95,
+     202.71
+    ],
+    "networth": [
+     163.76,
+     131.0,
+     102.71
+    ],
+    "de_calc": 1.72,
+    "roe": "22.36%",
+    "roce": "16.06%",
+    "ronw": "23.60%",
+    "pat_margin": "7.81%",
+    "ebitda_margin": "16.99%",
+    "de": 1.72,
+    "de_period": "latest restated period (borrowing / net worth)"
    }
   },
   {
@@ -1095,6 +3211,76 @@
    },
    "soft": {
     "f4": "total only"
+   },
+   "m": {
+    "price_band": "₹168 to ₹177",
+    "issue_price": 177.0,
+    "lot": "84 Shares",
+    "sale_type": "Fresh capital cum OFS",
+    "dates": "1 to 3 Sep, 2026",
+    "listed_on": "Tue, Sep 8, 2026",
+    "issue_cr": 460.0,
+    "fresh_cr": 250.0,
+    "ofs_cr": 210.0,
+    "fresh_pct": 54.3,
+    "objects": [
+     [
+      "Funding long-term working capital requirements towards procurement, maintenance and scaling up of inventory by the Company",
+      215.0
+     ],
+     [
+      "General Corporate Purposes",
+      12.15
+     ]
+    ],
+    "pe_pre": 13.85,
+    "pe_post": 16.24,
+    "eps_pre": 12.78,
+    "eps_post": 10.9,
+    "mcap_pre": 1451.4,
+    "mcap_post": 1701.4,
+    "promoter_pre": 100.0,
+    "promoter_post": 72.98,
+    "anchor_cr": 137.91,
+    "sub_total": 30.49,
+    "rev_cagr": 37.1,
+    "pat_cagr": 107.4,
+    "revenue": [
+     1927.73,
+     1400.1,
+     1025.73
+    ],
+    "pat": [
+     104.79,
+     40.58,
+     24.35
+    ],
+    "periods": [
+     "31 Mar 2026",
+     "31 Mar 2025",
+     "31 Mar 2024"
+    ],
+    "borrowing": [
+     111.11,
+     80.79,
+     77.93
+    ],
+    "networth": [
+     238.07,
+     133.21,
+     92.55
+    ],
+    "de_calc": 0.47,
+    "roe": "56.45%",
+    "roce": "52.08%",
+    "ronw": "56.45%",
+    "pat_margin": "5.44%",
+    "ebitda_margin": "7.60%",
+    "de": 0.47,
+    "de_period": "latest restated period (borrowing / net worth)",
+    "ocf": -142.6,
+    "ocf_unit": "mn",
+    "ocf_period": "FY26 DRHP"
    }
   },
   {
@@ -1129,6 +3315,88 @@
     "f5": "FY25",
     "f8": "FY25",
     "f7": "FY25"
+   },
+   "m": {
+    "price_band": "₹40 to ₹43",
+    "issue_price": 43.0,
+    "lot": "348 Shares",
+    "sale_type": "Fresh capital cum OFS",
+    "dates": "11 to 16 Sep, 2026",
+    "listed_on": "Mon, Sep 21, 2026",
+    "issue_cr": 125.0,
+    "fresh_cr": 92.0,
+    "ofs_cr": 33.0,
+    "fresh_pct": 73.6,
+    "objects": [
+     [
+      "Funding the capital expenditure towards purchase of plant and machinery",
+      54.93
+     ],
+     [
+      "Repayment and/or pre-payment, in part or full, of certain borrowings availed by Company",
+      15.0
+     ],
+     [
+      "General Corporate Purposes",
+      11.71
+     ],
+     [
+      "Offer Expense",
+      14.72
+     ]
+    ],
+    "pe_pre": 18.22,
+    "pe_post": 9.58,
+    "eps_pre": 2.36,
+    "eps_post": 4.49,
+    "mcap_pre": 408.5,
+    "mcap_post": 501.0,
+    "promoter_pre": 100.0,
+    "promoter_post": 74.95,
+    "anchor_cr": 37.65,
+    "sub_total": 20.54,
+    "rev_cagr": 8.9,
+    "pat_cagr": 39.4,
+    "revenue": [
+     162.71,
+     437.26,
+     412.59,
+     368.76
+    ],
+    "pat": [
+     13.07,
+     22.4,
+     19.33,
+     11.53
+    ],
+    "periods": [
+     "30 Jun 2026",
+     "31 Mar 2026",
+     "31 Mar 2025",
+     "31 Mar 2024"
+    ],
+    "borrowing": [
+     92.46,
+     88.19,
+     97.45,
+     93.06
+    ],
+    "networth": [
+     156.78,
+     147.62,
+     125.17,
+     107.99
+    ],
+    "de_calc": 0.59,
+    "roe": "8.34%",
+    "roce": "8.34%",
+    "ronw": "8.34%",
+    "pat_margin": "8.03%",
+    "ebitda_margin": "15.01%",
+    "de": 0.59,
+    "de_period": "latest restated period (borrowing / net worth)",
+    "ocf": 245.91,
+    "ocf_unit": "mn"
    }
   },
   {
@@ -1167,6 +3435,75 @@
    },
    "soft": {
     "f4": "total only"
+   },
+   "m": {
+    "price_band": "₹200 to ₹212",
+    "issue_price": 212.0,
+    "lot": "70 Shares",
+    "sale_type": "Fresh capital cum OFS",
+    "dates": "7 to 11 Aug, 2026",
+    "listed_on": "Fri, Aug 14, 2026",
+    "issue_cr": 252.0,
+    "fresh_cr": 202.0,
+    "ofs_cr": 50.0,
+    "fresh_pct": 80.2,
+    "objects": [
+     [
+      "Funding working capital requirements of the Company",
+      150.0
+     ],
+     [
+      "General Corporate Purposes",
+      41.22
+     ]
+    ],
+    "pe_pre": 14.73,
+    "pe_post": 19.38,
+    "eps_pre": 14.39,
+    "eps_post": 10.94,
+    "mcap_pre": 638.15,
+    "mcap_post": 839.65,
+    "promoter_pre": 100.0,
+    "promoter_post": 70.0,
+    "anchor_cr": 75.55,
+    "sub_total": 27.19,
+    "rev_cagr": 23.6,
+    "pat_cagr": 50.8,
+    "revenue": [
+     347.0,
+     281.0,
+     227.3
+    ],
+    "pat": [
+     43.32,
+     28.2,
+     19.05
+    ],
+    "periods": [
+     "31 Mar 2026",
+     "31 Mar 2025",
+     "31 Mar 2024"
+    ],
+    "borrowing": [
+     89.76,
+     87.43,
+     80.11
+    ],
+    "networth": [
+     163.38,
+     119.98,
+     91.78
+    ],
+    "de_calc": 0.55,
+    "roe": "26.51%",
+    "roce": "27.72%",
+    "ronw": "26.51%",
+    "pat_margin": "12.56%",
+    "ebitda_margin": "20.92%",
+    "de": 0.55,
+    "de_period": "latest restated period (borrowing / net worth)",
+    "ocf": 216.84,
+    "ocf_unit": "mn"
    }
   },
   {
@@ -1177,7 +3514,7 @@
    "passed": 4,
    "fails": 4,
    "unknown": 0,
-   "verdict": "Rejected",
+   "verdict": "Review",
    "flag": "fresh 80%; proceeds not growth-led; D/E 1.24; growth <15%/loss | F3: post-issue P/E 14.33x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/jindal-supreme-ipo-ipo/2803/",
    "source_label": "Chittorgarh",
@@ -1199,6 +3536,78 @@
    "stale": {
     "f7": "pledge unconfirmed",
     "f8": "FY25"
+   },
+   "m": {
+    "price_band": "₹88 to ₹93",
+    "issue_price": 93.0,
+    "lot": "161 Shares",
+    "sale_type": "Fresh capital cum OFS",
+    "dates": "16 to 18 Sep, 2026",
+    "listed_on": "Wed, Sep 23, 2026",
+    "issue_cr": 125.0,
+    "fresh_cr": 100.0,
+    "ofs_cr": 25.0,
+    "fresh_pct": 80.0,
+    "objects": [
+     [
+      "Repayment/pre-payment, in full or in part, of certain outstanding borrowings",
+      71.0
+     ],
+     [
+      "General Corporate Purposes",
+      16.85
+     ]
+    ],
+    "pe_pre": 16.64,
+    "pe_post": 14.33,
+    "eps_pre": 5.59,
+    "eps_post": 6.49,
+    "mcap_pre": 374.63,
+    "mcap_post": 474.52,
+    "promoter_pre": 100.0,
+    "promoter_post": 73.68,
+    "anchor_cr": 37.46,
+    "sub_total": 126.05,
+    "rev_cagr": 1.9,
+    "pat_cagr": 32.3,
+    "revenue": [
+     191.09,
+     675.94,
+     604.74,
+     650.88
+    ],
+    "pat": [
+     8.28,
+     22.53,
+     24.27,
+     12.87
+    ],
+    "periods": [
+     "30 Jun 2026",
+     "31 Mar 2026",
+     "31 Mar 2025",
+     "31 Mar 2024"
+    ],
+    "borrowing": [
+     92.46,
+     119.87,
+     95.84,
+     104.92
+    ],
+    "networth": [
+     105.02,
+     96.82,
+     74.64,
+     50.31
+    ],
+    "de_calc": 0.88,
+    "roe": "8.20%",
+    "roce": "6.14%",
+    "ronw": "8.20%",
+    "pat_margin": "4.33%",
+    "ebitda_margin": "7.20%",
+    "de": 0.88,
+    "de_period": "latest restated period (borrowing / net worth)"
    }
   },
   {
@@ -1209,7 +3618,7 @@
    "passed": 6,
    "fails": 2,
    "unknown": 0,
-   "verdict": "Rejected",
+   "verdict": "Provisional",
    "flag": "OFS-heavy; proceeds not growth-led | F3: post-issue P/E 22.27x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/hy-tech-engineers-ipo/2591/",
    "source_label": "Chittorgarh",
@@ -1236,6 +3645,79 @@
    "stale": {
     "f7": "pledge unconfirmed",
     "f8": "FY25"
+   },
+   "m": {
+    "price_band": "₹50 to ₹53",
+    "issue_price": 53.0,
+    "lot": "283 Shares",
+    "sale_type": "Fresh capital cum OFS",
+    "dates": "24 to 27 Aug, 2026",
+    "listed_on": "Tue, Sep 1, 2026",
+    "issue_cr": 136.0,
+    "fresh_cr": 60.0,
+    "ofs_cr": 76.0,
+    "fresh_pct": 44.1,
+    "objects": [
+     [
+      "Funding capital expenditure requirement of the Company towards procurement of machinery and equipment for expansion at Kavathe Unit, Shirwal Unit and procurement Pithampur Unit-I",
+      29.97
+     ],
+     [
+      "Prepayment or repayment, in full or in part, of certain outstanding borrowings availed by the Company",
+      16.0
+     ],
+     [
+      "General Corporate Purposes",
+      5.96
+     ]
+    ],
+    "pe_pre": 19.63,
+    "pe_post": 22.27,
+    "eps_pre": 2.7,
+    "eps_post": 2.38,
+    "mcap_pre": 442.72,
+    "mcap_post": 502.72,
+    "promoter_pre": 97.99,
+    "promoter_post": 71.23,
+    "anchor_cr": 40.72,
+    "sub_total": 171.69,
+    "rev_cagr": 17.1,
+    "pat_cagr": 39.5,
+    "revenue": [
+     193.44,
+     166.71,
+     141.17
+    ],
+    "pat": [
+     22.59,
+     19.62,
+     11.6
+    ],
+    "periods": [
+     "31 Mar 2026",
+     "31 Mar 2025",
+     "31 Mar 2024"
+    ],
+    "borrowing": [
+     29.76,
+     43.53,
+     40.84
+    ],
+    "networth": [
+     122.02,
+     101.25,
+     82.22
+    ],
+    "de_calc": 0.24,
+    "roe": "20.24%",
+    "roce": "24.40%",
+    "ronw": "20.24%",
+    "pat_margin": "11.68%",
+    "ebitda_margin": "22.01%",
+    "de": 0.24,
+    "de_period": "latest restated period (borrowing / net worth)",
+    "ocf": 30.0,
+    "ocf_unit": "cr"
    }
   },
   {
@@ -1246,7 +3728,7 @@
    "passed": 5,
    "fails": 3,
    "unknown": 0,
-   "verdict": "Rejected",
+   "verdict": "Provisional",
    "flag": "OFS-heavy; proceeds not growth-led | F3: post-issue P/E 35.38x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/tempsens-instruments-india-ipo/2668/",
    "source_label": "Chittorgarh",
@@ -1274,6 +3756,79 @@
    },
    "soft": {
     "f4": "total only"
+   },
+   "m": {
+    "price_band": "₹285 to ₹300",
+    "issue_price": 300.0,
+    "lot": "50 Shares",
+    "sale_type": "Fresh capital cum OFS",
+    "dates": "20 to 24 Aug, 2026",
+    "listed_on": "Fri, Aug 28, 2026",
+    "issue_cr": 650.0,
+    "fresh_cr": 95.0,
+    "ofs_cr": 555.0,
+    "fresh_pct": 14.6,
+    "objects": [
+     [
+      "Funding certain capital expenditure of the Company towards the (i) electrical heating solutions (ii) specialized cable solutions",
+      18.13
+     ],
+     [
+      "Pre-payment or scheduled re-payment, in full or in part, of certain outstanding borrowings availed by the Company",
+      55.0
+     ],
+     [
+      "General Corporate Purposes",
+      14.18
+     ]
+    ],
+    "pe_pre": 34.05,
+    "pe_post": 35.38,
+    "eps_pre": 8.81,
+    "eps_post": 8.48,
+    "mcap_pre": 2419.98,
+    "mcap_post": 2514.98,
+    "promoter_pre": 80.51,
+    "promoter_post": 65.67,
+    "anchor_cr": 194.55,
+    "sub_total": 128.3,
+    "rev_cagr": 28.0,
+    "pat_cagr": 31.8,
+    "revenue": [
+     455.86,
+     382.47,
+     278.04
+    ],
+    "pat": [
+     71.07,
+     62.56,
+     40.92
+    ],
+    "periods": [
+     "31 Mar 2026",
+     "31 Mar 2025",
+     "31 Mar 2024"
+    ],
+    "borrowing": [
+     77.95,
+     71.83,
+     30.13
+    ],
+    "networth": [
+     496.89,
+     430.63,
+     180.61
+    ],
+    "de_calc": 0.16,
+    "roe": "13.54%",
+    "roce": "21.61%",
+    "ronw": "13.55%",
+    "pat_margin": "15.59%",
+    "ebitda_margin": "24.83%",
+    "de": 0.16,
+    "de_period": "latest restated period (borrowing / net worth)",
+    "ocf": 541.5,
+    "ocf_unit": "mn"
    }
   },
   {
@@ -1284,7 +3839,7 @@
    "passed": 5,
    "fails": 3,
    "unknown": 0,
-   "verdict": "Rejected",
+   "verdict": "Provisional",
    "flag": "fresh 88%; proceeds not growth-led; growth <15%/loss | F3: post-issue P/E 22.95x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/adroit-industries-ipo/3007/",
    "source_label": "Chittorgarh",
@@ -1307,6 +3862,86 @@
    "stale": {
     "f7": "pledge unconfirmed",
     "f8": "FY25"
+   },
+   "m": {
+    "price_band": "₹126 to ₹134",
+    "issue_price": 134.0,
+    "lot": "111 Shares",
+    "sale_type": "Fresh capital cum OFS",
+    "dates": "23 to 25 Sep, 2026",
+    "listed_on": "Wed, Sep 30, 2026",
+    "issue_cr": 151.0,
+    "fresh_cr": 133.0,
+    "ofs_cr": 18.0,
+    "fresh_pct": 88.1,
+    "objects": [
+     [
+      "Funding capital expenditure by the Company towards procurement of; (i) machinery and equipment for enhancement of operations at Dewas Facility; and (ii) transportation vehicle for local transportation of goods between the Manufacturing Facilities",
+      19.91
+     ],
+     [
+      "Investment in the Subsidiary, Adroit Driveshafts Private Limited, in the form of debt or equity or a combination thereof, for funding capital expenditure towards procurement of; (i) machinery and equipment for enhancement of operations at Pithampur Facility; and (ii) transportation vehicle for local transportation of goods between the Manufacturing Facilities",
+      43.96
+     ],
+     [
+      "Investment in the Subsidiary, Adroit Driveshafts Private Limited, in the form of debt or equity or a combination thereof, for re-payment or pre-payment, in full or in part, of certain borrowings availed by the Subsidiary",
+      24.12
+     ],
+     [
+      "General Corporate Purposes",
+      24.14
+     ]
+    ],
+    "pe_pre": 17.89,
+    "pe_post": 22.95,
+    "eps_pre": 7.49,
+    "eps_post": 5.84,
+    "mcap_pre": 467.81,
+    "mcap_post": 600.43,
+    "promoter_pre": 96.1,
+    "promoter_post": 71.86,
+    "anchor_cr": 45.21,
+    "sub_total": 176.85,
+    "sub_qib": 195.04,
+    "sub_nii": 332.35,
+    "sub_retail": 99.81,
+    "rev_cagr": 6.9,
+    "pat_cagr": 34.2,
+    "revenue": [
+     143.04,
+     136.61,
+     125.1
+    ],
+    "pat": [
+     26.16,
+     18.14,
+     14.53
+    ],
+    "periods": [
+     "31 Mar 2026",
+     "31 Mar 2025",
+     "31 Mar 2024"
+    ],
+    "borrowing": [
+     52.4,
+     8.32,
+     16.29
+    ],
+    "networth": [
+     128.63,
+     103.53,
+     87.82
+    ],
+    "de_calc": 0.41,
+    "roe": "22.54%",
+    "roce": "19.01%",
+    "ronw": "22.51%",
+    "pat_margin": "18.69%",
+    "ebitda_margin": "27.66%",
+    "de": 0.41,
+    "de_period": "latest restated period (borrowing / net worth)",
+    "ocf": 29.0,
+    "ocf_unit": "cr"
    }
   },
   {
@@ -1317,7 +3952,7 @@
    "passed": 5,
    "fails": 3,
    "unknown": 0,
-   "verdict": "Rejected",
+   "verdict": "Provisional",
    "flag": "fresh 89%; proceeds not growth-led; D/E 1.63 | F3: post-issue P/E 17.55x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/caliber-mining-ipo/1999/",
    "source_label": "Chittorgarh",
@@ -1343,6 +3978,79 @@
    },
    "soft": {
     "f4": "total only"
+   },
+   "m": {
+    "price_band": "₹402 to ₹424",
+    "issue_price": 424.0,
+    "lot": "35 Shares",
+    "sale_type": "Fresh capital cum OFS",
+    "dates": "17 to 21 Jul, 2026",
+    "listed_on": "Fri, Jul 24, 2026",
+    "issue_cr": 450.0,
+    "fresh_cr": 400.0,
+    "ofs_cr": 50.0,
+    "fresh_pct": 88.9,
+    "objects": [
+     [
+      "Repayment/ prepayment, in full or part, of certain borrowings availed by the Company",
+      208.0
+     ],
+     [
+      "Funding capital expenditure for purchase of machinery",
+      167.0
+     ],
+     [
+      "General Corporate Purposes",
+      2.16
+     ]
+    ],
+    "pe_pre": 15.02,
+    "pe_post": 17.55,
+    "eps_pre": 28.23,
+    "eps_post": 24.15,
+    "mcap_pre": 2371.93,
+    "mcap_post": 2771.93,
+    "promoter_pre": 88.79,
+    "promoter_post": 74.18,
+    "anchor_cr": 135.0,
+    "sub_total": 107.52,
+    "rev_cagr": 32.6,
+    "pat_cagr": 28.3,
+    "revenue": [
+     1684.66,
+     1435.57,
+     957.92
+    ],
+    "pat": [
+     157.9,
+     131.55,
+     95.9
+    ],
+    "periods": [
+     "31 Mar 2026",
+     "31 Mar 2025",
+     "31 Mar 2024"
+    ],
+    "borrowing": [
+     1057.61,
+     649.27,
+     717.88
+    ],
+    "networth": [
+     647.54,
+     489.3,
+     295.93
+    ],
+    "de_calc": 1.63,
+    "roce": "16.60%",
+    "ronw": "24.38%",
+    "pat_margin": "9.41%",
+    "ebitda_margin": "25.69%",
+    "de": 1.63,
+    "de_period": "latest restated period (borrowing / net worth)",
+    "ocf": 9661.36,
+    "ocf_unit": "mn",
+    "ocf_period": "FY25 DRHP"
    }
   },
   {
@@ -1353,7 +4061,7 @@
    "passed": 5,
    "fails": 3,
    "unknown": 0,
-   "verdict": "Rejected",
+   "verdict": "Provisional",
    "flag": "fresh 71%; proceeds not growth-led | F3: post-issue P/E 15.62x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/lumino-industries-ipo/2013/",
    "source_label": "Chittorgarh",
@@ -1381,6 +4089,79 @@
    },
    "soft": {
     "f4": "total only"
+   },
+   "m": {
+    "price_band": "₹78 to ₹82",
+    "issue_price": 82.0,
+    "lot": "182 Shares",
+    "sale_type": "Fresh capital cum OFS",
+    "dates": "27 to 31 Aug, 2026",
+    "listed_on": "Thu, Sep 3, 2026",
+    "issue_cr": 700.0,
+    "fresh_cr": 500.0,
+    "ofs_cr": 200.0,
+    "fresh_pct": 71.4,
+    "objects": [
+     [
+      "Prepayment or re-payment, in full or in part,of certain outstanding borrowings availed by Company",
+      337.0
+     ],
+     [
+      "Capital expenditure by Company for purchase of equipment and machinery, civil works and interior development of an existing manufacturing facility",
+      15.01
+     ],
+     [
+      "General corporate purposes",
+      110.58
+     ]
+    ],
+    "pe_pre": 12.48,
+    "pe_post": 15.62,
+    "eps_pre": 6.57,
+    "eps_post": 5.25,
+    "mcap_pre": 1997.34,
+    "mcap_post": 2497.34,
+    "promoter_pre": 100.0,
+    "promoter_post": 71.97,
+    "anchor_cr": 207.0,
+    "sub_total": 87.25,
+    "rev_cagr": 21.1,
+    "pat_cagr": 35.9,
+    "revenue": [
+     2089.31,
+     1946.68,
+     1424.63
+    ],
+    "pat": [
+     160.0,
+     124.59,
+     86.61
+    ],
+    "periods": [
+     "31 Mar 2026",
+     "31 Mar 2025",
+     "31 Mar 2024"
+    ],
+    "borrowing": [
+     384.16,
+     418.83,
+     40.91
+    ],
+    "networth": [
+     729.58,
+     570.29,
+     445.86
+    ],
+    "de_calc": 0.53,
+    "roe": "24.62%",
+    "roce": "25.75%",
+    "ronw": "24.62%",
+    "pat_margin": "7.66%",
+    "ebitda_margin": "11.71%",
+    "de": 0.53,
+    "de_period": "latest restated period (borrowing / net worth)",
+    "ocf": -2985.14,
+    "ocf_unit": "mn"
    }
   },
   {
@@ -1391,7 +4172,7 @@
    "passed": 6,
    "fails": 2,
    "unknown": 0,
-   "verdict": "Rejected",
+   "verdict": "Provisional",
    "flag": "OFS-heavy; growth <15%/loss | F3: post-issue P/E 18.65x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/behari-lal-engineering-ipo/2659/",
    "source_label": "Chittorgarh",
@@ -1419,6 +4200,91 @@
    },
    "soft": {
     "f4": "total only"
+   },
+   "m": {
+    "price_band": "₹271 to ₹285",
+    "issue_price": 285.0,
+    "lot": "52 Shares",
+    "sale_type": "Fresh capital cum OFS",
+    "dates": "12 to 14 Aug, 2026",
+    "listed_on": "Wed, Aug 19, 2026",
+    "issue_cr": 302.0,
+    "fresh_cr": 93.0,
+    "ofs_cr": 209.0,
+    "fresh_pct": 30.8,
+    "objects": [
+     [
+      "Funding capital expenditure requirement for purchase and installation of new equipment / machinery (including computers, printers and computer peripherals) along with civil work for such installation at Manufacturing Facility 1",
+      19.59
+     ],
+     [
+      "purchase and installation of new roof-top solar panels at Manufacturing Facility 1",
+      3.4
+     ],
+     [
+      "purchase and installation of new equipment / machinery along with civil work for such installation at Manufacturing Facility 2",
+      36.65
+     ],
+     [
+      "purchase and installation of new roof-top solar panels at Manufacturing Facility 2",
+      3.4
+     ],
+     [
+      "Repayment and/ or pre-payment, in full or part, of certain borrowings availed by the Company",
+      0.57
+     ],
+     [
+      "General Corporate Purposes",
+      19.06
+     ]
+    ],
+    "pe_pre": 17.21,
+    "pe_post": 18.65,
+    "eps_pre": 16.56,
+    "eps_post": 15.28,
+    "mcap_pre": 1112.62,
+    "mcap_post": 1205.62,
+    "promoter_pre": 88.51,
+    "promoter_post": 70.84,
+    "anchor_cr": 90.49,
+    "sub_total": 76.03,
+    "rev_cagr": 10.2,
+    "pat_cagr": 34.4,
+    "revenue": [
+     546.52,
+     516.3,
+     449.96
+    ],
+    "pat": [
+     64.64,
+     52.95,
+     35.79
+    ],
+    "periods": [
+     "31 Mar 2026",
+     "31 Mar 2025",
+     "31 Mar 2024"
+    ],
+    "borrowing": [
+     17.78,
+     7.58,
+     41.21
+    ],
+    "networth": [
+     306.1,
+     241.62,
+     193.66
+    ],
+    "de_calc": 0.06,
+    "roe": "23.60%",
+    "roce": "27.11%",
+    "ronw": "21.12%",
+    "pat_margin": "12.10%",
+    "ebitda_margin": "18.97%",
+    "de": 0.06,
+    "de_period": "latest restated period (borrowing / net worth)",
+    "ocf": 618.86,
+    "ocf_unit": "mn"
    }
   },
   {
@@ -1429,7 +4295,7 @@
    "passed": 4,
    "fails": 4,
    "unknown": 0,
-   "verdict": "Rejected",
+   "verdict": "Review",
    "flag": "fresh 61%; growth <15%/loss | F3: post-issue P/E 28.02x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/sunshine-pictures-ipo/2002/",
    "source_label": "Chittorgarh",
@@ -1457,6 +4323,65 @@
    },
    "soft": {
     "f4": "total only"
+   },
+   "m": {
+    "price_band": "₹342 to ₹360",
+    "issue_price": 360.0,
+    "lot": "41 Shares",
+    "sale_type": "Fresh capital cum OFS",
+    "dates": "18 to 20 Aug, 2026",
+    "listed_on": "Tue, Aug 25, 2026",
+    "issue_cr": 282.0,
+    "fresh_cr": 173.0,
+    "ofs_cr": 109.0,
+    "fresh_pct": 61.3,
+    "objects": [
+     [
+      "Funding the working capital requirements of the Company",
+      112.5
+     ],
+     [
+      "General Corporate Purposes",
+      43.02
+     ]
+    ],
+    "pe_pre": 23.7,
+    "pe_post": 28.02,
+    "eps_pre": 15.19,
+    "eps_post": 12.85,
+    "mcap_pre": 948.55,
+    "mcap_post": 1121.36,
+    "promoter_pre": 100.0,
+    "promoter_post": 74.84,
+    "anchor_cr": 84.64,
+    "sub_total": 73.72,
+    "rev_cagr": -26.0,
+    "pat_cagr": -13.4,
+    "revenue": [
+     76.2749
+    ],
+    "pat": [
+     40.0224
+    ],
+    "periods": [
+     "31 Mar 2026"
+    ],
+    "borrowing": [
+     9.0942
+    ],
+    "networth": [
+     145.1346
+    ],
+    "de_calc": 0.06,
+    "roe": "31.99%",
+    "roce": "36.20%",
+    "ronw": "27.58%",
+    "pat_margin": "53.77%",
+    "ebitda_margin": "78.65%",
+    "de": 0.06,
+    "de_period": "latest restated period (borrowing / net worth)",
+    "ocf": 1671.26,
+    "ocf_unit": "mn"
    }
   },
   {
@@ -1467,7 +4392,7 @@
    "passed": 5,
    "fails": 3,
    "unknown": 0,
-   "verdict": "Rejected",
+   "verdict": "Provisional",
    "flag": "proceeds not growth-led; growth <15%/loss | F3: post-issue P/E 13.9x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/priority-jewels-ipo/2435/",
    "source_label": "Chittorgarh",
@@ -1495,6 +4420,79 @@
    },
    "soft": {
     "f4": "total only"
+   },
+   "m": {
+    "price_band": "₹190 to ₹200",
+    "issue_price": 200.0,
+    "lot": "75 Shares",
+    "sale_type": "Fresh capital only",
+    "dates": "28 Aug to 1 Sep, 2026",
+    "listed_on": "Fri, Sep 4, 2026",
+    "issue_cr": 92.0,
+    "fresh_cr": 92.0,
+    "fresh_pct": 100.0,
+    "objects": [
+     [
+      "Repayment / pre-payment, in full or in part, of certain borrowings availed by Company",
+      75.0
+     ],
+     [
+      "General Corporate Purposes",
+      18.85
+     ]
+    ],
+    "pe_pre": 15.21,
+    "pe_post": 13.9,
+    "eps_pre": 13.15,
+    "eps_post": 14.39,
+    "mcap_pre": 268.5,
+    "mcap_post": 360.0,
+    "promoter_pre": 93.85,
+    "promoter_post": 70.0,
+    "anchor_cr": 27.45,
+    "sub_total": 69.7,
+    "rev_cagr": 14.6,
+    "pat_cagr": 57.1,
+    "revenue": [
+     147.4,
+     539.03,
+     435.87,
+     410.61
+    ],
+    "pat": [
+     6.48,
+     17.65,
+     10.51,
+     7.15
+    ],
+    "periods": [
+     "30 Jun 2026",
+     "31 Mar 2026",
+     "31 Mar 2025",
+     "31 Mar 2024"
+    ],
+    "borrowing": [
+     110.49,
+     102.59,
+     145.85,
+     124.96
+    ],
+    "networth": [
+     145.66,
+     138.61,
+     104.89,
+     94.78
+    ],
+    "de_calc": 0.76,
+    "roe": "4.55%",
+    "roce": "6.92%",
+    "ronw": "4.44%",
+    "pat_margin": "4.39%",
+    "ebitda_margin": "7.01%",
+    "de": 0.76,
+    "de_period": "latest restated period (borrowing / net worth)",
+    "ocf": 93.6,
+    "ocf_unit": "mn"
    }
   },
   {
@@ -1505,7 +4503,7 @@
    "passed": 6,
    "fails": 2,
    "unknown": 0,
-   "verdict": "Rejected",
+   "verdict": "Provisional",
    "flag": "fresh 87%; growth <15%/loss | F3: post-issue P/E 22.43x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/knack-packaging-ipo/2592/",
    "source_label": "Chittorgarh",
@@ -1533,6 +4531,80 @@
    },
    "soft": {
     "f4": "total only"
+   },
+   "m": {
+    "price_band": "₹161 to ₹170",
+    "issue_price": 170.0,
+    "lot": "88 Shares",
+    "sale_type": "Fresh capital cum OFS",
+    "dates": "1 to 3 Jul, 2026",
+    "listed_on": "Wed, Jul 8, 2026",
+    "issue_cr": 439.0,
+    "fresh_cr": 380.0,
+    "ofs_cr": 59.0,
+    "fresh_pct": 86.6,
+    "objects": [
+     [
+      "Partial funding of capital expenditure towards setting up of new manufacturing facility at Borisana situated at Kadi, Mehsana, Gujarat.",
+      320.0
+     ],
+     [
+      "General Corporate Purposes",
+      31.15
+     ]
+    ],
+    "pe_pre": 18.34,
+    "pe_post": 22.43,
+    "eps_pre": 9.27,
+    "eps_post": 7.58,
+    "mcap_pre": 1700.0,
+    "mcap_post": 2080.21,
+    "promoter_pre": 89.6,
+    "promoter_post": 70.59,
+    "anchor_cr": 131.25,
+    "sub_total": 61.1,
+    "rev_cagr": 17.6,
+    "pat_cagr": 67.1,
+    "revenue": [
+     843.77,
+     747.38,
+     659.01,
+     518.47
+    ],
+    "pat": [
+     92.72,
+     73.81,
+     45.98,
+     19.87
+    ],
+    "periods": [
+     "31 Mar 2026",
+     "31 Mar 2025",
+     "31 Mar 2024",
+     "31 Mar 2023"
+    ],
+    "borrowing": [
+     192.47,
+     172.06,
+     173.09,
+     122.66
+    ],
+    "networth": [
+     308.19,
+     214.71,
+     140.62,
+     95.34
+    ],
+    "de_calc": 0.62,
+    "roe": "35.75%",
+    "roce": "46.71%",
+    "ronw": "35.47%",
+    "pat_margin": "10.99%",
+    "ebitda_margin": "20.42%",
+    "de": 0.62,
+    "de_period": "latest restated period (borrowing / net worth)",
+    "ocf": 931.71,
+    "ocf_unit": "mn"
    }
   },
   {
@@ -1543,7 +4615,7 @@
    "passed": 4,
    "fails": 4,
    "unknown": 0,
-   "verdict": "Rejected",
+   "verdict": "Review",
    "flag": "fresh 55%; P/E negative; growth <15%/loss; no promoter",
    "source_url": "https://www.chittorgarh.com/ipo/shiprocket-ipo/2450/",
    "source_label": "Chittorgarh",
@@ -1567,6 +4639,79 @@
    },
    "soft": {
     "f4": "total only"
+   },
+   "m": {
+    "price_band": "₹92 to ₹97",
+    "issue_price": 97.0,
+    "lot": "154 Shares",
+    "sale_type": "Fresh capital cum OFS",
+    "dates": "12 to 14 Aug, 2026",
+    "listed_on": "Wed, Aug 19, 2026",
+    "issue_cr": 1617.0,
+    "fresh_cr": 886.0,
+    "ofs_cr": 732.0,
+    "fresh_pct": 54.8,
+    "objects": [
+     [
+      "Investment in the growth of Shiprockets platforms-Investment in marketing initiatives primarily for Emerging Business and for Core Business",
+      365.6
+     ],
+     [
+      "Investment in marketing initiatives primarily for the Emerging Business and for the Core Business",
+      205.8
+     ],
+     [
+      "Investment in technology infrastructure and capabilities primarily for the Emerging Business and for the Core Business",
+      159.8
+     ],
+     [
+      "Repayment / prepayment, in full or in part, of certain borrowings availed of by the Company including payment of the interest accrued thereon",
+      210.0
+     ],
+     [
+      "Funding inorganic growth through unidentified acquisitions and general corporate purposes",
+      249.4
+     ]
+    ],
+    "pe_pre": -77.6,
+    "eps_pre": -1.25,
+    "mcap_pre": 6171.9,
+    "mcap_post": 7057.5,
+    "anchor_cr": 727.42,
+    "sub_total": 56.48,
+    "rev_cagr": 23.7,
+    "revenue": [
+     2077.42,
+     1674.82,
+     1357.83
+    ],
+    "pat": [
+     -79.25,
+     -74.45,
+     -595.18
+    ],
+    "periods": [
+     "31 Mar 2026",
+     "31 Mar 2025",
+     "31 Mar 2024"
+    ],
+    "borrowing": [
+     242.01,
+     244.67,
+     213.28
+    ],
+    "networth": [
+     1524.29,
+     1491.23,
+     1284.16
+    ],
+    "de_calc": 0.16,
+    "roce": "-2.65%",
+    "ronw": "-5.20%",
+    "de": 0.16,
+    "de_period": "latest restated period (borrowing / net worth)",
+    "ocf": 53.0,
+    "ocf_unit": "cr"
    }
   },
   {
@@ -1577,7 +4722,7 @@
    "passed": 5,
    "fails": 3,
    "unknown": 0,
-   "verdict": "Rejected",
+   "verdict": "Provisional",
    "flag": "OFS-heavy; proceeds not growth-led | F3: post-issue P/E 44.9x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/dhoot-transmission-ipo/2859/",
    "source_label": "Chittorgarh",
@@ -1604,6 +4749,83 @@
    "stale": {
     "f7": "pledge unconfirmed",
     "f8": "FY25"
+   },
+   "m": {
+    "price_band": "₹829 to ₹871",
+    "issue_price": 871.0,
+    "lot": "17 Shares",
+    "sale_type": "Fresh capital cum OFS",
+    "dates": "10 to 12 Aug, 2026",
+    "listed_on": "Mon, Aug 17, 2026",
+    "issue_cr": 3067.0,
+    "fresh_cr": 1400.0,
+    "ofs_cr": 1667.0,
+    "fresh_pct": 45.6,
+    "objects": [
+     [
+      "Repayment/prepayment, in full or in part, of all or certain outstanding borrowings availed by the Company",
+      464.8
+     ],
+     [
+      "Investment in certain of our Subsidiaries, namely, Dhoot Autocomponents Private Limited, Dhoot Electricals Systems Private Limited, Dhoot Automotive Systems Private Limited and Dhoot Transmission UK Limited, for repayment/prepayment, in full or part, of all or certain of the outstanding borrowings availed by these Subsidiaries.",
+      301.77
+     ],
+     [
+      "Setting up of a new wiring harness manufacturing plant of the Company at (i) Sector 11, Jhajjar, Haryana, India; and (ii) Shoolagiri, Hosur, Tamil Nadu, India",
+      150.0
+     ],
+     [
+      "Funding inorganic growth through unidentified acquisitions and general corporate purposes(1)",
+      410.41
+     ]
+    ],
+    "pe_pre": 41.36,
+    "pe_post": 44.9,
+    "eps_pre": 21.06,
+    "eps_post": 19.4,
+    "mcap_pre": 16415.53,
+    "mcap_post": 17815.53,
+    "promoter_pre": 100.0,
+    "promoter_post": 82.78,
+    "anchor_cr": 918.27,
+    "sub_total": 52.71,
+    "rev_cagr": 27.7,
+    "pat_cagr": 15.3,
+    "revenue": [
+     4563.7,
+     3472.24,
+     2799.32
+    ],
+    "pat": [
+     396.84,
+     353.89,
+     298.75
+    ],
+    "periods": [
+     "31 Mar 2026",
+     "31 Mar 2025",
+     "31 Mar 2024"
+    ],
+    "borrowing": [
+     841.39,
+     776.06,
+     554.9
+    ],
+    "networth": [
+     2397.15,
+     978.18,
+     741.01
+    ],
+    "de_calc": 0.35,
+    "roe": "16.30%",
+    "roce": "19.14%",
+    "ronw": "16.55%",
+    "pat_margin": "8.70%",
+    "ebitda_margin": "15.71%",
+    "de": 0.35,
+    "de_period": "latest restated period (borrowing / net worth)",
+    "ocf": 348.0,
+    "ocf_unit": "cr"
    }
   },
   {
@@ -1614,7 +4836,7 @@
    "passed": 5,
    "fails": 3,
    "unknown": 0,
-   "verdict": "Rejected",
+   "verdict": "Provisional",
    "flag": "OFS-heavy; proceeds not growth-led | F3: post-issue P/E 44.95x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/indo-mim-ipo/2682/",
    "source_label": "Chittorgarh",
@@ -1641,6 +4863,75 @@
    "stale": {
     "f7": "pledge unconfirmed",
     "f8": "FY25"
+   },
+   "m": {
+    "price_band": "₹461 to ₹485",
+    "issue_price": 485.0,
+    "lot": "30 Shares",
+    "sale_type": "Fresh capital cum OFS",
+    "dates": "23 to 27 Jul, 2026",
+    "listed_on": "Thu, Jul 30, 2026",
+    "issue_cr": 3812.0,
+    "fresh_cr": 501.0,
+    "ofs_cr": 3311.0,
+    "fresh_pct": 13.1,
+    "objects": [
+     [
+      "Repayment/ prepayment, in full or part, of all or certain outstanding borrowings availed by Company",
+      400.0
+     ],
+     [
+      "General Corporate Purposes",
+      85.44
+     ]
+    ],
+    "pe_pre": 44.01,
+    "pe_post": 44.95,
+    "eps_pre": 11.02,
+    "eps_post": 10.79,
+    "mcap_pre": 23481.42,
+    "mcap_post": 23981.42,
+    "promoter_pre": 92.94,
+    "promoter_post": 77.65,
+    "anchor_cr": 1140.99,
+    "sub_total": 50.89,
+    "rev_cagr": 22.1,
+    "pat_cagr": 37.1,
+    "revenue": [
+     4320.7,
+     3373.97,
+     2900.38
+    ],
+    "pat": [
+     533.54,
+     423.73,
+     283.73
+    ],
+    "periods": [
+     "31 Mar 2026",
+     "31 Mar 2025",
+     "31 Mar 2024"
+    ],
+    "borrowing": [
+     1090.49,
+     1247.2,
+     1085.01
+    ],
+    "networth": [
+     2819.55,
+     2199.43,
+     2050.51
+    ],
+    "de_calc": 0.39,
+    "roe": "21.26%",
+    "roce": "26.60%",
+    "ronw": "21.26%",
+    "pat_margin": "12.72%",
+    "ebitda_margin": "25.54%",
+    "de": 0.39,
+    "de_period": "latest restated period (borrowing / net worth)",
+    "ocf": 1077.0,
+    "ocf_unit": "cr"
    }
   },
   {
@@ -1651,7 +4942,7 @@
    "passed": 5,
    "fails": 3,
    "unknown": 0,
-   "verdict": "Rejected",
+   "verdict": "Provisional",
    "flag": "OFS-heavy; proceeds not growth-led | F3: post-issue P/E 38.12x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/sbi-funds-management-ipo/2949/",
    "source_label": "Chittorgarh",
@@ -1678,6 +4969,54 @@
    "stale": {
     "f7": "pledge unconfirmed",
     "f8": "FY25"
+   },
+   "m": {
+    "price_band": "₹545 to ₹574",
+    "issue_price": 574.0,
+    "lot": "26 Shares",
+    "sale_type": "OFS only",
+    "dates": "14 to 16 Jul, 2026",
+    "listed_on": "Tue, Jul 21, 2026",
+    "issue_cr": 9795.0,
+    "ofs_cr": 9795.0,
+    "fresh_pct": 0.0,
+    "pe_pre": 38.12,
+    "pe_post": 38.12,
+    "eps_pre": 15.06,
+    "eps_post": 15.06,
+    "mcap_pre": 116913.9,
+    "mcap_post": 116913.9,
+    "promoter_pre": 96.38,
+    "promoter_post": 88.0,
+    "anchor_cr": 2662.96,
+    "sub_total": 30.47,
+    "rev_cagr": 20.5,
+    "pat_cagr": 21.6,
+    "revenue": [
+     4976.11,
+     4236.15,
+     3426.08
+    ],
+    "pat": [
+     3067.38,
+     2540.15,
+     2072.79
+    ],
+    "periods": [
+     "31 Mar 2026",
+     "31 Mar 2025",
+     "31 Mar 2024"
+    ],
+    "networth": [
+     5963.06,
+     8297.53,
+     6747.75
+    ],
+    "roe": "43.02%",
+    "ronw": "43.02%",
+    "ebitda_margin": "92.46%",
+    "ocf": 2488.0,
+    "ocf_unit": "cr"
    }
   },
   {
@@ -1688,7 +5027,7 @@
    "passed": 5,
    "fails": 3,
    "unknown": 0,
-   "verdict": "Rejected",
+   "verdict": "Provisional",
    "flag": "fresh 73%; proceeds not growth-led; D/E 1.1 | F3: post-issue P/E 19.82x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/laser-power-infra-ipo/2654/",
    "source_label": "Chittorgarh",
@@ -1714,6 +5053,73 @@
    },
    "soft": {
     "f4": "total only"
+   },
+   "m": {
+    "price_band": "₹203 to ₹214",
+    "issue_price": 214.0,
+    "lot": "70 Shares",
+    "sale_type": "Fresh capital cum OFS",
+    "dates": "9 to 13 Jul, 2026",
+    "listed_on": "Thu, Jul 16, 2026",
+    "issue_cr": 742.0,
+    "fresh_cr": 542.0,
+    "ofs_cr": 200.0,
+    "fresh_pct": 73.0,
+    "objects": [
+     [
+      "Pre-payment or re-payment, in full or in part, of all or a portion of certain outstanding borrowings availed by the Company",
+      490.0
+     ],
+     [
+      "General Corporate Purposes",
+      21.15
+     ]
+    ],
+    "pe_pre": 16.24,
+    "pe_post": 19.82,
+    "eps_pre": 13.18,
+    "eps_post": 10.8,
+    "mcap_pre": 2461.88,
+    "mcap_post": 3003.88,
+    "promoter_pre": 100.0,
+    "promoter_post": 75.29,
+    "anchor_cr": 222.6,
+    "sub_total": 28.97,
+    "rev_cagr": 15.4,
+    "pat_cagr": 93.7,
+    "revenue": [
+     2347.89,
+     2592.53,
+     1763.65
+    ],
+    "pat": [
+     151.59,
+     106.75,
+     40.41
+    ],
+    "periods": [
+     "31 Mar 2026",
+     "31 Mar 2025",
+     "31 Mar 2024"
+    ],
+    "borrowing": [
+     828.23,
+     502.95,
+     393.75
+    ],
+    "networth": [
+     725.41,
+     574.58,
+     473.44
+    ],
+    "de_calc": 1.14,
+    "roe": "23.32%",
+    "roce": "17.83%",
+    "ronw": "20.90%",
+    "pat_margin": "6.46%",
+    "ebitda_margin": "12.96%",
+    "de": 1.14,
+    "de_period": "latest restated period (borrowing / net worth)"
    }
   },
   {
@@ -1724,7 +5130,7 @@
    "passed": 3,
    "fails": 5,
    "unknown": 0,
-   "verdict": "Rejected",
+   "verdict": "Review",
    "flag": "OFS-heavy; proceeds not growth-led; growth <15%/loss | F3: post-issue P/E 44.8x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/kusumgar-ipo/2670/",
    "source_label": "Chittorgarh",
@@ -1752,6 +5158,64 @@
    },
    "soft": {
     "f4": "total only"
+   },
+   "m": {
+    "price_band": "₹398 to ₹419",
+    "issue_price": 419.0,
+    "lot": "35 Shares",
+    "sale_type": "OFS only",
+    "dates": "8 to 10 Jul, 2026",
+    "listed_on": "Wed, Jul 15, 2026",
+    "issue_cr": 650.0,
+    "ofs_cr": 650.0,
+    "fresh_pct": 0.0,
+    "pe_pre": 44.8,
+    "pe_post": 44.8,
+    "eps_pre": 9.35,
+    "eps_post": 9.35,
+    "mcap_pre": 4399.14,
+    "mcap_post": 4399.14,
+    "promoter_pre": 89.44,
+    "promoter_post": 74.72,
+    "anchor_cr": 193.95,
+    "sub_total": 94.75,
+    "rev_cagr": 22.5,
+    "pat_cagr": 7.9,
+    "revenue": [
+     711.78,
+     790.21,
+     474.55
+    ],
+    "pat": [
+     98.2,
+     111.99,
+     84.4
+    ],
+    "periods": [
+     "31 Mar 2026",
+     "31 Mar 2025",
+     "31 Mar 2024"
+    ],
+    "borrowing": [
+     223.58,
+     246.5,
+     76.53
+    ],
+    "networth": [
+     502.95,
+     257.75,
+     140.36
+    ],
+    "de_calc": 0.44,
+    "roe": "25.82%",
+    "roce": "24.76%",
+    "ronw": "25.82%",
+    "pat_margin": "13.80%",
+    "ebitda_margin": "27.15%",
+    "de": 0.44,
+    "de_period": "latest restated period (borrowing / net worth)",
+    "ocf": -1549.77,
+    "ocf_unit": "mn"
    }
   },
   {
@@ -1762,7 +5226,7 @@
    "passed": 4,
    "fails": 4,
    "unknown": 0,
-   "verdict": "Rejected",
+   "verdict": "Review",
    "flag": "OFS-heavy; proceeds not growth-led; growth <15%/loss | F3: post-issue P/E 19.42x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/cmr-green-technologies-ipo/2586/",
    "source_label": "Chittorgarh",
@@ -1790,6 +5254,69 @@
    },
    "soft": {
     "f4": "total only"
+   },
+   "m": {
+    "price_band": "₹182 to ₹192",
+    "issue_price": 192.0,
+    "lot": "78 Shares",
+    "sale_type": "OFS only",
+    "dates": "3 to 5 Jun, 2026",
+    "listed_on": "Wed, Jun 10, 2026",
+    "issue_cr": 631.0,
+    "ofs_cr": 631.0,
+    "fresh_pct": 0.0,
+    "pe_pre": 27.13,
+    "pe_post": 19.42,
+    "eps_pre": 7.08,
+    "eps_post": 9.88,
+    "mcap_pre": 4205.87,
+    "mcap_post": 4205.87,
+    "promoter_pre": 86.95,
+    "promoter_post": 84.0,
+    "anchor_cr": 188.44,
+    "sub_total": 88.69,
+    "rev_cagr": 6.6,
+    "pat_cagr": 21.8,
+    "revenue": [
+     6291.0,
+     6696.66,
+     5968.44,
+     5889.0
+    ],
+    "pat": [
+     162.39,
+     155.04,
+     -838.56,
+     104.51
+    ],
+    "periods": [
+     "31 Dec 2025",
+     "31 Mar 2025",
+     "31 Mar 2024",
+     "31 Mar 2023"
+    ],
+    "borrowing": [
+     1303.22,
+     894.03,
+     498.65,
+     368.19
+    ],
+    "networth": [
+     594.18,
+     458.38,
+     317.54,
+     1195.19
+    ],
+    "de_calc": 2.19,
+    "roe": "0.10%",
+    "roce": "9.30%",
+    "ronw": "24.92%",
+    "pat_margin": "2.59%",
+    "ebitda_margin": "5.17%",
+    "de": 2.19,
+    "de_period": "latest restated period (borrowing / net worth)",
+    "ocf": -920.03,
+    "ocf_unit": "mn"
    }
   },
   {
@@ -1800,7 +5327,7 @@
    "passed": 4,
    "fails": 4,
    "unknown": 0,
-   "verdict": "Rejected",
+   "verdict": "Review",
    "flag": "OFS-heavy; proceeds not growth-led; growth <15%/loss; promoter 45.7% | F3: post-issue P/E 15.35x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/hexagon-nutrition-ipo/2658/",
    "source_label": "Chittorgarh",
@@ -1826,6 +5353,69 @@
    },
    "soft": {
     "f4": "total only"
+   },
+   "m": {
+    "price_band": "₹42 to ₹45",
+    "issue_price": 45.0,
+    "lot": "333 Shares",
+    "sale_type": "OFS only",
+    "dates": "5 to 9 Jun, 2026",
+    "listed_on": "Fri, Jun 12, 2026",
+    "issue_cr": 139.0,
+    "ofs_cr": 139.0,
+    "fresh_pct": 0.0,
+    "pe_pre": 22.69,
+    "pe_post": 15.35,
+    "eps_pre": 1.98,
+    "eps_post": 2.93,
+    "mcap_pre": 553.13,
+    "mcap_post": 553.13,
+    "promoter_pre": 89.41,
+    "promoter_post": 45.74,
+    "anchor_cr": 41.66,
+    "sub_total": 37.47,
+    "rev_cagr": 8.5,
+    "pat_cagr": 104.7,
+    "revenue": [
+     275.57,
+     331.29,
+     304.62,
+     281.65
+    ],
+    "pat": [
+     27.03,
+     24.38,
+     12.21,
+     5.82
+    ],
+    "periods": [
+     "31 Dec 2025",
+     "31 Mar 2025",
+     "31 Mar 2024",
+     "31 Mar 2023"
+    ],
+    "borrowing": [
+     39.79,
+     26.6,
+     36.89,
+     51.87
+    ],
+    "networth": [
+     223.05,
+     195.6,
+     176.29,
+     163.84
+    ],
+    "de_calc": 0.18,
+    "roe": "13.02%",
+    "roce": "14.82%",
+    "ronw": "12.12%",
+    "pat_margin": "9.81%",
+    "ebitda_margin": "14.03%",
+    "de": 0.18,
+    "de_period": "latest restated period (borrowing / net worth)",
+    "ocf": 377.94,
+    "ocf_unit": "mn"
    }
   }
  ],

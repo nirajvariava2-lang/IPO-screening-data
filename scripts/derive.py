@@ -101,14 +101,13 @@ def reasons(row, e, fy):
 
 
 def verdict(row):
+    """Rejected: 0-2 passes or a governance red flag (row['gov_flag']); Qualified needs 7-8 verified (no older/soft) passes."""
     p = row["passed"]
-    flag_rej = row["verdict"] == "Rejected" and p >= 3
-    if flag_rej or p <= 2:
+    if p <= 2 or row.get("gov_flag"):
         return "Rejected"
     if p >= 7 and not row.get("stale") and not row.get("soft"):
         return "Qualified"
     return "Provisional" if p >= 5 else "Review"
-
 
 if __name__ == "__main__":
     d = json.load(open(sys.argv[1], encoding="utf-8"))
@@ -127,4 +126,5 @@ if __name__ == "__main__":
     json.dump(d, open(sys.argv[1], "w", encoding="utf-8"), indent=1, ensure_ascii=False)
     for k in ("f4", "f5", "f6", "f7", "f8"):
         print(k, "U =", sum(r[k] == "U" for r in d["rows"]))
+
 
