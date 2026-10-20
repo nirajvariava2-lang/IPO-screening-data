@@ -1,6 +1,6 @@
 {
- "as_of": "2026-10-20T02:05:57+05:30",
- "as_of_label": "Tue 20 Oct 2026, 02:05 IST",
+ "as_of": "2026-10-20T09:31:55.366053+05:30",
+ "as_of_label": "Tue 20 Oct 2026, 09:31 IST",
  "rows": [
   {
    "company": "HD Fire Protect",
@@ -75,7 +75,7 @@
    "company": "Zetwerk Manufacturing",
    "group": "Open / upcoming",
    "new": false,
-   "timing": "Opened 15 Oct; closes 19 Oct; lists 23 Oct (tentative)",
+   "timing": "Opened 15 Oct; closed 19 Oct; lists 23 Oct (tentative)",
    "passed": 0,
    "fails": 6,
    "unknown": 2,
@@ -92,11 +92,11 @@
    "f7": "F",
    "f8": "U",
    "listed_on": "",
-   "status": "Open now",
+   "status": "Closed, awaiting listing",
    "post_pe": null,
    "sources": {},
    "u_reasons": {
-    "f4": "Not available yet",
+    "f4": "Day 3 final subscription not found yet (last: 0.31x at Day 2)",
     "f8": "Not available yet"
    },
    "stale": {}
@@ -105,7 +105,7 @@
    "company": "Tonbo Imaging",
    "group": "Open / upcoming",
    "new": false,
-   "timing": "Opened 15 Oct; closes 19 Oct; lists 23 Oct (tentative)",
+   "timing": "Opened 15 Oct; closed 19 Oct; lists 23 Oct (tentative)",
    "passed": 2,
    "fails": 5,
    "unknown": 1,
@@ -122,13 +122,14 @@
    "f7": "F",
    "f8": "P",
    "listed_on": "",
-   "status": "Open now",
+   "status": "Closed, awaiting listing",
    "post_pe": null,
    "sources": {
-    "f8": "Anchor allocation exists; no auditor qualification (SEBI Tonbo Imaging India Limited -  p.12). Confirm in RHP"
+    "f8": "Anchor allocation exists; no auditor qualification (SEBI Tonbo Imaging India Limited -  p.12). Confirm in RHP",
+    "f4": "Day 3 post-close snapshot (19 Oct, ~5:45-5:55 PM) 132.81x overall, QIB ex-anchor 293.56x, NII 156.36x, retail 31.11x (Chittorgarh ipo_subscription page)"
    },
    "u_reasons": {
-    "f5": "Not available yet"
+    "f5": "Operating cash flow not on Chittorgarh page (D/E 0.21 FY26); needs RHP"
    },
    "stale": {
     "f8": "FY25"
@@ -138,10 +139,10 @@
    "company": "Bonfiglioli Transmissions",
    "group": "Open / upcoming",
    "new": false,
-   "timing": "Opened 15 Oct; closes 19 Oct; lists 23 Oct (tentative)",
-   "passed": 2,
+   "timing": "Opened 15 Oct; closed 19 Oct; lists 23 Oct (tentative)",
+   "passed": 3,
    "fails": 4,
-   "unknown": 2,
+   "unknown": 1,
    "verdict": "Rejected",
    "flag": "100% OFS of 4.32 cr shares (Rs 2,534 cr) by Bonfiglioli S.p.A.; band 558-586; anchors Rs 759.26 cr (Y); post P/E 37.07x; promoter post-issue 77% (pledge unverified); CY23-25 total income CAGR 9.0% (FAIL), PAT CAGR 26.6%; borrowings not shown for latest year; subscription 0.99x at Day 2 close (IPO Ji; IPOGyani earlier snapshot 0.47x), F4 not met | F3: post-issue P/E 37.07x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/bonfiglioli-transmissions-ipo/2861/",
@@ -149,21 +150,21 @@
    "f1": "F",
    "f2": "F",
    "f3": "F",
-   "f4": "U",
+   "f4": "P",
    "f5": "U",
    "f6": "F",
    "f7": "P",
    "f8": "P",
    "listed_on": "",
-   "status": "Open now",
+   "status": "Closed, awaiting listing",
    "post_pe": 37.07,
    "sources": {
     "f7": "Promoter holding after issue 77.0% (pre 100.0%) - Chittorgarh https://www.chittorgarh.com/ipo/bonfiglioli-transmissions-ipo/2861/; no pledge per SEBI DRHP p.97",
-    "f8": "Soft pass: no auditor qualification (SEBI Bonfiglioli Transmissions Limited (Feb 16, 2026) p.26); anchor portion in offer structure (p.2). Confirm in RHP"
+    "f8": "Soft pass: no auditor qualification (SEBI Bonfiglioli Transmissions Limited (Feb 16, 2026) p.26); anchor portion in offer structure (p.2). Confirm in RHP",
+    "f4": "Day 3 post-close snapshot (19 Oct, ~5:45-5:55 PM) 46.05x overall, QIB ex-anchor 120.78x, NII 40.39x, retail 5.90x (Chittorgarh ipo_subscription page)"
    },
    "u_reasons": {
-    "f4": "Not available yet",
-    "f5": "Not available yet"
+    "f5": "OCF and latest-year borrowings not available; needs RHP"
    },
    "stale": {
     "f8": "FY25",
@@ -174,10 +175,10 @@
    "company": "Sahajanand Medical Tech",
    "group": "Open / upcoming",
    "new": false,
-   "timing": "Opened 15 Oct; closes 19 Oct; lists 23 Oct (tentative)",
-   "passed": 1,
+   "timing": "Opened 15 Oct; closed 19 Oct; lists 23 Oct (tentative)",
+   "passed": 2,
    "fails": 4,
-   "unknown": 3,
+   "unknown": 2,
    "verdict": "Rejected",
    "flag": "Pure OFS 1.38 cr shares, Rs 475.48 cr, band 327-344; post P/E 57.91x; promoter post-issue 36.2% (F7 FAIL); FY24-26 revenue CAGR 15.9% but FY24 PAT was a loss so PAT CAGR is not computable (F6 UNKNOWN); D/E 0.27 per Chittorgarh KPI vs 0.44 computed (269.53/616.05); subscription 0.83x at Day 2 close (IPO Ji; earlier snapshot 0.34x) | F3: post-issue P/E 57.91x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/sahajanand-medical-technologies-ipo/2550/",
@@ -185,20 +186,20 @@
    "f1": "F",
    "f2": "F",
    "f3": "F",
-   "f4": "U",
+   "f4": "P",
    "f5": "U",
    "f6": "U",
    "f7": "F",
    "f8": "P",
    "listed_on": "",
-   "status": "Open now",
+   "status": "Closed, awaiting listing",
    "post_pe": 57.91,
    "sources": {
-    "f8": "Soft pass: no auditor qualification (SEBI SAHAJANAND MEDICAL TECHNOLOGIES LIMITED (Jul 31, 2025) p.25); anchor portion in offer structure (p.3). Confirm in RHP"
+    "f8": "Soft pass: no auditor qualification (SEBI SAHAJANAND MEDICAL TECHNOLOGIES LIMITED (Jul 31, 2025) p.25); anchor portion in offer structure (p.3). Confirm in RHP",
+    "f4": "Day 3 post-close snapshot (19 Oct, ~5:45-5:55 PM) 14.21x overall, QIB ex-anchor 34.70x, NII 14.64x, retail 3.04x (Chittorgarh ipo_subscription page)"
    },
    "u_reasons": {
-    "f4": "Not available yet",
-    "f5": "Not available yet",
+    "f5": "OCF not available (D/E 0.27 FY26); needs RHP",
     "f6": "Not available yet"
    },
    "stale": {
