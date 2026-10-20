@@ -29,3 +29,7 @@ Goal: every Indian mainboard IPO (open, upcoming, listed in the last 6 months) h
 1. Commit `data.json` and scripts to `main`, push (Git Credential Manager is signed in on this PC).
 2. Upload `ipo_screen_v3.json` as an asset to https://claude.ai/artifact/5oeTTPykEmVEUoj9CCT5rk and `update` the `datasets/screen` document's `source.url`, `description` and `updated`.
 
+
+## Public website
+Public page: https://nirajvariava2-lang.github.io/IPO-screening-data/ (GitHub Pages, branch main, root). After each data refresh also copy `ipo_screen_v3.json` into the repo root and commit it; the page fetches it. Rebuild `index.html` only if the dashboard page code changes: `python scripts/build_site.py <saved dashboard page>`.
+

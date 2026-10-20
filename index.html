@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>IPO Screening Desk</title>
+<style>
+:root{--color-fg:#1f2328;--color-fg-muted:#5b6470;--color-bg:#f6f4ef;--color-panel:#fff;--color-border-line:#dcd8cf;--color-ok:#1a7f4b;--color-warn:#b26a00;--color-bad:#c0392b;
+--font-anthropic-sans:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;--font-anthropic-serif:Georgia,"Times New Roman",serif;
+--cds-font-size-title:2rem;--cds-font-size-heading:1.05rem;--cds-font-size-body:.9rem;--cds-font-size-caption:.76rem;--cds-font-weight-medium:600;
+--cds-gap-sm:8px;--cds-gap-md:16px;--cds-gap-lg:24px;--cds-pad-xs:4px;--cds-pad-sm:8px;--cds-pad-md:12px;--cds-pad-lg:16px;--cds-radius:8px;
+--cds-chart-muted:#b9b6ad;--cds-surface-popover:#fff;--cds-border:#cfcac0;--cds-shadow-popover:0 4px 14px rgba(0,0,0,.15);--dc0:#4a6fa5}
+@media(prefers-color-scheme:dark){:root{--color-fg:#ece9e1;--color-fg-muted:#a39f95;--color-bg:#1b1a17;--color-panel:#25231f;--color-border-line:#3a372f;--color-ok:#4cc38a;--color-warn:#e0a03a;--color-bad:#ef7a6c;--cds-chart-muted:#5a564c;--cds-surface-popover:#2c2a25;--cds-border:#4a463d}}
+html,body{margin:0;background:var(--color-bg);color:var(--color-fg)}
+#dash-root{padding:16px clamp(12px,2vw,28px)}
+</style></head><body><div id="dash-root">
+<script>
+window.dash=(function(){const calcs=[],cbs=[],store={};let rows=null,err=null;
+function compute(){calcs.forEach(c=>{try{store[c.id]={status:'ok',data:c.fn(...c.inputs.map(i=>i==='screen'?rows:store[i].data))};}catch(e){store[c.id]={status:'error',data:[]};}});}
+return{calc(id,o){calcs.push({id,inputs:o.inputs,fn:o.fn});if(rows)compute();},
+loader(){},colors:[],refresh(){},params(){return{}},setParams(){},resetParams(){},setLink(){},
+data(id){if(id==='screen')return err?{status:'error',data:[]}:rows?{status:'ok',data:rows}:{status:'loading',data:[]};return store[id]||{status:'loading',data:[]};},
+onData(fn){cbs.push(fn);fn();window.addEventListener('resize',()=>fn());},
+_load(){fetch('ipo_screen_v3.json?'+Date.now()).then(r=>r.json()).then(j=>{rows=j;compute();cbs.forEach(f=>f());}).catch(e=>{err=e;cbs.forEach(f=>f());});}};})();
+</script>
+<style>
+#dash-root{--dash-gutter:clamp(12px,2vw,28px)}
+.ds{max-width:1500px;margin:0 auto;font-family:var(--font-anthropic-sans);color:var(--color-fg);display:flex;flex-direction:column;gap:var(--cds-gap-md)}
+.ds *{box-sizing:border-box}
+.ds header{display:flex;flex-wrap:wrap;gap:var(--cds-gap-sm) var(--cds-gap-lg);justify-content:space-between;align-items:flex-end;border-bottom:1px solid var(--color-border-line);padding-bottom:var(--cds-pad-md)}
+.ds h1{font-family:var(--font-anthropic-serif);font-weight:400;font-size:var(--cds-font-size-title);margin:0}
+.ds .take{margin:4px 0 0;color:var(--color-fg-muted);font-size:var(--cds-font-size-body);max-width:70ch}
+.ds .asof{font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);text-align:right}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,8.5rem),1fr));gap:var(--cds-gap-sm)}
+.tile{background:var(--color-panel);border:1px solid var(--color-border-line);border-radius:var(--cds-radius);padding:var(--cds-pad-md) var(--cds-pad-lg);display:flex;flex-direction:column;gap:2px;min-height:5rem;cursor:default}
+.tile.click{cursor:pointer}.tile.click:hover,.tile.on{border-color:var(--color-fg-muted)}
+.tile .lab{font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);text-transform:uppercase;letter-spacing:.04em}
+.tile b{font-family:var(--font-anthropic-serif);font-weight:400;font-size:2rem;line-height:1.1;font-variant-numeric:tabular-nums}
+.tile .sub{font-size:var(--cds-font-size-caption);color:var(--color-fg-muted)}
+.tile.ok b{color:var(--color-ok)}.tile.warn b{color:var(--color-warn)}.tile.bad b{color:var(--color-bad)}
+.layout{display:grid;grid-template-columns:15rem minmax(0,1fr);gap:var(--cds-gap-md);align-items:start}
+@media(max-width:900px){.layout{grid-template-columns:minmax(0,1fr)}}
+.card{background:var(--color-panel);border:1px solid var(--color-border-line);border-radius:var(--cds-radius);padding:var(--cds-pad-lg);min-width:0}
+.card h2{font-size:var(--cds-font-size-heading);font-weight:var(--cds-font-weight-medium);margin:0 0 2px}
+.card .note{font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);margin:0 0 var(--cds-pad-md)}
+.rail{display:flex;flex-direction:column;gap:var(--cds-gap-md);position:sticky;top:8px}
+@media(max-width:900px){.rail{position:static}}
+.rail label{display:block;font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);text-transform:uppercase;letter-spacing:.04em;margin:0 0 4px}
+.rail input,.rail select{width:100%;padding:6px 8px;border:1px solid var(--color-border-line);border-radius:var(--cds-radius);background:var(--color-bg);color:var(--color-fg);font:inherit;font-size:var(--cds-font-size-body)}
+.seg{display:flex;flex-wrap:wrap;gap:4px}
+.seg button,.btn{border:1px solid var(--color-border-line);background:var(--color-bg);color:var(--color-fg);border-radius:var(--cds-radius);padding:4px 9px;font:inherit;font-size:var(--cds-font-size-caption);cursor:pointer}
+.seg button.on{background:var(--color-fg);color:var(--color-bg);border-color:var(--color-fg)}
+.rail .field{display:flex;flex-direction:column}
+.rail ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:3px;font-size:var(--cds-font-size-caption);color:var(--color-fg-muted)}
+.rail li b{color:var(--color-fg);font-weight:600}
+.main{display:flex;flex-direction:column;gap:var(--cds-gap-md);min-width:0}
+.tw{max-height:34rem;overflow:auto;border:1px solid var(--color-border-line);border-radius:var(--cds-radius)}
+.ds table{border-collapse:collapse;width:100%;min-width:72rem;font-size:var(--cds-font-size-body);font-variant-numeric:tabular-nums}
+.ds th{position:sticky;top:0;background:var(--color-panel);text-align:left;font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);text-transform:uppercase;letter-spacing:.04em;padding:8px 8px;border-bottom:1px solid var(--color-border-line);white-space:nowrap;z-index:1}
+.ds th.fh{white-space:normal;min-width:5.2rem;vertical-align:bottom;line-height:1.25}.ds th .fn{display:block;font-size:.68rem;text-transform:none;letter-spacing:0;font-weight:400;margin-top:2px}.ds th.s{cursor:pointer}.ds th.c,.ds td.c{text-align:center}
+.ds td{padding:7px 8px;border-bottom:1px solid var(--color-border-line);vertical-align:middle}
+.ds tbody tr{cursor:pointer}.ds tbody tr:hover,.ds tbody tr.sel{background:var(--color-bg)}
+.ds td.co{font-weight:600;min-width:11rem}
+.ds td.tm{color:var(--color-fg-muted);font-size:var(--cds-font-size-caption);max-width:14rem}
+.fc{display:inline-block;width:1.5rem;font-weight:700}
+.fc.old{opacity:.5}.fc small{display:block;font-size:.6rem;font-weight:400;color:var(--color-fg-muted);line-height:1}.fc.P{color:var(--color-ok)}.fc.F{color:var(--color-bad)}.fc.U{color:var(--color-fg-muted);font-weight:400}
+.vb{display:inline-block;padding:1px 9px;border-radius:99px;border:1.5px solid;font-size:var(--cds-font-size-caption);font-weight:600}
+.vb.Qualified,.vb.Provisional{color:var(--color-ok)}.vb.Review{color:var(--color-warn)}.vb.Rejected{color:var(--color-bad)}
+.pill{font-size:var(--cds-font-size-caption);color:var(--color-fg-muted)}
+.det{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.3fr);gap:var(--cds-gap-lg)}
+@media(max-width:700px){.det{grid-template-columns:minmax(0,1fr)}}
+.det h3{margin:0 0 4px;font-size:var(--cds-font-size-heading);font-weight:var(--cds-font-weight-medium)}
+.det .flag{margin:6px 0;line-height:1.5;overflow-wrap:anywhere}
+.det .fl{display:grid;grid-template-columns:auto 1fr auto;gap:4px 10px;font-size:var(--cds-font-size-caption);align-items:center}
+.fc small.v{display:block;font-size:.66rem;font-weight:500;color:var(--color-fg-muted);margin-top:1px;white-space:nowrap}
+.dh{display:flex;flex-wrap:wrap;gap:var(--cds-gap-sm) var(--cds-gap-lg);align-items:baseline;justify-content:space-between}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(9rem,1fr));gap:8px;margin:10px 0}
+.facts div{background:var(--color-bg);border:1px solid var(--color-border-line);border-radius:var(--cds-radius);padding:6px 10px;font-size:var(--cds-font-size-caption);color:var(--color-fg-muted)}
+.facts b{display:block;color:var(--color-fg);font-size:var(--cds-font-size-body);font-variant-numeric:tabular-nums}
+.dt{width:100%;min-width:0!important;border-collapse:collapse;font-size:var(--cds-font-size-body)}
+.dt th{position:static!important;background:none!important}
+.dt td{vertical-align:top;padding:8px 8px}
+.dt .fk{font-weight:700;white-space:nowrap}.dt .rl{color:var(--color-fg-muted);font-size:var(--cds-font-size-caption)}
+.dt .val{font-weight:600;font-variant-numeric:tabular-nums}.dt .nt{color:var(--color-fg-muted);font-size:var(--cds-font-size-caption);margin-top:2px;overflow-wrap:anywhere}
+.dt tr.old .val,.dt tr.old .fc{opacity:.6}
+.dt tr.P td:first-child{box-shadow:inset 3px 0 var(--color-ok)}.dt tr.F td:first-child{box-shadow:inset 3px 0 var(--color-bad)}
+.rk{border-collapse:collapse;width:100%;min-width:60rem;font-size:var(--cds-font-size-body);font-variant-numeric:tabular-nums}
+.rk th{text-align:left;font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);text-transform:uppercase;letter-spacing:.04em;padding:8px;border-bottom:1px solid var(--color-border-line);white-space:nowrap}
+.rk td{padding:7px 8px;border-bottom:1px solid var(--color-border-line)}.rk tbody tr{cursor:pointer}.rk tbody tr:hover{background:var(--color-bg)}
+.rk .c{text-align:center}.rk td.nm{font-weight:600}.rk .dq{font-size:var(--cds-font-size-caption);color:var(--color-fg-muted)}.rk .dq.ok{color:var(--color-ok)}
+.rk .rn{font-family:var(--font-anthropic-serif);font-size:1.15rem}
+.charts{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,22rem),1fr));gap:var(--cds-gap-md)}
+.br{display:grid;grid-template-columns:7.5rem minmax(0,1fr);gap:8px;align-items:center;margin:5px 0;font-size:var(--cds-font-size-caption)}
+.br span.l{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bar{display:flex;height:14px;border-radius:3px;overflow:hidden;background:var(--color-border-line)}
+.bar i{display:block;height:100%}
+.bar .p{background:var(--color-ok)}.bar .f{background:var(--color-bad)}.bar .u{background:var(--cds-chart-muted)}
+.bar .n{background:var(--dc0)}
+.leg{display:flex;gap:12px;font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);margin-top:6px;flex-wrap:wrap}
+.leg i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:4px;vertical-align:-1px}
+.meth{font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);line-height:1.6}
+.meth b{color:var(--color-fg)}
+.tt{position:fixed;z-index:50;pointer-events:none;background:var(--cds-surface-popover);border:1px solid var(--cds-border);border-radius:var(--cds-radius);box-shadow:var(--cds-shadow-popover);padding:var(--cds-pad-xs) var(--cds-pad-sm);font-size:var(--cds-font-size-caption);max-width:16rem}
+.empty{padding:var(--cds-pad-lg);color:var(--color-fg-muted);text-align:center}
+
+.ban{display:flex;gap:var(--cds-gap-lg);align-items:center;border:1px solid var(--color-border-line);border-left-width:8px;border-radius:var(--cds-radius);background:var(--color-panel);padding:var(--cds-pad-lg)}
+.ban.bad{border-left-color:var(--color-bad)}.ban.warn{border-left-color:var(--color-warn)}.ban.ok{border-left-color:var(--color-ok)}
+.ban h2{margin:0;font-family:var(--font-anthropic-serif);font-weight:400;font-size:1.6rem;line-height:1.25}
+.ban p{margin:4px 0 0;color:var(--color-fg-muted);max-width:75ch}
+.sec h2{font-size:var(--cds-font-size-heading);font-weight:var(--cds-font-weight-medium);margin:0}
+.sec .note{font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);margin:2px 0 var(--cds-pad-md)}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,19rem),1fr));gap:var(--cds-gap-md)}
+.ic{background:var(--color-panel);border:1px solid var(--color-border-line);border-radius:var(--cds-radius);padding:var(--cds-pad-lg);display:flex;flex-direction:column;gap:8px;cursor:pointer;min-width:0}
+.ic:hover{border-color:var(--color-fg-muted)}
+.ic .top{display:flex;justify-content:space-between;gap:8px;align-items:flex-start}
+.ic .nm{font-weight:600;font-size:var(--cds-font-size-heading)}
+.ic .st{font-size:var(--cds-font-size-caption);color:var(--color-fg-muted)}
+.act{font-weight:700;font-size:var(--cds-font-size-body);padding:3px 10px;border-radius:99px;border:1.5px solid;white-space:nowrap}
+.act.bad{color:var(--color-bad)}.act.warn{color:var(--color-warn)}.act.ok{color:var(--color-ok)}.act.mut{color:var(--color-fg-muted)}
+.meter{display:flex;gap:3px}.meter i{flex:1;height:10px;border-radius:2px;background:var(--cds-chart-muted)}
+.meter i.old{opacity:.45}.meter i.P{background:var(--color-ok)}.meter i.F{background:var(--color-bad)}.meter i.U{background:var(--color-border-line)}
+.ic .sc{font-size:var(--cds-font-size-caption);color:var(--color-fg-muted)}
+.ic ul{margin:0;padding:0;list-style:none;font-size:var(--cds-font-size-caption);display:flex;flex-direction:column;gap:3px}
+.ic li::before{content:attr(data-m);display:inline-block;width:1.2em;font-weight:700}
+.ic li.P::before{color:var(--color-ok)}.ic li.F::before{color:var(--color-bad)}
+details.gl{background:var(--color-panel);border:1px solid var(--color-border-line);border-radius:var(--cds-radius);padding:var(--cds-pad-md) var(--cds-pad-lg);font-size:var(--cds-font-size-body)}
+details.gl summary{cursor:pointer;font-weight:600}
+details.gl dl{display:grid;grid-template-columns:max-content 1fr;gap:6px 14px;margin:10px 0 0}
+details.gl dt{font-weight:600}details.gl dd{margin:0;color:var(--color-fg-muted)}
+@media(max-width:600px){.ban{flex-direction:column;align-items:flex-start}details.gl dl{grid-template-columns:1fr}}
+</style>
+<div class="ds" id="desk">
+<header>
+ <div><h1 id="title">IPO Screening Desk</h1><p class="take" id="take">Loading screen results…</p></div>
+ <div class="asof">Data as of <span id="asof">…</span><br>Indian mainboard IPOs · listed 12 Apr to 12 Oct 2026 and open/upcoming<br>Screening aid only, not investment advice</div>
+</header>
+
+
+<section class="ban" id="ban" data-source="screen"><div><h2 id="ban-h">Loading today’s answer…</h2><p id="ban-p"></p></div></section>
+
+<section class="sec"><h2>Best IPOs ranked</h2><p class="note">Only IPOs with all 8 checks filled. Ranked by filters passed, then by how much of the data is current (fewer older or soft cells), then by lower P/E. Click a row for every number.</p>
+<div class="tw" style="max-height:none"><table class="rk" id="rank"><thead><tr><th class="c">#</th><th>Company</th><th class="c">Passed</th><th>Verdict</th><th class="c">Post P/E</th><th class="c">Growth (rev / PAT)</th><th class="c">Subscription</th><th class="c">D/E</th><th class="c">Promoters after</th><th>Fails</th><th>Data quality</th></tr></thead><tbody id="rk"></tbody></table></div></section>
+
+<section class="sec"><h2>Decide now: IPOs open or coming up</h2><p class="note">Each card gives a plain action. The bar shows the 8 checks: green passed, red failed, grey not yet verified. Click a card for details.</p>
+<div class="cards" id="live" data-source="screen"></div></section>
+
+<section class="sec"><h2>Worth a closer look: already listed, no failed check</h2><p class="note">Nothing here is a buy call. These are the only listed IPOs with zero failed checks, so they are the best candidates to verify against the offer document (RHP).</p>
+<div class="cards" id="short" data-source="screen"></div></section>
+
+<details class="gl"><summary>Plain-English glossary</summary><dl>
+<dt>IPO</dt><dd>A company selling shares to the public for the first time.</dd>
+<dt>Fresh issue</dt><dd>New shares; the money goes into the company.</dd>
+<dt>OFS (offer for sale)</dt><dd>Existing owners sell their shares; the company gets nothing.</dd>
+<dt>QIB</dt><dd>Large institutions (mutual funds, insurers). Their strong demand is a good sign.</dd>
+<dt>Anchor investors</dt><dd>Big investors who commit before the IPO opens.</dd>
+<dt>P/E</dt><dd>Share price divided by yearly profit per share. Lower means cheaper. Your limit is 25x.</dd>
+<dt>D/E</dt><dd>Debt divided by owners’ money. Above 1 means more borrowed than owned.</dd>
+<dt>Promoter pledge</dt><dd>Founders have borrowed against their own shares. Should be nil.</dd>
+<dt>RHP</dt><dd>The final offer document filed with SEBI. Source for the checks marked “not verified”.</dd>
+</dl></details>
+
+<section class="kpis" id="kpis">
+ <div class="tile click" data-v="all"><span class="lab">IPOs tracked</span><b data-source="kpi" data-field="n" data-where="k=total">—</b><span class="sub">listed + open/upcoming</span></div>
+ <div class="tile click ok" data-v="Qualified"><span class="lab">Qualified</span><b data-source="kpi" data-field="n" data-where="k=qualified">—</b><span class="sub">7–8 verified passes</span></div>
+ <div class="tile click ok" data-v="Provisional"><span class="lab">Provisional</span><b data-source="kpi" data-field="n" data-where="k=provisional">—</b><span class="sub">5–6 passes</span></div>
+ <div class="tile click warn" data-v="Review"><span class="lab">Review</span><b data-source="kpi" data-field="n" data-where="k=review">—</b><span class="sub">3–4 passes</span></div>
+ <div class="tile click bad" data-v="Rejected"><span class="lab">Rejected</span><b data-source="kpi" data-field="n" data-where="k=rejected">—</b><span class="sub">0–2 or red flag</span></div>
+ <div class="tile"><span class="lab">Open or upcoming</span><b data-source="kpi" data-field="n" data-where="k=live">—</b><span class="sub">bidding now or soon</span></div>
+</section>
+
+<div class="layout">
+ <aside class="rail">
+  <div class="card">
+   <div class="field"><label for="q">Search company</label><input id="q" type="search" placeholder="e.g. Jio, Steel"></div>
+   <div class="field" style="margin-top:12px"><label>Segment</label>
+    <div class="seg" id="seg"><button data-g="all" class="on">All</button><button data-g="Open / upcoming">Open / upcoming</button><button data-g="Listed">Listed</button></div></div>
+   <div class="field" style="margin-top:12px"><label for="minp">Minimum filters passed</label>
+    <select id="minp"><option value="0">Any</option><option value="2">2 or more</option><option value="3">3 or more</option><option value="4">4 or more</option></select></div>
+   <div class="field" style="margin-top:12px"><label for="nof">Red flags</label>
+    <select id="nof"><option value="all">Show all</option><option value="0">No failed filter</option></select></div>
+   <button class="btn" id="reset" style="margin-top:12px;width:100%">Reset filters</button>
+  </div>
+  <div class="card meth">
+   <h2>How to read</h2>
+   <p class="note">Eight filters, scored per IPO</p>
+   <p><b>✓</b> pass · <b>✕</b> fail · <b>?</b> not verified (counted as no pass).</p>
+   <ul style="margin:0 0 8px;padding:0;list-style:none;display:flex;flex-direction:column;gap:3px"><li><b>F1</b> Fresh issue at least 90% of the issue</li><li><b>F2</b> Proceeds used productively (capex, growth), not debt or OFS exit</li><li><b>F3</b> Post-issue P/E positive and at or below 25x</li><li><b>F4</b> Overall subscription 3x or more, with real QIB demand</li><li><b>F5</b> Debt/equity 1 or less, operating cash flow positive</li><li><b>F6</b> Revenue and PAT CAGR 15% or more</li><li><b>F7</b> Promoter holding 50% or more after issue, pledge nil</li><li><b>F8</b> Anchor investors present, unmodified auditor opinion</li></ul><p><b>Lighter ✓/✕ with a year (e.g. FY25)</b> means the value comes from an older SEBI draft offer document (DRHP), not the final RHP. “total” on F4 means overall subscription only; the QIB split was not available. Hover a cell or open a row for the source. “?” rows give the reason in the detail panel.</p>
+  </div>
+ </aside>
+
+ <div class="main">
+  <div class="card">
+   <h2 id="tt">Screening scorecard</h2>
+   <p class="note" id="tn">Click a row for the evidence and source. Click a column heading to sort.</p>
+   <div class="tw"><table id="tbl" data-source="screen" data-row-key="company">
+    <thead><tr>
+     <th class="s" data-k="company" data-field="company">Company</th>
+     <th class="s" data-k="group" data-field="group">Segment</th>
+     <th data-field="timing">Date / timing</th>
+     <th class="s c" data-k="passed" data-field="passed">Passed</th>
+     <th class="c fh" data-field="f1">F1<span class="fn">Fresh issue ≥90%</span></th><th class="c fh" data-field="f2">F2<span class="fn">Proceeds productive</span></th><th class="c fh" data-field="f3">F3<span class="fn">P/E ≤25x</span></th><th class="c fh" data-field="f4">F4<span class="fn">Subscription ≥3x + QIB</span></th>
+     <th class="c fh" data-field="f5">F5<span class="fn">D/E ≤1, OCF positive</span></th><th class="c fh" data-field="f6">F6<span class="fn">Growth CAGR ≥15%</span></th><th class="c fh" data-field="f7">F7<span class="fn">Promoter ≥50%, no pledge</span></th><th class="c fh" data-field="f8">F8<span class="fn">Anchors + clean audit</span></th>
+     <th class="s" data-k="verdict" data-field="verdict">Verdict</th>
+    </tr></thead><tbody id="tb"></tbody></table></div>
+  </div>
+
+  <div class="card" id="det" data-source="screen">
+   <div class="dh"><h3 id="d-name" style="margin:0;font-size:var(--cds-font-size-heading)">Select an IPO</h3><span id="d-vb"></span></div>
+   <div class="pill" id="d-meta">Click any row or card to see the number behind every filter.</div>
+   <div class="facts" id="d-facts"></div>
+   <div class="tw" style="max-height:none"><table class="dt" id="d-tbl"><thead><tr><th>Filter</th><th>Your rule</th><th>Actual number</th><th class="c">Result</th></tr></thead><tbody id="d-body"></tbody></table></div>
+   <div class="flag" id="d-flag" style="margin-top:10px;line-height:1.5;overflow-wrap:anywhere"></div><a id="d-src" target="_blank" rel="noopener" style="font-size:var(--cds-font-size-caption)"></a>
+  </div>
+
+  <div class="charts">
+   <div class="card"><h2>Pass, fail and unverified by filter</h2><p class="note">All IPOs in the current view</p>
+    <div id="c-filt" data-source="byfilter"></div>
+    <div class="leg"><span><i style="background:var(--color-ok)"></i>Pass</span><span><i style="background:var(--color-bad)"></i>Fail</span><span><i style="background:var(--cds-chart-muted)"></i>Unverified</span></div></div>
+   <div class="card"><h2>How many filters each IPO passed</h2><p class="note">Count of IPOs, all tracked</p>
+    <div id="c-dist" data-source="dist"></div></div>
+  </div>
+ </div>
+</div>
+</div>
+<div class="tt" id="tip" hidden></div>
+<script>
+(function(){
+const FN={f1:'Fresh issue ≥90%',f2:'Proceeds genuinely productive',f3:'Post-issue P/E ≤25x',f4:'Subscription ≥3x, QIB demand',f5:'D/E ≤1 and positive OCF',f6:'Revenue and PAT CAGR ≥15%',f7:'Promoter ≥50%, pledge nil',f8:'Anchors and clean audit'};
+dash.calc('kpi',{inputs:['screen'],title:'Headline counts',description:'Counts of IPOs by verdict and segment.',fn:(all)=>{const screen=all.filter(r=>r.unknown===0);return [
+ {k:'total',n:screen.length},{k:'qualified',n:screen.filter(r=>r.verdict==='Qualified').length},{k:'provisional',n:screen.filter(r=>r.verdict==='Provisional').length},
+ {k:'review',n:screen.filter(r=>r.verdict==='Review').length},{k:'rejected',n:screen.filter(r=>r.verdict==='Rejected').length},{k:'live',n:screen.filter(r=>r.group==='Open / upcoming').length}];}});
+dash.calc('byfilter',{inputs:['screen'],title:'Result per filter',description:'Pass, fail and unverified counts for each of F1 to F8.',fn:(all)=>{const screen=all.filter(r=>r.unknown===0);return ['f1','f2','f3','f4','f5','f6','f7','f8'].map(f=>({filter:f,pass:screen.filter(r=>r[f]==='P').length,fail:screen.filter(r=>r[f]==='F').length,unknown:screen.filter(r=>r[f]==='U').length}));}});
+dash.calc('dist',{inputs:['screen'],title:'Filters passed',description:'Number of IPOs by count of filters passed.',fn:(all)=>{const screen=all.filter(r=>r.unknown===0);return [0,1,2,3,4,5,6,7,8].map(p=>({passed:p,n:screen.filter(r=>r.passed===p).length}));}});
+
+const S={g:'all',v:'all',q:'',minp:0,nof:'all',sort:'default',dir:1,sel:null};
+const $=id=>document.getElementById(id);
+const tip=$('tip');
+function showTip(e,html){tip.innerHTML='';tip.append(...html);tip.hidden=false;const w=tip.offsetWidth;tip.style.left=Math.min(window.innerWidth-w-8,e.clientX+12)+'px';tip.style.top=(e.clientY+14)+'px';}
+function hideTip(){tip.hidden=true;}
+function line(t,b){const d=document.createElement('div');if(b){const s=document.createElement('b');s.textContent=t;d.append(s);}else d.textContent=t;return d;}
+function fx(v,d){return v==null?'n/a':(Math.abs(v)>=100?Math.round(v).toLocaleString('en-IN'):v.toFixed(d==null?1:d));}
+function cellv(r,f){const m=r.mm||{};
+ if(f==='f1')return m.fresh_pct!=null?Math.round(m.fresh_pct)+'% fresh':'';
+ if(f==='f3')return m.pe_post!=null?(m.pe_post<0?'loss':m.pe_post.toFixed(1)+'x P/E'):'';
+ if(f==='f4')return m.sub_total!=null?fx(m.sub_total)+'x':'';
+ if(f==='f5')return m.de!=null?'D/E '+m.de.toFixed(2):'';
+ if(f==='f6')return(m.rev_cagr!=null&&m.pat_cagr!=null)?Math.round(m.rev_cagr)+'% / '+Math.round(m.pat_cagr)+'%':'';
+ if(f==='f7')return m.promoter_post!=null?Math.round(m.promoter_post)+'% post':'';
+ if(f==='f8')return m.anchor_cr!=null?'₹'+Math.round(m.anchor_cr)+' cr':'';
+ return '';}
+function numtxt(r,f){const m=r.mm||{};
+ if(f==='f1'){if(m.fresh_pct==null)return null;return m.fresh_pct.toFixed(1)+'% fresh'+(m.fresh_cr!=null?' (₹'+fx(m.fresh_cr,0)+' cr':'')+(m.ofs_cr!=null?' + OFS ₹'+fx(m.ofs_cr,0)+' cr)':(m.fresh_cr!=null?')':''));}
+ if(f==='f2'){if(!m.objects||!m.objects.length)return null;const tot=m.objects.reduce((a,o)=>a+(o[1]||0),0)||1;return m.objects.slice(0,4).map(o=>o[0].replace(/^(Funding|Repayment\/pre-payment, in full or in part, of)\s*/i,'').slice(0,55)+' ₹'+fx(o[1],0)+' cr ('+Math.round(o[1]/tot*100)+'%)').join(' · ');}
+ if(f==='f3'){if(m.pe_post==null)return null;return 'Post-issue P/E '+(m.pe_post<0?'negative (loss)':m.pe_post.toFixed(1)+'x')+(m.pe_pre!=null?' · pre-issue '+m.pe_pre.toFixed(1)+'x':'')+(m.mcap_post!=null?' · market cap ₹'+fx(m.mcap_post,0)+' cr':'');}
+ if(f==='f4'){if(m.sub_total==null)return null;let s='Overall '+fx(m.sub_total)+'x';if(m.sub_qib!=null)s+=' · QIB '+fx(m.sub_qib)+'x';if(m.sub_nii!=null)s+=' · NII '+fx(m.sub_nii)+'x';if(m.sub_retail!=null)s+=' · Retail '+fx(m.sub_retail)+'x';return s;}
+ if(f==='f5'){const p=[];if(m.de!=null)p.push('D/E '+m.de.toFixed(2));if(m.ocf!=null)p.push('Operating cash flow '+fx(m.ocf,1)+(m.ocf_unit?' '+m.ocf_unit:' cr'));if(m.roe)p.push('ROE '+m.roe);if(m.roce)p.push('ROCE '+m.roce);return p.length?p.join(' · '):null;}
+ if(f==='f6'){if(m.rev_cagr==null&&m.pat_cagr==null)return null;const per=m.periods?m.periods.filter(x=>/Mar/.test(x)).map(x=>x.slice(-4)).reverse():[];return 'Revenue CAGR '+(m.rev_cagr!=null?m.rev_cagr+'%':'n/a')+' · PAT CAGR '+(m.pat_cagr!=null?m.pat_cagr+'%':'n/a')+(per.length>1?' (FY'+per[0].slice(2)+' to FY'+per[per.length-1].slice(2)+')':'');}
+ if(f==='f7'){if(m.promoter_post==null)return null;return 'Promoters '+m.promoter_pre+'% before → '+m.promoter_post+'% after the issue';}
+ if(f==='f8'){return m.anchor_cr!=null?'Anchor investors ₹'+fx(m.anchor_cr,0)+' cr':null;}
+ return null;}
+const RULE={f1:'Fresh issue ≥ 90%',f2:'Money for growth, not debt or exit',f3:'Post-issue P/E ≤ 25x',f4:'Subscription ≥ 3x, QIB demand',f5:'D/E ≤ 1, operating cash flow +ve',f6:'Revenue and PAT CAGR ≥ 15%',f7:'Promoters ≥ 50% after, no pledge',f8:'Anchors + clean audit'};
+function sym(v){return v==='P'?'✓':v==='F'?'✕':'?';}
+function view(rows){
+ let r=rows.filter(x=>(S.g==='all'||x.group===S.g)&&(S.v==='all'||x.verdict===S.v)&&x.passed>=S.minp&&(S.nof==='all'||x.fails===0)&&(!S.q||x.company.toLowerCase().includes(S.q)));
+ const k=S.sort;
+ r.sort((a,b)=>{ if(k==='default'){return (a.group===b.group?0:a.group==='Open / upcoming'?-1:1)||b.passed-a.passed||a.company.localeCompare(b.company);}
+  const x=a[k],y=b[k];return (typeof x==='number'?x-y:String(x).localeCompare(String(y)))*S.dir||a.company.localeCompare(b.company);});
+ return r;}
+
+const PASS={f1:'Mostly new shares, so the money reaches the company',f2:'Money goes into growth, not just paying old debt',f3:'Post-issue P/E at or below 25x',f4:'Strong investor demand, including big institutions',f5:'Manageable debt and positive cash flow',f6:'Sales and profit growing 15%+ a year',f7:'Promoters keep 50%+ with no pledged shares',f8:'Anchors present and clean audit report'};
+const FAIL={f1:'Existing owners are selling a big part (OFS)',f2:'Money mostly repays debt or has unclear use',f3:'Priced above 25x earnings, or loss-making',f4:'Weak demand, under 3x or little institutional interest',f5:'Heavy debt or weak cash flow',f6:'Sales or profit growth below 15% a year',f7:'Promoters hold too little or have pledged shares',f8:'Anchor or audit check not clean'};
+const FK=['f1','f2','f3','f4','f5','f6','f7','f8'];
+function act(r){
+ if(r.status==='Closed, awaiting listing')return['Bidding over','mut'];
+ return r.verdict==='Qualified'?['Apply','ok']:r.verdict==='Provisional'?['Apply after checks','ok']:r.verdict==='Review'?['Watch, verify first','warn']:['Avoid','bad'];}
+function card(r){
+ const c=document.createElement('div');c.className='ic';c.dataset.key=r.company;
+ const top=document.createElement('div');top.className='top';
+ const l=document.createElement('div');const n=document.createElement('div');n.className='nm';n.textContent=r.company;
+ const s=document.createElement('div');s.className='st';s.textContent=r.group==='Listed'?'Listed '+r.timing:(r.status+' · '+r.timing.split(';')[0]);l.append(n,s);
+ const [a,k]=act(r);const ab=document.createElement('span');ab.className='act '+k;ab.textContent=a;top.append(l,ab);
+ const m=document.createElement('div');m.className='meter';
+ FK.forEach(f=>{const i=document.createElement('i');i.className=r[f]+(r['old_'+f]?' old':'');m.append(i);
+  i.addEventListener('mousemove',e=>{e.stopPropagation();showTip(e,[line(f.toUpperCase()+' '+FN[f],1),line(r[f]==='P'?PASS[f]:r[f]==='F'?FAIL[f]:'Not yet verified')]);});i.addEventListener('mouseleave',hideTip);});
+ const sc=document.createElement('div');sc.className='sc';sc.textContent=r.passed+' of 8 passed · '+r.fails+' failed · '+r.unknown+' not verified';
+ const ul=document.createElement('ul');
+ FK.filter(f=>r[f]==='F').slice(0,2).forEach(f=>{const li=document.createElement('li');li.className='F';li.dataset.m='✕';li.textContent=FAIL[f];ul.append(li);});
+ FK.filter(f=>r[f]==='P').slice(0,1).forEach(f=>{const li=document.createElement('li');li.className='P';li.dataset.m='✓';li.textContent=PASS[f];ul.append(li);});
+ c.append(top,m,sc,ul);return c;}
+function drawRank(rows){
+ const tb=$('rk');tb.replaceChildren();
+ const old=r=>FK.filter(f=>r['old_'+f]).length;
+ const rk=rows.slice().sort((a,b)=>b.passed-a.passed||old(a)-old(b)||((a.mm.pe_post>0?a.mm.pe_post:999)-(b.mm.pe_post>0?b.mm.pe_post:999))||a.company.localeCompare(b.company)).slice(0,15);
+ rk.forEach((r,i)=>{const tr=document.createElement('tr');tr.dataset.key=r.company;
+  const m=r.mm||{};const o=old(r);
+  const add=(t,c)=>{const td=document.createElement('td');td.textContent=t;if(c)td.className=c;tr.append(td);return td;};
+  add(String(i+1),'c rn');add(r.company,'nm');add(r.passed+'/8','c');
+  const tv=document.createElement('td');const vb=document.createElement('span');vb.className='vb '+r.verdict;vb.textContent=r.verdict;tv.append(vb);tr.append(tv);
+  add(m.pe_post!=null?(m.pe_post<0?'loss':m.pe_post.toFixed(1)+'x'):'n/a','c');
+  add(m.rev_cagr!=null&&m.pat_cagr!=null?Math.round(m.rev_cagr)+'% / '+Math.round(m.pat_cagr)+'%':'n/a','c');
+  add(m.sub_total!=null?fx(m.sub_total)+'x':'n/a','c');
+  add(m.de!=null?m.de.toFixed(2):'n/a','c');
+  add(m.promoter_post!=null?Math.round(m.promoter_post)+'%':'n/a','c');
+  add(FK.filter(f=>r[f]==='F').map(f=>f.toUpperCase()).join(', ')||'none');
+  const q=add(o===0?'All current':o+' of 8 cells older or soft','dq'+(o===0?' ok':''));
+  tb.append(tr);});
+ if(!rk.length){const tr=document.createElement('tr');const td=document.createElement('td');td.colSpan=11;td.className='empty';td.textContent='No IPO has all 8 checks filled yet.';tr.append(td);tb.append(tr);}
+}
+function drawTop(rows,pend){
+ const live=rows.filter(r=>r.group==='Open / upcoming').sort((a,b)=>(a.status==='Closed, awaiting listing')-(b.status==='Closed, awaiting listing')||b.passed-a.passed);
+ $('live').replaceChildren(...live.map(card));
+ const sh=rows.filter(r=>r.group==='Listed'&&r.fails===0&&r.passed>=4).sort((a,b)=>b.passed-a.passed);
+ $('short').replaceChildren(...sh.map(card));
+ if(!live.length)document.getElementById('live').parentElement.style.display='none';
+ const act1=live.filter(r=>r.verdict==='Qualified'||r.verdict==='Provisional');
+ const open=live.filter(r=>r.status!=='Closed, awaiting listing');
+ const ban=$('ban');
+ if(act1.length){ban.className='ban ok sec';$('ban-h').textContent=act1.length+' open IPO'+(act1.length>1?'s pass':' passes')+' our screen';$('ban-p').textContent=act1.map(r=>r.company).join(', ')+'. Verify the unchecked items in the RHP before applying.';}
+ else{const best=open.slice().sort((a,b)=>b.passed-a.passed)[0];
+  ban.className='ban warn sec';$('ban-h').textContent='Only IPOs with all 8 checks verified are shown';
+  $('ban-p').textContent=pend.length+' IPOs are hidden until no check is left as “?”: '+pend.map(r=>r.company+' ('+(r.group==='Listed'?'listed':(r.status||'upcoming').toLowerCase())+')').join(', ')+'. Open and upcoming IPOs cannot be complete before bidding closes and the RHP is filed.';
+  if(!live.length)document.getElementById('live').parentElement.style.display='none';}
+}
+function draw(){
+ const sc=dash.data('screen');
+ const ok=sc.status==='ok';
+ const allr=ok?sc.data:[];allr.forEach(r=>{if(!r.mm){try{r.mm=JSON.parse(r.m||'{}')}catch(e){r.mm={}}}});const rows=allr.filter(r=>r.unknown===0);const pend=allr.filter(r=>r.unknown>0);
+ if(ok){drawTop(rows,pend);drawRank(rows);if(rows[0])$('asof').textContent=rows[0].as_of_label;}
+ const kp=dash.data('kpi');
+ if(ok&&kp.status==='ok'){
+  document.querySelectorAll('#kpis b').forEach(b=>{const rec=kp.data.find(r=>r.k===b.dataset.where.split('=')[1]);b.textContent=rec?String(rec.n):'—';});
+  const g=k=>(kp.data.find(r=>r.k===k)||{n:0}).n;
+  $('take').textContent=g('qualified')+g('provisional')===0
+   ?'No IPO is Qualified or Provisional yet. '+g('review')+' are in Review and '+g('rejected')+' are Rejected; F3, F5, F7 and F8 await RHP verification.'
+   :(g('qualified')+' Qualified and '+g('provisional')+' Provisional out of '+g('total')+' IPOs tracked.');
+ } else if(sc.status==='error'||sc.status==='connect'){$('take').textContent='The screening data did not load.';}
+ document.querySelectorAll('#kpis .tile.click').forEach(t=>t.classList.toggle('on',t.dataset.v===S.v||(S.v==='all'&&t.dataset.v==='all')));
+ // table
+ const tb=$('tb');tb.replaceChildren();
+ const vr=view(rows);
+ vr.forEach(r=>{
+  const tr=document.createElement('tr');tr.dataset.key=r.company;if(S.sel===r.company)tr.className='sel';
+  const cell=(t,c)=>{const td=document.createElement('td');td.textContent=t;if(c)td.className=c;tr.append(td);return td;};
+  cell(r.company,'co');cell(r.group,'');cell(r.group==='Listed'?'Listed '+r.timing:r.timing,'tm');cell(r.passed+'/8','c');
+  ['f1','f2','f3','f4','f5','f6','f7','f8'].forEach(f=>{const td=document.createElement('td');td.className='c';const s=document.createElement('span');s.className='fc '+r[f]+(r['old_'+f]?' old':'');s.textContent=sym(r[f]);{const cvv=cellv(r,f);if(cvv){const sm=document.createElement('small');sm.className='v';sm.textContent=cvv;s.append(sm);}}td.title=r['src_'+f]||'';td.append(s);tr.append(td);});
+  const tdv=document.createElement('td');const vb=document.createElement('span');vb.className='vb '+r.verdict;vb.textContent=r.verdict;tdv.append(vb);tr.append(tdv);
+  tb.append(tr);});
+ if(ok&&!vr.length){const tr=document.createElement('tr');const td=document.createElement('td');td.colSpan=13;td.className='empty';td.textContent='No IPO matches these filters.';tr.append(td);tb.append(tr);}
+ $('tn').textContent=ok?vr.length+' of '+rows.length+' IPOs shown. Click a row for the evidence and source; click a heading to sort.':'';
+ // charts on current view
+ const bf=$('c-filt');bf.replaceChildren();
+ if(ok){
+  const f2=['f1','f2','f3','f4','f5','f6','f7','f8'].map(f=>({f,p:vr.filter(r=>r[f]==='P').length,x:vr.filter(r=>r[f]==='F').length,u:vr.filter(r=>r[f]==='U').length}));
+  f2.forEach(d=>{const n=d.p+d.x+d.u||1;const row=document.createElement('div');row.className='br';
+   const l=document.createElement('span');l.className='l';l.textContent=d.f.toUpperCase()+' '+FN[d.f];row.append(l);
+   const bar=document.createElement('div');bar.className='bar';
+   [['p',d.p],['f',d.x],['u',d.u]].forEach(([c,v])=>{const i=document.createElement('i');i.className=c;i.style.width=(v/n*100)+'%';bar.append(i);});
+   row.append(bar);
+   row.addEventListener('mousemove',e=>showTip(e,[line(d.f.toUpperCase()+' '+FN[d.f],1),line('Pass '+d.p+' · Fail '+d.x+' · Unverified '+d.u)]));row.addEventListener('mouseleave',hideTip);
+   bf.append(row);});
+  const dd=dash.data('dist');const bd=$('c-dist');bd.replaceChildren();
+  if(dd.status==='ok'){const mx=Math.max(1,...dd.data.map(r=>r.n));
+   dd.data.forEach(d=>{const row=document.createElement('div');row.className='br';row.style.gridTemplateColumns='4.5rem minmax(0,1fr) 2rem';
+    const l=document.createElement('span');l.className='l';l.textContent=d.passed+' of 8';row.append(l);
+    const bar=document.createElement('div');bar.className='bar';const i=document.createElement('i');i.className='n';i.style.background=d.passed>=5?'var(--color-ok)':d.passed>=3?'var(--color-warn)':'var(--color-bad)';i.style.width=(d.n/mx*100)+'%';bar.append(i);row.append(bar);
+    const v=document.createElement('span');v.textContent=d.n;v.style.fontVariantNumeric='tabular-nums';row.append(v);bd.append(row);});}
+ }
+ // detail
+ const r=allr.find(x=>x.company===S.sel);
+ if(r){const mm=r.mm||{};$('d-name').textContent=r.company;
+  $('d-vb').innerHTML='';const vb=document.createElement('span');vb.className='vb '+r.verdict;vb.textContent=r.verdict+' · '+r.passed+'/8 passed';$('d-vb').append(vb);
+  $('d-meta').textContent=(r.group==='Listed'?'Listed '+(r.timing||''):r.timing)+(r.status?' · '+r.status:'');
+  const facts=[['Price band',mm.price_band],['Issue price',mm.issue_price!=null?'₹'+mm.issue_price:null],['Issue size',mm.issue_cr!=null?'₹'+fx(mm.issue_cr,0)+' cr':null],['Lot size',mm.lot],['Sale type',mm.sale_type],['Post-issue market cap',mm.mcap_post!=null?'₹'+fx(mm.mcap_post,0)+' cr':null]].filter(x=>x[1]);
+  $('d-facts').replaceChildren(...facts.map(([k,v])=>{const d=document.createElement('div');d.append(k);const b=document.createElement('b');b.textContent=v;d.append(b);return d;}));
+  const body=$('d-body');body.replaceChildren();
+  FK.forEach(f=>{const tr=document.createElement('tr');tr.className=r[f]+(r['old_'+f]?' old':'');
+   const c1=document.createElement('td');c1.innerHTML='<span class="fk"></span><div class="rl"></div>';c1.querySelector('.fk').textContent=f.toUpperCase();c1.querySelector('.rl').textContent=FN[f];
+   const c2=document.createElement('td');c2.className='rl';c2.textContent=RULE[f];
+   const c3=document.createElement('td');const nv=numtxt(r,f);const v=document.createElement('div');v.className='val';v.textContent=nv||(r[f]==='U'?'Not yet available':'See note');c3.append(v);
+   const src=r['src_'+f];if(src){const n=document.createElement('div');n.className='nt';n.textContent=src;c3.append(n);}
+   const c4=document.createElement('td');c4.className='c';const s=document.createElement('span');s.className='fc '+r[f]+(r['old_'+f]?' old':'');s.textContent=sym(r[f]);c4.append(s);if(r['old_'+f]){const sm=document.createElement('div');sm.className='nt';sm.textContent=r['old_'+f]==='total only'?'overall only':'older data '+r['old_'+f];c4.append(sm);}
+   tr.append(c1,c2,c3,c4);body.append(tr);});
+  $('d-flag').textContent=r.flag||'';const a=$('d-src');if(r.source_url){a.href=r.source_url;a.textContent='Open source: '+(r.source_label||'link')+' ↗';}else{a.removeAttribute('href');a.textContent='';}
+ }
+}
+document.addEventListener('click',e=>{const rr=e.target.closest('#rk tr[data-key]');if(rr){S.sel=rr.dataset.key;draw();$('det').scrollIntoView({block:'center',behavior:'smooth'});return;}const c=e.target.closest('.ic');if(c){S.sel=c.dataset.key;draw();$('det').scrollIntoView({block:'center'});}});
+$('tb').addEventListener('click',e=>{const tr=e.target.closest('tr[data-key]');if(tr){S.sel=tr.dataset.key;draw();$('det').scrollIntoView({block:'nearest',behavior:'smooth'});}});
+document.querySelector('#tbl thead').addEventListener('click',e=>{const th=e.target.closest('th.s');if(!th)return;const k=th.dataset.k;if(S.sort===k)S.dir*=-1;else{S.sort=k;S.dir=(k==='passed')?-1:1;}draw();});
+$('q').addEventListener('input',e=>{S.q=e.target.value.trim().toLowerCase();draw();});
+$('minp').addEventListener('change',e=>{S.minp=+e.target.value;draw();});
+$('nof').addEventListener('change',e=>{S.nof=e.target.value;draw();});
+$('seg').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;S.g=b.dataset.g;document.querySelectorAll('#seg button').forEach(x=>x.classList.toggle('on',x===b));draw();});
+$('kpis').addEventListener('click',e=>{const t=e.target.closest('.tile.click');if(!t)return;S.v=(t.dataset.v===S.v)?'all':t.dataset.v;draw();});
+$('reset').addEventListener('click',()=>{Object.assign(S,{g:'all',v:'all',q:'',minp:0,nof:'all',sort:'default',dir:1});$('q').value='';$('minp').value='0';$('nof').value='all';document.querySelectorAll('#seg button').forEach(x=>x.classList.toggle('on',x.dataset.g==='all'));draw();});
+dash.onData(draw);
+})();
+</script>
+
+<script>dash._load();</script>
+</div></body></html>
