@@ -1,12 +1,12 @@
 {
- "as_of": "2026-10-20T09:31:55.366053+05:30",
- "as_of_label": "Tue 20 Oct 2026, 09:31 IST",
+ "as_of": "2026-10-21T16:02:54.627221+05:30",
+ "as_of_label": "Wed 21 Oct 2026, 16:02 IST",
  "rows": [
   {
    "company": "HD Fire Protect",
-   "group": "Open / upcoming",
+   "group": "Listed",
    "new": false,
-   "timing": "Opened 13 Oct; closed 15 Oct; allotment 16 Oct; lists 21 Oct (tentative)",
+   "timing": "21-Oct",
    "passed": 4,
    "fails": 4,
    "unknown": 0,
@@ -22,13 +22,14 @@
    "f6": "F",
    "f7": "P",
    "f8": "P",
-   "listed_on": "",
-   "status": "Closed, awaiting listing",
+   "listed_on": "2026-10-21",
+   "status": "Listed",
    "post_pe": 40.69,
    "sources": {
     "f7": "Promoter holding after issue 85.0% (pre 100.0%) - Chittorgarh https://www.chittorgarh.com/ipo/hd-fire-protect-ipo/2628/; no pledge per SEBI DRHP p.108",
     "f8": "Soft pass: no auditor qualification (SEBI HD Fire Protect Limited DRHP (Oct 08, 2025) p.20); anchor portion in offer structure (p.3). Confirm in RHP",
-    "f5": "Mar 2026 (Screener https://www.screener.in/company/HDFIRE/): borrowings -0 / equity 378 = D/E -0.0; operating cash flow 92 cr"
+    "f5": "Mar 2026 (Screener https://www.screener.in/company/HDFIRE/): borrowings -0 / equity 378 = D/E -0.0; operating cash flow 92 cr",
+    "status": "Listed on NSE/BSE 21 Oct 2026 (Chittorgarh https://www.chittorgarh.com/ipo/hd-fire-protect-ipo/2628/)"
    },
    "u_reasons": {},
    "stale": {
@@ -41,6 +42,7 @@
     "lot": "55 Shares",
     "sale_type": "OFS only",
     "dates": "13 to 15 Oct, 2026",
+    "listed_on": "Wed, Oct 21, 2026",
     "issue_cr": 712.0,
     "ofs_cr": 712.0,
     "fresh_pct": 0.0,
@@ -213,10 +215,10 @@
    "company": "Zetwerk Manufacturing",
    "group": "Open / upcoming",
    "new": false,
-   "timing": "Opened 15 Oct; closed 19 Oct; lists 23 Oct (tentative)",
-   "passed": 0,
+   "timing": "Opened 15 Oct; closed 19 Oct (3.10x); lists 23 Oct (tentative)",
+   "passed": 1,
    "fails": 6,
-   "unknown": 2,
+   "unknown": 1,
    "verdict": "Rejected",
    "flag": "Band 143-151; total Rs 5,012 cr = fresh Rs 2,830 cr (56.5%) + OFS Rs 2,182 cr; fresh mainly debt repayment and unidentified acquisitions; anchors Rs 2,251.23 cr (44.9% of issue, Y); promoter post-issue only 11.36% (F7 FAIL); Day 2: 0.31x overall, QIB 0.37x, NII 0.17x, retail 0.37x (NSE 5 PM 16 Oct via Univest; IPO Ji 0.31x); FY26 reported PBT -Rs 1,558 cr (prior version) | F3: post-issue P/E negative (loss) vs 25x limit (Chittorgarh)",
    "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/aug-2026/Zetwerk%20Manufacturing%20Businesses%20Limited%20-%20DAP_p.pdf",
@@ -224,7 +226,7 @@
    "f1": "F",
    "f2": "F",
    "f3": "F",
-   "f4": "U",
+   "f4": "P",
    "f5": "F",
    "f6": "F",
    "f7": "F",
@@ -232,14 +234,18 @@
    "listed_on": "",
    "status": "Closed, awaiting listing",
    "post_pe": null,
-   "sources": {},
+   "sources": {
+    "f4": "Final Day 3 subscription 3.10x overall: QIB ex-anchor 4.71x, NII 1.45x, retail 0.77x (Chittorgarh https://www.chittorgarh.com/ipo/zetwerk-ipo/, 19 Oct 5:54 PM). Passes >=3x overall rule"
+   },
    "u_reasons": {
-    "f4": "Day 3 final subscription not found yet (last: 0.31x at Day 2)",
     "f8": "Not available yet"
    },
    "stale": {},
    "m": {},
-   "f3_ind": "F"
+   "f3_ind": "F",
+   "soft": {
+    "f4": "total only"
+   }
   },
   {
    "company": "Tonbo Imaging",
@@ -374,6 +380,7 @@
    },
    "m": {
     "price_band": "₹558 to ₹586",
+    "issue_price": 586.0,
     "lot": "25 Shares",
     "sale_type": "OFS only",
     "dates": "15 to 19 Oct, 2026",
@@ -473,6 +480,7 @@
    },
    "m": {
     "price_band": "₹327 to ₹344",
+    "issue_price": 344.0,
     "lot": "43 Shares",
     "sale_type": "OFS only",
     "dates": "15 to 19 Oct, 2026",
@@ -598,6 +606,7 @@
     "mcap_post": 1030490.55,
     "promoter_pre": 66.43,
     "promoter_post": 64.48,
+    "anchor_cr": 8109.85,
     "rev_cagr": 16.6,
     "pat_cagr": 18.4,
     "revenue": [
@@ -746,8 +755,8 @@
    "group": "Listed",
    "new": true,
    "timing": "08-Oct",
-   "passed": 2,
-   "fails": 6,
+   "passed": 1,
+   "fails": 7,
    "unknown": 0,
    "verdict": "Rejected",
    "flag": "Fresh 81.5% of Rs 178 cr; sub 1.79x, QIB 1.33x (Day 3); revenue and PAT +6% FY26; post-issue promoter 49.4%; listed below issue price | F3: post-issue P/E 23.26x vs 25x limit (Chittorgarh)",
@@ -845,11 +854,7 @@
     "de": 1.01,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -14.0,
-    "ocf_unit": "mn",
-    "ind_name": "Civil Construction",
-    "ind_pe": 15.9,
-    "ind_n": 121,
-    "rel": 1.46
+    "ocf_unit": "mn"
    },
    "f3_ind": "F"
   },
@@ -953,12 +958,7 @@
     "de": 0.11,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -15.0,
-    "ocf_unit": "cr",
-    "ind_name": "Gems, Jewellery And Watches",
-    "ind_pe": 22.0,
-    "ind_n": 60,
-    "cur_pe": 19.5,
-    "rel": 0.88
+    "ocf_unit": "cr"
    },
    "f3_ind": "P"
   },
@@ -1065,12 +1065,7 @@
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -175.17,
     "ocf_unit": "mn",
-    "ocf_period": "FY25 DRHP",
-    "ind_name": "IT Enabled Services",
-    "ind_pe": 25.8,
-    "ind_n": 71,
-    "cur_pe": 17.8,
-    "rel": 0.75
+    "ocf_period": "FY25 DRHP"
    },
    "f3_ind": "P"
   },
@@ -1190,12 +1185,7 @@
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -31.91,
     "ocf_unit": "mn",
-    "ocf_period": "FY25 DRHP",
-    "ind_name": "Hospital",
-    "ind_pe": 44.9,
-    "ind_n": 30,
-    "cur_pe": 71.7,
-    "rel": 2.25
+    "ocf_period": "FY25 DRHP"
    },
    "f3_ind": "F"
   },
@@ -1303,12 +1293,7 @@
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 4492.46,
     "ocf_unit": "mn",
-    "ocf_period": "FY24 DRHP",
-    "ind_name": "Iron & Steel Products",
-    "ind_pe": 21.9,
-    "ind_n": 91,
-    "cur_pe": 11.0,
-    "rel": 0.6
+    "ocf_period": "FY24 DRHP"
    },
    "f3_ind": "P"
   },
@@ -1413,12 +1398,7 @@
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -607.75,
     "ocf_unit": "mn",
-    "ocf_period": "FY24 DRHP",
-    "ind_name": "Residential, Commercial Projects",
-    "ind_pe": 23.1,
-    "ind_n": 93,
-    "cur_pe": 14.1,
-    "rel": 0.85
+    "ocf_period": "FY24 DRHP"
    },
    "f3_ind": "P"
   },
@@ -1525,12 +1505,7 @@
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 3.0,
     "ocf_unit": "mn",
-    "ocf_period": "FY25 DRHP",
-    "ind_name": "Speciality Retail",
-    "ind_pe": 38.9,
-    "ind_n": 23,
-    "cur_pe": 74.5,
-    "rel": 1.37
+    "ocf_period": "FY25 DRHP"
    },
    "f3_ind": "F"
   },
@@ -1666,11 +1641,7 @@
     "pat_margin": "19.57%",
     "ebitda_margin": "27.59%",
     "de": 0.1,
-    "de_period": "latest restated period (borrowing / net worth)",
-    "ind_name": "Heavy Electrical Equipment",
-    "ind_pe": 32.9,
-    "ind_n": 48,
-    "rel": 1.17
+    "de_period": "latest restated period (borrowing / net worth)"
    },
    "f3_ind": "F"
   },
@@ -1821,12 +1792,7 @@
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -11453.83,
     "ocf_unit": "mn",
-    "ocf_period": "FY25 DRHP",
-    "ind_name": "Financial Technology (Fintech)",
-    "ind_pe": 26.3,
-    "ind_n": 12,
-    "cur_pe": 25.2,
-    "rel": 0.33
+    "ocf_period": "FY25 DRHP"
    },
    "f3_ind": "P"
   },
@@ -1932,12 +1898,7 @@
     "de": 0.1,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -3186.22,
-    "ocf_unit": "mn",
-    "ind_name": "Stockbroking & Allied",
-    "ind_pe": 19.5,
-    "ind_n": 32,
-    "cur_pe": 22.4,
-    "rel": 1.38
+    "ocf_unit": "mn"
    },
    "f3_ind": "F"
   },
@@ -2052,11 +2013,7 @@
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -3697.69,
     "ocf_unit": "mn",
-    "ocf_period": "FY25 DRHP",
-    "ind_name": "Gems, Jewellery And Watches",
-    "ind_pe": 22.0,
-    "ind_n": 60,
-    "rel": 0.85
+    "ocf_period": "FY25 DRHP"
    },
    "f3_ind": "P"
   },
@@ -2163,10 +2120,7 @@
     "de": 0.8,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -90.42,
-    "ocf_unit": "mn",
-    "ind_name": "Industrial Products",
-    "ind_pe": 34.1,
-    "ind_n": 132
+    "ocf_unit": "mn"
    },
    "f3_ind": "F"
   },
@@ -2282,12 +2236,7 @@
     "de": 0.96,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -97.85,
-    "ocf_unit": "mn",
-    "ind_name": "Telecom -  Equipment & Accessories",
-    "ind_pe": 69.7,
-    "ind_n": 11,
-    "cur_pe": 81.4,
-    "rel": 0.34
+    "ocf_unit": "mn"
    },
    "f3_ind": "P"
   },
@@ -2398,11 +2347,7 @@
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 78.4,
     "ocf_unit": "mn",
-    "ocf_period": "FY25 DRHP",
-    "ind_name": "Metals & Mining",
-    "ind_pe": 23.3,
-    "ind_n": 24,
-    "rel": 0.85
+    "ocf_period": "FY25 DRHP"
    },
    "f3_ind": "P"
   },
@@ -2510,12 +2455,7 @@
     "de": 0.01,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 216.25,
-    "ocf_unit": "mn",
-    "ind_name": "Non - Ferrous Metals",
-    "ind_pe": 22.4,
-    "ind_n": 23,
-    "cur_pe": 36.2,
-    "rel": 0.92
+    "ocf_unit": "mn"
    },
    "f3_ind": "P"
   },
@@ -2524,8 +2464,8 @@
    "group": "Listed",
    "new": false,
    "timing": "17-Sep",
-   "passed": 3,
-   "fails": 5,
+   "passed": 4,
+   "fails": 4,
    "unknown": 0,
    "verdict": "Rejected",
    "flag": "OFS-heavy; proceeds not growth-led; promoter 19.7% | F3: post-issue P/E 40.73x vs 25x limit (Chittorgarh)",
@@ -2619,12 +2559,7 @@
     "de": 0.63,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 173.0,
-    "ocf_unit": "cr",
-    "ind_name": "E-Retail/ E-Commerce",
-    "ind_pe": 53.4,
-    "ind_n": 14,
-    "cur_pe": 53.4,
-    "rel": 0.76
+    "ocf_unit": "cr"
    },
    "f3_ind": "P"
   },
@@ -2726,12 +2661,7 @@
     "de": 0.84,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 675.0,
-    "ocf_unit": "cr",
-    "ind_name": "Heavy Electrical Equipment",
-    "ind_pe": 32.9,
-    "ind_n": 48,
-    "cur_pe": 46.5,
-    "rel": 1.09
+    "ocf_unit": "cr"
    },
    "f3_ind": "F"
   },
@@ -2843,12 +2773,7 @@
     "de": 0.97,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -1772.65,
-    "ocf_unit": "mn",
-    "ind_name": "Civil Construction",
-    "ind_pe": 15.9,
-    "ind_n": 121,
-    "cur_pe": 14.4,
-    "rel": 0.93
+    "ocf_unit": "mn"
    },
    "f3_ind": "P"
   },
@@ -2957,12 +2882,7 @@
     "de": 0.36,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 50.0,
-    "ocf_unit": "cr",
-    "ind_name": "Medical Equipment & Supplies",
-    "ind_pe": 32.7,
-    "ind_n": 17,
-    "cur_pe": 66.2,
-    "rel": 1.73
+    "ocf_unit": "cr"
    },
    "f3_ind": "F"
   },
@@ -3033,8 +2953,7 @@
     "eps_post": 18.04,
     "mcap_pre": 10049.54,
     "mcap_post": 11250.17,
-    "promoter_pre": 97.72,
-    "promoter_post": 82.85,
+    "promoter_pre": 100.0,
     "anchor_cr": 508.2,
     "sub_total": 46.78,
     "rev_cagr": 22.1,
@@ -3072,12 +2991,7 @@
     "de": 0.53,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -398.0,
-    "ocf_unit": "cr",
-    "ind_name": "Gems, Jewellery And Watches",
-    "ind_pe": 22.0,
-    "ind_n": 60,
-    "cur_pe": 21.0,
-    "rel": 0.51
+    "ocf_unit": "cr"
    },
    "f3_ind": "P"
   },
@@ -3191,12 +3105,7 @@
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 3148.57,
     "ocf_unit": "mn",
-    "ocf_period": "FY25 DRHP",
-    "ind_name": "Dairy Products",
-    "ind_pe": 27.8,
-    "ind_n": 11,
-    "cur_pe": 122.0,
-    "rel": 3.05
+    "ocf_period": "FY25 DRHP"
    },
    "f3_ind": "F"
   },
@@ -3304,12 +3213,7 @@
     "pat_margin": "7.81%",
     "ebitda_margin": "16.99%",
     "de": 1.72,
-    "de_period": "latest restated period (borrowing / net worth)",
-    "ind_name": "Chemicals & Petrochemicals",
-    "ind_pe": 37.2,
-    "ind_n": 24,
-    "cur_pe": 76.4,
-    "rel": 1.56
+    "de_period": "latest restated period (borrowing / net worth)"
    },
    "f3_ind": "F"
   },
@@ -3416,11 +3320,7 @@
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -142.6,
     "ocf_unit": "mn",
-    "ocf_period": "FY26 DRHP",
-    "ind_name": "Gems, Jewellery And Watches",
-    "ind_pe": 22.0,
-    "ind_n": 60,
-    "rel": 0.74
+    "ocf_period": "FY26 DRHP"
    },
    "f3_ind": "P"
   },
@@ -3537,12 +3437,7 @@
     "de": 0.59,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 245.91,
-    "ocf_unit": "mn",
-    "ind_name": "Plastic Products - Industrial",
-    "ind_pe": 19.7,
-    "ind_n": 35,
-    "cur_pe": 25.0,
-    "rel": 0.49
+    "ocf_unit": "mn"
    },
    "f3_ind": "P"
   },
@@ -3551,8 +3446,8 @@
    "group": "Listed",
    "new": false,
    "timing": "14-Aug",
-   "passed": 7,
-   "fails": 1,
+   "passed": 6,
+   "fails": 2,
    "unknown": 0,
    "verdict": "Provisional",
    "flag": "fresh 80% | F3: post-issue P/E 19.38x vs 25x limit (Chittorgarh)",
@@ -3650,14 +3545,9 @@
     "de": 0.55,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 216.84,
-    "ocf_unit": "mn",
-    "ind_name": "Water Supply & Management",
-    "ind_pe": 19.6,
-    "ind_n": 8,
-    "cur_pe": 44.3,
-    "rel": 0.99
+    "ocf_unit": "mn"
    },
-   "f3_ind": "P"
+   "f3_ind": "F"
   },
   {
    "company": "Jindal Supreme",
@@ -3760,11 +3650,7 @@
     "pat_margin": "4.33%",
     "ebitda_margin": "7.20%",
     "de": 0.88,
-    "de_period": "latest restated period (borrowing / net worth)",
-    "ind_name": "Iron & Steel Products",
-    "ind_pe": 21.9,
-    "ind_n": 91,
-    "rel": 0.65
+    "de_period": "latest restated period (borrowing / net worth)"
    },
    "f3_ind": "P"
   },
@@ -3875,12 +3761,7 @@
     "de": 0.24,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 30.0,
-    "ocf_unit": "cr",
-    "ind_name": "Other Industrial Products",
-    "ind_pe": 25.9,
-    "ind_n": 32,
-    "cur_pe": 34.6,
-    "rel": 0.86
+    "ocf_unit": "cr"
    },
    "f3_ind": "P"
   },
@@ -3992,12 +3873,7 @@
     "de": 0.16,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 541.5,
-    "ocf_unit": "mn",
-    "ind_name": "Industrial Products",
-    "ind_pe": 34.1,
-    "ind_n": 132,
-    "cur_pe": 65.3,
-    "rel": 1.04
+    "ocf_unit": "mn"
    },
    "f3_ind": "F"
   },
@@ -4111,12 +3987,7 @@
     "de": 0.41,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 29.0,
-    "ocf_unit": "cr",
-    "ind_name": "Auto Components & Equipments",
-    "ind_pe": 29.2,
-    "ind_n": 132,
-    "cur_pe": 27.9,
-    "rel": 0.79
+    "ocf_unit": "cr"
    },
    "f3_ind": "P"
   },
@@ -4125,10 +3996,10 @@
    "group": "Listed",
    "new": false,
    "timing": "24-Jul",
-   "passed": 5,
-   "fails": 3,
+   "passed": 4,
+   "fails": 4,
    "unknown": 0,
-   "verdict": "Provisional",
+   "verdict": "Review",
    "flag": "fresh 89%; proceeds not growth-led; D/E 1.63 | F3: post-issue P/E 17.55x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/caliber-mining-ipo/1999/",
    "source_label": "Chittorgarh",
@@ -4226,12 +4097,7 @@
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 9661.36,
     "ocf_unit": "mn",
-    "ocf_period": "FY25 DRHP",
-    "ind_name": "Oil, Gas & Consumable Fuels",
-    "ind_pe": 12.2,
-    "ind_n": 24,
-    "cur_pe": 23.4,
-    "rel": 1.44
+    "ocf_period": "FY25 DRHP"
    },
    "f3_ind": "F"
   },
@@ -4343,12 +4209,7 @@
     "de": 0.53,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -2985.14,
-    "ocf_unit": "mn",
-    "ind_name": "Cables - Electricals",
-    "ind_pe": 26.0,
-    "ind_n": 21,
-    "cur_pe": 18.0,
-    "rel": 0.6
+    "ocf_unit": "mn"
    },
    "f3_ind": "P"
   },
@@ -4472,11 +4333,7 @@
     "de": 0.06,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 618.86,
-    "ocf_unit": "mn",
-    "ind_name": "Iron & Steel Products",
-    "ind_pe": 21.9,
-    "ind_n": 91,
-    "rel": 0.85
+    "ocf_unit": "mn"
    },
    "f3_ind": "P"
   },
@@ -4485,10 +4342,10 @@
    "group": "Listed",
    "new": false,
    "timing": "25-Aug",
-   "passed": 4,
-   "fails": 4,
+   "passed": 5,
+   "fails": 3,
    "unknown": 0,
-   "verdict": "Review",
+   "verdict": "Provisional",
    "flag": "fresh 61%; growth <15%/loss | F3: post-issue P/E 28.02x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/sunshine-pictures-ipo/2002/",
    "source_label": "Chittorgarh",
@@ -4574,12 +4431,7 @@
     "de": 0.06,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 1671.26,
-    "ocf_unit": "mn",
-    "ind_name": "Film Production, Distribution & Exhibition",
-    "ind_pe": 55.8,
-    "ind_n": 14,
-    "cur_pe": 41.2,
-    "rel": 0.5
+    "ocf_unit": "mn"
    },
    "f3_ind": "P"
   },
@@ -4691,12 +4543,7 @@
     "de": 0.76,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 93.6,
-    "ocf_unit": "mn",
-    "ind_name": "Gems, Jewellery And Watches",
-    "ind_pe": 22.0,
-    "ind_n": 60,
-    "cur_pe": 34.2,
-    "rel": 0.63
+    "ocf_unit": "mn"
    },
    "f3_ind": "P"
   },
@@ -4705,8 +4552,8 @@
    "group": "Listed",
    "new": false,
    "timing": "08-Jul",
-   "passed": 6,
-   "fails": 2,
+   "passed": 5,
+   "fails": 3,
    "unknown": 0,
    "verdict": "Provisional",
    "flag": "fresh 87%; growth <15%/loss | F3: post-issue P/E 22.43x vs 25x limit (Chittorgarh)",
@@ -4809,12 +4656,7 @@
     "de": 0.62,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 931.71,
-    "ocf_unit": "mn",
-    "ind_name": "Packaging",
-    "ind_pe": 18.6,
-    "ind_n": 48,
-    "cur_pe": 24.3,
-    "rel": 1.21
+    "ocf_unit": "mn"
    },
    "f3_ind": "F"
   },
@@ -4922,10 +4764,7 @@
     "de": 0.16,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 53.0,
-    "ocf_unit": "cr",
-    "ind_name": "E-Retail/ E-Commerce",
-    "ind_pe": 52.6,
-    "ind_n": 14
+    "ocf_unit": "cr"
    },
    "f3_ind": "F"
   },
@@ -5040,12 +4879,7 @@
     "de": 0.35,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 348.0,
-    "ocf_unit": "cr",
-    "ind_name": "Auto Components & Equipments",
-    "ind_pe": 29.2,
-    "ind_n": 132,
-    "cur_pe": 68.0,
-    "rel": 1.54
+    "ocf_unit": "cr"
    },
    "f3_ind": "F"
   },
@@ -5152,12 +4986,7 @@
     "de": 0.39,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 1077.0,
-    "ocf_unit": "cr",
-    "ind_name": "Industrial Products",
-    "ind_pe": 34.1,
-    "ind_n": 132,
-    "cur_pe": 89.0,
-    "rel": 1.32
+    "ocf_unit": "cr"
    },
    "f3_ind": "F"
   },
@@ -5243,12 +5072,7 @@
     "ronw": "43.02%",
     "ebitda_margin": "92.46%",
     "ocf": 2488.0,
-    "ocf_unit": "cr",
-    "ind_name": "Asset Management Company",
-    "ind_pe": 32.6,
-    "ind_n": 10,
-    "cur_pe": 32.6,
-    "rel": 1.17
+    "ocf_unit": "cr"
    },
    "f3_ind": "F"
   },
@@ -5352,12 +5176,7 @@
     "pat_margin": "6.46%",
     "ebitda_margin": "12.96%",
     "de": 1.14,
-    "de_period": "latest restated period (borrowing / net worth)",
-    "ind_name": "Cables - Electricals",
-    "ind_pe": 26.0,
-    "ind_n": 21,
-    "cur_pe": 29.4,
-    "rel": 0.76
+    "de_period": "latest restated period (borrowing / net worth)"
    },
    "f3_ind": "P"
   },
@@ -5454,12 +5273,7 @@
     "de": 0.44,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -1549.77,
-    "ocf_unit": "mn",
-    "ind_name": "Other Textile Products",
-    "ind_pe": 19.1,
-    "ind_n": 118,
-    "cur_pe": 45.4,
-    "rel": 2.35
+    "ocf_unit": "mn"
    },
    "f3_ind": "F"
   },
@@ -5468,8 +5282,8 @@
    "group": "Listed",
    "new": false,
    "timing": "10-Jun",
-   "passed": 4,
-   "fails": 4,
+   "passed": 3,
+   "fails": 5,
    "unknown": 0,
    "verdict": "Review",
    "flag": "OFS-heavy; proceeds not growth-led; growth <15%/loss | F3: post-issue P/E 19.42x vs 25x limit (Chittorgarh)",
@@ -5561,12 +5375,7 @@
     "de": 2.19,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -920.03,
-    "ocf_unit": "mn",
-    "ind_name": "Aluminium, Copper & Zinc Products",
-    "ind_pe": 19.1,
-    "ind_n": 18,
-    "cur_pe": 20.0,
-    "rel": 1.02
+    "ocf_unit": "mn"
    },
    "f3_ind": "F"
   },
@@ -5666,12 +5475,7 @@
     "de": 0.18,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 377.94,
-    "ocf_unit": "mn",
-    "ind_name": "Packaged Foods",
-    "ind_pe": 42.8,
-    "ind_n": 29,
-    "cur_pe": 22.7,
-    "rel": 0.36
+    "ocf_unit": "mn"
    },
    "f3_ind": "P"
   }
