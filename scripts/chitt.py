@@ -10,7 +10,7 @@ res={}
 for r in d['rows']:
     c=r['company']
     m=re.search(r'chittorgarh\.com/ipo/([^/]+)/(\d+)',r.get('source_url',''))
-    u=f"https://www.chittorgarh.com/ipo/{m.group(1)}/{m.group(2)}/" if m else f"https://www.chittorgarh.com/ipo/{SLUG.get(c)}/"
+    u=f"https://www.chittorgarh.com/ipo/{m.group(1)}/{m.group(2)}/" if m else (r.get('source_url') if 'chittorgarh.com/ipo/' in r.get('source_url','') else f"https://www.chittorgarh.com/ipo/{SLUG.get(c)}/")
     try:
         rr=requests.get(u,headers=h,timeout=60,allow_redirects=True)
     except Exception as e: print('ERR',c,e); continue

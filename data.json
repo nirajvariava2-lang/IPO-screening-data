@@ -1,6 +1,6 @@
 {
- "as_of": "2026-10-21T16:02:54.627221+05:30",
- "as_of_label": "Wed 21 Oct 2026, 16:02 IST",
+ "as_of": "2026-10-22T11:30:12.007250+05:30",
+ "as_of_label": "Thu 22 Oct 2026, 11:30 IST",
  "rows": [
   {
    "company": "HD Fire Protect",
@@ -97,9 +97,9 @@
   },
   {
    "company": "Fusion CX",
-   "group": "Open / upcoming",
+   "group": "Listed",
    "new": false,
-   "timing": "Opened 14 Oct; closed 16 Oct; allotment 19 Oct; lists 22 Oct (tentative)",
+   "timing": "22-Oct",
    "passed": 6,
    "fails": 2,
    "unknown": 0,
@@ -115,13 +115,14 @@
    "f6": "P",
    "f7": "P",
    "f8": "P",
-   "listed_on": "",
-   "status": "Closed, awaiting listing",
+   "listed_on": "2026-10-22",
+   "status": "Listed",
    "post_pe": 18.73,
    "sources": {
     "f7": "Post-issue promoter holding 81.82% (Chittorgarh); no pledge (SEBI FUSION CX LIMITED (May 30, 2025) p.88)",
     "f8": "Soft pass: no auditor qualification (SEBI FUSION CX LIMITED (May 30, 2025) p.291); anchor portion in offer structure (p.3). Confirm in RHP",
-    "f5": "FY25 (SEBI DRHP p.295): operating cash flow Rs 1,012.46 mn positive; D/E 0.48 (266.86/552.46, from filing summary)"
+    "f5": "FY25 (SEBI DRHP p.295): operating cash flow Rs 1,012.46 mn positive; D/E 0.48 (266.86/552.46, from filing summary)",
+    "status": "Listed on NSE/BSE 22 Oct 2026 (Chittorgarh https://www.chittorgarh.com/ipo/fusion-cx-ipo/2455/)"
    },
    "u_reasons": {},
    "stale": {
@@ -135,6 +136,7 @@
     "lot": "51 Shares",
     "sale_type": "Fresh capital cum OFS",
     "dates": "14 to 16 Oct, 2026",
+    "listed_on": "Thu, Oct 22, 2026",
     "issue_cr": 702.0,
     "fresh_cr": 500.0,
     "ofs_cr": 202.0,
@@ -238,7 +240,7 @@
     "f4": "Final Day 3 subscription 3.10x overall: QIB ex-anchor 4.71x, NII 1.45x, retail 0.77x (Chittorgarh https://www.chittorgarh.com/ipo/zetwerk-ipo/, 19 Oct 5:54 PM). Passes >=3x overall rule"
    },
    "u_reasons": {
-    "f8": "Not available yet"
+    "f8": "Not found in SEBI Zetwerk Manufacturing Business (Aug 14, 2026); needs RHP"
    },
    "stale": {},
    "m": {},
@@ -275,7 +277,7 @@
     "f4": "Day 3 post-close snapshot (19 Oct, ~5:45-5:55 PM) 132.81x overall, QIB ex-anchor 293.56x, NII 156.36x, retail 31.11x (Chittorgarh ipo_subscription page)"
    },
    "u_reasons": {
-    "f5": "Operating cash flow not on Chittorgarh page (D/E 0.21 FY26); needs RHP"
+    "f5": "Not found in SEBI Tonbo Imaging India Limited -  (Aug 14, 2026); needs RHP"
    },
    "stale": {
     "f8": "FY25"
@@ -372,7 +374,7 @@
     "f4": "Day 3 post-close snapshot (19 Oct, ~5:45-5:55 PM) 46.05x overall, QIB ex-anchor 120.78x, NII 40.39x, retail 5.90x (Chittorgarh ipo_subscription page)"
    },
    "u_reasons": {
-    "f5": "OCF and latest-year borrowings not available; needs RHP"
+    "f5": "Not found in SEBI Bonfiglioli Transmissions Limi (Feb 16, 2026); needs RHP"
    },
    "stale": {
     "f8": "FY25",
@@ -472,8 +474,7 @@
     "f4": "Day 3 post-close snapshot (19 Oct, ~5:45-5:55 PM) 14.21x overall, QIB ex-anchor 34.70x, NII 14.64x, retail 3.04x (Chittorgarh ipo_subscription page)"
    },
    "u_reasons": {
-    "f5": "OCF not available (D/E 0.27 FY26); needs RHP",
-    "f6": "Not available yet"
+    "f5": "Not found in SEBI SAHAJANAND MEDICAL TECHNOLOGIE (Jul 31, 2025); needs RHP"
    },
    "stale": {
     "f8": "FY25"
@@ -550,9 +551,9 @@
    "group": "Open / upcoming",
    "new": false,
    "timing": "Opens 21 Oct; closes 23 Oct; anchors 19 Oct; listing 28 Oct expected (unconfirmed)",
-   "passed": 3,
+   "passed": 4,
    "fails": 1,
-   "unknown": 4,
+   "unknown": 3,
    "verdict": "Review",
    "flag": "Fresh-only (up to 27 cr shares, no OFS); GMP Rs 225 (+20.1%, IPO Watch 17 Oct, unofficial); band 1,065-1,119 per RHP; Rs 30,213 cr at cap (27 cr x 1,119, verified); proceeds mainly repay RJIL borrowings (DRHP: up to Rs 27,500 cr), so F2 FAIL; post-issue P/E, D/E, promoter and auditor not verified from RHP",
    "source_url": "https://www.businesstoday.in/markets/ipo-corner/story/jio-platforms-files-rhp-for-ipo-of-up-to-27-crore-shares-issue-to-open-on-october-21-561644-2026-10-14",
@@ -564,24 +565,23 @@
    "f5": "U",
    "f6": "P",
    "f7": "P",
-   "f8": "U",
+   "f8": "P",
    "listed_on": "",
    "status": "Upcoming",
    "sources": {
-    "f8": "Auditors: no qualification (abridged prospectus p.11-12). Anchors not disclosed until RHP",
+    "f8": "Anchor allocation exists; no auditor qualification (SEBI Jio Platforms Ltd - DRHP Jio P p.11). Confirm in RHP",
     "f7": "Promoter holding after issue 64.48% (pre 66.43%) - Chittorgarh https://www.chittorgarh.com/ipo/jio-platforms-ipo/3152/; pledge not confirmed in DRHP text"
    },
    "u_reasons": {
-    "f3": "Not available yet",
-    "f4": "Not available yet",
-    "f5": "Not available yet",
-    "f8": "Auditors: no qualification (abridged prospectus p.11-12). Anchors not disclosed until RHP"
+    "f5": "Not found in SEBI Jio Platforms Ltd - DRHP Jio P (Jun 19, 2026); needs RHP"
    },
    "stale": {
-    "f7": "pledge unconfirmed"
+    "f7": "pledge unconfirmed",
+    "f8": "FY26"
    },
    "m": {
     "price_band": "₹1065 to ₹1119",
+    "issue_price": 1119.0,
     "lot": "12 Shares",
     "sale_type": "Fresh capital only",
     "dates": "21 to 23 Oct, 2026",
@@ -653,9 +653,9 @@
    "group": "Open / upcoming",
    "new": true,
    "timing": "Opens 21 Oct; closes 23 Oct; anchors 19 Oct; lists 28 Oct (tentative)",
-   "passed": 0,
+   "passed": 1,
    "fails": 5,
-   "unknown": 3,
+   "unknown": 2,
    "verdict": "Rejected",
    "flag": "Band 660-693; Rs 1,450 cr = fresh Rs 500 cr (34.5%) + OFS Rs 950 cr (cut from Rs 1,800 cr); fresh issue is to repay debt (DRHP objects: Rs 375 cr borrowings); D/E 3.53 (KPI) vs 2.16 computed (854.10/394.94), both above 1 (F5 FAIL); FY26 PAT Rs 43.8 cr after FY24-25 losses, so PAT CAGR not computable; revenue CAGR about 19%; valuation Rs 7,500 cr = 171x FY26 PAT or 37.7x annualised Q1 FY27 PAT (F3 UNKNOWN); promoter pre-issue 72.8%",
    "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Paras%20Healthcare%20Limited%20-%20Abridged_p.pdf",
@@ -667,17 +667,19 @@
    "f5": "F",
    "f6": "F",
    "f7": "U",
-   "f8": "U",
+   "f8": "P",
    "listed_on": "",
    "status": "Upcoming",
    "post_pe": 37.72,
-   "sources": {},
-   "u_reasons": {
-    "f4": "Not available yet",
-    "f7": "Not available yet",
-    "f8": "Not available yet"
+   "sources": {
+    "f8": "Anchor allocation exists; no auditor qualification (SEBI Paras Healthcare Limited - DRH p.16). Confirm in RHP"
    },
-   "stale": {},
+   "u_reasons": {
+    "f7": "Promoter holding/pledge not found in DRHP text; needs RHP"
+   },
+   "stale": {
+    "f8": "FY26"
+   },
    "m": {
     "price_band": "₹660 to ₹693",
     "lot": "21 Shares",
@@ -708,6 +710,7 @@
     "mcap_pre": 6998.34,
     "mcap_post": 7498.34,
     "promoter_pre": 72.8,
+    "anchor_cr": 652.5,
     "rev_cagr": 19.0,
     "revenue": [
      478.75,
@@ -755,8 +758,8 @@
    "group": "Listed",
    "new": true,
    "timing": "08-Oct",
-   "passed": 1,
-   "fails": 7,
+   "passed": 2,
+   "fails": 6,
    "unknown": 0,
    "verdict": "Rejected",
    "flag": "Fresh 81.5% of Rs 178 cr; sub 1.79x, QIB 1.33x (Day 3); revenue and PAT +6% FY26; post-issue promoter 49.4%; listed below issue price | F3: post-issue P/E 23.26x vs 25x limit (Chittorgarh)",
@@ -2457,15 +2460,15 @@
     "ocf": 216.25,
     "ocf_unit": "mn"
    },
-   "f3_ind": "P"
+   "f3_ind": "F"
   },
   {
    "company": "Rentomojo",
    "group": "Listed",
    "new": false,
    "timing": "17-Sep",
-   "passed": 4,
-   "fails": 4,
+   "passed": 3,
+   "fails": 5,
    "unknown": 0,
    "verdict": "Rejected",
    "flag": "OFS-heavy; proceeds not growth-led; promoter 19.7% | F3: post-issue P/E 40.73x vs 25x limit (Chittorgarh)",
@@ -3446,8 +3449,8 @@
    "group": "Listed",
    "new": false,
    "timing": "14-Aug",
-   "passed": 6,
-   "fails": 2,
+   "passed": 7,
+   "fails": 1,
    "unknown": 0,
    "verdict": "Provisional",
    "flag": "fresh 80% | F3: post-issue P/E 19.38x vs 25x limit (Chittorgarh)",
@@ -3996,10 +3999,10 @@
    "group": "Listed",
    "new": false,
    "timing": "24-Jul",
-   "passed": 4,
-   "fails": 4,
+   "passed": 5,
+   "fails": 3,
    "unknown": 0,
-   "verdict": "Review",
+   "verdict": "Provisional",
    "flag": "fresh 89%; proceeds not growth-led; D/E 1.63 | F3: post-issue P/E 17.55x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/caliber-mining-ipo/1999/",
    "source_label": "Chittorgarh",
@@ -4342,10 +4345,10 @@
    "group": "Listed",
    "new": false,
    "timing": "25-Aug",
-   "passed": 5,
-   "fails": 3,
+   "passed": 4,
+   "fails": 4,
    "unknown": 0,
-   "verdict": "Provisional",
+   "verdict": "Review",
    "flag": "fresh 61%; growth <15%/loss | F3: post-issue P/E 28.02x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/sunshine-pictures-ipo/2002/",
    "source_label": "Chittorgarh",
@@ -4552,8 +4555,8 @@
    "group": "Listed",
    "new": false,
    "timing": "08-Jul",
-   "passed": 5,
-   "fails": 3,
+   "passed": 6,
+   "fails": 2,
    "unknown": 0,
    "verdict": "Provisional",
    "flag": "fresh 87%; growth <15%/loss | F3: post-issue P/E 22.43x vs 25x limit (Chittorgarh)",
@@ -5282,8 +5285,8 @@
    "group": "Listed",
    "new": false,
    "timing": "10-Jun",
-   "passed": 3,
-   "fails": 5,
+   "passed": 4,
+   "fails": 4,
    "unknown": 0,
    "verdict": "Review",
    "flag": "OFS-heavy; proceeds not growth-led; growth <15%/loss | F3: post-issue P/E 19.42x vs 25x limit (Chittorgarh)",
@@ -5377,7 +5380,7 @@
     "ocf": -920.03,
     "ocf_unit": "mn"
    },
-   "f3_ind": "F"
+   "f3_ind": "P"
   },
   {
    "company": "Hexagon Nutrition",
@@ -5477,6 +5480,313 @@
     "ocf": 377.94,
     "ocf_unit": "mn"
    },
+   "f3_ind": "P"
+  },
+  {
+   "company": "EAAA India Alternatives",
+   "group": "Open / upcoming",
+   "new": true,
+   "timing": "Opens 26 Oct; closes 28 Oct; allotment 29 Oct; lists 2 Nov (tentative)",
+   "passed": 2,
+   "fails": 3,
+   "unknown": 3,
+   "verdict": "Rejected",
+   "flag": "100% OFS up to Rs 1,200 cr (Edelweiss Securities & Investments, promoter) - no proceeds to company; band 1,585-1,665; post-issue P/E 33.35x (Chittorgarh); promoter 88.24% pre / 64.51% post (Chittorgarh promoter table) (pledge unverified); total income FY24-26 584.25/786.54/963.76 cr, PAT 175.16/229.78/265.20 cr (CAGR 28.4% / 23.0%)",
+   "source_url": "https://www.chittorgarh.com/ipo/eaaa-india-alternatives-ipo/",
+   "source_label": "Chittorgarh",
+   "listed_on": "",
+   "status": "Upcoming",
+   "sources": {
+    "f1": "Entirely OFS (Chittorgarh https://www.chittorgarh.com/ipo/eaaa-india-alternatives-ipo/)",
+    "f3": "Post-issue P/E 33.35x vs 25x (Chittorgarh)",
+    "f6": "Total income 584.25 -> 963.76 cr, PAT 175.16 -> 265.20 cr FY24-FY26 restated consolidated (Chittorgarh); total income used as revenue proxy",
+    "f7": "Promoter post-issue 64.51% (pre 88.24%) - Chittorgarh promoter table https://www.chittorgarh.com/ipo/eaaa-india-alternatives-ipo/; pledge not confirmed"
+   },
+   "u_reasons": {
+    "f5": "No offer document on SEBI site",
+    "f8": "No offer document on SEBI site"
+   },
+   "stale": {
+    "f7": "pledge unconfirmed"
+   },
+   "m": {
+    "price_band": "₹1585 to ₹1665",
+    "lot": "9 Shares",
+    "sale_type": "OFS only",
+    "dates": "26 to 28 Oct, 2026",
+    "issue_cr": 1200.0,
+    "ofs_cr": 1200.0,
+    "fresh_pct": 0.0,
+    "pe_pre": 40.59,
+    "pe_post": 33.35,
+    "eps_pre": 41.02,
+    "eps_post": 49.93,
+    "mcap_pre": 10765.1,
+    "mcap_post": 10765.1,
+    "promoter_pre": 88.24,
+    "promoter_post": 64.51,
+    "rev_cagr": 28.4,
+    "pat_cagr": 23.0,
+    "revenue": [
+     336.13,
+     963.76,
+     786.54,
+     584.25
+    ],
+    "pat": [
+     80.71,
+     265.2,
+     229.78,
+     175.16
+    ],
+    "periods": [
+     "30 Jun 2026",
+     "31 Mar 2026",
+     "31 Mar 2025",
+     "31 Mar 2024"
+    ],
+    "borrowing": [
+     399.2,
+     441.03,
+     507.49,
+     444.83
+    ],
+    "networth": [
+     1160.38,
+     1075.54,
+     966.45,
+     729.48
+    ],
+    "de_calc": 0.34,
+    "roe": "28.96%",
+    "ronw": "28.96%",
+    "pat_margin": "24.01%",
+    "de": 0.34,
+    "de_period": "latest restated period (borrowing / net worth)"
+   },
+   "f1": "F",
+   "f2": "F",
+   "f3": "F",
+   "f4": "U",
+   "f5": "U",
+   "f6": "P",
+   "f7": "P",
+   "f8": "U",
+   "f3_ind": "F"
+  },
+  {
+   "company": "SFC Environmental Technologies",
+   "group": "Open / upcoming",
+   "new": true,
+   "timing": "Opens 27 Oct; closes 29 Oct; allotment 30 Oct; lists 3 Nov (tentative)",
+   "passed": 0,
+   "fails": 5,
+   "unknown": 3,
+   "verdict": "Rejected",
+   "flag": "Fresh Rs 150 cr (45.45 lakh sh) + OFS Rs 518 cr = Rs 668 cr (fresh 22%); band 313-330; net proceeds Rs 117.15 cr: debt prepayment 42.23, working capital 74.92; post-issue P/E ~541x on annualised Jun-26 earnings (pre 19.24x); promoter 48.18% pre / 41.18% post; total income FY24-26 676.74/726.96/821.27 cr, PAT 144.17/152.01/160.21 cr (CAGR 10.2% / 5.4%)",
+   "source_url": "https://www.chittorgarh.com/ipo/sfc-environmental-technologies-ipo/",
+   "source_label": "Chittorgarh",
+   "listed_on": "",
+   "status": "Upcoming",
+   "sources": {
+    "f1": "Fresh 45.45 lakh sh of 202.28 lakh sh = 22% (Chittorgarh https://www.chittorgarh.com/ipo/sfc-environmental-technologies-ipo/)",
+    "f3": "Post-issue P/E ~541x vs 25x (Chittorgarh)",
+    "f6": "Total income 676.74 -> 821.27 cr, PAT 144.17 -> 160.21 cr FY24-FY26 (Chittorgarh)",
+    "f7": "Promoter post-issue 41.18% < 50% (Chittorgarh)"
+   },
+   "u_reasons": {
+    "f8": "No offer document on SEBI site"
+   },
+   "stale": {},
+   "m": {
+    "price_band": "₹313 to ₹330",
+    "lot": "45 Shares",
+    "sale_type": "Fresh capital cum OFS",
+    "dates": "27 to 29 Oct, 2026",
+    "issue_cr": 668.0,
+    "fresh_cr": 150.0,
+    "ofs_cr": 518.0,
+    "fresh_pct": 22.5,
+    "objects": [
+     [
+      "Prepayment of all or a portion of certain outstanding borrowings availed by Company and wholly owned Subsidiary, namely Vasudha Waste Treatment Pvt.Ltd.",
+      42.23
+     ],
+     [
+      "Funding working capital requirements",
+      74.92
+     ],
+     [
+      "General Corporate Purposes",
+      null
+     ]
+    ],
+    "pe_pre": 19.24,
+    "pe_post": 540.98,
+    "eps_pre": 17.15,
+    "eps_post": 0.61,
+    "mcap_pre": 3082.57,
+    "mcap_post": 3232.57,
+    "promoter_pre": 48.18,
+    "promoter_post": 41.18,
+    "rev_cagr": 10.2,
+    "pat_cagr": 5.4,
+    "revenue": [
+     137.9,
+     821.27,
+     726.96,
+     676.74
+    ],
+    "pat": [
+     1.48,
+     160.21,
+     152.01,
+     144.17
+    ],
+    "periods": [
+     "30 Jun 2026",
+     "31 Mar 2026",
+     "31 Mar 2025",
+     "31 Mar 2024"
+    ],
+    "borrowing": [
+     204.77,
+     195.64,
+     83.71,
+     139.16
+    ],
+    "networth": [
+     805.49,
+     804.17,
+     648.68,
+     534.3
+    ],
+    "de_calc": 0.25,
+    "roe": "0.18%",
+    "roce": "0.72%",
+    "ronw": "0.19%",
+    "pat_margin": "1.11%",
+    "ebitda_margin": "7.36%",
+    "de": 0.25,
+    "de_period": "latest restated period (borrowing / net worth)"
+   },
+   "f1": "F",
+   "f2": "U",
+   "f3": "F",
+   "f4": "U",
+   "f5": "F",
+   "f6": "F",
+   "f7": "F",
+   "f8": "U",
+   "f3_ind": "F"
+  },
+  {
+   "company": "BLS Polymers",
+   "group": "Open / upcoming",
+   "new": true,
+   "timing": "Opens 27 Oct; closes 29 Oct; allotment 30 Oct; lists 3 Nov (tentative)",
+   "passed": 4,
+   "fails": 1,
+   "unknown": 3,
+   "verdict": "Review",
+   "flag": "Fresh-only Rs 255 cr; band 142-150; objects: capex 77.56 cr, working capital 89.50 cr, GCP; post-issue P/E 22.73x (pre 25x); promoter 98.53% pre / 71.53% post (pledge unverified); total income FY24-26 301.50/336.70/354.41 cr (CAGR 8.4%), PAT 7.52/21.14/27.01 cr (CAGR 89.5%) - revenue CAGR below 15%",
+   "source_url": "https://www.chittorgarh.com/ipo/bls-polymers-ipo/",
+   "source_label": "Chittorgarh",
+   "listed_on": "",
+   "status": "Upcoming",
+   "sources": {
+    "f1": "Fresh capital only (Chittorgarh https://www.chittorgarh.com/ipo/bls-polymers-ipo/)",
+    "f2": "Capex 77.56 + working capital 89.50 of 167.06 cr (Chittorgarh)",
+    "f3": "Post-issue P/E 22.73x <= 25x (Chittorgarh)",
+    "f6": "Total income CAGR 8.4% < 15% (301.50 -> 354.41 cr FY24-FY26)",
+    "f7": "Promoter post-issue 71.53% (pre 98.53%) - Chittorgarh; pledge not confirmed"
+   },
+   "u_reasons": {
+    "f5": "No offer document on SEBI site",
+    "f8": "No offer document on SEBI site"
+   },
+   "stale": {
+    "f7": "pledge unconfirmed"
+   },
+   "m": {
+    "price_band": "₹142 to ₹150",
+    "lot": "100 Shares",
+    "sale_type": "Fresh capital only",
+    "dates": "27 to 29 Oct, 2026",
+    "issue_cr": 255.0,
+    "fresh_cr": 255.0,
+    "fresh_pct": 100.0,
+    "objects": [
+     [
+      "Financing the capital expenditure requirement towards expansion of our Manufacturing Facility by increasing the manufacturing capacity of certain of the existing products",
+      77.56
+     ],
+     [
+      "Funding working capital requirements of the Company",
+      89.5
+     ],
+     [
+      "General Corporate Purposes",
+      null
+     ]
+    ],
+    "pe_pre": 25.0,
+    "pe_post": 22.73,
+    "eps_pre": 6.0,
+    "eps_post": 6.6,
+    "mcap_pre": 675.48,
+    "mcap_post": 930.48,
+    "promoter_pre": 98.53,
+    "promoter_post": 71.53,
+    "rev_cagr": 8.4,
+    "pat_cagr": 89.5,
+    "revenue": [
+     107.81,
+     354.41,
+     336.7,
+     301.5
+    ],
+    "pat": [
+     10.23,
+     27.01,
+     21.14,
+     7.52
+    ],
+    "periods": [
+     "30 Jun 2026",
+     "31 Mar 2026",
+     "31 Mar 2025",
+     "31 Mar 2024"
+    ],
+    "borrowing": [
+     62.91,
+     51.72,
+     73.92,
+     93.77
+    ],
+    "networth": [
+     105.17,
+     94.93,
+     67.94,
+     46.83
+    ],
+    "de_calc": 0.6,
+    "roe": "10.22%",
+    "roce": "9.11%",
+    "ronw": "9.73%",
+    "pat_margin": "9.56%",
+    "ebitda_margin": "15.15%",
+    "de": 0.6,
+    "de_period": "latest restated period (borrowing / net worth)"
+   },
+   "f1": "P",
+   "f2": "P",
+   "f3": "P",
+   "f4": "U",
+   "f5": "U",
+   "f6": "F",
+   "f7": "P",
+   "f8": "U",
    "f3_ind": "P"
   }
  ],
