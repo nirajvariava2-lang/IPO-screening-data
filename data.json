@@ -1,6 +1,6 @@
 {
- "as_of": "2026-10-22T11:30:12.007250+05:30",
- "as_of_label": "Thu 22 Oct 2026, 11:30 IST",
+ "as_of": "2026-10-23T10:03:40.645137+05:30",
+ "as_of_label": "Fri 23 Oct 2026, 10:03 IST",
  "rows": [
   {
    "company": "HD Fire Protect",
@@ -215,9 +215,9 @@
   },
   {
    "company": "Zetwerk Manufacturing",
-   "group": "Open / upcoming",
+   "group": "Listed",
    "new": false,
-   "timing": "Opened 15 Oct; closed 19 Oct (3.10x); lists 23 Oct (tentative)",
+   "timing": "23-Oct",
    "passed": 1,
    "fails": 6,
    "unknown": 1,
@@ -233,14 +233,15 @@
    "f6": "F",
    "f7": "F",
    "f8": "U",
-   "listed_on": "",
-   "status": "Closed, awaiting listing",
+   "listed_on": "2026-10-23",
+   "status": "Listed",
    "post_pe": null,
    "sources": {
-    "f4": "Final Day 3 subscription 3.10x overall: QIB ex-anchor 4.71x, NII 1.45x, retail 0.77x (Chittorgarh https://www.chittorgarh.com/ipo/zetwerk-ipo/, 19 Oct 5:54 PM). Passes >=3x overall rule"
+    "f4": "Final Day 3 subscription 3.10x overall: QIB ex-anchor 4.71x, NII 1.45x, retail 0.77x (Chittorgarh https://www.chittorgarh.com/ipo/zetwerk-ipo/, 19 Oct 5:54 PM). Passes >=3x overall rule",
+    "status": "Listed on NSE/BSE 23 Oct 2026 (Chittorgarh https://www.sebi.gov.in/sebi_data/commondocs/aug-2026/Zetwerk%20Manufacturing%20Businesses%20Limited%20-%20DAP_p.pdf)"
    },
    "u_reasons": {
-    "f8": "Not found in SEBI Zetwerk Manufacturing Business (Aug 14, 2026); needs RHP"
+    "f8": "Anchors confirmed (Rs 2,251.23 cr, 14 Oct; Chittorgarh); auditor qualification not found in SEBI DAP; needs RHP"
    },
    "stale": {},
    "m": {},
@@ -251,12 +252,12 @@
   },
   {
    "company": "Tonbo Imaging",
-   "group": "Open / upcoming",
+   "group": "Listed",
    "new": false,
-   "timing": "Opened 15 Oct; closed 19 Oct; lists 23 Oct (tentative)",
+   "timing": "23-Oct",
    "passed": 2,
-   "fails": 5,
-   "unknown": 1,
+   "fails": 6,
+   "unknown": 0,
    "verdict": "Rejected",
    "flag": "100% OFS (1.21 cr shares, Rs 852 cr); band 665-700; anchors Rs 255 cr (Y; BlackRock, SBI MF); promoter post-issue 15.72% (F7 FAIL); subscription 7.78x overall at Day 2 close (IPO Ji); Chittorgarh 16 Oct 15:59: 7.39x, QIB 3.95x, NII 13.27x, retail 6.82x; F4 PASS on this snapshot, closes 19 Oct; FY26 revenue Rs 362.6 cr (-22.7%), PAT Rs 50.9 cr (-30%) (prior version) | F3: post-issue P/E negative (loss) vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/tonbo-imaging-india-ipo/3215/",
@@ -265,20 +266,20 @@
    "f2": "F",
    "f3": "F",
    "f4": "P",
-   "f5": "U",
+   "f5": "F",
    "f6": "F",
    "f7": "F",
    "f8": "P",
-   "listed_on": "",
-   "status": "Closed, awaiting listing",
+   "listed_on": "2026-10-23",
+   "status": "Listed",
    "post_pe": null,
    "sources": {
     "f8": "Anchor allocation exists; no auditor qualification (SEBI Tonbo Imaging India Limited -  p.12). Confirm in RHP",
-    "f4": "Day 3 post-close snapshot (19 Oct, ~5:45-5:55 PM) 132.81x overall, QIB ex-anchor 293.56x, NII 156.36x, retail 31.11x (Chittorgarh ipo_subscription page)"
+    "f4": "Day 3 post-close snapshot (19 Oct, ~5:45-5:55 PM) 132.81x overall, QIB ex-anchor 293.56x, NII 156.36x, retail 31.11x (Chittorgarh ipo_subscription page)",
+    "status": "Listed on NSE/BSE 23 Oct 2026 (Chittorgarh https://www.chittorgarh.com/ipo/tonbo-imaging-india-ipo/3215/)",
+    "f5": "Mar 2026 (Screener https://www.screener.in/company/TONBO/consolidated/): borrowings 125 / equity 553 = D/E 0.23; operating cash flow -63 cr"
    },
-   "u_reasons": {
-    "f5": "Not found in SEBI Tonbo Imaging India Limited -  (Aug 14, 2026); needs RHP"
-   },
+   "u_reasons": {},
    "stale": {
     "f8": "FY25"
    },
@@ -288,6 +289,7 @@
     "lot": "21 Shares",
     "sale_type": "OFS only",
     "dates": "15 to 19 Oct, 2026",
+    "listed_on": "Fri, Oct 23, 2026",
     "issue_cr": 852.0,
     "ofs_cr": 852.0,
     "fresh_pct": 0.0,
@@ -296,7 +298,7 @@
     "mcap_pre": 4009.75,
     "mcap_post": 4009.75,
     "promoter_pre": 18.58,
-    "promoter_post": 15.72,
+    "promoter_post": 14.56,
     "anchor_cr": 255.36,
     "sub_total": 132.81,
     "sub_qib": 293.56,
@@ -340,19 +342,21 @@
     "ronw": "-3.25%",
     "pat_margin": "-47.52%",
     "ebitda_margin": "-36.21%",
-    "de": 0.24,
-    "de_period": "latest restated period (borrowing / net worth)"
+    "de": 0.23,
+    "de_period": "Mar 2026",
+    "ocf": -63.0,
+    "ocf_period": "Mar 2026"
    },
    "f3_ind": "F"
   },
   {
    "company": "Bonfiglioli Transmissions",
-   "group": "Open / upcoming",
+   "group": "Listed",
    "new": false,
-   "timing": "Opened 15 Oct; closed 19 Oct; lists 23 Oct (tentative)",
-   "passed": 3,
+   "timing": "23-Oct",
+   "passed": 4,
    "fails": 4,
-   "unknown": 1,
+   "unknown": 0,
    "verdict": "Review",
    "flag": "100% OFS of 4.32 cr shares (Rs 2,534 cr) by Bonfiglioli S.p.A.; band 558-586; anchors Rs 759.26 cr (Y); post P/E 37.07x; promoter post-issue 77% (pledge unverified); CY23-25 total income CAGR 9.0% (FAIL), PAT CAGR 26.6%; borrowings not shown for latest year; subscription 0.99x at Day 2 close (IPO Ji; IPOGyani earlier snapshot 0.47x), F4 not met | F3: post-issue P/E 37.07x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/bonfiglioli-transmissions-ipo/2861/",
@@ -361,21 +365,21 @@
    "f2": "F",
    "f3": "F",
    "f4": "P",
-   "f5": "U",
+   "f5": "P",
    "f6": "F",
    "f7": "P",
    "f8": "P",
-   "listed_on": "",
-   "status": "Closed, awaiting listing",
+   "listed_on": "2026-10-23",
+   "status": "Listed",
    "post_pe": 37.07,
    "sources": {
     "f7": "Promoter holding after issue 77.0% (pre 100.0%) - Chittorgarh https://www.chittorgarh.com/ipo/bonfiglioli-transmissions-ipo/2861/; no pledge per SEBI DRHP p.97",
     "f8": "Soft pass: no auditor qualification (SEBI Bonfiglioli Transmissions Limited (Feb 16, 2026) p.26); anchor portion in offer structure (p.2). Confirm in RHP",
-    "f4": "Day 3 post-close snapshot (19 Oct, ~5:45-5:55 PM) 46.05x overall, QIB ex-anchor 120.78x, NII 40.39x, retail 5.90x (Chittorgarh ipo_subscription page)"
+    "f4": "Day 3 post-close snapshot (19 Oct, ~5:45-5:55 PM) 46.05x overall, QIB ex-anchor 120.78x, NII 40.39x, retail 5.90x (Chittorgarh ipo_subscription page)",
+    "status": "Listed on NSE/BSE 23 Oct 2026 (Chittorgarh https://www.chittorgarh.com/ipo/bonfiglioli-transmissions-ipo/2861/)",
+    "f5": "Dec 2025 (Screener https://www.screener.in/company/BONFIG/): borrowings 3 / equity 993 = D/E 0.0; operating cash flow 188 cr"
    },
-   "u_reasons": {
-    "f5": "Not found in SEBI Bonfiglioli Transmissions Limi (Feb 16, 2026); needs RHP"
-   },
+   "u_reasons": {},
    "stale": {
     "f8": "FY25",
     "f7": "FY25"
@@ -386,6 +390,7 @@
     "lot": "25 Shares",
     "sale_type": "OFS only",
     "dates": "15 to 19 Oct, 2026",
+    "listed_on": "Fri, Oct 23, 2026",
     "issue_cr": 2534.0,
     "ofs_cr": 2534.0,
     "fresh_pct": 0.0,
@@ -439,22 +444,21 @@
     "pat_margin": "13.04%",
     "ebitda_margin": "19.78%",
     "de": 0.0,
-    "de_period": "latest restated period (borrowing / net worth)",
-    "ocf": 1418.02,
-    "ocf_unit": "mn",
-    "ocf_period": "FY25 DRHP"
+    "de_period": "Dec 2025",
+    "ocf": 188.0,
+    "ocf_period": "Dec 2025"
    },
    "f3_ind": "F"
   },
   {
    "company": "Sahajanand Medical Tech",
-   "group": "Open / upcoming",
+   "group": "Listed",
    "new": false,
-   "timing": "Opened 15 Oct; closed 19 Oct; lists 23 Oct (tentative)",
-   "passed": 2,
+   "timing": "23-Oct",
+   "passed": 3,
    "fails": 4,
-   "unknown": 2,
-   "verdict": "Rejected",
+   "unknown": 1,
+   "verdict": "Review",
    "flag": "Pure OFS 1.38 cr shares, Rs 475.48 cr, band 327-344; post P/E 57.91x; promoter post-issue 36.2% (F7 FAIL); FY24-26 revenue CAGR 15.9% but FY24 PAT was a loss so PAT CAGR is not computable (F6 UNKNOWN); D/E 0.27 per Chittorgarh KPI vs 0.44 computed (269.53/616.05); subscription 0.83x at Day 2 close (IPO Ji; earlier snapshot 0.34x) | F3: post-issue P/E 57.91x vs 25x limit (Chittorgarh)",
    "source_url": "https://www.chittorgarh.com/ipo/sahajanand-medical-technologies-ipo/2550/",
    "source_label": "Chittorgarh",
@@ -462,19 +466,21 @@
    "f2": "F",
    "f3": "F",
    "f4": "P",
-   "f5": "U",
+   "f5": "P",
    "f6": "U",
    "f7": "F",
    "f8": "P",
-   "listed_on": "",
-   "status": "Closed, awaiting listing",
+   "listed_on": "2026-10-23",
+   "status": "Listed",
    "post_pe": 57.91,
    "sources": {
     "f8": "Soft pass: no auditor qualification (SEBI SAHAJANAND MEDICAL TECHNOLOGIES LIMITED (Jul 31, 2025) p.25); anchor portion in offer structure (p.3). Confirm in RHP",
-    "f4": "Day 3 post-close snapshot (19 Oct, ~5:45-5:55 PM) 14.21x overall, QIB ex-anchor 34.70x, NII 14.64x, retail 3.04x (Chittorgarh ipo_subscription page)"
+    "f4": "Day 3 post-close snapshot (19 Oct, ~5:45-5:55 PM) 14.21x overall, QIB ex-anchor 34.70x, NII 14.64x, retail 3.04x (Chittorgarh ipo_subscription page)",
+    "status": "Listed on NSE/BSE 23 Oct 2026 (Chittorgarh https://www.chittorgarh.com/ipo/sahajanand-medical-technologies-ipo/2550/)",
+    "f5": "Mar 2026 (Screener https://www.screener.in/company/SMT/consolidated/): borrowings 306 / equity 696 = D/E 0.44; operating cash flow 105 cr"
    },
    "u_reasons": {
-    "f5": "Not found in SEBI SAHAJANAND MEDICAL TECHNOLOGIE (Jul 31, 2025); needs RHP"
+    "f6": "FY24 PAT was a loss (-7.35 cr), so PAT CAGR FY24-26 is not computable; revenue CAGR 15.8% (Chittorgarh)"
    },
    "stale": {
     "f8": "FY25"
@@ -485,6 +491,7 @@
     "lot": "43 Shares",
     "sale_type": "OFS only",
     "dates": "15 to 19 Oct, 2026",
+    "listed_on": "Fri, Oct 23, 2026",
     "issue_cr": 475.0,
     "ofs_cr": 475.0,
     "fresh_pct": 0.0,
@@ -538,11 +545,10 @@
     "ronw": "2.31%",
     "pat_margin": "4.29%",
     "ebitda_margin": "13.81%",
-    "de": 0.51,
-    "de_period": "latest restated period (borrowing / net worth)",
-    "ocf": 735.22,
-    "ocf_unit": "mn",
-    "ocf_period": "FY25 DRHP"
+    "de": 0.44,
+    "de_period": "Mar 2026",
+    "ocf": 105.0,
+    "ocf_period": "Mar 2026"
    },
    "f3_ind": "F"
   },
@@ -573,7 +579,9 @@
     "f7": "Promoter holding after issue 64.48% (pre 66.43%) - Chittorgarh https://www.chittorgarh.com/ipo/jio-platforms-ipo/3152/; pledge not confirmed in DRHP text"
    },
    "u_reasons": {
-    "f5": "Not found in SEBI Jio Platforms Ltd - DRHP Jio P (Jun 19, 2026); needs RHP"
+    "f3": "Not available from SEBI/NSE sources yet",
+    "f4": "Not available from SEBI/NSE sources yet",
+    "f5": "Not available from SEBI/NSE sources yet"
    },
    "stale": {
     "f7": "pledge unconfirmed",
@@ -675,7 +683,8 @@
     "f8": "Anchor allocation exists; no auditor qualification (SEBI Paras Healthcare Limited - DRH p.16). Confirm in RHP"
    },
    "u_reasons": {
-    "f7": "Promoter holding/pledge not found in DRHP text; needs RHP"
+    "f4": "Not available from SEBI/NSE sources yet",
+    "f7": "Not available from SEBI/NSE sources yet"
    },
    "stale": {
     "f8": "FY26"
@@ -2778,7 +2787,7 @@
     "ocf": -1772.65,
     "ocf_unit": "mn"
    },
-   "f3_ind": "P"
+   "f3_ind": "F"
   },
   {
    "company": "Molbio Diagnostics",
@@ -2956,7 +2965,8 @@
     "eps_post": 18.04,
     "mcap_pre": 10049.54,
     "mcap_post": 11250.17,
-    "promoter_pre": 100.0,
+    "promoter_pre": 97.72,
+    "promoter_post": 82.85,
     "anchor_cr": 508.2,
     "sub_total": 46.78,
     "rev_cagr": 22.1,
@@ -4661,7 +4671,7 @@
     "ocf": 931.71,
     "ocf_unit": "mn"
    },
-   "f3_ind": "F"
+   "f3_ind": "P"
   },
   {
    "company": "Shiprocket",
@@ -5380,7 +5390,7 @@
     "ocf": -920.03,
     "ocf_unit": "mn"
    },
-   "f3_ind": "P"
+   "f3_ind": "F"
   },
   {
    "company": "Hexagon Nutrition",
@@ -5503,8 +5513,9 @@
     "f7": "Promoter post-issue 64.51% (pre 88.24%) - Chittorgarh promoter table https://www.chittorgarh.com/ipo/eaaa-india-alternatives-ipo/; pledge not confirmed"
    },
    "u_reasons": {
-    "f5": "No offer document on SEBI site",
-    "f8": "No offer document on SEBI site"
+    "f4": "Not available from SEBI/NSE sources yet",
+    "f5": "Not available from SEBI/NSE sources yet",
+    "f8": "Not available from SEBI/NSE sources yet"
    },
    "stale": {
     "f7": "pledge unconfirmed"
@@ -5523,8 +5534,7 @@
     "eps_post": 49.93,
     "mcap_pre": 10765.1,
     "mcap_post": 10765.1,
-    "promoter_pre": 88.24,
-    "promoter_post": 64.51,
+    "promoter_pre": 72.8,
     "rev_cagr": 28.4,
     "pat_cagr": 23.0,
     "revenue": [
@@ -5595,7 +5605,9 @@
     "f7": "Promoter post-issue 41.18% < 50% (Chittorgarh)"
    },
    "u_reasons": {
-    "f8": "No offer document on SEBI site"
+    "f2": "Not available from SEBI/NSE sources yet",
+    "f4": "Not available from SEBI/NSE sources yet",
+    "f8": "Not available from SEBI/NSE sources yet"
    },
    "stale": {},
    "m": {
@@ -5702,8 +5714,9 @@
     "f7": "Promoter post-issue 71.53% (pre 98.53%) - Chittorgarh; pledge not confirmed"
    },
    "u_reasons": {
-    "f5": "No offer document on SEBI site",
-    "f8": "No offer document on SEBI site"
+    "f4": "Not available from SEBI/NSE sources yet",
+    "f5": "Not available from SEBI/NSE sources yet",
+    "f8": "Not available from SEBI/NSE sources yet"
    },
    "stale": {
     "f7": "pledge unconfirmed"
@@ -5787,6 +5800,114 @@
    "f6": "F",
    "f7": "P",
    "f8": "U",
+   "f3_ind": "P"
+  },
+  {
+   "company": "Bombay Coated and Special Steels",
+   "group": "Open / upcoming",
+   "new": true,
+   "timing": "Opens 29 Oct; closes 2 Nov; allotment 3 Nov; lists 5 Nov (tentative)",
+   "flag": "Fresh-only Rs 183 cr; band 78-82; objects: debt repayment Rs 125 cr, equipment under lease Rs 15.77 cr, GCP (Chittorgarh); post-issue P/E 8.54x; promoter 97.78% pre / 63.03% post (pledge unverified); total income FY24-26 765.41/1058.65/1269.83 cr (CAGR 28.8%), PAT 21.14/28.67/30.54 cr (CAGR 20.2%); D/E 2.78 (Mar 2026) | F2: 125 of 140.77 cr is debt repayment | F5: D/E 2.78 > 1",
+   "source_url": "https://www.chittorgarh.com/ipo/bombay-coated-and-special-steels-ipo/2671/",
+   "source_label": "Chittorgarh",
+   "listed_on": "",
+   "status": "Upcoming",
+   "f1": "P",
+   "f2": "F",
+   "f3": "P",
+   "f4": "U",
+   "f5": "F",
+   "f6": "P",
+   "f7": "P",
+   "f8": "U",
+   "sources": {
+    "f1": "Fresh capital only, 2,23,24,024 shares (Chittorgarh https://www.chittorgarh.com/ipo/bombay-coated-and-special-steels-ipo/2671/)",
+    "f2": "Debt repayment 125.00 + lease equipment 15.77 of 140.77 cr; no productive capex (Chittorgarh)",
+    "f3": "Post-issue P/E 8.54x <= 25x (Chittorgarh)",
+    "f5": "Debt/Equity 2.78 (Mar 2026), 2.00 (Jun 2026) per Chittorgarh KPI; borrowing 338.45 / net worth 121.58 cr",
+    "f6": "Total income 765.41 -> 1269.83 cr FY24-FY26 CAGR 28.8%; PAT 21.14 -> 30.54 cr CAGR 20.2% (Chittorgarh)",
+    "f7": "Promoter post-issue 63.03% (pre 97.78%) - Chittorgarh; pledge not confirmed"
+   },
+   "u_reasons": {
+    "f4": "Not available from SEBI/NSE sources yet",
+    "f8": "Not available from SEBI/NSE sources yet"
+   },
+   "stale": {
+    "f7": "pledge unconfirmed"
+   },
+   "passed": 4,
+   "fails": 2,
+   "unknown": 2,
+   "verdict": "Review",
+   "m": {
+    "price_band": "₹78 to ₹82",
+    "lot": "182 Shares",
+    "sale_type": "Fresh capital only",
+    "dates": "29 Oct to 2 Nov, 2026",
+    "issue_cr": 183.0,
+    "fresh_cr": 183.0,
+    "fresh_pct": 100.0,
+    "objects": [
+     [
+      "Repayment/pre-payment, in full or in part, of certain borrowings availed by Company",
+      125.0
+     ],
+     [
+      "Financing the cost towards acquisition of capital equipment under existing lease arrangements with Siemens Financial Services Pvt.Ltd.",
+      15.77
+     ],
+     [
+      "General Corporate Purposes",
+      null
+     ]
+    ],
+    "eps_pre": 7.54,
+    "promoter_pre": 97.78,
+    "promoter_post": 63.03,
+    "rev_cagr": 28.8,
+    "pat_cagr": 20.2,
+    "revenue": [
+     397.55,
+     1269.83,
+     1058.65,
+     765.41
+    ],
+    "pat": [
+     15.08,
+     30.54,
+     28.67,
+     21.14
+    ],
+    "periods": [
+     "30 Jun 2026",
+     "31 Mar 2026",
+     "31 Mar 2025",
+     "31 Mar 2024"
+    ],
+    "borrowing": [
+     273.69,
+     338.45,
+     276.96,
+     234.16
+    ],
+    "networth": [
+     136.62,
+     121.58,
+     83.05,
+     54.36
+    ],
+    "de_calc": 2.0,
+    "roe": "11.65%",
+    "roce": "7.01%",
+    "ronw": "11.03%",
+    "pat_margin": "3.80%",
+    "ebitda_margin": "8.10%",
+    "de": 2.78,
+    "de_period": "latest restated period (borrowing / net worth)",
+    "pe_post": 8.54,
+    "pe_pre": 10.88,
+    "eps_post": 9.6
+   },
    "f3_ind": "P"
   }
  ],
