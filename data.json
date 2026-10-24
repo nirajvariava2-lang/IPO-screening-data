@@ -1,6 +1,6 @@
 {
- "as_of": "2026-10-23T10:03:40.645137+05:30",
- "as_of_label": "Fri 23 Oct 2026, 10:03 IST",
+ "as_of": "2026-10-24T13:55:29.284036+05:30",
+ "as_of_label": "Sat 24 Oct 2026, 13:55 IST",
  "rows": [
   {
    "company": "HD Fire Protect",
@@ -556,36 +556,36 @@
    "company": "Jio Platforms",
    "group": "Open / upcoming",
    "new": false,
-   "timing": "Opens 21 Oct; closes 23 Oct; anchors 19 Oct; listing 28 Oct expected (unconfirmed)",
-   "passed": 4,
-   "fails": 1,
-   "unknown": 3,
-   "verdict": "Review",
+   "timing": "Opened 21 Oct; closed 23 Oct; allotment 26 Oct; listing 28 Oct expected",
+   "passed": 6,
+   "fails": 2,
+   "unknown": 0,
+   "verdict": "Provisional",
    "flag": "Fresh-only (up to 27 cr shares, no OFS); GMP Rs 225 (+20.1%, IPO Watch 17 Oct, unofficial); band 1,065-1,119 per RHP; Rs 30,213 cr at cap (27 cr x 1,119, verified); proceeds mainly repay RJIL borrowings (DRHP: up to Rs 27,500 cr), so F2 FAIL; post-issue P/E, D/E, promoter and auditor not verified from RHP",
    "source_url": "https://www.businesstoday.in/markets/ipo-corner/story/jio-platforms-files-rhp-for-ipo-of-up-to-27-crore-shares-issue-to-open-on-october-21-561644-2026-10-14",
    "source_label": "Business Today (RHP)",
    "f1": "P",
    "f2": "F",
-   "f3": "U",
-   "f4": "U",
-   "f5": "U",
+   "f3": "F",
+   "f4": "P",
+   "f5": "P",
    "f6": "P",
    "f7": "P",
    "f8": "P",
    "listed_on": "",
-   "status": "Upcoming",
+   "status": "Closed",
    "sources": {
     "f8": "Anchor allocation exists; no auditor qualification (SEBI Jio Platforms Ltd - DRHP Jio P p.11). Confirm in RHP",
-    "f7": "Promoter holding after issue 64.48% (pre 66.43%) - Chittorgarh https://www.chittorgarh.com/ipo/jio-platforms-ipo/3152/; pledge not confirmed in DRHP text"
+    "f7": "Promoter holding after issue 64.48% (pre 66.43%) - Chittorgarh https://www.chittorgarh.com/ipo/jio-platforms-ipo/3152/; pledge not confirmed in DRHP text",
+    "f3": "Post-issue P/E 33.19x (EPS 33.72, offer price 1,119) > 25x limit - Chittorgarh https://www.chittorgarh.com/ipo/jio-platforms-ipo/3152/",
+    "f4": "Final subscription 21.36x overall, QIB ex-anchor 67.15x, NII 13.99x, retail 2.76x (Chittorgarh, 23 Oct 19:28) https://www.chittorgarh.com/ipo_subscription/jio-platforms-ipo/3152/",
+    "f5": "FY26 borrowings 70,781 / net worth 334,013 = D/E 0.21 (Chittorgarh restated consolidated); operating cash flow Rs 77,556.3 cr per secondary sources (5paisa, mstock, multibagg quoting RHP); confirm in RHP cash flow statement"
    },
-   "u_reasons": {
-    "f3": "Not available from SEBI/NSE sources yet",
-    "f4": "Not available from SEBI/NSE sources yet",
-    "f5": "Not available from SEBI/NSE sources yet"
-   },
+   "u_reasons": {},
    "stale": {
     "f7": "pledge unconfirmed",
-    "f8": "FY26"
+    "f8": "FY26",
+    "f5": "secondary source"
    },
    "m": {
     "price_band": "₹1065 to ₹1119",
@@ -615,6 +615,10 @@
     "promoter_pre": 66.43,
     "promoter_post": 64.48,
     "anchor_cr": 8109.85,
+    "sub_total": 21.36,
+    "sub_qib": 67.15,
+    "sub_nii": 13.99,
+    "sub_retail": 2.76,
     "rev_cagr": 16.6,
     "pat_cagr": 18.4,
     "revenue": [
@@ -652,18 +656,20 @@
     "pat_margin": "19.82%",
     "ebitda_margin": "53.26%",
     "de": 0.18,
-    "de_period": "latest restated period (borrowing / net worth)"
+    "de_period": "latest restated period (borrowing / net worth)",
+    "ocf": 77556.3,
+    "ocf_unit": "cr"
    },
-   "f3_ind": "U"
+   "f3_ind": "F"
   },
   {
    "company": "Paras Healthcare",
    "group": "Open / upcoming",
    "new": true,
-   "timing": "Opens 21 Oct; closes 23 Oct; anchors 19 Oct; lists 28 Oct (tentative)",
+   "timing": "Opened 21 Oct; closed 23 Oct; lists 28 Oct (tentative)",
    "passed": 1,
-   "fails": 5,
-   "unknown": 2,
+   "fails": 6,
+   "unknown": 1,
    "verdict": "Rejected",
    "flag": "Band 660-693; Rs 1,450 cr = fresh Rs 500 cr (34.5%) + OFS Rs 950 cr (cut from Rs 1,800 cr); fresh issue is to repay debt (DRHP objects: Rs 375 cr borrowings); D/E 3.53 (KPI) vs 2.16 computed (854.10/394.94), both above 1 (F5 FAIL); FY26 PAT Rs 43.8 cr after FY24-25 losses, so PAT CAGR not computable; revenue CAGR about 19%; valuation Rs 7,500 cr = 171x FY26 PAT or 37.7x annualised Q1 FY27 PAT (F3 UNKNOWN); promoter pre-issue 72.8%",
    "source_url": "https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Paras%20Healthcare%20Limited%20-%20Abridged_p.pdf",
@@ -671,26 +677,27 @@
    "f1": "F",
    "f2": "F",
    "f3": "F",
-   "f4": "U",
+   "f4": "F",
    "f5": "F",
    "f6": "F",
    "f7": "U",
    "f8": "P",
    "listed_on": "",
-   "status": "Upcoming",
+   "status": "Closed",
    "post_pe": 37.72,
    "sources": {
-    "f8": "Anchor allocation exists; no auditor qualification (SEBI Paras Healthcare Limited - DRH p.16). Confirm in RHP"
+    "f8": "Anchor allocation exists; no auditor qualification (SEBI Paras Healthcare Limited - DRH p.16). Confirm in RHP",
+    "f4": "Final subscription 2.34x overall (<3x), QIB ex-anchor 3.25x, NII 0.69x, retail 2.10x (Chittorgarh, 23 Oct 19:28) https://www.chittorgarh.com/ipo_subscription/paras-healthcare-ipo/2256/"
    },
    "u_reasons": {
-    "f4": "Not available from SEBI/NSE sources yet",
-    "f7": "Not available from SEBI/NSE sources yet"
+    "f7": "Post-issue promoter % and pledge not published on Chittorgarh yet (pre-issue 72.8%, promoter sells Rs 300 cr OFS); needs RHP"
    },
    "stale": {
     "f8": "FY26"
    },
    "m": {
     "price_band": "₹660 to ₹693",
+    "issue_price": 693.0,
     "lot": "21 Shares",
     "sale_type": "Fresh capital cum OFS",
     "dates": "21 to 23 Oct, 2026",
@@ -720,6 +727,10 @@
     "mcap_post": 7498.34,
     "promoter_pre": 72.8,
     "anchor_cr": 652.5,
+    "sub_total": 2.34,
+    "sub_qib": 3.25,
+    "sub_nii": 0.69,
+    "sub_retail": 2.1,
     "rev_cagr": 19.0,
     "revenue": [
      478.75,
@@ -4671,7 +4682,7 @@
     "ocf": 931.71,
     "ocf_unit": "mn"
    },
-   "f3_ind": "P"
+   "f3_ind": "F"
   },
   {
    "company": "Shiprocket",
@@ -5534,7 +5545,9 @@
     "eps_post": 49.93,
     "mcap_pre": 10765.1,
     "mcap_post": 10765.1,
-    "promoter_pre": 72.8,
+    "promoter_pre": 95.03,
+    "promoter_post": 83.88,
+    "anchor_cr": 360.0,
     "rev_cagr": 28.4,
     "pat_cagr": 23.0,
     "revenue": [
@@ -5861,7 +5874,12 @@
       null
      ]
     ],
+    "pe_pre": 10.88,
+    "pe_post": 8.54,
     "eps_pre": 7.54,
+    "eps_post": 9.6,
+    "mcap_pre": 332.1,
+    "mcap_post": 515.16,
     "promoter_pre": 97.78,
     "promoter_post": 63.03,
     "rev_cagr": 28.8,
@@ -5902,11 +5920,8 @@
     "ronw": "11.03%",
     "pat_margin": "3.80%",
     "ebitda_margin": "8.10%",
-    "de": 2.78,
-    "de_period": "latest restated period (borrowing / net worth)",
-    "pe_post": 8.54,
-    "pe_pre": 10.88,
-    "eps_post": 9.6
+    "de": 2.0,
+    "de_period": "latest restated period (borrowing / net worth)"
    },
    "f3_ind": "P"
   }
