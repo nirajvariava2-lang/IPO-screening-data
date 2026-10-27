@@ -1,6 +1,6 @@
 {
- "as_of": "2026-10-26T13:25:13.292278+05:30",
- "as_of_label": "Mon 26 Oct 2026, 13:25 IST",
+ "as_of": "2026-10-27T12:40:30.492545+05:30",
+ "as_of_label": "Tue 27 Oct 2026, 12:40 IST",
  "rows": [
   {
    "company": "HD Fire Protect",
@@ -163,8 +163,8 @@
     "eps_post": 15.43,
     "mcap_pre": 3672.01,
     "mcap_post": 4172.01,
-    "promoter_pre": 98.38,
-    "promoter_post": 80.71,
+    "promoter_pre": 93.02,
+    "promoter_post": 78.94,
     "anchor_cr": 315.9,
     "sub_total": 4.68,
     "sub_qib": 4.21,
@@ -558,9 +558,7 @@
     "status": "Listed on NSE/BSE 23 Oct 2026 (Chittorgarh https://www.chittorgarh.com/ipo/sahajanand-medical-technologies-ipo/2550/)",
     "f5": "Mar 2026 (Screener https://www.screener.in/company/SMT/consolidated/): borrowings 306 / equity 696 = D/E 0.44; operating cash flow 105 cr"
    },
-   "u_reasons": {
-    "f6": "FY24 PAT was a loss (-7.35 cr), PAT CAGR FY24-26 not computable; revenue CAGR 15.8% (Chittorgarh)"
-   },
+   "u_reasons": {},
    "stale": {
     "f8": "FY25"
    },
@@ -1063,7 +1061,7 @@
     "ocf": -15.0,
     "ocf_period": "Mar 2026"
    },
-   "f3_ind": "P"
+   "f3_ind": "F"
   },
   {
    "company": "SRIT India",
@@ -2291,8 +2289,8 @@
     "eps_post": 13.04,
     "mcap_pre": 2775.35,
     "mcap_post": 3095.35,
-    "promoter_pre": 96.11,
-    "promoter_post": 69.32,
+    "promoter_pre": 98.38,
+    "promoter_post": 80.71,
     "anchor_cr": 165.6,
     "sub_total": 97.28,
     "sub_qib": 192.68,
@@ -4051,10 +4049,7 @@
     "promoter_pre": 96.1,
     "promoter_post": 71.86,
     "anchor_cr": 45.21,
-    "sub_total": 176.85,
-    "sub_qib": 195.04,
-    "sub_nii": 332.35,
-    "sub_retail": 99.81,
+    "sub_total": 122.97,
     "rev_cagr": 6.9,
     "pat_cagr": 34.2,
     "revenue": [
@@ -5483,7 +5478,7 @@
     "ocf": -920.03,
     "ocf_unit": "mn"
    },
-   "f3_ind": "P"
+   "f3_ind": "F"
   },
   {
    "company": "Hexagon Nutrition",
@@ -5590,9 +5585,9 @@
    "group": "Open / upcoming",
    "new": true,
    "timing": "Opened 26 Oct; closes 28 Oct; allotment 29 Oct; lists 2 Nov (tentative)",
-   "passed": 3,
+   "passed": 4,
    "fails": 3,
-   "unknown": 2,
+   "unknown": 1,
    "verdict": "Review",
    "flag": "100% OFS up to Rs 1,200 cr (Edelweiss Securities & Investments, promoter) - no proceeds to company; band 1,585-1,665; post-issue P/E 33.35x (Chittorgarh); promoter 88.24% pre / 64.51% post (Chittorgarh promoter table) (pledge unverified); total income FY24-26 584.25/786.54/963.76 cr, PAT 175.16/229.78/265.20 cr (CAGR 28.4% / 23.0%)",
    "source_url": "https://www.chittorgarh.com/ipo/eaaa-india-alternatives-ipo/",
@@ -5604,15 +5599,14 @@
     "f3": "Post-issue P/E 33.35x vs 25x (Chittorgarh)",
     "f6": "Total income 584.25 -> 963.76 cr, PAT 175.16 -> 265.20 cr FY24-FY26 restated consolidated (Chittorgarh); total income used as revenue proxy",
     "f7": "Promoter post-issue 64.51% (pre 88.24%) - Chittorgarh promoter table https://www.chittorgarh.com/ipo/eaaa-india-alternatives-ipo/; pledge not confirmed",
-    "f8": "Anchor allocation exists; no auditor qualification (SEBI EAAA India Alternatives Limite p.22). Confirm in RHP"
+    "f8": "Anchor allocation exists; no auditor qualification (SEBI EAAA India Alternatives Limite p.22). Confirm in RHP",
+    "f5": "SEBI EAAA India Alternatives Limited - DRHP (Jan 22, 2026): operating cash flow 1627.43 mn (p.308; prior -1201.69, -132.7); D/E 0.5 (p.230)"
    },
-   "u_reasons": {
-    "f4": "Not available from SEBI/NSE sources yet",
-    "f5": "Not available from SEBI/NSE sources yet"
-   },
+   "u_reasons": {},
    "stale": {
     "f7": "pledge unconfirmed",
-    "f8": "FY25"
+    "f8": "FY25",
+    "f5": "FY25"
    },
    "m": {
     "price_band": "₹1585 to ₹1665",
@@ -5677,7 +5671,7 @@
    "f2": "F",
    "f3": "F",
    "f4": "U",
-   "f5": "U",
+   "f5": "P",
    "f6": "P",
    "f7": "P",
    "f8": "P",
@@ -5704,10 +5698,7 @@
     "f7": "Promoter post-issue 41.18% < 50% (Chittorgarh)",
     "f8": "Anchor allocation exists; no auditor qualification (SEBI SFC ENVIRONMENTAL TECHNOLOGIES p.32). Confirm in RHP"
    },
-   "u_reasons": {
-    "f2": "Not available from SEBI/NSE sources yet",
-    "f4": "Not available from SEBI/NSE sources yet"
-   },
+   "u_reasons": {},
    "stale": {
     "f8": "FY25"
    },
@@ -5742,6 +5733,7 @@
     "mcap_post": 3232.57,
     "promoter_pre": 48.18,
     "promoter_post": 41.18,
+    "anchor_cr": 200.26,
     "rev_cagr": 10.2,
     "pat_cagr": 5.4,
     "revenue": [
@@ -5802,8 +5794,8 @@
    "new": true,
    "timing": "Opens 27 Oct; closes 29 Oct; allotment 30 Oct; lists 3 Nov (tentative)",
    "passed": 5,
-   "fails": 1,
-   "unknown": 2,
+   "fails": 2,
+   "unknown": 1,
    "verdict": "Provisional",
    "flag": "Fresh-only Rs 255 cr; band 142-150; objects: capex 77.56 cr, working capital 89.50 cr, GCP; post-issue P/E 22.73x (pre 25x); promoter 98.53% pre / 71.53% post (pledge unverified); total income FY24-26 301.50/336.70/354.41 cr (CAGR 8.4%), PAT 7.52/21.14/27.01 cr (CAGR 89.5%) - revenue CAGR below 15%",
    "source_url": "https://www.chittorgarh.com/ipo/bls-polymers-ipo/",
@@ -5816,15 +5808,14 @@
     "f3": "Post-issue P/E 22.73x <= 25x (Chittorgarh)",
     "f6": "Total income CAGR 8.4% < 15% (301.50 -> 354.41 cr FY24-FY26)",
     "f7": "Promoter post-issue 71.53% (pre 98.53%) - Chittorgarh; pledge not confirmed",
-    "f8": "Anchor allocation exists; no auditor qualification (SEBI BLS Polymers Limited p.32). Confirm in RHP"
+    "f8": "Anchor allocation exists; no auditor qualification (SEBI BLS Polymers Limited p.32). Confirm in RHP",
+    "f5": "SEBI BLS Polymers Limited (Aug 12, 2025): operating cash flow 2485.26 mn (p.52; prior 268.35, -891.56); D/E 1.11 (p.138)"
    },
-   "u_reasons": {
-    "f4": "Not available from SEBI/NSE sources yet",
-    "f5": "Not available from SEBI/NSE sources yet"
-   },
+   "u_reasons": {},
    "stale": {
     "f7": "pledge unconfirmed",
-    "f8": "FY25"
+    "f8": "FY25",
+    "f5": "FY25"
    },
    "m": {
     "price_band": "₹142 to ₹150",
@@ -5856,6 +5847,7 @@
     "mcap_post": 930.48,
     "promoter_pre": 98.53,
     "promoter_post": 71.53,
+    "anchor_cr": 76.5,
     "rev_cagr": 8.4,
     "pat_cagr": 89.5,
     "revenue": [
@@ -5904,7 +5896,7 @@
    "f2": "P",
    "f3": "P",
    "f4": "U",
-   "f5": "U",
+   "f5": "F",
    "f6": "F",
    "f7": "P",
    "f8": "P",
@@ -5937,9 +5929,7 @@
     "f7": "Promoter post-issue 63.03% (pre 97.78%) - Chittorgarh; pledge not confirmed",
     "f8": "Anchor allocation exists; no auditor qualification (SEBI Bombay Coated and Special Stee p.35). Confirm in RHP"
    },
-   "u_reasons": {
-    "f4": "Not available from SEBI/NSE sources yet"
-   },
+   "u_reasons": {},
    "stale": {
     "f7": "pledge unconfirmed",
     "f8": "FY25"
@@ -6053,9 +6043,8 @@
    "flag": "Chittorgarh: Fresh capital cum OFS, issue Rs 275.0 cr, band ₹153 to ₹162, post P/E 16.1, promoter 100.0% -> 69.8%, sub Nonex",
    "post_pe": 16.1,
    "u_reasons": {
-    "f4": "Subscription known only after bidding closes",
-    "f5": "No Screener page and no SEBI offer document located; needs RHP",
-    "f8": "Auditor qualification not verified (no SEBI offer document matched); needs RHP"
+    "f5": "No offer document on SEBI site",
+    "f8": "No offer document on SEBI site"
    },
    "passed": 4,
    "fails": 1,
@@ -6245,7 +6234,7 @@
     "ocf": -181.0,
     "ocf_period": "Mar 2026"
    },
-   "f3_ind": "P"
+   "f3_ind": "F"
   },
   {
    "company": "Acevector (Snapdeal)",
@@ -6386,7 +6375,7 @@
    "flag": "Chittorgarh: Fresh capital cum OFS, issue Rs 405.0 cr, band ₹385 to ₹405, post P/E 24.55, promoter 85.86% -> 74.51%, sub 12.23x",
    "post_pe": 24.55,
    "u_reasons": {
-    "f8": "Auditor qualification not verified (no SEBI offer document matched); needs RHP"
+    "f8": "No offer document on SEBI site"
    },
    "passed": 3,
    "fails": 4,
@@ -6464,7 +6453,7 @@
     "ocf": 63.0,
     "ocf_period": "Mar 2026"
    },
-   "f3_ind": "P"
+   "f3_ind": "F"
   },
   {
    "company": "ArMee Infotech",
@@ -6541,10 +6530,7 @@
     "promoter_pre": 92.72,
     "promoter_post": 69.35,
     "anchor_cr": 39.94,
-    "sub_total": 2.62,
-    "sub_qib": 3.2,
-    "sub_nii": 2.24,
-    "sub_retail": 2.65,
+    "sub_total": 2.33,
     "rev_cagr": 17.3,
     "pat_cagr": -4.8,
     "revenue": [
@@ -6583,7 +6569,7 @@
     "ocf": 12.0,
     "ocf_period": "Mar 2026"
    },
-   "f3_ind": "F"
+   "f3_ind": "P"
   },
   {
    "company": "Swastika Infra",
@@ -6653,10 +6639,7 @@
     "promoter_pre": 76.51,
     "promoter_post": 57.41,
     "anchor_cr": 48.26,
-    "sub_total": 7.91,
-    "sub_qib": 3.31,
-    "sub_nii": 19.35,
-    "sub_retail": 5.64,
+    "sub_total": 5.86,
     "rev_cagr": 54.7,
     "pat_cagr": 72.1,
     "revenue": [
@@ -6695,7 +6678,7 @@
     "ocf": -10.0,
     "ocf_period": "Mar 2026"
    },
-   "f3_ind": "P"
+   "f3_ind": "F"
   },
   {
    "company": "Elevate Campuses",
@@ -6768,10 +6751,7 @@
     "promoter_pre": 100.0,
     "promoter_post": 65.58,
     "anchor_cr": 945.0,
-    "sub_total": 1.89,
-    "sub_qib": 2.66,
-    "sub_nii": 0.89,
-    "sub_retail": 1.07,
+    "sub_total": 1.49,
     "rev_cagr": 29.0,
     "pat_cagr": 109.2,
     "revenue": [
@@ -6809,7 +6789,7 @@
     "ocf": 297.0,
     "ocf_period": "Mar 2026"
    },
-   "f3_ind": "F"
+   "f3_ind": "P"
   },
   {
    "company": "Varmora Granito",
@@ -7069,7 +7049,7 @@
    "flag": "Chittorgarh: OFS only, issue Rs 22563.0 cr, band ₹1700 to ₹1785, post P/E 35.4, promoter None% -> None%, sub 4.26x",
    "post_pe": 35.4,
    "u_reasons": {
-    "f8": "Auditor qualification not verified (no SEBI offer document matched); needs RHP"
+    "f8": "No offer document on SEBI site"
    },
    "stale": {},
    "passed": 2,
@@ -7356,7 +7336,7 @@
     "ocf": -74.0,
     "ocf_period": "Mar 2026"
    },
-   "f3_ind": "F"
+   "f3_ind": "P"
   },
   {
    "company": "Manipal Payment & Identity",
@@ -7604,7 +7584,7 @@
    "flag": "Chittorgarh: Fresh capital cum OFS, issue Rs 500.0 cr, band ₹643 to ₹676, post P/E 48.11, promoter 86.89% -> 75.25%, sub 2.71x",
    "post_pe": 48.11,
    "u_reasons": {
-    "f8": "Auditor qualification not verified (no SEBI offer document matched); needs RHP"
+    "f8": "No offer document on SEBI site"
    },
    "passed": 3,
    "fails": 4,
