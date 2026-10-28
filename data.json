@@ -1,6 +1,6 @@
 {
- "as_of": "2026-10-27T12:40:30.492545+05:30",
- "as_of_label": "Tue 27 Oct 2026, 12:40 IST",
+ "as_of": "2026-10-28T10:06:57.204077+05:30",
+ "as_of_label": "Wed 28 Oct 2026, 10:06 IST",
  "rows": [
   {
    "company": "HD Fire Protect",
@@ -90,10 +90,8 @@
     "ronw": "5.97%",
     "pat_margin": "20.92%",
     "ebitda_margin": "27.26%",
-    "de": -0.0,
-    "de_period": "Mar 2026",
     "ocf": 92.0,
-    "ocf_period": "Mar 2026"
+    "ocf_unit": "cr"
    },
    "f3_ind": "F"
   },
@@ -421,10 +419,10 @@
     "ronw": "-3.25%",
     "pat_margin": "-47.52%",
     "ebitda_margin": "-36.21%",
-    "de": 0.23,
-    "de_period": "Mar 2026",
+    "de": 0.24,
+    "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -63.0,
-    "ocf_period": "Mar 2026"
+    "ocf_unit": "cr"
    },
    "f3_ind": "F"
   },
@@ -523,9 +521,9 @@
     "pat_margin": "13.04%",
     "ebitda_margin": "19.78%",
     "de": 0.0,
-    "de_period": "Dec 2025",
+    "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 188.0,
-    "ocf_period": "Dec 2025"
+    "ocf_unit": "cr"
    },
    "f3_ind": "F"
   },
@@ -622,10 +620,10 @@
     "ronw": "2.31%",
     "pat_margin": "4.29%",
     "ebitda_margin": "13.81%",
-    "de": 0.44,
-    "de_period": "Mar 2026",
+    "de": 0.51,
+    "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 105.0,
-    "ocf_period": "Mar 2026"
+    "ocf_unit": "cr"
    },
    "f3_ind": "F"
   },
@@ -670,6 +668,7 @@
     "lot": "12 Shares",
     "sale_type": "Fresh capital only",
     "dates": "21 to 23 Oct, 2026",
+    "listed_on": "Wed, Oct 28, 2026",
     "issue_cr": 30188.0,
     "fresh_cr": 30188.0,
     "fresh_pct": 100.0,
@@ -778,6 +777,7 @@
     "lot": "21 Shares",
     "sale_type": "Fresh capital cum OFS",
     "dates": "21 to 23 Oct, 2026",
+    "listed_on": "Wed, Oct 28, 2026",
     "issue_cr": 1450.0,
     "fresh_cr": 500.0,
     "ofs_cr": 950.0,
@@ -1056,12 +1056,12 @@
     "ronw": "43.75%",
     "pat_margin": "11.00%",
     "ebitda_margin": "15.27%",
-    "de": 0.37,
-    "de_period": "Mar 2026",
+    "de": 0.11,
+    "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -15.0,
-    "ocf_period": "Mar 2026"
+    "ocf_unit": "cr"
    },
-   "f3_ind": "F"
+   "f3_ind": "P"
   },
   {
    "company": "SRIT India",
@@ -2657,10 +2657,10 @@
     "ronw": "43.51%",
     "pat_margin": "26.95%",
     "ebitda_margin": "41.48%",
-    "de": 0.79,
-    "de_period": "Mar 2026",
+    "de": 0.63,
+    "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 173.0,
-    "ocf_period": "Mar 2026"
+    "ocf_unit": "cr"
    },
    "f3_ind": "P"
   },
@@ -2759,10 +2759,10 @@
     "roce": "23.27%",
     "ronw": "20.78%",
     "ebitda_margin": "11.55%",
-    "de": 0.91,
-    "de_period": "Mar 2026",
+    "de": 0.84,
+    "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 675.0,
-    "ocf_period": "Mar 2026"
+    "ocf_unit": "cr"
    },
    "f3_ind": "F"
   },
@@ -2980,10 +2980,10 @@
     "ronw": "14.55%",
     "pat_margin": "11.28%",
     "ebitda_margin": "22.56%",
-    "de": 0.38,
-    "de_period": "Mar 2026",
+    "de": 0.36,
+    "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 50.0,
-    "ocf_period": "Mar 2026"
+    "ocf_unit": "cr"
    },
    "f3_ind": "F"
   },
@@ -3090,10 +3090,10 @@
     "roce": "42.60%",
     "ronw": "39.90%",
     "pat_margin": "4.04%",
-    "de": 0.7,
-    "de_period": "Mar 2026",
+    "de": 0.53,
+    "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -398.0,
-    "ocf_period": "Mar 2026"
+    "ocf_unit": "cr"
    },
    "f3_ind": "P"
   },
@@ -3860,10 +3860,10 @@
     "ronw": "20.24%",
     "pat_margin": "11.68%",
     "ebitda_margin": "22.01%",
-    "de": 0.25,
-    "de_period": "Mar 2026",
+    "de": 0.24,
+    "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 30.0,
-    "ocf_period": "Mar 2026"
+    "ocf_unit": "cr"
    },
    "f3_ind": "P"
   },
@@ -4084,9 +4084,9 @@
     "pat_margin": "18.69%",
     "ebitda_margin": "27.66%",
     "de": 0.41,
-    "de_period": "Mar 2026",
+    "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 29.0,
-    "ocf_period": "Mar 2026"
+    "ocf_unit": "cr"
    },
    "f3_ind": "P"
   },
@@ -4860,10 +4860,10 @@
     "de_calc": 0.16,
     "roce": "-2.65%",
     "ronw": "-5.20%",
-    "de": 0.23,
-    "de_period": "Mar 2026",
+    "de": 0.16,
+    "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 53.0,
-    "ocf_period": "Mar 2026"
+    "ocf_unit": "cr"
    },
    "f3_ind": "F"
   },
@@ -4975,10 +4975,10 @@
     "ronw": "16.55%",
     "pat_margin": "8.70%",
     "ebitda_margin": "15.71%",
-    "de": 0.38,
-    "de_period": "Mar 2026",
+    "de": 0.35,
+    "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 348.0,
-    "ocf_period": "Mar 2026"
+    "ocf_unit": "cr"
    },
    "f3_ind": "F"
   },
@@ -5082,10 +5082,10 @@
     "ronw": "21.26%",
     "pat_margin": "12.72%",
     "ebitda_margin": "25.54%",
-    "de": 0.49,
-    "de_period": "Mar 2026",
+    "de": 0.39,
+    "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 1077.0,
-    "ocf_period": "Mar 2026"
+    "ocf_unit": "cr"
    },
    "f3_ind": "F"
   },
@@ -5170,10 +5170,8 @@
     "roe": "43.02%",
     "ronw": "43.02%",
     "ebitda_margin": "92.46%",
-    "de": 0.0,
-    "de_period": "Mar 2026",
     "ocf": 2488.0,
-    "ocf_period": "Mar 2026"
+    "ocf_unit": "cr"
    },
    "f3_ind": "F"
   },
@@ -5664,8 +5662,7 @@
     "de": 0.34,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 1627.43,
-    "ocf_unit": "mn",
-    "ocf_period": "FY25 DRHP"
+    "ocf_unit": "mn"
    },
    "f1": "F",
    "f2": "F",
@@ -5819,6 +5816,7 @@
    },
    "m": {
     "price_band": "₹142 to ₹150",
+    "issue_price": 150.0,
     "lot": "100 Shares",
     "sale_type": "Fresh capital only",
     "dates": "27 to 29 Oct, 2026",
@@ -5889,8 +5887,7 @@
     "de": 0.6,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 2485.26,
-    "ocf_unit": "mn",
-    "ocf_period": "FY25 DRHP"
+    "ocf_unit": "mn"
    },
    "f1": "P",
    "f2": "P",
@@ -6081,6 +6078,7 @@
     "mcap_post": 966.99,
     "promoter_pre": 100.0,
     "promoter_post": 69.8,
+    "anchor_cr": 82.62,
     "rev_cagr": 57.4,
     "pat_cagr": 151.8,
     "revenue": [
@@ -6229,10 +6227,10 @@
     "de_calc": 3.79,
     "ronw": "27.24%",
     "ebitda_margin": "19.44%",
-    "de": 3.52,
-    "de_period": "Mar 2026",
+    "de": 3.79,
+    "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -181.0,
-    "ocf_period": "Mar 2026"
+    "ocf_unit": "cr"
    },
    "f3_ind": "F"
   },
@@ -6336,10 +6334,10 @@
     ],
     "de_calc": 0.0,
     "ronw": "-59.54%",
-    "de": 0.2,
-    "de_period": "Mar 2026",
+    "de": 0.0,
+    "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -2.0,
-    "ocf_period": "Mar 2026"
+    "ocf_unit": "cr"
    },
    "f3_ind": "F"
   },
@@ -6448,10 +6446,10 @@
     "ronw": "15.43%",
     "pat_margin": "3.04%",
     "ebitda_margin": "7.29%",
-    "de": 1.25,
-    "de_period": "Mar 2026",
+    "de": 1.23,
+    "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 63.0,
-    "ocf_period": "Mar 2026"
+    "ocf_unit": "cr"
    },
    "f3_ind": "F"
   },
@@ -6564,12 +6562,12 @@
     "ronw": "24.96%",
     "pat_margin": "3.26%",
     "ebitda_margin": "5.42%",
-    "de": 1.05,
-    "de_period": "Mar 2026",
+    "de": 0.96,
+    "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 12.0,
-    "ocf_period": "Mar 2026"
+    "ocf_unit": "cr"
    },
-   "f3_ind": "P"
+   "f3_ind": "F"
   },
   {
    "company": "Swastika Infra",
@@ -6674,9 +6672,9 @@
     "pat_margin": "8.23%",
     "ebitda_margin": "14.07%",
     "de": 0.73,
-    "de_period": "Mar 2026",
+    "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -10.0,
-    "ocf_period": "Mar 2026"
+    "ocf_unit": "cr"
    },
    "f3_ind": "F"
   },
@@ -6784,12 +6782,12 @@
     "ronw": "18.17%",
     "pat_margin": "28.80%",
     "ebitda_margin": "90.32%",
-    "de": 4.35,
-    "de_period": "Mar 2026",
+    "de": 4.31,
+    "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 297.0,
-    "ocf_period": "Mar 2026"
+    "ocf_unit": "cr"
    },
-   "f3_ind": "P"
+   "f3_ind": "F"
   },
   {
    "company": "Varmora Granito",
@@ -6895,10 +6893,10 @@
     "ronw": "7.79%",
     "pat_margin": "3.53%",
     "ebitda_margin": "14.18%",
-    "de": 0.47,
-    "de_period": "Mar 2026",
+    "de": 0.45,
+    "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 234.0,
-    "ocf_period": "Mar 2026"
+    "ocf_unit": "cr"
    },
    "f3_ind": "F"
   },
@@ -7010,10 +7008,10 @@
     "ronw": "39.05%",
     "pat_margin": "6.58%",
     "ebitda_margin": "16.40%",
-    "de": 2.46,
-    "de_period": "Mar 2026",
+    "de": 2.48,
+    "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -11.0,
-    "ocf_period": "Mar 2026"
+    "ocf_unit": "cr"
    },
    "f3_ind": "P"
   },
@@ -7104,10 +7102,8 @@
     "roce": "11.55%",
     "ronw": "33.21%",
     "pat_margin": "58.78%",
-    "de": 0.01,
-    "de_period": "Mar 2026",
     "ocf": 23836.0,
-    "ocf_period": "Mar 2026"
+    "ocf_unit": "cr"
    },
    "f3_ind": "F"
   },
@@ -7220,10 +7216,10 @@
     "ronw": "8.53%",
     "pat_margin": "3.46%",
     "ebitda_margin": "12.44%",
-    "de": 0.99,
-    "de_period": "Mar 2026",
+    "de": 0.83,
+    "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 144.0,
-    "ocf_period": "Mar 2026"
+    "ocf_unit": "cr"
    },
    "f3_ind": "F"
   },
@@ -7332,11 +7328,11 @@
     "pat_margin": "10.47%",
     "ebitda_margin": "16.78%",
     "de": 0.32,
-    "de_period": "Mar 2026",
+    "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -74.0,
-    "ocf_period": "Mar 2026"
+    "ocf_unit": "cr"
    },
-   "f3_ind": "P"
+   "f3_ind": "F"
   },
   {
    "company": "Manipal Payment & Identity",
@@ -7443,10 +7439,10 @@
     "ronw": "22.93%",
     "pat_margin": "18.68%",
     "ebitda_margin": "33.60%",
-    "de": 0.19,
-    "de_period": "Mar 2026",
+    "de": 0.0,
+    "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 208.0,
-    "ocf_period": "Mar 2026"
+    "ocf_unit": "cr"
    },
    "f3_ind": "F"
   },
@@ -7542,10 +7538,10 @@
     "ronw": "13.95%",
     "pat_margin": "51.95%",
     "ebitda_margin": "78.21%",
-    "de": 0.32,
-    "de_period": "Mar 2026",
+    "de": 0.41,
+    "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 194.0,
-    "ocf_period": "Mar 2026"
+    "ocf_unit": "cr"
    },
    "f3_ind": "P"
   },
@@ -7654,10 +7650,10 @@
     "ronw": "18.53%",
     "pat_margin": "6.74%",
     "ebitda_margin": "11.30%",
-    "de": 0.28,
-    "de_period": "Mar 2025",
+    "de": 0.25,
+    "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 22.0,
-    "ocf_period": "Mar 2025"
+    "ocf_unit": "cr"
    },
    "f3_ind": "F"
   },
@@ -7763,10 +7759,10 @@
     "ronw": "-160.33%",
     "pat_margin": "-51.16%",
     "ebitda_margin": "5.44%",
-    "de": -14.79,
-    "de_period": "Mar 2026",
+    "de": -7.1,
+    "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -35.0,
-    "ocf_period": "Mar 2026"
+    "ocf_unit": "cr"
    },
    "f3_ind": "F"
   }
