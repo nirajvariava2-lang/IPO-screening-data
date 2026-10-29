@@ -1,6 +1,6 @@
 {
- "as_of": "2026-10-28T10:06:57.204077+05:30",
- "as_of_label": "Wed 28 Oct 2026, 10:06 IST",
+ "as_of": "2026-10-29T11:53:30.267888+05:30",
+ "as_of_label": "Thu 29 Oct 2026, 11:53 IST",
  "rows": [
   {
    "company": "HD Fire Protect",
@@ -629,9 +629,9 @@
   },
   {
    "company": "Jio Platforms",
-   "group": "Open / upcoming",
+   "group": "Listed",
    "new": false,
-   "timing": "Opened 21 Oct; closed 23 Oct; allotment 26 Oct; listing 28 Oct expected",
+   "timing": "28-Oct",
    "passed": 6,
    "fails": 2,
    "unknown": 0,
@@ -647,14 +647,15 @@
    "f6": "P",
    "f7": "P",
    "f8": "P",
-   "listed_on": "",
-   "status": "Closed",
+   "listed_on": "2026-10-28",
+   "status": "Listed",
    "sources": {
     "f8": "Anchor allocation exists; no auditor qualification (SEBI Jio Platforms Ltd - DRHP Jio P p.11). Confirm in RHP",
     "f7": "Promoter holding after issue 64.48% (pre 66.43%) - Chittorgarh https://www.chittorgarh.com/ipo/jio-platforms-ipo/3152/; pledge not confirmed in DRHP text",
     "f3": "Post-issue P/E 33.19x (EPS 33.72, offer price 1,119) > 25x limit - Chittorgarh https://www.chittorgarh.com/ipo/jio-platforms-ipo/3152/",
     "f4": "Final subscription 21.36x overall, QIB ex-anchor 67.15x, NII 13.99x, retail 2.76x (Chittorgarh, 23 Oct 19:28) https://www.chittorgarh.com/ipo_subscription/jio-platforms-ipo/3152/",
-    "f5": "FY26 borrowings 70,781 / net worth 334,013 = D/E 0.21 (Chittorgarh restated consolidated); operating cash flow Rs 77,556.3 cr per secondary sources (5paisa, mstock, multibagg quoting RHP); confirm in RHP cash flow statement"
+    "f5": "FY26 borrowings 70,781 / net worth 334,013 = D/E 0.21 (Chittorgarh restated consolidated); operating cash flow Rs 77,556.3 cr per secondary sources (5paisa, mstock, multibagg quoting RHP); confirm in RHP cash flow statement",
+    "status": "Listed on NSE/BSE 28 Oct 2026 (Chittorgarh https://www.chittorgarh.com/ipo/jio-platforms-ipo/3152/)"
    },
    "u_reasons": {},
    "stale": {
@@ -736,13 +737,13 @@
     "ocf": 77556.3,
     "ocf_unit": "cr"
    },
-   "f3_ind": "F"
+   "f3_ind": "P"
   },
   {
    "company": "Paras Healthcare",
-   "group": "Open / upcoming",
+   "group": "Listed",
    "new": true,
-   "timing": "Opened 21 Oct; closed 23 Oct; lists 28 Oct (tentative)",
+   "timing": "28-Oct",
    "passed": 2,
    "fails": 6,
    "unknown": 0,
@@ -758,13 +759,14 @@
    "f6": "F",
    "f7": "P",
    "f8": "P",
-   "listed_on": "",
-   "status": "Closed",
+   "listed_on": "2026-10-28",
+   "status": "Listed",
    "post_pe": 37.72,
    "sources": {
     "f8": "Anchor allocation exists; no auditor qualification (SEBI Paras Healthcare Limited - DRH p.16). Confirm in RHP",
-    "f4": "Final subscription 2.34x overall (<3x), QIB ex-anchor 3.25x, NII 0.69x, retail 2.10x (Chittorgarh, 23 Oct 19:28) https://www.chittorgarh.com/ipo_subscription/paras-healthcare-ipo/2256/",
-    "f7": "Post-issue promoter holding 63.95% (pre 72.8%) - Chittorgarh https://www.chittorgarh.com/ipo/paras-healthcare-ipo/2256/; pledge not confirmed, check RHP"
+    "f4": "Final subscription 2.34x overall, QIB 3.25x, NII 0.69x, retail 2.10x (Chittorgarh, 23 Oct) - below 3x",
+    "f7": "Post-issue promoter holding 63.95% (pre 72.8%) - Chittorgarh https://www.chittorgarh.com/ipo/paras-healthcare-ipo/2256/; pledge not confirmed, check RHP",
+    "status": "Listed on NSE/BSE 28 Oct 2026 (Chittorgarh https://www.chittorgarh.com/ipo/paras-healthcare-ipo/)"
    },
    "u_reasons": {},
    "stale": {
@@ -849,7 +851,7 @@
     "de": 3.21,
     "de_period": "latest restated period (borrowing / net worth)"
    },
-   "f3_ind": "F"
+   "f3_ind": "P"
   },
   {
    "company": "Vishal Nirmiti",
@@ -1061,7 +1063,7 @@
     "ocf": -15.0,
     "ocf_unit": "cr"
    },
-   "f3_ind": "P"
+   "f3_ind": "F"
   },
   {
    "company": "SRIT India",
@@ -2558,7 +2560,7 @@
     "ocf": 216.25,
     "ocf_unit": "mn"
    },
-   "f3_ind": "F"
+   "f3_ind": "P"
   },
   {
    "company": "Rentomojo",
@@ -3649,7 +3651,7 @@
     "ocf": 216.84,
     "ocf_unit": "mn"
    },
-   "f3_ind": "F"
+   "f3_ind": "P"
   },
   {
    "company": "Jindal Supreme",
@@ -5582,23 +5584,24 @@
    "company": "EAAA India Alternatives",
    "group": "Open / upcoming",
    "new": true,
-   "timing": "Opened 26 Oct; closes 28 Oct; allotment 29 Oct; lists 2 Nov (tentative)",
-   "passed": 4,
+   "timing": "Opened 26 Oct; closed 28 Oct; allotment 29 Oct; lists 2 Nov (tentative)",
+   "passed": 5,
    "fails": 3,
-   "unknown": 1,
-   "verdict": "Review",
+   "unknown": 0,
+   "verdict": "Provisional",
    "flag": "100% OFS up to Rs 1,200 cr (Edelweiss Securities & Investments, promoter) - no proceeds to company; band 1,585-1,665; post-issue P/E 33.35x (Chittorgarh); promoter 88.24% pre / 64.51% post (Chittorgarh promoter table) (pledge unverified); total income FY24-26 584.25/786.54/963.76 cr, PAT 175.16/229.78/265.20 cr (CAGR 28.4% / 23.0%)",
    "source_url": "https://www.chittorgarh.com/ipo/eaaa-india-alternatives-ipo/",
    "source_label": "Chittorgarh",
    "listed_on": "",
-   "status": "Open now",
+   "status": "Closed",
    "sources": {
     "f1": "Entirely OFS (Chittorgarh https://www.chittorgarh.com/ipo/eaaa-india-alternatives-ipo/)",
     "f3": "Post-issue P/E 33.35x vs 25x (Chittorgarh)",
     "f6": "Total income 584.25 -> 963.76 cr, PAT 175.16 -> 265.20 cr FY24-FY26 restated consolidated (Chittorgarh); total income used as revenue proxy",
-    "f7": "Promoter post-issue 64.51% (pre 88.24%) - Chittorgarh promoter table https://www.chittorgarh.com/ipo/eaaa-india-alternatives-ipo/; pledge not confirmed",
+    "f7": "Promoter post-issue 83.88% (pre 95.03%) per Chittorgarh 29 Oct refresh; pledge not confirmed",
     "f8": "Anchor allocation exists; no auditor qualification (SEBI EAAA India Alternatives Limite p.22). Confirm in RHP",
-    "f5": "SEBI EAAA India Alternatives Limited - DRHP (Jan 22, 2026): operating cash flow 1627.43 mn (p.308; prior -1201.69, -132.7); D/E 0.5 (p.230)"
+    "f5": "SEBI EAAA India Alternatives Limited - DRHP (Jan 22, 2026): operating cash flow 1627.43 mn (p.308; prior -1201.69, -132.7); D/E 0.5 (p.230)",
+    "f4": "Final-day (28 Oct 17:54) subscription 5.51x overall, QIB 13.80x, NII 4.81x, retail 1.08x (Chittorgarh); a news headline on the page cites a conflicting 0.35x, so confirm against the official final"
    },
    "u_reasons": {},
    "stale": {
@@ -5608,6 +5611,7 @@
    },
    "m": {
     "price_band": "₹1585 to ₹1665",
+    "issue_price": 1665.0,
     "lot": "9 Shares",
     "sale_type": "OFS only",
     "dates": "26 to 28 Oct, 2026",
@@ -5623,6 +5627,10 @@
     "promoter_pre": 95.03,
     "promoter_post": 83.88,
     "anchor_cr": 360.0,
+    "sub_total": 5.51,
+    "sub_qib": 13.8,
+    "sub_nii": 4.81,
+    "sub_retail": 1.08,
     "rev_cagr": 28.4,
     "pat_cagr": 23.0,
     "revenue": [
@@ -5667,12 +5675,15 @@
    "f1": "F",
    "f2": "F",
    "f3": "F",
-   "f4": "U",
+   "f4": "P",
    "f5": "P",
    "f6": "P",
    "f7": "P",
    "f8": "P",
-   "f3_ind": "F"
+   "f3_ind": "F",
+   "soft": {
+    "f4": "final-day snapshot"
+   }
   },
   {
    "company": "SFC Environmental Technologies",
@@ -5687,7 +5698,7 @@
    "source_url": "https://www.chittorgarh.com/ipo/sfc-environmental-technologies-ipo/",
    "source_label": "Chittorgarh",
    "listed_on": "",
-   "status": "Upcoming",
+   "status": "Open now",
    "sources": {
     "f1": "Fresh 45.45 lakh sh of 202.28 lakh sh = 22% (Chittorgarh https://www.chittorgarh.com/ipo/sfc-environmental-technologies-ipo/)",
     "f3": "Post-issue P/E ~541x vs 25x (Chittorgarh)",
@@ -5695,7 +5706,9 @@
     "f7": "Promoter post-issue 41.18% < 50% (Chittorgarh)",
     "f8": "Anchor allocation exists; no auditor qualification (SEBI SFC ENVIRONMENTAL TECHNOLOGIES p.32). Confirm in RHP"
    },
-   "u_reasons": {},
+   "u_reasons": {
+    "f4": "Bidding closes 29 Oct; only a 0.27x headline seen, no category-wise final"
+   },
    "stale": {
     "f8": "FY25"
    },
@@ -5798,7 +5811,7 @@
    "source_url": "https://www.chittorgarh.com/ipo/bls-polymers-ipo/",
    "source_label": "Chittorgarh",
    "listed_on": "",
-   "status": "Upcoming",
+   "status": "Open now",
    "sources": {
     "f1": "Fresh capital only (Chittorgarh https://www.chittorgarh.com/ipo/bls-polymers-ipo/)",
     "f2": "Capex 77.56 + working capital 89.50 of 167.06 cr (Chittorgarh)",
@@ -5808,7 +5821,9 @@
     "f8": "Anchor allocation exists; no auditor qualification (SEBI BLS Polymers Limited p.32). Confirm in RHP",
     "f5": "SEBI BLS Polymers Limited (Aug 12, 2025): operating cash flow 2485.26 mn (p.52; prior 268.35, -891.56); D/E 1.11 (p.138)"
    },
-   "u_reasons": {},
+   "u_reasons": {
+    "f4": "Bidding closes 29 Oct; 35.30x 'so far' headline only, no QIB/final data"
+   },
    "stale": {
     "f7": "pledge unconfirmed",
     "f8": "FY25",
@@ -5908,7 +5923,7 @@
    "source_url": "https://www.chittorgarh.com/ipo/bombay-coated-and-special-steels-ipo/2671/",
    "source_label": "Chittorgarh",
    "listed_on": "",
-   "status": "Upcoming",
+   "status": "Open now",
    "f1": "P",
    "f2": "F",
    "f3": "P",
@@ -5926,7 +5941,9 @@
     "f7": "Promoter post-issue 63.03% (pre 97.78%) - Chittorgarh; pledge not confirmed",
     "f8": "Anchor allocation exists; no auditor qualification (SEBI Bombay Coated and Special Stee p.35). Confirm in RHP"
    },
-   "u_reasons": {},
+   "u_reasons": {
+    "f4": "Bidding 29 Oct-2 Nov; subscription not available before close"
+   },
    "stale": {
     "f7": "pledge unconfirmed",
     "f8": "FY25"
@@ -5965,6 +5982,7 @@
     "mcap_post": 515.16,
     "promoter_pre": 97.78,
     "promoter_post": 63.03,
+    "anchor_cr": 54.1,
     "rev_cagr": 28.8,
     "pat_cagr": 20.2,
     "revenue": [
@@ -6018,7 +6036,7 @@
    "timing": "Opens 28 Oct; closes 30 Oct (lists tentative)",
    "source_url": "https://www.chittorgarh.com/ipo/mksons-fine-jewels-ipo/3100/",
    "source_label": "Chittorgarh",
-   "status": "Upcoming",
+   "status": "Open now",
    "sources": {
     "f1": "Fresh issue 80.0% of Rs 275.0 cr (Chittorgarh https://www.chittorgarh.com/ipo/mksons-fine-jewels-ipo/3100/)",
     "f2": "New showroom + expansion Rs 152.84 cr of ~Rs 220 cr fresh; debt Rs 30 cr (Chittorgarh https://www.chittorgarh.com/ipo/mksons-fine-jewels-ipo/3100/)",
@@ -6041,7 +6059,8 @@
    "post_pe": 16.1,
    "u_reasons": {
     "f5": "No offer document on SEBI site",
-    "f8": "No offer document on SEBI site"
+    "f8": "No offer document on SEBI site",
+    "f4": "Bidding 28-30 Oct; 0.65x at Day 2, final not available"
    },
    "passed": 4,
    "fails": 1,
@@ -6567,7 +6586,7 @@
     "ocf": 12.0,
     "ocf_unit": "cr"
    },
-   "f3_ind": "F"
+   "f3_ind": "P"
   },
   {
    "company": "Swastika Infra",
@@ -6787,7 +6806,7 @@
     "ocf": 297.0,
     "ocf_unit": "cr"
    },
-   "f3_ind": "F"
+   "f3_ind": "P"
   },
   {
    "company": "Varmora Granito",
@@ -7332,7 +7351,7 @@
     "ocf": -74.0,
     "ocf_unit": "cr"
    },
-   "f3_ind": "F"
+   "f3_ind": "P"
   },
   {
    "company": "Manipal Payment & Identity",
@@ -7765,6 +7784,231 @@
     "ocf_unit": "cr"
    },
    "f3_ind": "F"
+  },
+  {
+   "company": "Gaja Alternative Asset Management",
+   "group": "Listed",
+   "new": true,
+   "timing": "26-Aug",
+   "flag": "Fresh Rs 450 cr + OFS Rs 100 cr (Rs 550 cr, band 152-160); anchors Rs 165 cr; post P/E 27.54x; promoter 71.03% pre / 54.23% post",
+   "source_url": "https://www.chittorgarh.com/ipo/gaja-alternative-asset-management-ipo/2527/",
+   "source_label": "Chittorgarh",
+   "listed_on": "2026-08-26",
+   "status": "Listed",
+   "post_pe": 27.54,
+   "sources": {
+    "f1": "Fresh Rs 450 cr of Rs 550 cr = 82% < 90% (Chittorgarh https://www.chittorgarh.com/ipo/gaja-alternative-asset-management-ipo/2527/)",
+    "f3": "Post-issue P/E 27.54x > 25x (Chittorgarh)",
+    "f4": "Final subscription 23.30x overall (Chittorgarh); category split locked on page, so QIB not verified",
+    "f5": "Mar 2026 (Screener https://www.screener.in/company/GAJA/consolidated/): operating cash flow -15 cr (fails); borrowings 53 / equity 606",
+    "f6": "Total income FY24 103.96 -> FY26 157.80 cr (CAGR 23.2%), PAT 44.74 -> 81.96 cr (Chittorgarh restated consolidated)",
+    "f7": "Promoter post-issue 54.23% (Chittorgarh); pledge not checked",
+    "status": "Listed on NSE/BSE 26 Aug 2026 (Chittorgarh)"
+   },
+   "u_reasons": {
+    "f2": "Rs 372 cr of Rs 458.85 cr objects is sponsor commitments to funds plus bridge-loan repayment; split not verified in RHP",
+    "f7": "No-pledge statement not yet checked in DRHP/RHP",
+    "f8": "Auditor qualification not checked; no SEBI document fetched"
+   },
+   "stale": {},
+   "soft": {
+    "f4": "total only"
+   },
+   "f1": "F",
+   "f2": "U",
+   "f3": "F",
+   "f4": "P",
+   "f5": "F",
+   "f6": "P",
+   "f7": "U",
+   "f8": "U",
+   "f3_ind": "F",
+   "passed": 2,
+   "fails": 3,
+   "unknown": 3,
+   "verdict": "Rejected",
+   "m": {
+    "price_band": "₹152 to ₹160",
+    "issue_price": 160.0,
+    "lot": "93 Shares",
+    "sale_type": "Fresh capital cum OFS",
+    "dates": "19 to 21 Aug, 2026",
+    "listed_on": "Wed, Aug 26, 2026",
+    "issue_cr": 550.0,
+    "fresh_cr": 450.0,
+    "ofs_cr": 100.0,
+    "fresh_pct": 81.8,
+    "objects": [
+     [
+      "Investing towards Sponsor Commitments to certain existing funds, new funds and for repayment of the Bridge Loan Amount as follows: (a) investing towards balance Sponsor Commitment to the following constituent funds of Fund IV and Bridge Loan Amount (i) Gaja Capital India Fund 2020 LLP; (ii) Gaja Capital India Fund 2020 (iii) Bridge Loan Amount (b) investing towards Sponsor Commitment to the proposed Fund V (c) investing towards Sponsor Commitment to the Secondaries Fund",
+      372.0
+     ],
+     [
+      "General Corporate Purposes",
+      44.25
+     ]
+    ],
+    "pe_pre": 22.04,
+    "pe_post": 27.54,
+    "eps_pre": 7.26,
+    "eps_post": 5.81,
+    "mcap_pre": 1806.16,
+    "mcap_post": 2256.16,
+    "promoter_pre": 71.03,
+    "promoter_post": 54.23,
+    "anchor_cr": 165.0,
+    "sub_total": 23.3,
+    "rev_cagr": 23.2,
+    "pat_cagr": 35.3,
+    "revenue": [
+     157.8,
+     123.31,
+     103.96
+    ],
+    "pat": [
+     81.96,
+     61.95,
+     44.74
+    ],
+    "periods": [
+     "31 Mar 2026",
+     "31 Mar 2025",
+     "31 Mar 2024"
+    ],
+    "borrowing": [
+     41.56,
+     4.0,
+     3.51
+    ],
+    "networth": [
+     606.52,
+     388.97,
+     331.88
+    ],
+    "de_calc": 0.07,
+    "roe": "16.47%",
+    "ronw": "13.13%",
+    "pat_margin": "51.94%",
+    "de": 0.07,
+    "de_period": "latest restated period (borrowing / net worth)",
+    "ocf": -15.0,
+    "ocf_unit": "cr"
+   }
+  },
+  {
+   "company": "Skyways Air Services",
+   "group": "Listed",
+   "new": true,
+   "timing": "01-Sep",
+   "flag": "Fresh Rs 398.8 cr + OFS Rs 184 cr (Rs 582.8 cr, price 138); debt repayment Rs 216.79 cr of Rs 415.82 cr objects; post P/E 31.58x; promoter 67% pre / 49.25% post; anchors Rs 174.54 cr",
+   "source_url": "https://www.chittorgarh.com/ipo/skyways-air-ipo/2510/",
+   "source_label": "Chittorgarh",
+   "listed_on": "2026-09-01",
+   "status": "Listed",
+   "post_pe": 31.58,
+   "sources": {
+    "f1": "Fresh Rs 398.8 cr of Rs 582.8 cr = 68% < 90% (Chittorgarh)",
+    "f2": "Rs 216.79 cr of Rs 415.82 cr objects repays borrowings (Chittorgarh objects table)",
+    "f3": "Post-issue P/E 31.58x > 25x (Chittorgarh)",
+    "f4": "Final subscription 49.98x overall (Chittorgarh; other pages cite 49.91x/71.25x); category split locked, QIB not verified",
+    "f5": "Mar 2026 (Screener https://www.screener.in/company/SKYWAYS/consolidated/): borrowings 627 / equity 332 = D/E 1.88 > 1; operating cash flow 114 cr",
+    "f6": "Total income FY24 1,316.81 -> FY26 2,839.67 cr (CAGR 46.9%), PAT 34.49 -> 63.52 cr (Chittorgarh)",
+    "f7": "Promoter post-issue 49.25% < 50% (Chittorgarh)",
+    "status": "Listed on NSE/BSE 1 Sep 2026 (Chittorgarh)"
+   },
+   "u_reasons": {
+    "f8": "Auditor qualification not checked; no SEBI document fetched"
+   },
+   "stale": {},
+   "soft": {
+    "f4": "total only"
+   },
+   "f1": "F",
+   "f2": "F",
+   "f3": "F",
+   "f4": "P",
+   "f5": "F",
+   "f6": "P",
+   "f7": "F",
+   "f8": "U",
+   "f3_ind": "F",
+   "passed": 2,
+   "fails": 5,
+   "unknown": 1,
+   "verdict": "Rejected",
+   "m": {
+    "price_band": "₹131 to ₹138",
+    "issue_price": 138.0,
+    "lot": "100 Shares",
+    "sale_type": "Fresh capital cum OFS",
+    "dates": "24 to 27 Aug, 2026",
+    "listed_on": "Tue, Sep 1, 2026",
+    "issue_cr": 583.0,
+    "fresh_cr": 399.0,
+    "ofs_cr": 184.0,
+    "fresh_pct": 68.4,
+    "objects": [
+     [
+      "Repayment/pre-payment, in full or in part, of certain outstanding borrowings availed by the Company and Subsidiary Forin Container Line Pvt.Ltd..",
+      216.79
+     ],
+     [
+      "Funding incremental working capital requirements of the Company.",
+      130.0
+     ],
+     [
+      "General Corporate Purposes",
+      13.97
+     ]
+    ],
+    "pe_pre": 25.27,
+    "pe_post": 31.58,
+    "eps_pre": 5.46,
+    "eps_post": 4.37,
+    "mcap_pre": 1606.94,
+    "mcap_post": 2005.74,
+    "promoter_pre": 67.0,
+    "promoter_post": 49.25,
+    "anchor_cr": 174.54,
+    "sub_total": 49.98,
+    "rev_cagr": 46.8,
+    "pat_cagr": 35.7,
+    "revenue": [
+     2839.67,
+     2270.99,
+     1316.81
+    ],
+    "pat": [
+     63.52,
+     48.14,
+     34.49
+    ],
+    "periods": [
+     "31 Mar 2026",
+     "31 Mar 2025",
+     "31 Mar 2024"
+    ],
+    "borrowing": [
+     624.06,
+     558.43,
+     357.34
+    ],
+    "networth": [
+     332.64,
+     247.14,
+     154.26
+    ],
+    "de_calc": 1.88,
+    "roe": "14.15%",
+    "roce": "18.11%",
+    "ronw": "12.33%",
+    "pat_margin": "2.26%",
+    "ebitda_margin": "4.47%",
+    "de": 1.88,
+    "de_period": "latest restated period (borrowing / net worth)",
+    "ocf": 114.0,
+    "ocf_unit": "cr"
+   }
   }
  ],
  "sebi_note": "Only filings with FY26+ financials used for F5-F8. 51/53 IPOs have SEBI filings; most are older DRHPs. See u_reasons."
