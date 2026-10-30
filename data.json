@@ -1,6 +1,6 @@
 {
- "as_of": "2026-10-29T11:53:30.267888+05:30",
- "as_of_label": "Thu 29 Oct 2026, 11:53 IST",
+ "as_of": "2026-10-30T12:07:22.601621+05:30",
+ "as_of_label": "Fri 30 Oct 2026, 12:07 IST",
  "rows": [
   {
    "company": "HD Fire Protect",
@@ -1170,7 +1170,7 @@
     "ocf_unit": "mn",
     "ocf_period": "FY25 DRHP"
    },
-   "f3_ind": "P"
+   "f3_ind": "F"
   },
   {
    "company": "Rays of Belief",
@@ -1847,10 +1847,7 @@
     "promoter_pre": 23.96,
     "promoter_post": 19.31,
     "anchor_cr": 327.5,
-    "sub_total": 101.87,
-    "sub_qib": 230.54,
-    "sub_nii": 120.37,
-    "sub_retail": 20.41,
+    "sub_total": 71.4,
     "rev_cagr": 56.5,
     "pat_cagr": 19.1,
     "revenue": [
@@ -5478,7 +5475,7 @@
     "ocf": -920.03,
     "ocf_unit": "mn"
    },
-   "f3_ind": "F"
+   "f3_ind": "P"
   },
   {
    "company": "Hexagon Nutrition",
@@ -5690,30 +5687,30 @@
    "group": "Open / upcoming",
    "new": true,
    "timing": "Opens 27 Oct; closes 29 Oct; allotment 30 Oct; lists 3 Nov (tentative)",
-   "passed": 1,
+   "passed": 2,
    "fails": 5,
-   "unknown": 2,
+   "unknown": 1,
    "verdict": "Rejected",
    "flag": "Fresh Rs 150 cr (45.45 lakh sh) + OFS Rs 518 cr = Rs 668 cr (fresh 22%); band 313-330; net proceeds Rs 117.15 cr: debt prepayment 42.23, working capital 74.92; post-issue P/E ~541x on annualised Jun-26 earnings (pre 19.24x); promoter 48.18% pre / 41.18% post; total income FY24-26 676.74/726.96/821.27 cr, PAT 144.17/152.01/160.21 cr (CAGR 10.2% / 5.4%)",
    "source_url": "https://www.chittorgarh.com/ipo/sfc-environmental-technologies-ipo/",
    "source_label": "Chittorgarh",
    "listed_on": "",
-   "status": "Open now",
+   "status": "Closed",
    "sources": {
     "f1": "Fresh 45.45 lakh sh of 202.28 lakh sh = 22% (Chittorgarh https://www.chittorgarh.com/ipo/sfc-environmental-technologies-ipo/)",
     "f3": "Post-issue P/E ~541x vs 25x (Chittorgarh)",
     "f6": "Total income 676.74 -> 821.27 cr, PAT 144.17 -> 160.21 cr FY24-FY26 (Chittorgarh)",
     "f7": "Promoter post-issue 41.18% < 50% (Chittorgarh)",
-    "f8": "Anchor allocation exists; no auditor qualification (SEBI SFC ENVIRONMENTAL TECHNOLOGIES p.32). Confirm in RHP"
+    "f8": "Anchor allocation exists; no auditor qualification (SEBI SFC ENVIRONMENTAL TECHNOLOGIES p.32). Confirm in RHP",
+    "f4": "Final Day-3 subscription 9.47x overall, QIB 18.81x, NII 12.81x, retail 2.71x (Chittorgarh https://www.chittorgarh.com/ipo_subscription/sfc-environmental-technologies-ipo/2070/, 29 Oct 17:54). Page warns of a technical issue so exchange data may be inaccurate; re-verify"
    },
-   "u_reasons": {
-    "f4": "Bidding closes 29 Oct; only a 0.27x headline seen, no category-wise final"
-   },
+   "u_reasons": {},
    "stale": {
     "f8": "FY25"
    },
    "m": {
     "price_band": "₹313 to ₹330",
+    "issue_price": 330.0,
     "lot": "45 Shares",
     "sale_type": "Fresh capital cum OFS",
     "dates": "27 to 29 Oct, 2026",
@@ -5744,6 +5741,10 @@
     "promoter_pre": 48.18,
     "promoter_post": 41.18,
     "anchor_cr": 200.26,
+    "sub_total": 9.47,
+    "sub_qib": 18.81,
+    "sub_nii": 12.81,
+    "sub_retail": 2.71,
     "rev_cagr": 10.2,
     "pat_cagr": 5.4,
     "revenue": [
@@ -5791,27 +5792,30 @@
    "f1": "F",
    "f2": "U",
    "f3": "F",
-   "f4": "U",
+   "f4": "P",
    "f5": "F",
    "f6": "F",
    "f7": "F",
    "f8": "P",
-   "f3_ind": "F"
+   "f3_ind": "F",
+   "soft": {
+    "f4": "unverified exchange data"
+   }
   },
   {
    "company": "BLS Polymers",
    "group": "Open / upcoming",
    "new": true,
    "timing": "Opens 27 Oct; closes 29 Oct; allotment 30 Oct; lists 3 Nov (tentative)",
-   "passed": 5,
+   "passed": 6,
    "fails": 2,
-   "unknown": 1,
+   "unknown": 0,
    "verdict": "Provisional",
    "flag": "Fresh-only Rs 255 cr; band 142-150; objects: capex 77.56 cr, working capital 89.50 cr, GCP; post-issue P/E 22.73x (pre 25x); promoter 98.53% pre / 71.53% post (pledge unverified); total income FY24-26 301.50/336.70/354.41 cr (CAGR 8.4%), PAT 7.52/21.14/27.01 cr (CAGR 89.5%) - revenue CAGR below 15%",
    "source_url": "https://www.chittorgarh.com/ipo/bls-polymers-ipo/",
    "source_label": "Chittorgarh",
    "listed_on": "",
-   "status": "Open now",
+   "status": "Closed",
    "sources": {
     "f1": "Fresh capital only (Chittorgarh https://www.chittorgarh.com/ipo/bls-polymers-ipo/)",
     "f2": "Capex 77.56 + working capital 89.50 of 167.06 cr (Chittorgarh)",
@@ -5819,11 +5823,10 @@
     "f6": "Total income CAGR 8.4% < 15% (301.50 -> 354.41 cr FY24-FY26)",
     "f7": "Promoter post-issue 71.53% (pre 98.53%) - Chittorgarh; pledge not confirmed",
     "f8": "Anchor allocation exists; no auditor qualification (SEBI BLS Polymers Limited p.32). Confirm in RHP",
-    "f5": "SEBI BLS Polymers Limited (Aug 12, 2025): operating cash flow 2485.26 mn (p.52; prior 268.35, -891.56); D/E 1.11 (p.138)"
+    "f5": "SEBI BLS Polymers Limited (Aug 12, 2025): operating cash flow 2485.26 mn (p.52; prior 268.35, -891.56); D/E 1.11 (p.138)",
+    "f4": "Final Day-3 subscription 241.22x overall, QIB 200.25x, NII 559.20x, retail 128.36x (Chittorgarh https://www.chittorgarh.com/ipo_subscription/bls-polymers-ipo/2559/, 29 Oct 17:54). Page warns of a technical issue so exchange data may be inaccurate; re-verify"
    },
-   "u_reasons": {
-    "f4": "Bidding closes 29 Oct; 35.30x 'so far' headline only, no QIB/final data"
-   },
+   "u_reasons": {},
    "stale": {
     "f7": "pledge unconfirmed",
     "f8": "FY25",
@@ -5861,6 +5864,10 @@
     "promoter_pre": 98.53,
     "promoter_post": 71.53,
     "anchor_cr": 76.5,
+    "sub_total": 241.22,
+    "sub_qib": 200.25,
+    "sub_nii": 559.2,
+    "sub_retail": 128.36,
     "rev_cagr": 8.4,
     "pat_cagr": 89.5,
     "revenue": [
@@ -5907,12 +5914,15 @@
    "f1": "P",
    "f2": "P",
    "f3": "P",
-   "f4": "U",
+   "f4": "P",
    "f5": "F",
    "f6": "F",
    "f7": "P",
    "f8": "P",
-   "f3_ind": "P"
+   "f3_ind": "P",
+   "soft": {
+    "f4": "unverified exchange data"
+   }
   },
   {
    "company": "Bombay Coated and Special Steels",
@@ -5941,9 +5951,7 @@
     "f7": "Promoter post-issue 63.03% (pre 97.78%) - Chittorgarh; pledge not confirmed",
     "f8": "Anchor allocation exists; no auditor qualification (SEBI Bombay Coated and Special Stee p.35). Confirm in RHP"
    },
-   "u_reasons": {
-    "f4": "Bidding 29 Oct-2 Nov; subscription not available before close"
-   },
+   "u_reasons": {},
    "stale": {
     "f7": "pledge unconfirmed",
     "f8": "FY25"
@@ -5954,6 +5962,7 @@
    "verdict": "Provisional",
    "m": {
     "price_band": "₹78 to ₹82",
+    "issue_price": 82.0,
     "lot": "182 Shares",
     "sale_type": "Fresh capital only",
     "dates": "29 Oct to 2 Nov, 2026",
@@ -6059,8 +6068,7 @@
    "post_pe": 16.1,
    "u_reasons": {
     "f5": "No offer document on SEBI site",
-    "f8": "No offer document on SEBI site",
-    "f4": "Bidding 28-30 Oct; 0.65x at Day 2, final not available"
+    "f8": "No offer document on SEBI site"
    },
    "passed": 4,
    "fails": 1,
@@ -6428,10 +6436,7 @@
     "promoter_pre": 85.86,
     "promoter_post": 74.51,
     "anchor_cr": 120.9,
-    "sub_total": 12.23,
-    "sub_qib": 7.69,
-    "sub_nii": 25.8,
-    "sub_retail": 9.11,
+    "sub_total": 8.74,
     "rev_cagr": 4.3,
     "pat_cagr": 81.0,
     "revenue": [
@@ -6806,7 +6811,7 @@
     "ocf": 297.0,
     "ocf_unit": "cr"
    },
-   "f3_ind": "P"
+   "f3_ind": "F"
   },
   {
    "company": "Varmora Granito",
@@ -7351,7 +7356,7 @@
     "ocf": -74.0,
     "ocf_unit": "cr"
    },
-   "f3_ind": "P"
+   "f3_ind": "F"
   },
   {
    "company": "Manipal Payment & Identity",
@@ -7806,9 +7811,8 @@
     "status": "Listed on NSE/BSE 26 Aug 2026 (Chittorgarh)"
    },
    "u_reasons": {
-    "f2": "Rs 372 cr of Rs 458.85 cr objects is sponsor commitments to funds plus bridge-loan repayment; split not verified in RHP",
-    "f7": "No-pledge statement not yet checked in DRHP/RHP",
-    "f8": "Auditor qualification not checked; no SEBI document fetched"
+    "f7": "No offer document on SEBI site",
+    "f8": "No offer document on SEBI site"
    },
    "stale": {},
    "soft": {
@@ -7822,7 +7826,7 @@
    "f6": "P",
    "f7": "U",
    "f8": "U",
-   "f3_ind": "F",
+   "f3_ind": "P",
    "passed": 2,
    "fails": 3,
    "unknown": 3,
@@ -7917,7 +7921,7 @@
     "status": "Listed on NSE/BSE 1 Sep 2026 (Chittorgarh)"
    },
    "u_reasons": {
-    "f8": "Auditor qualification not checked; no SEBI document fetched"
+    "f8": "No offer document on SEBI site"
    },
    "stale": {},
    "soft": {
