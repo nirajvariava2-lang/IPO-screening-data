@@ -1,6 +1,6 @@
 {
- "as_of": "2026-10-30T12:07:22.601621+05:30",
- "as_of_label": "Fri 30 Oct 2026, 12:07 IST",
+ "as_of": "2026-10-31T10:50:30.566695+05:30",
+ "as_of_label": "Sat 31 Oct 2026, 10:50 IST",
  "rows": [
   {
    "company": "HD Fire Protect",
@@ -556,7 +556,9 @@
     "status": "Listed on NSE/BSE 23 Oct 2026 (Chittorgarh https://www.chittorgarh.com/ipo/sahajanand-medical-technologies-ipo/2550/)",
     "f5": "Mar 2026 (Screener https://www.screener.in/company/SMT/consolidated/): borrowings 306 / equity 696 = D/E 0.44; operating cash flow 105 cr"
    },
-   "u_reasons": {},
+   "u_reasons": {
+    "f6": "Restated revenue/PAT CAGR not yet found (not resolved in this run)"
+   },
    "stale": {
     "f8": "FY25"
    },
@@ -1355,10 +1357,7 @@
     "promoter_pre": 96.63,
     "promoter_post": 68.54,
     "anchor_cr": 91.17,
-    "sub_total": 30.42,
-    "sub_qib": 21.91,
-    "sub_nii": 56.77,
-    "sub_retail": 23.98,
+    "sub_total": 21.32,
     "rev_cagr": 21.7,
     "pat_cagr": 38.5,
     "revenue": [
@@ -2115,7 +2114,7 @@
     "ocf_unit": "mn",
     "ocf_period": "FY25 DRHP"
    },
-   "f3_ind": "P"
+   "f3_ind": "F"
   },
   {
    "company": "MV Electrosystems",
@@ -2291,10 +2290,7 @@
     "promoter_pre": 98.38,
     "promoter_post": 80.71,
     "anchor_cr": 165.6,
-    "sub_total": 97.28,
-    "sub_qib": 192.68,
-    "sub_nii": 121.9,
-    "sub_retail": 32.21,
+    "sub_total": 67.93,
     "rev_cagr": 33.3,
     "pat_cagr": 15.6,
     "revenue": [
@@ -5475,7 +5471,7 @@
     "ocf": -920.03,
     "ocf_unit": "mn"
    },
-   "f3_ind": "P"
+   "f3_ind": "F"
   },
   {
    "company": "Hexagon Nutrition",
@@ -5688,8 +5684,8 @@
    "new": true,
    "timing": "Opens 27 Oct; closes 29 Oct; allotment 30 Oct; lists 3 Nov (tentative)",
    "passed": 2,
-   "fails": 5,
-   "unknown": 1,
+   "fails": 6,
+   "unknown": 0,
    "verdict": "Rejected",
    "flag": "Fresh Rs 150 cr (45.45 lakh sh) + OFS Rs 518 cr = Rs 668 cr (fresh 22%); band 313-330; net proceeds Rs 117.15 cr: debt prepayment 42.23, working capital 74.92; post-issue P/E ~541x on annualised Jun-26 earnings (pre 19.24x); promoter 48.18% pre / 41.18% post; total income FY24-26 676.74/726.96/821.27 cr, PAT 144.17/152.01/160.21 cr (CAGR 10.2% / 5.4%)",
    "source_url": "https://www.chittorgarh.com/ipo/sfc-environmental-technologies-ipo/",
@@ -5702,7 +5698,8 @@
     "f6": "Total income 676.74 -> 821.27 cr, PAT 144.17 -> 160.21 cr FY24-FY26 (Chittorgarh)",
     "f7": "Promoter post-issue 41.18% < 50% (Chittorgarh)",
     "f8": "Anchor allocation exists; no auditor qualification (SEBI SFC ENVIRONMENTAL TECHNOLOGIES p.32). Confirm in RHP",
-    "f4": "Final Day-3 subscription 9.47x overall, QIB 18.81x, NII 12.81x, retail 2.71x (Chittorgarh https://www.chittorgarh.com/ipo_subscription/sfc-environmental-technologies-ipo/2070/, 29 Oct 17:54). Page warns of a technical issue so exchange data may be inaccurate; re-verify"
+    "f4": "Final Day-3 subscription 9.47x overall, QIB 18.81x, NII 12.81x, retail 2.71x (Chittorgarh https://www.chittorgarh.com/ipo_subscription/sfc-environmental-technologies-ipo/2070/, 29 Oct 17:54). Page warns of a technical issue so exchange data may be inaccurate; re-verify",
+    "f2": "Net proceeds Rs 117.15 cr: debt prepayment 42.23 + working capital 74.92 cr; no productive capex (Chittorgarh https://www.chittorgarh.com/ipo/sfc-environmental-technologies-ipo/)"
    },
    "u_reasons": {},
    "stale": {
@@ -5738,8 +5735,8 @@
     "eps_post": 0.61,
     "mcap_pre": 3082.57,
     "mcap_post": 3232.57,
-    "promoter_pre": 48.18,
-    "promoter_post": 41.18,
+    "promoter_pre": 45.24,
+    "promoter_post": 38.37,
     "anchor_cr": 200.26,
     "sub_total": 9.47,
     "sub_qib": 18.81,
@@ -5790,7 +5787,7 @@
     "ocf_period": "FY25 DRHP"
    },
    "f1": "F",
-   "f2": "U",
+   "f2": "F",
    "f3": "F",
    "f4": "P",
    "f5": "F",
@@ -5852,7 +5849,11 @@
      ],
      [
       "General Corporate Purposes",
-      null
+      62.94
+     ],
+     [
+      "Issue Expense",
+      25.0
      ]
     ],
     "pe_pre": 25.0,
@@ -6042,21 +6043,23 @@
    "company": "M.K.Sons Fine Jewels",
    "group": "Open / upcoming",
    "new": true,
-   "timing": "Opens 28 Oct; closes 30 Oct (lists tentative)",
+   "timing": "Opened 28 Oct; closed 30 Oct; lists 4 Nov (tentative)",
    "source_url": "https://www.chittorgarh.com/ipo/mksons-fine-jewels-ipo/3100/",
    "source_label": "Chittorgarh",
-   "status": "Open now",
+   "status": "Closed",
    "sources": {
     "f1": "Fresh issue 80.0% of Rs 275.0 cr (Chittorgarh https://www.chittorgarh.com/ipo/mksons-fine-jewels-ipo/3100/)",
     "f2": "New showroom + expansion Rs 152.84 cr of ~Rs 220 cr fresh; debt Rs 30 cr (Chittorgarh https://www.chittorgarh.com/ipo/mksons-fine-jewels-ipo/3100/)",
     "f3": "Post-issue P/E 16.1x vs 25x limit (Chittorgarh)",
     "f6": "Revenue CAGR 57.4%, PAT CAGR 151.8% (restated, Chittorgarh)",
-    "f7": "Post-issue promoter holding 69.8% (pre 100.0%) - Chittorgarh https://www.chittorgarh.com/ipo/mksons-fine-jewels-ipo/3100/; pledge not confirmed, check RHP"
+    "f7": "Post-issue promoter holding 69.8% (pre 100.0%) - Chittorgarh https://www.chittorgarh.com/ipo/mksons-fine-jewels-ipo/3100/; pledge not confirmed, check RHP",
+    "f4": "Final Day-3 subscription 5.09x overall, QIB ex-anchor 1.84x, NII 14.12x, retail 3.08x (Chittorgarh https://www.chittorgarh.com/ipo_subscription/mksons-fine-jewels-ipo/3100/, 30 Oct 17:54); anchors Rs 82.62 cr",
+    "f5": "D/E 0.41 (Mar 2026), 0.39 (Jun 2026) per Chittorgarh KPI - pass on D/E; operating cash flow not available (RHP not on SEBI site)"
    },
    "f1": "F",
    "f2": "P",
    "f3": "P",
-   "f4": "U",
+   "f4": "P",
    "f6": "P",
    "f7": "P",
    "f5": "U",
@@ -6067,13 +6070,13 @@
    "flag": "Chittorgarh: Fresh capital cum OFS, issue Rs 275.0 cr, band ₹153 to ₹162, post P/E 16.1, promoter 100.0% -> 69.8%, sub Nonex",
    "post_pe": 16.1,
    "u_reasons": {
-    "f5": "No offer document on SEBI site",
-    "f8": "No offer document on SEBI site"
+    "f5": "D/E 0.41 ok but operating cash flow not found (no offer document on SEBI site)",
+    "f8": "Anchors present (Rs 82.62 cr) but auditor qualification not verifiable: no offer document on SEBI site"
    },
-   "passed": 4,
+   "passed": 5,
    "fails": 1,
-   "unknown": 3,
-   "verdict": "Review",
+   "unknown": 2,
+   "verdict": "Provisional",
    "m": {
     "price_band": "₹153 to ₹162",
     "lot": "91 Shares",
@@ -6106,6 +6109,10 @@
     "promoter_pre": 100.0,
     "promoter_post": 69.8,
     "anchor_cr": 82.62,
+    "sub_total": 5.09,
+    "sub_qib": 1.84,
+    "sub_nii": 14.12,
+    "sub_retail": 3.08,
     "rev_cagr": 57.4,
     "pat_cagr": 151.8,
     "revenue": [
@@ -6220,10 +6227,7 @@
     "promoter_pre": 95.16,
     "promoter_post": 84.61,
     "anchor_cr": 148.95,
-    "sub_total": 2.64,
-    "sub_qib": 4.1,
-    "sub_nii": 4.14,
-    "sub_retail": 1.19,
+    "sub_total": 2.13,
     "rev_cagr": -12.8,
     "pat_cagr": 40.8,
     "revenue": [
@@ -6259,7 +6263,7 @@
     "ocf": -181.0,
     "ocf_unit": "cr"
    },
-   "f3_ind": "F"
+   "f3_ind": "P"
   },
   {
    "company": "Acevector (Snapdeal)",
@@ -6329,10 +6333,7 @@
     "promoter_pre": 64.11,
     "promoter_post": 49.96,
     "anchor_cr": 189.0,
-    "sub_total": 5.07,
-    "sub_qib": 3.42,
-    "sub_nii": 8.53,
-    "sub_retail": 4.83,
+    "sub_total": 3.28,
     "rev_cagr": 18.2,
     "revenue": [
      537.67,
@@ -6811,7 +6812,7 @@
     "ocf": 297.0,
     "ocf_unit": "cr"
    },
-   "f3_ind": "F"
+   "f3_ind": "P"
   },
   {
    "company": "Varmora Granito",
@@ -7356,7 +7357,7 @@
     "ocf": -74.0,
     "ocf_unit": "cr"
    },
-   "f3_ind": "F"
+   "f3_ind": "P"
   },
   {
    "company": "Manipal Payment & Identity",
