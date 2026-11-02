@@ -1,6 +1,6 @@
 {
- "as_of": "2026-10-31T10:50:30.566695+05:30",
- "as_of_label": "Sat 31 Oct 2026, 10:50 IST",
+ "as_of": "2026-11-02T10:22:45.275626+05:30",
+ "as_of_label": "Mon 02 Nov 2026, 10:22 IST",
  "rows": [
   {
    "company": "HD Fire Protect",
@@ -556,9 +556,7 @@
     "status": "Listed on NSE/BSE 23 Oct 2026 (Chittorgarh https://www.chittorgarh.com/ipo/sahajanand-medical-technologies-ipo/2550/)",
     "f5": "Mar 2026 (Screener https://www.screener.in/company/SMT/consolidated/): borrowings 306 / equity 696 = D/E 0.44; operating cash flow 105 cr"
    },
-   "u_reasons": {
-    "f6": "Restated revenue/PAT CAGR not yet found (not resolved in this run)"
-   },
+   "u_reasons": {},
    "stale": {
     "f8": "FY25"
    },
@@ -1129,10 +1127,7 @@
     "promoter_pre": 84.91,
     "promoter_post": 62.71,
     "anchor_cr": 65.52,
-    "sub_total": 125.16,
-    "sub_qib": 91.84,
-    "sub_nii": 312.99,
-    "sub_retail": 63.7,
+    "sub_total": 86.96,
     "rev_cagr": 28.0,
     "pat_cagr": 22.0,
     "revenue": [
@@ -1172,7 +1167,7 @@
     "ocf_unit": "mn",
     "ocf_period": "FY25 DRHP"
    },
-   "f3_ind": "F"
+   "f3_ind": "P"
   },
   {
    "company": "Rays of Belief",
@@ -1957,10 +1952,7 @@
     "promoter_pre": 84.34,
     "promoter_post": 62.81,
     "anchor_cr": 27.05,
-    "sub_total": 38.12,
-    "sub_qib": 28.05,
-    "sub_nii": 95.54,
-    "sub_retail": 19.26,
+    "sub_total": 26.95,
     "rev_cagr": -4.3,
     "pat_cagr": -14.8,
     "revenue": [
@@ -5608,6 +5600,7 @@
     "lot": "9 Shares",
     "sale_type": "OFS only",
     "dates": "26 to 28 Oct, 2026",
+    "listed_on": "Mon, Nov 2, 2026",
     "issue_cr": 1200.0,
     "ofs_cr": 1200.0,
     "fresh_pct": 0.0,
@@ -6070,8 +6063,8 @@
    "flag": "Chittorgarh: Fresh capital cum OFS, issue Rs 275.0 cr, band ₹153 to ₹162, post P/E 16.1, promoter 100.0% -> 69.8%, sub Nonex",
    "post_pe": 16.1,
    "u_reasons": {
-    "f5": "D/E 0.41 ok but operating cash flow not found (no offer document on SEBI site)",
-    "f8": "Anchors present (Rs 82.62 cr) but auditor qualification not verifiable: no offer document on SEBI site"
+    "f5": "No offer document on SEBI site",
+    "f8": "No offer document on SEBI site"
    },
    "passed": 5,
    "fails": 1,
@@ -6079,6 +6072,7 @@
    "verdict": "Provisional",
    "m": {
     "price_band": "₹153 to ₹162",
+    "issue_price": 162.0,
     "lot": "91 Shares",
     "sale_type": "Fresh capital cum OFS",
     "dates": "28 to 30 Oct, 2026",
@@ -6263,7 +6257,7 @@
     "ocf": -181.0,
     "ocf_unit": "cr"
    },
-   "f3_ind": "P"
+   "f3_ind": "F"
   },
   {
    "company": "Acevector (Snapdeal)",
@@ -6592,7 +6586,7 @@
     "ocf": 12.0,
     "ocf_unit": "cr"
    },
-   "f3_ind": "P"
+   "f3_ind": "F"
   },
   {
    "company": "Swastika Infra",
@@ -6812,7 +6806,7 @@
     "ocf": 297.0,
     "ocf_unit": "cr"
    },
-   "f3_ind": "P"
+   "f3_ind": "F"
   },
   {
    "company": "Varmora Granito",
@@ -7357,7 +7351,7 @@
     "ocf": -74.0,
     "ocf_unit": "cr"
    },
-   "f3_ind": "P"
+   "f3_ind": "F"
   },
   {
    "company": "Manipal Payment & Identity",
