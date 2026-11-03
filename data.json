@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-02T10:22:45.275626+05:30",
- "as_of_label": "Mon 02 Nov 2026, 10:22 IST",
+ "as_of": "2026-11-03T10:41:24.811819+05:30",
+ "as_of_label": "Tue 03 Nov 2026, 10:41 IST",
  "rows": [
   {
    "company": "HD Fire Protect",
@@ -3636,7 +3636,7 @@
     "ocf": 216.84,
     "ocf_unit": "mn"
    },
-   "f3_ind": "P"
+   "f3_ind": "F"
   },
   {
    "company": "Jindal Supreme",
@@ -5666,7 +5666,7 @@
    "f6": "P",
    "f7": "P",
    "f8": "P",
-   "f3_ind": "F",
+   "f3_ind": "P",
    "soft": {
     "f4": "final-day snapshot"
    }
@@ -5704,6 +5704,7 @@
     "lot": "45 Shares",
     "sale_type": "Fresh capital cum OFS",
     "dates": "27 to 29 Oct, 2026",
+    "listed_on": "Tue, Nov 3, 2026",
     "issue_cr": 668.0,
     "fresh_cr": 150.0,
     "ofs_cr": 518.0,
@@ -5719,7 +5720,11 @@
      ],
      [
       "General Corporate Purposes",
-      null
+      20.33
+     ],
+     [
+      "Issue Expense",
+      55.61
      ]
     ],
     "pe_pre": 19.24,
@@ -5828,6 +5833,7 @@
     "lot": "100 Shares",
     "sale_type": "Fresh capital only",
     "dates": "27 to 29 Oct, 2026",
+    "listed_on": "Tue, Nov 3, 2026",
     "issue_cr": 255.0,
     "fresh_cr": 255.0,
     "fresh_pct": 100.0,
@@ -5920,18 +5926,18 @@
   },
   {
    "company": "Bombay Coated and Special Steels",
-   "group": "Open / upcoming",
+   "group": "Closed / awaiting listing",
    "new": true,
-   "timing": "Opens 29 Oct; closes 2 Nov; allotment 3 Nov; lists 5 Nov (tentative)",
-   "flag": "Fresh-only Rs 183 cr; band 78-82; objects: debt repayment Rs 125 cr, equipment under lease Rs 15.77 cr, GCP (Chittorgarh); post-issue P/E 8.54x; promoter 97.78% pre / 63.03% post (pledge unverified); total income FY24-26 765.41/1058.65/1269.83 cr (CAGR 28.8%), PAT 21.14/28.67/30.54 cr (CAGR 20.2%); D/E 2.78 (Mar 2026) | F2: 125 of 140.77 cr is debt repayment | F5: D/E 2.78 > 1",
-   "source_url": "https://www.chittorgarh.com/ipo/bombay-coated-and-special-steels-ipo/2671/",
+   "timing": "Closed 2 Nov; allotment 3 Nov; lists 5 Nov (tentative)",
+   "flag": "Fresh-only Rs 183 cr; band 78-82; objects: debt repayment Rs 125 cr, equipment under lease Rs 15.77 cr, GCP (Chittorgarh); post-issue P/E 8.54x; promoter 97.78% pre / 63.03% post (pledge unverified); total income FY24-26 765.41/1058.65/1269.83 cr (CAGR 28.8%), PAT 21.14/28.67/30.54 cr (CAGR 20.2%); D/E 2.78 (Mar 2026) | F2: 125 of 140.77 cr is debt repayment | F5: D/E 2.78 > 1 | F4 PASS: 63.89x overall, QIB 37.32x",
+   "source_url": "https://www.chittorgarh.com/ipo_subscription/bombay-coated-and-special-steels-ipo/2671/",
    "source_label": "Chittorgarh",
    "listed_on": "",
-   "status": "Open now",
+   "status": "Closed",
    "f1": "P",
    "f2": "F",
    "f3": "P",
-   "f4": "U",
+   "f4": "P",
    "f5": "F",
    "f6": "P",
    "f7": "P",
@@ -5943,89 +5949,20 @@
     "f5": "Debt/Equity 2.78 (Mar 2026), 2.00 (Jun 2026) per Chittorgarh KPI; borrowing 338.45 / net worth 121.58 cr",
     "f6": "Total income 765.41 -> 1269.83 cr FY24-FY26 CAGR 28.8%; PAT 21.14 -> 30.54 cr CAGR 20.2% (Chittorgarh)",
     "f7": "Promoter post-issue 63.03% (pre 97.78%) - Chittorgarh; pledge not confirmed",
-    "f8": "Anchor allocation exists; no auditor qualification (SEBI Bombay Coated and Special Stee p.35). Confirm in RHP"
+    "f8": "Anchor allocation exists; no auditor qualification (SEBI Bombay Coated and Special Stee p.35). Confirm in RHP",
+    "f4": "Final subscription 63.89x overall, QIB (ex anchor) 37.32x, NII 166.44x (Chittorgarh https://www.chittorgarh.com/ipo_subscription/bombay-coated-and-special-steels-ipo/2671/, 2 Nov 2026 5:54 PM Day 3); anchor 65,97,500 shares (Rs 54.10 cr)",
+    "status": "Closed 2 Nov 2026; listing 5 Nov 2026 (Chittorgarh)"
    },
    "u_reasons": {},
    "stale": {
     "f7": "pledge unconfirmed",
     "f8": "FY25"
    },
-   "passed": 5,
+   "passed": 6,
    "fails": 2,
-   "unknown": 1,
+   "unknown": 0,
    "verdict": "Provisional",
    "m": {
-    "price_band": "₹78 to ₹82",
-    "issue_price": 82.0,
-    "lot": "182 Shares",
-    "sale_type": "Fresh capital only",
-    "dates": "29 Oct to 2 Nov, 2026",
-    "issue_cr": 183.0,
-    "fresh_cr": 183.0,
-    "fresh_pct": 100.0,
-    "objects": [
-     [
-      "Repayment/pre-payment, in full or in part, of certain borrowings availed by Company",
-      125.0
-     ],
-     [
-      "Financing the cost towards acquisition of capital equipment under existing lease arrangements with Siemens Financial Services Pvt.Ltd.",
-      15.77
-     ],
-     [
-      "General Corporate Purposes",
-      null
-     ]
-    ],
-    "pe_pre": 10.88,
-    "pe_post": 8.54,
-    "eps_pre": 7.54,
-    "eps_post": 9.6,
-    "mcap_pre": 332.1,
-    "mcap_post": 515.16,
-    "promoter_pre": 97.78,
-    "promoter_post": 63.03,
-    "anchor_cr": 54.1,
-    "rev_cagr": 28.8,
-    "pat_cagr": 20.2,
-    "revenue": [
-     397.55,
-     1269.83,
-     1058.65,
-     765.41
-    ],
-    "pat": [
-     15.08,
-     30.54,
-     28.67,
-     21.14
-    ],
-    "periods": [
-     "30 Jun 2026",
-     "31 Mar 2026",
-     "31 Mar 2025",
-     "31 Mar 2024"
-    ],
-    "borrowing": [
-     273.69,
-     338.45,
-     276.96,
-     234.16
-    ],
-    "networth": [
-     136.62,
-     121.58,
-     83.05,
-     54.36
-    ],
-    "de_calc": 2.0,
-    "roe": "11.65%",
-    "roce": "7.01%",
-    "ronw": "11.03%",
-    "pat_margin": "3.80%",
-    "ebitda_margin": "8.10%",
-    "de": 2.0,
-    "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 625.15,
     "ocf_unit": "mn",
     "ocf_period": "FY25 DRHP"
@@ -6091,7 +6028,7 @@
      ],
      [
       "General Corporate Purposes",
-      null
+      11.55
      ]
     ],
     "pe_pre": 13.36,
@@ -6586,7 +6523,7 @@
     "ocf": 12.0,
     "ocf_unit": "cr"
    },
-   "f3_ind": "F"
+   "f3_ind": "P"
   },
   {
    "company": "Swastika Infra",
@@ -6806,7 +6743,7 @@
     "ocf": 297.0,
     "ocf_unit": "cr"
    },
-   "f3_ind": "F"
+   "f3_ind": "P"
   },
   {
    "company": "Varmora Granito",
@@ -7124,7 +7061,7 @@
     "ocf": 23836.0,
     "ocf_unit": "cr"
    },
-   "f3_ind": "F"
+   "f3_ind": "P"
   },
   {
    "company": "Hero Motors",
