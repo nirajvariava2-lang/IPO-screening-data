@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-03T10:41:24.811819+05:30",
- "as_of_label": "Tue 03 Nov 2026, 10:41 IST",
+ "as_of": "2026-11-04T10:32:09.949446+05:30",
+ "as_of_label": "Wed 04 Nov 2026, 10:32 IST",
  "rows": [
   {
    "company": "HD Fire Protect",
@@ -43,8 +43,8 @@
     "sale_type": "OFS only",
     "dates": "13 to 15 Oct, 2026",
     "listed_on": "Wed, Oct 21, 2026",
-    "issue_cr": 712.0,
-    "ofs_cr": 712.0,
+    "issue_cr": 712.13,
+    "ofs_cr": 712.13,
     "fresh_pct": 0.0,
     "pe_pre": 40.69,
     "pe_post": 49.72,
@@ -252,9 +252,9 @@
     "sale_type": "Fresh capital cum OFS",
     "dates": "15 to 19 Oct, 2026",
     "listed_on": "Fri, Oct 23, 2026",
-    "issue_cr": 5012.0,
-    "fresh_cr": 2830.0,
-    "ofs_cr": 2182.0,
+    "issue_cr": 5012.33,
+    "fresh_cr": 2830.43,
+    "ofs_cr": 2181.9,
     "fresh_pct": 56.5,
     "objects": [
      [
@@ -367,8 +367,8 @@
     "sale_type": "OFS only",
     "dates": "15 to 19 Oct, 2026",
     "listed_on": "Fri, Oct 23, 2026",
-    "issue_cr": 852.0,
-    "ofs_cr": 852.0,
+    "issue_cr": 852.09,
+    "ofs_cr": 852.09,
     "fresh_pct": 0.0,
     "pe_pre": 78.83,
     "eps_pre": 8.88,
@@ -468,8 +468,8 @@
     "sale_type": "OFS only",
     "dates": "15 to 19 Oct, 2026",
     "listed_on": "Fri, Oct 23, 2026",
-    "issue_cr": 2534.0,
-    "ofs_cr": 2534.0,
+    "issue_cr": 2533.67,
+    "ofs_cr": 2533.67,
     "fresh_pct": 0.0,
     "pe_pre": 46.32,
     "pe_post": 37.07,
@@ -567,8 +567,8 @@
     "sale_type": "OFS only",
     "dates": "15 to 19 Oct, 2026",
     "listed_on": "Fri, Oct 23, 2026",
-    "issue_cr": 475.0,
-    "ofs_cr": 475.0,
+    "issue_cr": 475.48,
+    "ofs_cr": 475.48,
     "fresh_pct": 0.0,
     "pe_pre": 50.59,
     "pe_post": 57.91,
@@ -670,8 +670,8 @@
     "sale_type": "Fresh capital only",
     "dates": "21 to 23 Oct, 2026",
     "listed_on": "Wed, Oct 28, 2026",
-    "issue_cr": 30188.0,
-    "fresh_cr": 30188.0,
+    "issue_cr": 30187.65,
+    "fresh_cr": 30187.65,
     "fresh_pct": 100.0,
     "objects": [
      [
@@ -1001,8 +1001,8 @@
     "sale_type": "Fresh capital only",
     "dates": "30 Sep to 5 Oct, 2026",
     "listed_on": "Thu, Oct 8, 2026",
-    "issue_cr": 108.0,
-    "fresh_cr": 108.0,
+    "issue_cr": 108.35,
+    "fresh_cr": 108.35,
     "fresh_pct": 100.0,
     "objects": [
      [
@@ -1101,8 +1101,8 @@
     "sale_type": "Fresh capital only",
     "dates": "28 to 30 Sep, 2026",
     "listed_on": "Tue, Oct 6, 2026",
-    "issue_cr": 218.0,
-    "fresh_cr": 218.0,
+    "issue_cr": 218.4,
+    "fresh_cr": 218.4,
     "fresh_pct": 100.0,
     "objects": [
      [
@@ -1325,9 +1325,9 @@
     "sale_type": "Fresh capital cum OFS",
     "dates": "25 to 29 Sep, 2026",
     "listed_on": "Mon, Oct 5, 2026",
-    "issue_cr": 304.0,
+    "issue_cr": 303.9,
     "fresh_cr": 290.0,
-    "ofs_cr": 14.0,
+    "ofs_cr": 13.9,
     "fresh_pct": 95.4,
     "objects": [
      [
@@ -1430,10 +1430,10 @@
     "sale_type": "Fresh capital cum OFS",
     "dates": "7 to 9 Sep, 2026",
     "listed_on": "Tue, Sep 15, 2026",
-    "issue_cr": 351.0,
-    "fresh_cr": 316.0,
-    "ofs_cr": 35.0,
-    "fresh_pct": 90.0,
+    "issue_cr": 351.03,
+    "fresh_cr": 315.6,
+    "ofs_cr": 35.43,
+    "fresh_pct": 89.9,
     "objects": [
      [
       "Funding costs towards obtaining government and statutory approvals and purchase of additional FSI and cost towards Compensation to members towards alternate accommodation, and hardship compensation, in relation to the development of certain of the Under-construction Redevelopment Projects, and certain of the Upcoming Redevelopment Projects (Funding Redevelopment Expenses",
@@ -1538,8 +1538,8 @@
     "dates": "16 to 18 Sep, 2026",
     "listed_on": "Wed, Sep 23, 2026",
     "issue_cr": 500.0,
-    "fresh_cr": 360.0,
-    "ofs_cr": 140.0,
+    "fresh_cr": 360.16,
+    "ofs_cr": 139.84,
     "fresh_pct": 72.0,
     "objects": [
      [
@@ -1676,9 +1676,9 @@
     "sale_type": "Fresh capital cum OFS",
     "dates": "8 to 10 Sep, 2026",
     "listed_on": "Wed, Sep 16, 2026",
-    "issue_cr": 1056.0,
+    "issue_cr": 1055.74,
     "fresh_cr": 300.0,
-    "ofs_cr": 756.0,
+    "ofs_cr": 755.74,
     "fresh_pct": 28.4,
     "objects": [
      [
@@ -1814,9 +1814,9 @@
     "sale_type": "Fresh capital cum OFS",
     "dates": "24 to 28 Sep, 2026",
     "listed_on": "Thu, Oct 1, 2026",
-    "issue_cr": 1092.0,
+    "issue_cr": 1091.68,
     "fresh_cr": 750.0,
-    "ofs_cr": 342.0,
+    "ofs_cr": 341.68,
     "fresh_pct": 68.7,
     "objects": [
      [
@@ -1930,8 +1930,8 @@
     "sale_type": "Fresh capital only",
     "dates": "28 to 30 Sep, 2026",
     "listed_on": "Tue, Oct 6, 2026",
-    "issue_cr": 90.0,
-    "fresh_cr": 90.0,
+    "issue_cr": 90.17,
+    "fresh_cr": 90.17,
     "fresh_pct": 100.0,
     "objects": [
      [
@@ -2035,8 +2035,8 @@
     "sale_type": "Fresh capital only",
     "dates": "23 to 25 Jun, 2026",
     "listed_on": "Wed, Jul 1, 2026",
-    "issue_cr": 165.0,
-    "fresh_cr": 165.0,
+    "issue_cr": 165.16,
+    "fresh_cr": 165.16,
     "fresh_pct": 100.0,
     "objects": [
      [
@@ -2370,9 +2370,9 @@
     "sale_type": "Fresh capital cum OFS",
     "dates": "5 to 7 Aug, 2026",
     "listed_on": "Wed, Aug 12, 2026",
-    "issue_cr": 426.0,
+    "issue_cr": 425.87,
     "fresh_cr": 320.0,
-    "ofs_cr": 106.0,
+    "ofs_cr": 105.87,
     "fresh_pct": 75.1,
     "objects": [
      [
@@ -2583,10 +2583,10 @@
     "sale_type": "Fresh capital cum OFS",
     "dates": "9 to 11 Sep, 2026",
     "listed_on": "Thu, Sep 17, 2026",
-    "issue_cr": 1256.0,
-    "fresh_cr": 150.0,
-    "ofs_cr": 1106.0,
-    "fresh_pct": 11.9,
+    "issue_cr": 1255.57,
+    "fresh_cr": 150.06,
+    "ofs_cr": 1105.51,
+    "fresh_pct": 12.0,
     "objects": [
      [
       "Repayment/ prepayment, in full or in part, of certain outstanding borrowings and accrued interest thereon availed by our Company",
@@ -2793,9 +2793,9 @@
     "sale_type": "Fresh capital cum OFS",
     "dates": "9 to 11 Sep, 2026",
     "listed_on": "Thu, Sep 17, 2026",
-    "issue_cr": 427.0,
+    "issue_cr": 427.14,
     "fresh_cr": 258.0,
-    "ofs_cr": 169.0,
+    "ofs_cr": 169.14,
     "fresh_pct": 60.4,
     "objects": [
      [
@@ -2906,9 +2906,9 @@
     "sale_type": "Fresh capital cum OFS",
     "dates": "10 to 12 Aug, 2026",
     "listed_on": "Mon, Aug 17, 2026",
-    "issue_cr": 940.0,
-    "fresh_cr": 200.0,
-    "ofs_cr": 740.0,
+    "issue_cr": 939.7,
+    "fresh_cr": 200.12,
+    "ofs_cr": 739.57,
     "fresh_pct": 21.3,
     "objects": [
      [
@@ -3018,8 +3018,8 @@
     "dates": "17 to 19 Aug, 2026",
     "listed_on": "Mon, Aug 24, 2026",
     "issue_cr": 1700.0,
-    "fresh_cr": 1200.0,
-    "ofs_cr": 500.0,
+    "fresh_cr": 1200.18,
+    "ofs_cr": 499.82,
     "fresh_pct": 70.6,
     "objects": [
      [
@@ -3126,8 +3126,8 @@
     "dates": "11 to 13 Aug, 2026",
     "listed_on": "Tue, Aug 18, 2026",
     "issue_cr": 1553.0,
-    "fresh_cr": 1428.0,
-    "ofs_cr": 125.0,
+    "fresh_cr": 1428.02,
+    "ofs_cr": 124.98,
     "fresh_pct": 92.0,
     "objects": [
      [
@@ -3348,10 +3348,10 @@
     "sale_type": "Fresh capital cum OFS",
     "dates": "1 to 3 Sep, 2026",
     "listed_on": "Tue, Sep 8, 2026",
-    "issue_cr": 460.0,
+    "issue_cr": 459.72,
     "fresh_cr": 250.0,
-    "ofs_cr": 210.0,
-    "fresh_pct": 54.3,
+    "ofs_cr": 209.72,
+    "fresh_pct": 54.4,
     "objects": [
      [
       "Funding long-term working capital requirements towards procurement, maintenance and scaling up of inventory by the Company",
@@ -3453,10 +3453,10 @@
     "sale_type": "Fresh capital cum OFS",
     "dates": "11 to 16 Sep, 2026",
     "listed_on": "Mon, Sep 21, 2026",
-    "issue_cr": 125.0,
-    "fresh_cr": 92.0,
+    "issue_cr": 125.5,
+    "fresh_cr": 92.5,
     "ofs_cr": 33.0,
-    "fresh_pct": 73.6,
+    "fresh_pct": 73.7,
     "objects": [
      [
       "Funding the capital expenditure towards purchase of plant and machinery",
@@ -3574,10 +3574,10 @@
     "sale_type": "Fresh capital cum OFS",
     "dates": "7 to 11 Aug, 2026",
     "listed_on": "Fri, Aug 14, 2026",
-    "issue_cr": 252.0,
-    "fresh_cr": 202.0,
-    "ofs_cr": 50.0,
-    "fresh_pct": 80.2,
+    "issue_cr": 251.88,
+    "fresh_cr": 201.51,
+    "ofs_cr": 50.37,
+    "fresh_pct": 80.0,
     "objects": [
      [
       "Funding working capital requirements of the Company",
@@ -3676,9 +3676,9 @@
     "sale_type": "Fresh capital cum OFS",
     "dates": "16 to 18 Sep, 2026",
     "listed_on": "Wed, Sep 23, 2026",
-    "issue_cr": 125.0,
-    "fresh_cr": 100.0,
-    "ofs_cr": 25.0,
+    "issue_cr": 124.88,
+    "fresh_cr": 99.89,
+    "ofs_cr": 24.99,
     "fresh_pct": 80.0,
     "objects": [
      [
@@ -3786,10 +3786,10 @@
     "sale_type": "Fresh capital cum OFS",
     "dates": "24 to 27 Aug, 2026",
     "listed_on": "Tue, Sep 1, 2026",
-    "issue_cr": 136.0,
+    "issue_cr": 135.73,
     "fresh_cr": 60.0,
-    "ofs_cr": 76.0,
-    "fresh_pct": 44.1,
+    "ofs_cr": 75.73,
+    "fresh_pct": 44.2,
     "objects": [
      [
       "Funding capital expenditure requirement of the Company towards procurement of machinery and equipment for expansion at Kavathe Unit, Shirwal Unit and procurement Pithampur Unit-I",
@@ -4005,10 +4005,10 @@
     "sale_type": "Fresh capital cum OFS",
     "dates": "23 to 25 Sep, 2026",
     "listed_on": "Wed, Sep 30, 2026",
-    "issue_cr": 151.0,
-    "fresh_cr": 133.0,
-    "ofs_cr": 18.0,
-    "fresh_pct": 88.1,
+    "issue_cr": 150.71,
+    "fresh_cr": 132.62,
+    "ofs_cr": 18.09,
+    "fresh_pct": 88.0,
     "objects": [
      [
       "Funding capital expenditure by the Company towards procurement of; (i) machinery and equipment for enhancement of operations at Dewas Facility; and (ii) transportation vehicle for local transportation of goods between the Manufacturing Facilities",
@@ -4343,9 +4343,9 @@
     "sale_type": "Fresh capital cum OFS",
     "dates": "12 to 14 Aug, 2026",
     "listed_on": "Wed, Aug 19, 2026",
-    "issue_cr": 302.0,
+    "issue_cr": 301.62,
     "fresh_cr": 93.0,
-    "ofs_cr": 209.0,
+    "ofs_cr": 208.62,
     "fresh_pct": 30.8,
     "objects": [
      [
@@ -4467,10 +4467,10 @@
     "sale_type": "Fresh capital cum OFS",
     "dates": "18 to 20 Aug, 2026",
     "listed_on": "Tue, Aug 25, 2026",
-    "issue_cr": 282.0,
-    "fresh_cr": 173.0,
-    "ofs_cr": 109.0,
-    "fresh_pct": 61.3,
+    "issue_cr": 282.14,
+    "fresh_cr": 172.8,
+    "ofs_cr": 109.34,
+    "fresh_pct": 61.2,
     "objects": [
      [
       "Funding the working capital requirements of the Company",
@@ -4565,8 +4565,8 @@
     "sale_type": "Fresh capital only",
     "dates": "28 Aug to 1 Sep, 2026",
     "listed_on": "Fri, Sep 4, 2026",
-    "issue_cr": 92.0,
-    "fresh_cr": 92.0,
+    "issue_cr": 91.5,
+    "fresh_cr": 91.5,
     "fresh_pct": 100.0,
     "objects": [
      [
@@ -4677,10 +4677,10 @@
     "sale_type": "Fresh capital cum OFS",
     "dates": "1 to 3 Jul, 2026",
     "listed_on": "Wed, Jul 8, 2026",
-    "issue_cr": 439.0,
-    "fresh_cr": 380.0,
-    "ofs_cr": 59.0,
-    "fresh_pct": 86.6,
+    "issue_cr": 439.5,
+    "fresh_cr": 380.03,
+    "ofs_cr": 59.47,
+    "fresh_pct": 86.5,
     "objects": [
      [
       "Partial funding of capital expenditure towards setting up of new manufacturing facility at Borisana situated at Kadi, Mehsana, Gujarat.",
@@ -4786,10 +4786,10 @@
     "sale_type": "Fresh capital cum OFS",
     "dates": "12 to 14 Aug, 2026",
     "listed_on": "Wed, Aug 19, 2026",
-    "issue_cr": 1617.0,
-    "fresh_cr": 886.0,
-    "ofs_cr": 732.0,
-    "fresh_pct": 54.8,
+    "issue_cr": 1617.48,
+    "fresh_cr": 885.55,
+    "ofs_cr": 731.94,
+    "fresh_pct": 54.7,
     "objects": [
      [
       "Investment in the growth of Shiprockets platforms-Investment in marketing initiatives primarily for Emerging Business and for Core Business",
@@ -4897,10 +4897,10 @@
     "sale_type": "Fresh capital cum OFS",
     "dates": "10 to 12 Aug, 2026",
     "listed_on": "Mon, Aug 17, 2026",
-    "issue_cr": 3067.0,
-    "fresh_cr": 1400.0,
-    "ofs_cr": 1667.0,
-    "fresh_pct": 45.6,
+    "issue_cr": 3066.89,
+    "fresh_cr": 1400.33,
+    "ofs_cr": 1666.56,
+    "fresh_pct": 45.7,
     "objects": [
      [
       "Repayment/prepayment, in full or in part, of all or certain outstanding borrowings availed by the Company",
@@ -5012,9 +5012,9 @@
     "sale_type": "Fresh capital cum OFS",
     "dates": "23 to 27 Jul, 2026",
     "listed_on": "Thu, Jul 30, 2026",
-    "issue_cr": 3812.0,
-    "fresh_cr": 501.0,
-    "ofs_cr": 3311.0,
+    "issue_cr": 3812.11,
+    "fresh_cr": 500.78,
+    "ofs_cr": 3311.33,
     "fresh_pct": 13.1,
     "objects": [
      [
@@ -5119,8 +5119,8 @@
     "sale_type": "OFS only",
     "dates": "14 to 16 Jul, 2026",
     "listed_on": "Tue, Jul 21, 2026",
-    "issue_cr": 9795.0,
-    "ofs_cr": 9795.0,
+    "issue_cr": 9795.32,
+    "ofs_cr": 9795.32,
     "fresh_pct": 0.0,
     "pe_pre": 38.12,
     "pe_post": 38.12,
@@ -5407,8 +5407,8 @@
     "sale_type": "OFS only",
     "dates": "3 to 5 Jun, 2026",
     "listed_on": "Wed, Jun 10, 2026",
-    "issue_cr": 631.0,
-    "ofs_cr": 631.0,
+    "issue_cr": 630.62,
+    "ofs_cr": 630.62,
     "fresh_pct": 0.0,
     "pe_pre": 27.13,
     "pe_post": 19.42,
@@ -5507,8 +5507,8 @@
     "sale_type": "OFS only",
     "dates": "5 to 9 Jun, 2026",
     "listed_on": "Fri, Jun 12, 2026",
-    "issue_cr": 139.0,
-    "ofs_cr": 139.0,
+    "issue_cr": 138.87,
+    "ofs_cr": 138.87,
     "fresh_pct": 0.0,
     "pe_pre": 22.69,
     "pe_post": 15.35,
@@ -5567,9 +5567,9 @@
   },
   {
    "company": "EAAA India Alternatives",
-   "group": "Open / upcoming",
+   "group": "Listed",
    "new": true,
-   "timing": "Opened 26 Oct; closed 28 Oct; allotment 29 Oct; lists 2 Nov (tentative)",
+   "timing": "02-Nov",
    "passed": 5,
    "fails": 3,
    "unknown": 0,
@@ -5577,8 +5577,8 @@
    "flag": "100% OFS up to Rs 1,200 cr (Edelweiss Securities & Investments, promoter) - no proceeds to company; band 1,585-1,665; post-issue P/E 33.35x (Chittorgarh); promoter 88.24% pre / 64.51% post (Chittorgarh promoter table) (pledge unverified); total income FY24-26 584.25/786.54/963.76 cr, PAT 175.16/229.78/265.20 cr (CAGR 28.4% / 23.0%)",
    "source_url": "https://www.chittorgarh.com/ipo/eaaa-india-alternatives-ipo/",
    "source_label": "Chittorgarh",
-   "listed_on": "",
-   "status": "Closed",
+   "listed_on": "2026-11-02",
+   "status": "Listed",
    "sources": {
     "f1": "Entirely OFS (Chittorgarh https://www.chittorgarh.com/ipo/eaaa-india-alternatives-ipo/)",
     "f3": "Post-issue P/E 33.35x vs 25x (Chittorgarh)",
@@ -5586,7 +5586,8 @@
     "f7": "Promoter post-issue 83.88% (pre 95.03%) per Chittorgarh 29 Oct refresh; pledge not confirmed",
     "f8": "Anchor allocation exists; no auditor qualification (SEBI EAAA India Alternatives Limite p.22). Confirm in RHP",
     "f5": "SEBI EAAA India Alternatives Limited - DRHP (Jan 22, 2026): operating cash flow 1627.43 mn (p.308; prior -1201.69, -132.7); D/E 0.5 (p.230)",
-    "f4": "Final-day (28 Oct 17:54) subscription 5.51x overall, QIB 13.80x, NII 4.81x, retail 1.08x (Chittorgarh); a news headline on the page cites a conflicting 0.35x, so confirm against the official final"
+    "f4": "Final-day (28 Oct 17:54) subscription 5.51x overall, QIB 13.80x, NII 4.81x, retail 1.08x (Chittorgarh); a news headline on the page cites a conflicting 0.35x, so confirm against the official final",
+    "status": "Listed on NSE/BSE 2026-11-02 (Chittorgarh IPO page, \"Listed on\")"
    },
    "u_reasons": {},
    "stale": {
@@ -5673,9 +5674,9 @@
   },
   {
    "company": "SFC Environmental Technologies",
-   "group": "Open / upcoming",
+   "group": "Listed",
    "new": true,
-   "timing": "Opens 27 Oct; closes 29 Oct; allotment 30 Oct; lists 3 Nov (tentative)",
+   "timing": "03-Nov",
    "passed": 2,
    "fails": 6,
    "unknown": 0,
@@ -5683,8 +5684,8 @@
    "flag": "Fresh Rs 150 cr (45.45 lakh sh) + OFS Rs 518 cr = Rs 668 cr (fresh 22%); band 313-330; net proceeds Rs 117.15 cr: debt prepayment 42.23, working capital 74.92; post-issue P/E ~541x on annualised Jun-26 earnings (pre 19.24x); promoter 48.18% pre / 41.18% post; total income FY24-26 676.74/726.96/821.27 cr, PAT 144.17/152.01/160.21 cr (CAGR 10.2% / 5.4%)",
    "source_url": "https://www.chittorgarh.com/ipo/sfc-environmental-technologies-ipo/",
    "source_label": "Chittorgarh",
-   "listed_on": "",
-   "status": "Closed",
+   "listed_on": "2026-11-03",
+   "status": "Listed",
    "sources": {
     "f1": "Fresh 45.45 lakh sh of 202.28 lakh sh = 22% (Chittorgarh https://www.chittorgarh.com/ipo/sfc-environmental-technologies-ipo/)",
     "f3": "Post-issue P/E ~541x vs 25x (Chittorgarh)",
@@ -5692,7 +5693,8 @@
     "f7": "Promoter post-issue 41.18% < 50% (Chittorgarh)",
     "f8": "Anchor allocation exists; no auditor qualification (SEBI SFC ENVIRONMENTAL TECHNOLOGIES p.32). Confirm in RHP",
     "f4": "Final Day-3 subscription 9.47x overall, QIB 18.81x, NII 12.81x, retail 2.71x (Chittorgarh https://www.chittorgarh.com/ipo_subscription/sfc-environmental-technologies-ipo/2070/, 29 Oct 17:54). Page warns of a technical issue so exchange data may be inaccurate; re-verify",
-    "f2": "Net proceeds Rs 117.15 cr: debt prepayment 42.23 + working capital 74.92 cr; no productive capex (Chittorgarh https://www.chittorgarh.com/ipo/sfc-environmental-technologies-ipo/)"
+    "f2": "Net proceeds Rs 117.15 cr: debt prepayment 42.23 + working capital 74.92 cr; no productive capex (Chittorgarh https://www.chittorgarh.com/ipo/sfc-environmental-technologies-ipo/)",
+    "status": "Listed on NSE/BSE 2026-11-03 (Chittorgarh IPO page, \"Listed on\")"
    },
    "u_reasons": {},
    "stale": {
@@ -5705,9 +5707,9 @@
     "sale_type": "Fresh capital cum OFS",
     "dates": "27 to 29 Oct, 2026",
     "listed_on": "Tue, Nov 3, 2026",
-    "issue_cr": 668.0,
+    "issue_cr": 667.53,
     "fresh_cr": 150.0,
-    "ofs_cr": 518.0,
+    "ofs_cr": 517.53,
     "fresh_pct": 22.5,
     "objects": [
      [
@@ -5799,9 +5801,9 @@
   },
   {
    "company": "BLS Polymers",
-   "group": "Open / upcoming",
+   "group": "Listed",
    "new": true,
-   "timing": "Opens 27 Oct; closes 29 Oct; allotment 30 Oct; lists 3 Nov (tentative)",
+   "timing": "03-Nov",
    "passed": 6,
    "fails": 2,
    "unknown": 0,
@@ -5809,8 +5811,8 @@
    "flag": "Fresh-only Rs 255 cr; band 142-150; objects: capex 77.56 cr, working capital 89.50 cr, GCP; post-issue P/E 22.73x (pre 25x); promoter 98.53% pre / 71.53% post (pledge unverified); total income FY24-26 301.50/336.70/354.41 cr (CAGR 8.4%), PAT 7.52/21.14/27.01 cr (CAGR 89.5%) - revenue CAGR below 15%",
    "source_url": "https://www.chittorgarh.com/ipo/bls-polymers-ipo/",
    "source_label": "Chittorgarh",
-   "listed_on": "",
-   "status": "Closed",
+   "listed_on": "2026-11-03",
+   "status": "Listed",
    "sources": {
     "f1": "Fresh capital only (Chittorgarh https://www.chittorgarh.com/ipo/bls-polymers-ipo/)",
     "f2": "Capex 77.56 + working capital 89.50 of 167.06 cr (Chittorgarh)",
@@ -5819,7 +5821,8 @@
     "f7": "Promoter post-issue 71.53% (pre 98.53%) - Chittorgarh; pledge not confirmed",
     "f8": "Anchor allocation exists; no auditor qualification (SEBI BLS Polymers Limited p.32). Confirm in RHP",
     "f5": "SEBI BLS Polymers Limited (Aug 12, 2025): operating cash flow 2485.26 mn (p.52; prior 268.35, -891.56); D/E 1.11 (p.138)",
-    "f4": "Final Day-3 subscription 241.22x overall, QIB 200.25x, NII 559.20x, retail 128.36x (Chittorgarh https://www.chittorgarh.com/ipo_subscription/bls-polymers-ipo/2559/, 29 Oct 17:54). Page warns of a technical issue so exchange data may be inaccurate; re-verify"
+    "f4": "Final Day-3 subscription 241.22x overall, QIB 200.25x, NII 559.20x, retail 128.36x (Chittorgarh https://www.chittorgarh.com/ipo_subscription/bls-polymers-ipo/2559/, 29 Oct 17:54). Page warns of a technical issue so exchange data may be inaccurate; re-verify",
+    "status": "Listed on NSE/BSE 2026-11-03 (Chittorgarh IPO page, \"Listed on\")"
    },
    "u_reasons": {},
    "stale": {
@@ -6013,9 +6016,10 @@
     "lot": "91 Shares",
     "sale_type": "Fresh capital cum OFS",
     "dates": "28 to 30 Oct, 2026",
-    "issue_cr": 275.0,
-    "fresh_cr": 220.0,
-    "ofs_cr": 55.0,
+    "listed_on": "Wed, Nov 4, 2026",
+    "issue_cr": 275.4,
+    "fresh_cr": 220.32,
+    "ofs_cr": 55.08,
     "fresh_pct": 80.0,
     "objects": [
      [
@@ -6346,8 +6350,8 @@
     "dates": "24 to 28 Sep, 2026",
     "listed_on": "Thu, Oct 1, 2026",
     "issue_cr": 405.0,
-    "fresh_cr": 355.0,
-    "ofs_cr": 50.0,
+    "fresh_cr": 355.02,
+    "ofs_cr": 49.98,
     "fresh_pct": 87.7,
     "objects": [
      [
@@ -6523,7 +6527,7 @@
     "ocf": 12.0,
     "ocf_unit": "cr"
    },
-   "f3_ind": "P"
+   "f3_ind": "F"
   },
   {
    "company": "Swastika Infra",
@@ -6570,10 +6574,10 @@
     "sale_type": "Fresh capital cum OFS",
     "dates": "23 to 25 Sep, 2026",
     "listed_on": "Wed, Sep 30, 2026",
-    "issue_cr": 161.0,
-    "fresh_cr": 128.0,
-    "ofs_cr": 32.0,
-    "fresh_pct": 79.5,
+    "issue_cr": 160.87,
+    "fresh_cr": 128.5,
+    "ofs_cr": 32.38,
+    "fresh_pct": 79.9,
     "objects": [
      [
       "Funding of incremental working capital requirements of the company",
@@ -6743,7 +6747,7 @@
     "ocf": 297.0,
     "ocf_unit": "cr"
    },
-   "f3_ind": "P"
+   "f3_ind": "F"
   },
   {
    "company": "Varmora Granito",
@@ -6792,9 +6796,9 @@
     "sale_type": "Fresh capital cum OFS",
     "dates": "22 to 24 Sep, 2026",
     "listed_on": "Tue, Sep 29, 2026",
-    "issue_cr": 708.0,
+    "issue_cr": 708.02,
     "fresh_cr": 320.0,
-    "ofs_cr": 388.0,
+    "ofs_cr": 388.02,
     "fresh_pct": 45.2,
     "objects": [
      [
@@ -6904,8 +6908,8 @@
     "sale_type": "Fresh capital only",
     "dates": "17 to 21 Sep, 2026",
     "listed_on": "Thu, Sep 24, 2026",
-    "issue_cr": 142.0,
-    "fresh_cr": 142.0,
+    "issue_cr": 141.57,
+    "fresh_cr": 141.57,
     "fresh_pct": 100.0,
     "objects": [
      [
@@ -7017,8 +7021,8 @@
     "sale_type": "OFS only",
     "dates": "17 to 21 Sep, 2026",
     "listed_on": "Thu, Sep 24, 2026",
-    "issue_cr": 22563.0,
-    "ofs_cr": 22563.0,
+    "issue_cr": 22562.71,
+    "ofs_cr": 22562.71,
     "fresh_pct": 0.0,
     "pe_pre": 42.89,
     "pe_post": 35.4,
@@ -7450,8 +7454,8 @@
     "sale_type": "OFS only",
     "dates": "9 to 11 Sep, 2026",
     "listed_on": "Thu, Sep 17, 2026",
-    "issue_cr": 733.0,
-    "ofs_cr": 733.0,
+    "issue_cr": 732.97,
+    "ofs_cr": 732.97,
     "fresh_pct": 0.0,
     "pe_pre": 11.08,
     "pe_post": 11.08,
@@ -7879,8 +7883,8 @@
     "sale_type": "Fresh capital cum OFS",
     "dates": "24 to 27 Aug, 2026",
     "listed_on": "Tue, Sep 1, 2026",
-    "issue_cr": 583.0,
-    "fresh_cr": 399.0,
+    "issue_cr": 582.8,
+    "fresh_cr": 398.8,
     "ofs_cr": 184.0,
     "fresh_pct": 68.4,
     "objects": [
