@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-04T10:32:09.949446+05:30",
- "as_of_label": "Wed 04 Nov 2026, 10:32 IST",
+ "as_of": "2026-11-05T10:19:43.633896+05:30",
+ "as_of_label": "Thu 05 Nov 2026, 10:19 IST",
  "rows": [
   {
    "company": "HD Fire Protect",
@@ -2106,7 +2106,7 @@
     "ocf_unit": "mn",
     "ocf_period": "FY25 DRHP"
    },
-   "f3_ind": "F"
+   "f3_ind": "P"
   },
   {
    "company": "MV Electrosystems",
@@ -5929,14 +5929,14 @@
   },
   {
    "company": "Bombay Coated and Special Steels",
-   "group": "Closed / awaiting listing",
+   "group": "Listed",
    "new": true,
-   "timing": "Closed 2 Nov; allotment 3 Nov; lists 5 Nov (tentative)",
+   "timing": "05-Nov",
    "flag": "Fresh-only Rs 183 cr; band 78-82; objects: debt repayment Rs 125 cr, equipment under lease Rs 15.77 cr, GCP (Chittorgarh); post-issue P/E 8.54x; promoter 97.78% pre / 63.03% post (pledge unverified); total income FY24-26 765.41/1058.65/1269.83 cr (CAGR 28.8%), PAT 21.14/28.67/30.54 cr (CAGR 20.2%); D/E 2.78 (Mar 2026) | F2: 125 of 140.77 cr is debt repayment | F5: D/E 2.78 > 1 | F4 PASS: 63.89x overall, QIB 37.32x",
    "source_url": "https://www.chittorgarh.com/ipo_subscription/bombay-coated-and-special-steels-ipo/2671/",
    "source_label": "Chittorgarh",
-   "listed_on": "",
-   "status": "Closed",
+   "listed_on": "2026-11-05",
+   "status": "Listed",
    "f1": "P",
    "f2": "F",
    "f3": "P",
@@ -5954,7 +5954,7 @@
     "f7": "Promoter post-issue 63.03% (pre 97.78%) - Chittorgarh; pledge not confirmed",
     "f8": "Anchor allocation exists; no auditor qualification (SEBI Bombay Coated and Special Stee p.35). Confirm in RHP",
     "f4": "Final subscription 63.89x overall, QIB (ex anchor) 37.32x, NII 166.44x (Chittorgarh https://www.chittorgarh.com/ipo_subscription/bombay-coated-and-special-steels-ipo/2671/, 2 Nov 2026 5:54 PM Day 3); anchor 65,97,500 shares (Rs 54.10 cr)",
-    "status": "Closed 2 Nov 2026; listing 5 Nov 2026 (Chittorgarh)"
+    "status": "Listed on NSE/BSE 2026-11-05 (Chittorgarh IPO list, https://www.chittorgarh.com/report/ipo-in-india-list-main-board-sme/82/)"
    },
    "u_reasons": {},
    "stale": {
@@ -5974,12 +5974,12 @@
   },
   {
    "company": "M.K.Sons Fine Jewels",
-   "group": "Open / upcoming",
+   "group": "Listed",
    "new": true,
-   "timing": "Opened 28 Oct; closed 30 Oct; lists 4 Nov (tentative)",
+   "timing": "04-Nov",
    "source_url": "https://www.chittorgarh.com/ipo/mksons-fine-jewels-ipo/3100/",
    "source_label": "Chittorgarh",
-   "status": "Closed",
+   "status": "Listed",
    "sources": {
     "f1": "Fresh issue 80.0% of Rs 275.0 cr (Chittorgarh https://www.chittorgarh.com/ipo/mksons-fine-jewels-ipo/3100/)",
     "f2": "New showroom + expansion Rs 152.84 cr of ~Rs 220 cr fresh; debt Rs 30 cr (Chittorgarh https://www.chittorgarh.com/ipo/mksons-fine-jewels-ipo/3100/)",
@@ -5987,7 +5987,8 @@
     "f6": "Revenue CAGR 57.4%, PAT CAGR 151.8% (restated, Chittorgarh)",
     "f7": "Post-issue promoter holding 69.8% (pre 100.0%) - Chittorgarh https://www.chittorgarh.com/ipo/mksons-fine-jewels-ipo/3100/; pledge not confirmed, check RHP",
     "f4": "Final Day-3 subscription 5.09x overall, QIB ex-anchor 1.84x, NII 14.12x, retail 3.08x (Chittorgarh https://www.chittorgarh.com/ipo_subscription/mksons-fine-jewels-ipo/3100/, 30 Oct 17:54); anchors Rs 82.62 cr",
-    "f5": "D/E 0.41 (Mar 2026), 0.39 (Jun 2026) per Chittorgarh KPI - pass on D/E; operating cash flow not available (RHP not on SEBI site)"
+    "f5": "Mar 2026 (Screener https://www.screener.in/company/MKJEWELS/): borrowings 74 / equity 168 = D/E 0.44; operating cash flow 15 cr",
+    "status": "Listed on NSE/BSE 2026-11-04 (Chittorgarh IPO list, https://www.chittorgarh.com/report/ipo-in-india-list-main-board-sme/82/)"
    },
    "f1": "F",
    "f2": "P",
@@ -5995,7 +5996,7 @@
    "f4": "P",
    "f6": "P",
    "f7": "P",
-   "f5": "U",
+   "f5": "P",
    "f8": "U",
    "stale": {
     "f7": "pledge unconfirmed"
@@ -6003,12 +6004,11 @@
    "flag": "Chittorgarh: Fresh capital cum OFS, issue Rs 275.0 cr, band ₹153 to ₹162, post P/E 16.1, promoter 100.0% -> 69.8%, sub Nonex",
    "post_pe": 16.1,
    "u_reasons": {
-    "f5": "No offer document on SEBI site",
     "f8": "No offer document on SEBI site"
    },
-   "passed": 5,
+   "passed": 6,
    "fails": 1,
-   "unknown": 2,
+   "unknown": 1,
    "verdict": "Provisional",
    "m": {
     "price_band": "₹153 to ₹162",
@@ -6089,7 +6089,8 @@
     "de": 0.39,
     "de_period": "latest restated period (borrowing / net worth)"
    },
-   "f3_ind": "P"
+   "f3_ind": "P",
+   "listed_on": "2026-11-04"
   },
   {
    "company": "Runwal Enterprises",
@@ -6747,7 +6748,7 @@
     "ocf": 297.0,
     "ocf_unit": "cr"
    },
-   "f3_ind": "F"
+   "f3_ind": "P"
   },
   {
    "company": "Varmora Granito",
@@ -7065,7 +7066,7 @@
     "ocf": 23836.0,
     "ocf_unit": "cr"
    },
-   "f3_ind": "P"
+   "f3_ind": "F"
   },
   {
    "company": "Hero Motors",
@@ -7292,7 +7293,7 @@
     "ocf": -74.0,
     "ocf_unit": "cr"
    },
-   "f3_ind": "F"
+   "f3_ind": "P"
   },
   {
    "company": "Manipal Payment & Identity",
@@ -7762,7 +7763,7 @@
    "f6": "P",
    "f7": "U",
    "f8": "U",
-   "f3_ind": "P",
+   "f3_ind": "F",
    "passed": 2,
    "fails": 3,
    "unknown": 3,
