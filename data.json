@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-05T10:19:43.633896+05:30",
- "as_of_label": "Thu 05 Nov 2026, 10:19 IST",
+ "as_of": "2026-11-06T16:35:02.279237+05:30",
+ "as_of_label": "Fri 06 Nov 2026, 16:35 IST",
  "rows": [
   {
    "company": "HD Fire Protect",
@@ -2106,7 +2106,7 @@
     "ocf_unit": "mn",
     "ocf_period": "FY25 DRHP"
    },
-   "f3_ind": "P"
+   "f3_ind": "F"
   },
   {
    "company": "MV Electrosystems",
@@ -3636,7 +3636,7 @@
     "ocf": 216.84,
     "ocf_unit": "mn"
    },
-   "f3_ind": "F"
+   "f3_ind": "P"
   },
   {
    "company": "Jindal Supreme",
@@ -6087,7 +6087,9 @@
     "pat_margin": "14.80%",
     "ebitda_margin": "23.09%",
     "de": 0.39,
-    "de_period": "latest restated period (borrowing / net worth)"
+    "de_period": "latest restated period (borrowing / net worth)",
+    "ocf": 15.0,
+    "ocf_unit": "cr"
    },
    "f3_ind": "P",
    "listed_on": "2026-11-04"
@@ -6528,7 +6530,7 @@
     "ocf": 12.0,
     "ocf_unit": "cr"
    },
-   "f3_ind": "F"
+   "f3_ind": "P"
   },
   {
    "company": "Swastika Infra",
@@ -7066,7 +7068,7 @@
     "ocf": 23836.0,
     "ocf_unit": "cr"
    },
-   "f3_ind": "F"
+   "f3_ind": "P"
   },
   {
    "company": "Hero Motors",
@@ -7293,7 +7295,7 @@
     "ocf": -74.0,
     "ocf_unit": "cr"
    },
-   "f3_ind": "P"
+   "f3_ind": "F"
   },
   {
    "company": "Manipal Payment & Identity",
@@ -7763,7 +7765,7 @@
    "f6": "P",
    "f7": "U",
    "f8": "U",
-   "f3_ind": "F",
+   "f3_ind": "P",
    "passed": 2,
    "fails": 3,
    "unknown": 3,
