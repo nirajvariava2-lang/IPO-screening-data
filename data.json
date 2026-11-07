@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-06T16:35:02.279237+05:30",
- "as_of_label": "Fri 06 Nov 2026, 16:35 IST",
+ "as_of": "2026-11-07T10:00:53.528435+05:30",
+ "as_of_label": "Sat 07 Nov 2026, 10:00 IST",
  "rows": [
   {
    "company": "HD Fire Protect",
@@ -917,10 +917,7 @@
     "mcap_post": 580.6,
     "promoter_pre": 73.42,
     "promoter_post": 49.4,
-    "sub_total": 1.79,
-    "sub_qib": 1.33,
-    "sub_nii": 1.89,
-    "sub_retail": 1.75,
+    "sub_total": 1.53,
     "rev_cagr": 17.8,
     "pat_cagr": 169.1,
     "revenue": [
@@ -1022,10 +1019,7 @@
     "mcap_post": 431.95,
     "promoter_pre": 58.1,
     "promoter_post": 43.51,
-    "sub_total": 2.26,
-    "sub_qib": 1.06,
-    "sub_nii": 2.05,
-    "sub_retail": 4.07,
+    "sub_total": 2.18,
     "rev_cagr": 94.7,
     "pat_cagr": 135.6,
     "revenue": [
@@ -2106,7 +2100,7 @@
     "ocf_unit": "mn",
     "ocf_period": "FY25 DRHP"
    },
-   "f3_ind": "F"
+   "f3_ind": "P"
   },
   {
    "company": "MV Electrosystems",
@@ -6530,7 +6524,7 @@
     "ocf": 12.0,
     "ocf_unit": "cr"
    },
-   "f3_ind": "P"
+   "f3_ind": "F"
   },
   {
    "company": "Swastika Infra",
@@ -6750,7 +6744,7 @@
     "ocf": 297.0,
     "ocf_unit": "cr"
    },
-   "f3_ind": "P"
+   "f3_ind": "F"
   },
   {
    "company": "Varmora Granito",
