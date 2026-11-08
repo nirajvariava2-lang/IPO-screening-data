@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-07T10:00:53.528435+05:30",
- "as_of_label": "Sat 07 Nov 2026, 10:00 IST",
+ "as_of": "2026-11-08T15:09:40.851335+05:30",
+ "as_of_label": "08 Nov 2026, 15:09 IST",
  "rows": [
   {
    "company": "HD Fire Protect",
@@ -6195,7 +6195,7 @@
     "ocf": -181.0,
     "ocf_unit": "cr"
    },
-   "f3_ind": "F"
+   "f3_ind": "P"
   },
   {
    "company": "Acevector (Snapdeal)",
@@ -6744,7 +6744,7 @@
     "ocf": 297.0,
     "ocf_unit": "cr"
    },
-   "f3_ind": "F"
+   "f3_ind": "P"
   },
   {
    "company": "Varmora Granito",
@@ -7289,7 +7289,7 @@
     "ocf": -74.0,
     "ocf_unit": "cr"
    },
-   "f3_ind": "F"
+   "f3_ind": "P"
   },
   {
    "company": "Manipal Payment & Identity",
