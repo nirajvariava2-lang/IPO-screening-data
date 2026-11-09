@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-08T15:09:40.851335+05:30",
- "as_of_label": "08 Nov 2026, 15:09 IST",
+ "as_of": "2026-11-09T10:33:32.946298+05:30",
+ "as_of_label": "09 Nov 2026, 10:33 IST",
  "rows": [
   {
    "company": "HD Fire Protect",
@@ -2100,7 +2100,7 @@
     "ocf_unit": "mn",
     "ocf_period": "FY25 DRHP"
    },
-   "f3_ind": "P"
+   "f3_ind": "F"
   },
   {
    "company": "MV Electrosystems",
@@ -6195,7 +6195,7 @@
     "ocf": -181.0,
     "ocf_unit": "cr"
    },
-   "f3_ind": "P"
+   "f3_ind": "F"
   },
   {
    "company": "Acevector (Snapdeal)",
