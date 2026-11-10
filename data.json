@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-09T10:33:32.946298+05:30",
- "as_of_label": "09 Nov 2026, 10:33 IST",
+ "as_of": "2026-11-10T19:03:58.409069+05:30",
+ "as_of_label": "10 Nov 2026, 19:03 IST",
  "rows": [
   {
    "company": "HD Fire Protect",
@@ -6744,7 +6744,7 @@
     "ocf": 297.0,
     "ocf_unit": "cr"
    },
-   "f3_ind": "P"
+   "f3_ind": "F"
   },
   {
    "company": "Varmora Granito",
@@ -7289,7 +7289,7 @@
     "ocf": -74.0,
     "ocf_unit": "cr"
    },
-   "f3_ind": "P"
+   "f3_ind": "F"
   },
   {
    "company": "Manipal Payment & Identity",
