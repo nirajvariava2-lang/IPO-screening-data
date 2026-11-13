@@ -1,7 +1,114 @@
 {
- "as_of": "2026-11-10T19:03:58.409069+05:30",
- "as_of_label": "10 Nov 2026, 19:03 IST",
+ "as_of": "2026-11-13T12:10:16.252793+05:30",
+ "as_of_label": "13 Nov 2026, 12:10 PM IST",
  "rows": [
+  {
+   "company": "Crystal Crop Protection",
+   "group": "Upcoming",
+   "new": true,
+   "timing": "18-Nov",
+   "passed": 3,
+   "fails": 1,
+   "unknown": 4,
+   "verdict": "Review",
+   "flag": "Fresh Rs 354.77 cr + OFS Rs 100.71 cr (77.9% fresh), band 259-272; Rs 270 cr of net proceeds go to debt repayment (F2 FAIL); post-issue P/E 13.08x (Chittorgarh); promoter post-issue 75.85%; revenue CAGR FY24-26 18.3%, PAT CAGR 28.9%. F4/F8 cannot be filled until bidding closes; F5 operating cash flow and F7 pledge not yet verified.",
+   "source_url": "https://www.chittorgarh.com/ipo/crystal-crop-protection-ipo/2813/",
+   "source_label": "Chittorgarh",
+   "f1": "P",
+   "f2": "F",
+   "f3": "P",
+   "f4": "U",
+   "f5": "U",
+   "f6": "P",
+   "f7": "U",
+   "f8": "U",
+   "status": "Upcoming",
+   "post_pe": 13.08,
+   "sources": {
+    "f1": "Fresh Rs 354.77 cr of Rs 455.49 cr issue (Chittorgarh https://www.chittorgarh.com/ipo/crystal-crop-protection-ipo/2813/)",
+    "f2": "Objects: Rs 247.94 cr + Rs 22.06 cr borrowings repayment of Rs 270 cr net proceeds; balance unidentified acquisitions/GCP (Chittorgarh)",
+    "f3": "Post-issue P/E 13.08x (Chittorgarh valuation table)",
+    "f6": "Total income Rs 2,271.71 cr (FY24) -> 3,180.98 cr (FY26): CAGR 18.3%; PAT 87.24 -> 144.91 cr: CAGR 28.9% (Chittorgarh restated consolidated)",
+    "f5": "Borrowings 820.04 / net worth 2,039.76 = D/E 0.40 (Mar 2026, Chittorgarh); operating cash flow not found"
+   },
+   "u_reasons": {
+    "f4": "Bidding opens 18 Nov; subscription not available before close",
+    "f5": "Operating cash flow not verified; needs RHP",
+    "f7": "Promoter post-issue 75.85% (Chittorgarh); pledge not verified, needs RHP",
+    "f8": "Anchors and auditor statement available only after RHP/anchor allotment"
+   },
+   "stale": {},
+   "m": {
+    "price_band": "₹259 to ₹272",
+    "lot": "55 Shares",
+    "sale_type": "Fresh capital cum OFS",
+    "dates": "18 to 20 Nov, 2026",
+    "issue_cr": 455.49,
+    "fresh_cr": 354.77,
+    "ofs_cr": 100.71,
+    "fresh_pct": 77.9,
+    "objects": [
+     [
+      "Repayment/pre-payment, in full or part, of certain borrowings availed by the Company",
+      247.94
+     ],
+     [
+      "Investment in Material Subsidiary namely Saffire Crop Science Private Limited for repayment/ pre-payment, in full or in part, of all or a portion of certain of its outstanding borrowings",
+      22.06
+     ],
+     [
+      "Funding inorganic growth through unidentified acquisitions and strategic initiatives and general corporate purposes",
+      null
+     ]
+    ],
+    "pe_pre": 28.19,
+    "pe_post": 8.17,
+    "eps_pre": 9.65,
+    "eps_post": 33.29,
+    "mcap_pre": 4083.17,
+    "mcap_post": 4438.18,
+    "promoter_pre": 84.92,
+    "promoter_post": 75.85,
+    "rev_cagr": 18.3,
+    "pat_cagr": 28.9,
+    "revenue": [
+     1209.21,
+     3180.98,
+     2731.94,
+     2271.71
+    ],
+    "pat": [
+     135.78,
+     144.91,
+     118.39,
+     87.24
+    ],
+    "periods": [
+     "30 Jun 2026",
+     "31 Mar 2026",
+     "31 Mar 2025",
+     "31 Mar 2024"
+    ],
+    "borrowing": [
+     952.02,
+     820.04,
+     947.02,
+     577.29
+    ],
+    "networth": [
+     null,
+     2039.76,
+     1600.1,
+     1488.39
+    ],
+    "roe": "6.91%",
+    "roce": "9.78%",
+    "ronw": "6.25%",
+    "pat_margin": "11.23%",
+    "ebitda_margin": "20.20%"
+   },
+   "f3_ind": "P"
+  },
   {
    "company": "HD Fire Protect",
    "group": "Listed",
@@ -2100,7 +2207,7 @@
     "ocf_unit": "mn",
     "ocf_period": "FY25 DRHP"
    },
-   "f3_ind": "F"
+   "f3_ind": "P"
   },
   {
    "company": "MV Electrosystems",
@@ -2539,7 +2646,7 @@
     "ocf": 216.25,
     "ocf_unit": "mn"
    },
-   "f3_ind": "P"
+   "f3_ind": "F"
   },
   {
    "company": "Rentomojo",
@@ -3630,7 +3737,7 @@
     "ocf": 216.84,
     "ocf_unit": "mn"
    },
-   "f3_ind": "P"
+   "f3_ind": "F"
   },
   {
    "company": "Jindal Supreme",
@@ -6195,7 +6302,7 @@
     "ocf": -181.0,
     "ocf_unit": "cr"
    },
-   "f3_ind": "F"
+   "f3_ind": "P"
   },
   {
    "company": "Acevector (Snapdeal)",
@@ -6744,7 +6851,7 @@
     "ocf": 297.0,
     "ocf_unit": "cr"
    },
-   "f3_ind": "F"
+   "f3_ind": "P"
   },
   {
    "company": "Varmora Granito",
@@ -7904,8 +8011,8 @@
     "eps_post": 4.37,
     "mcap_pre": 1606.94,
     "mcap_post": 2005.74,
-    "promoter_pre": 67.0,
-    "promoter_post": 49.25,
+    "promoter_pre": 79.14,
+    "promoter_post": 56.82,
     "anchor_cr": 174.54,
     "sub_total": 49.98,
     "rev_cagr": 46.8,
