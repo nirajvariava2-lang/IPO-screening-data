@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-13T12:10:16.252793+05:30",
- "as_of_label": "13 Nov 2026, 12:10 PM IST",
+ "as_of": "2026-11-14T11:25:26.676659+05:30",
+ "as_of_label": "14 Nov 2026, 11:25 AM IST",
  "rows": [
   {
    "company": "Crystal Crop Protection",
@@ -318,7 +318,7 @@
     "ocf": 1012.46,
     "ocf_unit": "mn"
    },
-   "f3_ind": "P"
+   "f3_ind": "F"
   },
   {
    "company": "Zetwerk Manufacturing",
@@ -2646,7 +2646,7 @@
     "ocf": 216.25,
     "ocf_unit": "mn"
    },
-   "f3_ind": "F"
+   "f3_ind": "P"
   },
   {
    "company": "Rentomojo",
@@ -6302,7 +6302,7 @@
     "ocf": -181.0,
     "ocf_unit": "cr"
    },
-   "f3_ind": "P"
+   "f3_ind": "F"
   },
   {
    "company": "Acevector (Snapdeal)",
@@ -6631,7 +6631,7 @@
     "ocf": 12.0,
     "ocf_unit": "cr"
    },
-   "f3_ind": "F"
+   "f3_ind": "P"
   },
   {
    "company": "Swastika Infra",
@@ -7169,7 +7169,7 @@
     "ocf": 23836.0,
     "ocf_unit": "cr"
    },
-   "f3_ind": "P"
+   "f3_ind": "F"
   },
   {
    "company": "Hero Motors",
@@ -7396,7 +7396,7 @@
     "ocf": -74.0,
     "ocf_unit": "cr"
    },
-   "f3_ind": "F"
+   "f3_ind": "P"
   },
   {
    "company": "Manipal Payment & Identity",
