@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-14T11:25:26.676659+05:30",
- "as_of_label": "14 Nov 2026, 11:25 AM IST",
+ "as_of": "2026-11-16T12:41:40.398940+05:30",
+ "as_of_label": "16 Nov 2026, 12:41 IST",
  "rows": [
   {
    "company": "Crystal Crop Protection",
@@ -108,6 +108,101 @@
     "ebitda_margin": "20.20%"
    },
    "f3_ind": "P"
+  },
+  {
+   "company": "Mahanadi Coalfields",
+   "group": "Upcoming",
+   "new": true,
+   "timing": "19-Nov",
+   "status": "Upcoming",
+   "source_url": "https://www.chittorgarh.com/ipo/mahanadi-coalfields-ipo/3247/",
+   "source_label": "Chittorgarh",
+   "f1": "F",
+   "f2": "F",
+   "f3": "P",
+   "f4": "U",
+   "f5": "U",
+   "f6": "F",
+   "f7": "U",
+   "f8": "U",
+   "post_pe": 9.22,
+   "flag": "100% OFS Rs 8,981.12 cr (0% fresh, F1/F2 FAIL), band 129-136; post-issue P/E 9.22x; revenue CAGR FY24-26 0.5%, PAT CAGR -4.9% (F6 FAIL); promoter post-issue 90% (Coal India/GoI). F4/F8 pending bidding close; F5 operating cash flow and F7 pledge not verified.",
+   "sources": {
+    "f1": "Offer is entirely OFS by Coal India (Chittorgarh IPO Details)",
+    "f2": "No fresh issue; no proceeds to company (Chittorgarh Objects)",
+    "f3": "Post-issue P/E 9.22x (Chittorgarh valuation table)",
+    "f6": "Total income 33,590.34 cr (FY24) -> 33,899.28 cr (FY26) CAGR 0.5%; PAT 11,841.55 -> 10,698.12 cr CAGR -4.9% (Chittorgarh restated)",
+    "f5": "Borrowings 3.16 / net worth 21,371.23 cr (Mar 2026) D/E ~0; operating cash flow not found",
+    "f7": "Promoter 100% pre, 90% post-issue (Chittorgarh); pledge not verified"
+   },
+   "u_reasons": {
+    "f4": "Bidding opens 19 Nov",
+    "f5": "Operating cash flow not verified; needs RHP",
+    "f7": "Pledge not verified, needs RHP",
+    "f8": "Anchors/auditor statement only after RHP/anchor allotment"
+   },
+   "stale": {},
+   "m": {
+    "price_band": "₹129 to ₹136",
+    "lot": "110 Shares",
+    "sale_type": "OFS only",
+    "dates": "19 to 23 Nov, 2026",
+    "issue_cr": 8981.12,
+    "ofs_cr": 8981.12,
+    "fresh_pct": 0.0,
+    "pe_pre": 8.42,
+    "pe_post": 9.22,
+    "eps_pre": 16.16,
+    "eps_post": 14.75,
+    "mcap_pre": 90009.74,
+    "mcap_post": 90009.74,
+    "promoter_pre": 100.0,
+    "promoter_post": 90.0,
+    "rev_cagr": 0.5,
+    "pat_cagr": -5.0,
+    "revenue": [
+     17107.83,
+     33899.28,
+     33028.65,
+     33590.34
+    ],
+    "pat": [
+     4880.66,
+     10698.12,
+     10825.12,
+     11841.55
+    ],
+    "periods": [
+     "30 Sep 2026",
+     "31 Mar 2026",
+     "31 Mar 2025",
+     "31 Mar 2024"
+    ],
+    "borrowing": [
+     2.76,
+     3.16,
+     3.35,
+     3.95
+    ],
+    "networth": [
+     22399.8,
+     21371.23,
+     18343.49,
+     16119.91
+    ],
+    "de_calc": 0.0,
+    "roce": "30.44%",
+    "ronw": "22.29%",
+    "pat_margin": "28.43%",
+    "ebitda_margin": "43.63%",
+    "de": 0.0,
+    "de_period": "latest restated period (borrowing / net worth)"
+   },
+   "f3_ind": "P",
+   "passed": 1,
+   "fails": 3,
+   "unknown": 4,
+   "verdict": "Rejected"
   },
   {
    "company": "HD Fire Protect",
@@ -2207,7 +2302,7 @@
     "ocf_unit": "mn",
     "ocf_period": "FY25 DRHP"
    },
-   "f3_ind": "P"
+   "f3_ind": "F"
   },
   {
    "company": "MV Electrosystems",
@@ -2646,7 +2741,7 @@
     "ocf": 216.25,
     "ocf_unit": "mn"
    },
-   "f3_ind": "P"
+   "f3_ind": "F"
   },
   {
    "company": "Rentomojo",
@@ -6631,7 +6726,7 @@
     "ocf": 12.0,
     "ocf_unit": "cr"
    },
-   "f3_ind": "P"
+   "f3_ind": "F"
   },
   {
    "company": "Swastika Infra",
@@ -7169,7 +7264,7 @@
     "ocf": 23836.0,
     "ocf_unit": "cr"
    },
-   "f3_ind": "F"
+   "f3_ind": "P"
   },
   {
    "company": "Hero Motors",
