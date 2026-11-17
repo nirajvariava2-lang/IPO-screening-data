@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-16T12:41:40.398940+05:30",
- "as_of_label": "16 Nov 2026, 12:41 IST",
+ "as_of": "2026-11-17T11:11:28.919788+05:30",
+ "as_of_label": "17 Nov 2026, 11:11 IST",
  "rows": [
   {
    "company": "Crystal Crop Protection",
@@ -32,10 +32,9 @@
     "f5": "Borrowings 820.04 / net worth 2,039.76 = D/E 0.40 (Mar 2026, Chittorgarh); operating cash flow not found"
    },
    "u_reasons": {
-    "f4": "Bidding opens 18 Nov; subscription not available before close",
-    "f5": "Operating cash flow not verified; needs RHP",
-    "f7": "Promoter post-issue 75.85% (Chittorgarh); pledge not verified, needs RHP",
-    "f8": "Anchors and auditor statement available only after RHP/anchor allotment"
+    "f5": "No offer document on SEBI site",
+    "f7": "No offer document on SEBI site",
+    "f8": "No offer document on SEBI site"
    },
    "stale": {},
    "m": {
@@ -136,10 +135,9 @@
     "f7": "Promoter 100% pre, 90% post-issue (Chittorgarh); pledge not verified"
    },
    "u_reasons": {
-    "f4": "Bidding opens 19 Nov",
-    "f5": "Operating cash flow not verified; needs RHP",
-    "f7": "Pledge not verified, needs RHP",
-    "f8": "Anchors/auditor statement only after RHP/anchor allotment"
+    "f5": "No offer document on SEBI site",
+    "f7": "No offer document on SEBI site",
+    "f8": "No offer document on SEBI site"
    },
    "stale": {},
    "m": {
@@ -257,10 +255,7 @@
     "promoter_pre": 100.0,
     "promoter_post": 85.0,
     "anchor_cr": 213.11,
-    "sub_total": 131.73,
-    "sub_qib": 256.65,
-    "sub_nii": 203.21,
-    "sub_retail": 30.55,
+    "sub_total": 91.95,
     "rev_cagr": 13.5,
     "pat_cagr": 15.3,
     "revenue": [
@@ -6397,7 +6392,7 @@
     "ocf": -181.0,
     "ocf_unit": "cr"
    },
-   "f3_ind": "F"
+   "f3_ind": "P"
   },
   {
    "company": "Acevector (Snapdeal)",
@@ -7172,7 +7167,7 @@
     "ocf": -11.0,
     "ocf_unit": "cr"
    },
-   "f3_ind": "P"
+   "f3_ind": "F"
   },
   {
    "company": "National Stock Exchange (NSE)",
