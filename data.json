@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-17T11:11:28.919788+05:30",
- "as_of_label": "17 Nov 2026, 11:11 IST",
+ "as_of": "2026-11-19T10:07:14.654094+05:30",
+ "as_of_label": "19 Nov 2026, 10:07 IST",
  "rows": [
   {
    "company": "Crystal Crop Protection",
@@ -68,6 +68,7 @@
     "mcap_post": 4438.18,
     "promoter_pre": 84.92,
     "promoter_post": 75.85,
+    "anchor_cr": 135.96,
     "rev_cagr": 18.3,
     "pat_cagr": 28.9,
     "revenue": [
@@ -361,10 +362,7 @@
     "promoter_pre": 93.02,
     "promoter_post": 78.94,
     "anchor_cr": 315.9,
-    "sub_total": 4.68,
-    "sub_qib": 4.21,
-    "sub_nii": 4.73,
-    "sub_retail": 5.99,
+    "sub_total": 3.03,
     "rev_cagr": 34.6,
     "pat_cagr": 116.4,
     "revenue": [
@@ -753,7 +751,9 @@
     "status": "Listed on NSE/BSE 23 Oct 2026 (Chittorgarh https://www.chittorgarh.com/ipo/sahajanand-medical-technologies-ipo/2550/)",
     "f5": "Mar 2026 (Screener https://www.screener.in/company/SMT/consolidated/): borrowings 306 / equity 696 = D/E 0.44; operating cash flow 105 cr"
    },
-   "u_reasons": {},
+   "u_reasons": {
+    "f6": "Restated PAT history not available on Chittorgarh/Screener; offer document not located on SEBI site"
+   },
    "stale": {
     "f8": "FY25"
    },
@@ -7167,7 +7167,7 @@
     "ocf": -11.0,
     "ocf_unit": "cr"
    },
-   "f3_ind": "F"
+   "f3_ind": "P"
   },
   {
    "company": "National Stock Exchange (NSE)",
