@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-19T10:07:14.654094+05:30",
- "as_of_label": "19 Nov 2026, 10:07 IST",
+ "as_of": "2026-11-20T10:39:10.947541+05:30",
+ "as_of_label": "20 Nov 2026, 10:39 IST",
  "rows": [
   {
    "company": "Crystal Crop Protection",
@@ -157,6 +157,7 @@
     "mcap_post": 90009.74,
     "promoter_pre": 100.0,
     "promoter_post": 90.0,
+    "anchor_cr": 2295.25,
     "rev_cagr": 0.5,
     "pat_cagr": -5.0,
     "revenue": [
@@ -751,9 +752,7 @@
     "status": "Listed on NSE/BSE 23 Oct 2026 (Chittorgarh https://www.chittorgarh.com/ipo/sahajanand-medical-technologies-ipo/2550/)",
     "f5": "Mar 2026 (Screener https://www.screener.in/company/SMT/consolidated/): borrowings 306 / equity 696 = D/E 0.44; operating cash flow 105 cr"
    },
-   "u_reasons": {
-    "f6": "Restated PAT history not available on Chittorgarh/Screener; offer document not located on SEBI site"
-   },
+   "u_reasons": {},
    "stale": {
     "f8": "FY25"
    },
@@ -2628,7 +2627,7 @@
     "ocf_unit": "mn",
     "ocf_period": "FY25 DRHP"
    },
-   "f3_ind": "P"
+   "f3_ind": "F"
   },
   {
    "company": "Augmont Enterprises",
@@ -5455,7 +5454,7 @@
     "de": 1.14,
     "de_period": "latest restated period (borrowing / net worth)"
    },
-   "f3_ind": "P"
+   "f3_ind": "F"
   },
   {
    "company": "Kusumgar",
@@ -6941,7 +6940,7 @@
     "ocf": 297.0,
     "ocf_unit": "cr"
    },
-   "f3_ind": "P"
+   "f3_ind": "F"
   },
   {
    "company": "Varmora Granito",
@@ -7167,7 +7166,7 @@
     "ocf": -11.0,
     "ocf_unit": "cr"
    },
-   "f3_ind": "P"
+   "f3_ind": "F"
   },
   {
    "company": "National Stock Exchange (NSE)",
@@ -7486,7 +7485,7 @@
     "ocf": -74.0,
     "ocf_unit": "cr"
    },
-   "f3_ind": "P"
+   "f3_ind": "F"
   },
   {
    "company": "Manipal Payment & Identity",
