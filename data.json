@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-20T10:39:10.947541+05:30",
- "as_of_label": "20 Nov 2026, 10:39 IST",
+ "as_of": "2026-11-21T12:19:09.696628+05:30",
+ "as_of_label": "21 Nov 2026, 12:19 IST",
  "rows": [
   {
    "company": "Crystal Crop Protection",
@@ -32,9 +32,10 @@
     "f5": "Borrowings 820.04 / net worth 2,039.76 = D/E 0.40 (Mar 2026, Chittorgarh); operating cash flow not found"
    },
    "u_reasons": {
-    "f5": "No offer document on SEBI site",
-    "f7": "No offer document on SEBI site",
-    "f8": "No offer document on SEBI site"
+    "f4": "Not available from SEBI/NSE sources yet",
+    "f5": "Borrowings 820.04 / net worth 2,039.76 = D/E 0.40 (Mar 2026, Chittorgarh); operating cash flow not found",
+    "f7": "Not available from SEBI/NSE sources yet",
+    "f8": "Not available from SEBI/NSE sources yet"
    },
    "stale": {},
    "m": {
@@ -69,6 +70,10 @@
     "promoter_pre": 84.92,
     "promoter_post": 75.85,
     "anchor_cr": 135.96,
+    "sub_total": 17.68,
+    "sub_qib": 15.81,
+    "sub_nii": 39.16,
+    "sub_retail": 9.71,
     "rev_cagr": 18.3,
     "pat_cagr": 28.9,
     "revenue": [
@@ -136,9 +141,10 @@
     "f7": "Promoter 100% pre, 90% post-issue (Chittorgarh); pledge not verified"
    },
    "u_reasons": {
-    "f5": "No offer document on SEBI site",
-    "f7": "No offer document on SEBI site",
-    "f8": "No offer document on SEBI site"
+    "f4": "Not available from SEBI/NSE sources yet",
+    "f5": "Borrowings 3.16 / net worth 21,371.23 cr (Mar 2026) D/E ~0; operating cash flow not found",
+    "f7": "Promoter 100% pre, 90% post-issue (Chittorgarh); pledge not verified",
+    "f8": "Not available from SEBI/NSE sources yet"
    },
    "stale": {},
    "m": {
@@ -473,10 +479,7 @@
     "promoter_pre": 21.08,
     "promoter_post": 15.71,
     "anchor_cr": 2251.23,
-    "sub_total": 3.1,
-    "sub_qib": 4.71,
-    "sub_nii": 1.45,
-    "sub_retail": 0.77,
+    "sub_total": 2.16,
     "rev_cagr": 13.4,
     "revenue": [
      4195.7,
@@ -573,10 +576,7 @@
     "promoter_pre": 18.58,
     "promoter_post": 14.56,
     "anchor_cr": 255.36,
-    "sub_total": 132.81,
-    "sub_qib": 293.56,
-    "sub_nii": 156.36,
-    "sub_retail": 31.11,
+    "sub_total": 94.81,
     "rev_cagr": -7.5,
     "pat_cagr": -13.8,
     "revenue": [
@@ -676,10 +676,7 @@
     "promoter_pre": 100.0,
     "promoter_post": 77.0,
     "anchor_cr": 759.26,
-    "sub_total": 46.05,
-    "sub_qib": 120.78,
-    "sub_nii": 40.39,
-    "sub_retail": 5.9,
+    "sub_total": 32.5,
     "revenue": [
      1139.17,
      2023.59,
@@ -752,7 +749,9 @@
     "status": "Listed on NSE/BSE 23 Oct 2026 (Chittorgarh https://www.chittorgarh.com/ipo/sahajanand-medical-technologies-ipo/2550/)",
     "f5": "Mar 2026 (Screener https://www.screener.in/company/SMT/consolidated/): borrowings 306 / equity 696 = D/E 0.44; operating cash flow 105 cr"
    },
-   "u_reasons": {},
+   "u_reasons": {
+    "f6": "Not available from SEBI/NSE sources yet"
+   },
    "stale": {
     "f8": "FY25"
    },
@@ -775,10 +774,7 @@
     "promoter_pre": 40.82,
     "promoter_post": 36.2,
     "anchor_cr": 140.06,
-    "sub_total": 14.21,
-    "sub_qib": 34.7,
-    "sub_nii": 14.64,
-    "sub_retail": 3.04,
+    "sub_total": 10.28,
     "rev_cagr": 15.8,
     "revenue": [
      354.33,
@@ -2627,7 +2623,7 @@
     "ocf_unit": "mn",
     "ocf_period": "FY25 DRHP"
    },
-   "f3_ind": "F"
+   "f3_ind": "P"
   },
   {
    "company": "Augmont Enterprises",
@@ -5454,7 +5450,7 @@
     "de": 1.14,
     "de_period": "latest restated period (borrowing / net worth)"
    },
-   "f3_ind": "F"
+   "f3_ind": "P"
   },
   {
    "company": "Kusumgar",
@@ -6194,7 +6190,7 @@
    "flag": "Chittorgarh: Fresh capital cum OFS, issue Rs 275.0 cr, band ₹153 to ₹162, post P/E 16.1, promoter 100.0% -> 69.8%, sub Nonex",
    "post_pe": 16.1,
    "u_reasons": {
-    "f8": "No offer document on SEBI site"
+    "f8": "Not available from SEBI/NSE sources yet"
    },
    "passed": 6,
    "fails": 1,
@@ -6391,7 +6387,7 @@
     "ocf": -181.0,
     "ocf_unit": "cr"
    },
-   "f3_ind": "P"
+   "f3_ind": "F"
   },
   {
    "company": "Acevector (Snapdeal)",
@@ -6529,7 +6525,7 @@
    "flag": "Chittorgarh: Fresh capital cum OFS, issue Rs 405.0 cr, band ₹385 to ₹405, post P/E 24.55, promoter 85.86% -> 74.51%, sub 12.23x",
    "post_pe": 24.55,
    "u_reasons": {
-    "f8": "No offer document on SEBI site"
+    "f8": "Not available from SEBI/NSE sources yet"
    },
    "passed": 3,
    "fails": 4,
@@ -6720,7 +6716,7 @@
     "ocf": 12.0,
     "ocf_unit": "cr"
    },
-   "f3_ind": "F"
+   "f3_ind": "P"
   },
   {
    "company": "Swastika Infra",
@@ -7200,7 +7196,7 @@
    "flag": "Chittorgarh: OFS only, issue Rs 22563.0 cr, band ₹1700 to ₹1785, post P/E 35.4, promoter None% -> None%, sub 4.26x",
    "post_pe": 35.4,
    "u_reasons": {
-    "f8": "No offer document on SEBI site"
+    "f8": "Not available from SEBI/NSE sources yet"
    },
    "stale": {},
    "passed": 2,
@@ -7485,7 +7481,7 @@
     "ocf": -74.0,
     "ocf_unit": "cr"
    },
-   "f3_ind": "F"
+   "f3_ind": "P"
   },
   {
    "company": "Manipal Payment & Identity",
@@ -7733,7 +7729,7 @@
    "flag": "Chittorgarh: Fresh capital cum OFS, issue Rs 500.0 cr, band ₹643 to ₹676, post P/E 48.11, promoter 86.89% -> 75.25%, sub 2.71x",
    "post_pe": 48.11,
    "u_reasons": {
-    "f8": "No offer document on SEBI site"
+    "f8": "Not available from SEBI/NSE sources yet"
    },
    "passed": 3,
    "fails": 4,
@@ -7940,8 +7936,9 @@
     "status": "Listed on NSE/BSE 26 Aug 2026 (Chittorgarh)"
    },
    "u_reasons": {
-    "f7": "No offer document on SEBI site",
-    "f8": "No offer document on SEBI site"
+    "f2": "Not available from SEBI/NSE sources yet",
+    "f7": "Promoter post-issue 54.23% (Chittorgarh); pledge not checked",
+    "f8": "Not available from SEBI/NSE sources yet"
    },
    "stale": {},
    "soft": {
@@ -8050,7 +8047,7 @@
     "status": "Listed on NSE/BSE 1 Sep 2026 (Chittorgarh)"
    },
    "u_reasons": {
-    "f8": "No offer document on SEBI site"
+    "f8": "Not available from SEBI/NSE sources yet"
    },
    "stale": {},
    "soft": {
@@ -8142,6 +8139,213 @@
     "ocf": 114.0,
     "ocf_unit": "cr"
    }
+  },
+  {
+   "company": "Integris Medtech",
+   "group": "Upcoming",
+   "new": true,
+   "timing": "27-Nov",
+   "flag": "Fresh Rs 600 cr + OFS 1.08 cr shares (price band not declared); net proceeds all debt repayment/prepayment (F2 FAIL); promoter pre-issue 83.24%; FY25 total income Rs 1,959.58 cr vs FY24 1,582.26 cr, PAT 70.68 vs -4.88 (negative base). Price band, F4/F8 pending.",
+   "source_url": "https://www.chittorgarh.com/ipo/integris-medtech-ipo/2774/",
+   "source_label": "Chittorgarh",
+   "status": "Upcoming",
+   "sources": {
+    "f2": "Objects: repayment/prepayment of borrowings Rs 509.85 cr + subsidiaries Rs 93.87 cr + step-down Rs 415.98 cr; no productive capex (Chittorgarh objects table)",
+    "f5": "Borrowings 1,729.46 / net worth 2,752.52 = D/E 0.63 (Mar 2025, Chittorgarh); operating cash flow not found"
+   },
+   "u_reasons": {
+    "f1": "Not available from SEBI/NSE sources yet",
+    "f3": "Not available from SEBI/NSE sources yet",
+    "f4": "Not available from SEBI/NSE sources yet",
+    "f5": "Borrowings 1,729.46 / net worth 2,752.52 = D/E 0.63 (Mar 2025, Chittorgarh); operating cash flow not found",
+    "f6": "Not available from SEBI/NSE sources yet",
+    "f7": "Not available from SEBI/NSE sources yet",
+    "f8": "Not available from SEBI/NSE sources yet"
+   },
+   "stale": {},
+   "soft": {},
+   "f1": "U",
+   "f2": "F",
+   "f3": "U",
+   "f4": "U",
+   "f5": "U",
+   "f6": "U",
+   "f7": "U",
+   "f8": "U",
+   "passed": 0,
+   "fails": 1,
+   "unknown": 7,
+   "verdict": "Rejected",
+   "m": {
+    "price_band": "",
+    "sale_type": "Fresh capital cum OFS",
+    "dates": "27 Nov to 1 Dec, 2026",
+    "fresh_cr": 600.0,
+    "objects": [
+     [
+      "Repayment/ prepayment, in full or in part, of certain outstanding borrowings, interest accrued and prepayment penalties, as applicable, availed by:",
+      509.85
+     ],
+     [
+      "The wholly-owned Subsidiaries, namely, Translumina Therapeutics Pvt.Ltd. (Translumina Therapeutics), Transhealth Pvt.Ltd. (Transhealth) ) and HaleMed Medical Pvt.Ltd.",
+      93.87
+     ],
+     [
+      "The step-down Subsidiaries, namely, CPC Diagnostics Pvt.Ltd., Chemopharm Sdn. Bhd., Chemoscience Pte Ltd., Lifeline Diagnostics Supplies Inc., Hausen Bernstein Co. Ltd, Medigene Sdn. Bhd., Research Instruments Sdn Bhd and Research Instruments Pte. Ltd.",
+      415.98
+     ],
+     [
+      "General Corporate Purposes",
+      null
+     ]
+    ],
+    "eps_pre": 6.52,
+    "promoter_pre": 83.24,
+    "rev_cagr": 19.6,
+    "revenue": [
+     508.93,
+     1959.58,
+     1582.26,
+     1369.66
+    ],
+    "pat": [
+     267.57,
+     70.68,
+     -4.88,
+     -40.54
+    ],
+    "periods": [
+     "30 Jun 2025",
+     "31 Mar 2025",
+     "31 Mar 2024",
+     "31 Mar 2023"
+    ],
+    "borrowing": [
+     793.42,
+     1729.46,
+     813.1,
+     556.54
+    ],
+    "networth": [
+     3889.99,
+     2752.52,
+     2681.02,
+     2629.52
+    ],
+    "de_calc": 0.2,
+    "roe": "5.35%",
+    "roce": "14.51%",
+    "ronw": "1.48%",
+    "pat_margin": "3.72%",
+    "ebitda_margin": "16.26%",
+    "de": 0.2,
+    "de_period": "latest restated period (borrowing / net worth)"
+   },
+   "f3_ind": "U"
+  },
+  {
+   "company": "Foodlink F&B Holdings",
+   "group": "Upcoming",
+   "new": true,
+   "timing": "26-Nov",
+   "flag": "Fresh Rs 192 cr + OFS 88.35 lakh shares (price band not declared); net proceeds Rs 134.71 cr mostly capex, Rs 21 cr debt repayment (F2 pass); promoter pre-issue 63.40%; total income FY24 380.17 -> FY26 572.26 cr (CAGR 22.7%), PAT -15.35 -> 29.11 cr (negative base). Price band, F4/F8 pending.",
+   "source_url": "https://www.chittorgarh.com/ipo/foodlink-fb-ipo/2493/",
+   "source_label": "Chittorgarh",
+   "status": "Upcoming",
+   "sources": {
+    "f2": "Objects: capex Rs 113.71 cr (kitchens, casual dining, banquets) vs debt repayment Rs 21 cr of 134.71 cr (Chittorgarh objects table)",
+    "f5": "Borrowings 24.29 / net worth 229.35 = D/E 0.11 (Mar 2026, Chittorgarh); operating cash flow not found"
+   },
+   "u_reasons": {
+    "f1": "Not available from SEBI/NSE sources yet",
+    "f3": "Not available from SEBI/NSE sources yet",
+    "f4": "Not available from SEBI/NSE sources yet",
+    "f5": "Borrowings 24.29 / net worth 229.35 = D/E 0.11 (Mar 2026, Chittorgarh); operating cash flow not found",
+    "f6": "Not available from SEBI/NSE sources yet",
+    "f7": "Not available from SEBI/NSE sources yet",
+    "f8": "Not available from SEBI/NSE sources yet"
+   },
+   "stale": {},
+   "soft": {},
+   "f1": "U",
+   "f2": "P",
+   "f3": "U",
+   "f4": "U",
+   "f5": "U",
+   "f6": "U",
+   "f7": "U",
+   "f8": "U",
+   "passed": 1,
+   "fails": 0,
+   "unknown": 7,
+   "verdict": "Rejected",
+   "m": {
+    "price_band": "",
+    "sale_type": "Fresh capital cum OFS",
+    "dates": "26 to 30 Nov, 2026",
+    "fresh_cr": 192.0,
+    "objects": [
+     [
+      "Funding of capital expenditure towards setting up two Proposed Centralized Kitchens by the Company",
+      21.4
+     ],
+     [
+      "Investment in FGRCS, the Material Subsidiary, for funding of capital expenditure towards setting up four Proposed Casual Dining Restaurants",
+      50.81
+     ],
+     [
+      "Repayment or prepayment, in full or in part, of all or a portion of certain outstanding borrowings availed by the Company and FGRCS",
+      21.0
+     ],
+     [
+      "General Corporate Purposes",
+      null
+     ],
+     [
+      "Funding of capital expenditure towards setting up two Proposed Banquets by the Company",
+      41.5
+     ]
+    ],
+    "promoter_pre": 63.4,
+    "rev_cagr": 22.7,
+    "revenue": [
+     222.18,
+     572.26,
+     455.4,
+     380.17
+    ],
+    "pat": [
+     -16.15,
+     29.11,
+     14.26,
+     -15.35
+    ],
+    "periods": [
+     "30 Sep 2026",
+     "31 Mar 2026",
+     "31 Mar 2025",
+     "31 Mar 2024"
+    ],
+    "borrowing": [
+     null,
+     24.29,
+     35.88,
+     35.3
+    ],
+    "networth": [
+     216.01,
+     229.35,
+     106.22,
+     79.59
+    ],
+    "de_calc": 0.0,
+    "ronw": "-7.25%",
+    "pat_margin": "-7.27%",
+    "ebitda_margin": "7.35%",
+    "de": 0.0,
+    "de_period": "latest restated period (borrowing / net worth)"
+   },
+   "f3_ind": "U"
   }
  ],
  "sebi_note": "Only filings with FY26+ financials used for F5-F8. 51/53 IPOs have SEBI filings; most are older DRHPs. See u_reasons."
