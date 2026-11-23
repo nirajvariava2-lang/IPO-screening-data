@@ -1,15 +1,15 @@
 {
- "as_of": "2026-11-21T12:19:09.696628+05:30",
- "as_of_label": "21 Nov 2026, 12:19 IST",
+ "as_of": "2026-11-23T10:17:50.563191+05:30",
+ "as_of_label": "23 Nov 2026, 10:17 IST",
  "rows": [
   {
    "company": "Crystal Crop Protection",
    "group": "Upcoming",
    "new": true,
    "timing": "18-Nov",
-   "passed": 3,
+   "passed": 4,
    "fails": 1,
-   "unknown": 4,
+   "unknown": 3,
    "verdict": "Review",
    "flag": "Fresh Rs 354.77 cr + OFS Rs 100.71 cr (77.9% fresh), band 259-272; Rs 270 cr of net proceeds go to debt repayment (F2 FAIL); post-issue P/E 13.08x (Chittorgarh); promoter post-issue 75.85%; revenue CAGR FY24-26 18.3%, PAT CAGR 28.9%. F4/F8 cannot be filled until bidding closes; F5 operating cash flow and F7 pledge not yet verified.",
    "source_url": "https://www.chittorgarh.com/ipo/crystal-crop-protection-ipo/2813/",
@@ -17,25 +17,25 @@
    "f1": "P",
    "f2": "F",
    "f3": "P",
-   "f4": "U",
+   "f4": "P",
    "f5": "U",
    "f6": "P",
    "f7": "U",
    "f8": "U",
-   "status": "Upcoming",
+   "status": "Bidding closed",
    "post_pe": 13.08,
    "sources": {
     "f1": "Fresh Rs 354.77 cr of Rs 455.49 cr issue (Chittorgarh https://www.chittorgarh.com/ipo/crystal-crop-protection-ipo/2813/)",
     "f2": "Objects: Rs 247.94 cr + Rs 22.06 cr borrowings repayment of Rs 270 cr net proceeds; balance unidentified acquisitions/GCP (Chittorgarh)",
     "f3": "Post-issue P/E 13.08x (Chittorgarh valuation table)",
     "f6": "Total income Rs 2,271.71 cr (FY24) -> 3,180.98 cr (FY26): CAGR 18.3%; PAT 87.24 -> 144.91 cr: CAGR 28.9% (Chittorgarh restated consolidated)",
-    "f5": "Borrowings 820.04 / net worth 2,039.76 = D/E 0.40 (Mar 2026, Chittorgarh); operating cash flow not found"
+    "f5": "Borrowings 820.04 / net worth 2,039.76 = D/E 0.40 (Mar 2026, Chittorgarh); operating cash flow not found",
+    "f4": "Final subscription: QIB (ex-anchor) 15.81x, NII 39.16x, retail 9.71x, total 17.68x; anchors Rs 135.96 cr allotted 17 Nov (Chittorgarh https://www.chittorgarh.com/ipo_subscription/crystal-crop-protection-ipo/2813/)"
    },
    "u_reasons": {
-    "f4": "Not available from SEBI/NSE sources yet",
     "f5": "Borrowings 820.04 / net worth 2,039.76 = D/E 0.40 (Mar 2026, Chittorgarh); operating cash flow not found",
-    "f7": "Not available from SEBI/NSE sources yet",
-    "f8": "Not available from SEBI/NSE sources yet"
+    "f7": "Promoter post-issue 75.85% (Chittorgarh); pledge not verified",
+    "f8": "Anchor allocation exists (Rs 135.96 cr, 17 Nov); auditor qualification statement not yet verified in RHP/DRHP"
    },
    "stale": {},
    "m": {
@@ -112,7 +112,8 @@
     "pat_margin": "11.23%",
     "ebitda_margin": "20.20%"
    },
-   "f3_ind": "P"
+   "f3_ind": "P",
+   "soft": {}
   },
   {
    "company": "Mahanadi Coalfields",
@@ -2623,7 +2624,7 @@
     "ocf_unit": "mn",
     "ocf_period": "FY25 DRHP"
    },
-   "f3_ind": "P"
+   "f3_ind": "F"
   },
   {
    "company": "Augmont Enterprises",
@@ -6716,7 +6717,7 @@
     "ocf": 12.0,
     "ocf_unit": "cr"
    },
-   "f3_ind": "P"
+   "f3_ind": "F"
   },
   {
    "company": "Swastika Infra",
@@ -7481,7 +7482,7 @@
     "ocf": -74.0,
     "ocf_unit": "cr"
    },
-   "f3_ind": "P"
+   "f3_ind": "F"
   },
   {
    "company": "Manipal Payment & Identity",
@@ -8248,42 +8249,46 @@
    "group": "Upcoming",
    "new": true,
    "timing": "26-Nov",
-   "flag": "Fresh Rs 192 cr + OFS 88.35 lakh shares (price band not declared); net proceeds Rs 134.71 cr mostly capex, Rs 21 cr debt repayment (F2 pass); promoter pre-issue 63.40%; total income FY24 380.17 -> FY26 572.26 cr (CAGR 22.7%), PAT -15.35 -> 29.11 cr (negative base). Price band, F4/F8 pending.",
+   "flag": "Fresh Rs 192 cr + OFS 88.35 lakh shares (band 181-191); net proceeds Rs 134.71 cr mostly capex, Rs 21 cr debt repayment (F2 pass); promoter pre-issue 63.40%; total income FY24 380.17 -> FY26 572.26 cr (CAGR 22.7%), PAT -15.35 -> 29.11 cr (negative base). Price band, F4/F8 pending.",
    "source_url": "https://www.chittorgarh.com/ipo/foodlink-fb-ipo/2493/",
    "source_label": "Chittorgarh",
    "status": "Upcoming",
    "sources": {
     "f2": "Objects: capex Rs 113.71 cr (kitchens, casual dining, banquets) vs debt repayment Rs 21 cr of 134.71 cr (Chittorgarh objects table)",
-    "f5": "Borrowings 24.29 / net worth 229.35 = D/E 0.11 (Mar 2026, Chittorgarh); operating cash flow not found"
+    "f5": "Borrowings 24.29 / net worth 229.35 = D/E 0.11 (Mar 2026, Chittorgarh); operating cash flow not found",
+    "f1": "Fresh Rs 192.00 cr of Rs 360.76 cr issue = 53.2% < 90% (Chittorgarh https://www.chittorgarh.com/ipo/foodlink-fb-ipo/2493/)",
+    "f3": "Band 181-191; Chittorgarh valuation table: P/E pre-issue 34.29x (> 25x); post-issue P/E not meaningful (EPS negative on Sep 2026 half-year loss)"
    },
    "u_reasons": {
-    "f1": "Not available from SEBI/NSE sources yet",
-    "f3": "Not available from SEBI/NSE sources yet",
     "f4": "Not available from SEBI/NSE sources yet",
     "f5": "Borrowings 24.29 / net worth 229.35 = D/E 0.11 (Mar 2026, Chittorgarh); operating cash flow not found",
-    "f6": "Not available from SEBI/NSE sources yet",
+    "f6": "Revenue CAGR FY24-26 22.7% but FY24 PAT negative (-15.35 cr) so PAT CAGR undefined (Chittorgarh); needs judgement",
     "f7": "Not available from SEBI/NSE sources yet",
     "f8": "Not available from SEBI/NSE sources yet"
    },
    "stale": {},
    "soft": {},
-   "f1": "U",
+   "f1": "F",
    "f2": "P",
-   "f3": "U",
+   "f3": "F",
    "f4": "U",
    "f5": "U",
    "f6": "U",
    "f7": "U",
    "f8": "U",
    "passed": 1,
-   "fails": 0,
-   "unknown": 7,
+   "fails": 2,
+   "unknown": 5,
    "verdict": "Rejected",
    "m": {
-    "price_band": "",
+    "price_band": "₹181 to ₹191",
+    "lot": "78 Shares",
     "sale_type": "Fresh capital cum OFS",
     "dates": "26 to 30 Nov, 2026",
+    "issue_cr": 360.76,
     "fresh_cr": 192.0,
+    "ofs_cr": 168.76,
+    "fresh_pct": 53.2,
     "objects": [
      [
       "Funding of capital expenditure towards setting up two Proposed Centralized Kitchens by the Company",
@@ -8306,7 +8311,12 @@
       41.5
      ]
     ],
+    "pe_pre": 34.29,
+    "eps_pre": 5.57,
+    "mcap_pre": 998.9,
+    "mcap_post": 1190.9,
     "promoter_pre": 63.4,
+    "promoter_post": 49.51,
     "rev_cagr": 22.7,
     "revenue": [
      222.18,
@@ -8343,6 +8353,105 @@
     "pat_margin": "-7.27%",
     "ebitda_margin": "7.35%",
     "de": 0.0,
+    "de_period": "latest restated period (borrowing / net worth)"
+   },
+   "f3_ind": "F",
+   "post_pe": null
+  },
+  {
+   "company": "Monomark Engineering (India)",
+   "group": "Upcoming",
+   "new": true,
+   "timing": "02-Dec",
+   "status": "Upcoming",
+   "flag": "Fresh issue only (2.70 crore shares, price band not declared); net proceeds Rs 120 cr incremental working capital; promoter 91.37% pre / 65.69% post; revenue CAGR FY24-26 20.0%, PAT CAGR 32.2%. Price band, F4/F5 OCF/F7 pledge/F8 pending.",
+   "source_url": "https://www.chittorgarh.com/ipo/monomark-engineering-ipo/2972/",
+   "source_label": "Chittorgarh",
+   "f1": "P",
+   "f2": "P",
+   "f3": "U",
+   "f4": "U",
+   "f5": "U",
+   "f6": "P",
+   "f7": "U",
+   "f8": "U",
+   "sources": {
+    "f1": "Fresh capital only: 2,70,00,000 shares, 100% fresh, no OFS (Chittorgarh https://www.chittorgarh.com/ipo/monomark-engineering-ipo/2972/)",
+    "f2": "Objects: incremental working capital Rs 120.00 cr + general corporate purposes; no debt repayment (Chittorgarh objects table)",
+    "f5": "Borrowings 87.34 / net worth 116.74 = D/E 0.75 (Mar 2026, Chittorgarh); operating cash flow not found",
+    "f6": "Total income 392.14 (FY24) -> 564.74 cr (FY26): CAGR 20.0%; PAT 14.83 -> 25.90 cr: CAGR 32.2% (Chittorgarh restated)",
+    "f7": "Promoter 91.37% pre, 65.69% post-issue (Chittorgarh); pledge not verified"
+   },
+   "u_reasons": {
+    "f3": "Price band not yet announced; IPO opens 2 Dec 2026",
+    "f4": "Subscription available only after bidding closes (4 Dec)",
+    "f5": "D/E 0.75 (Mar 2026) but operating cash flow not found",
+    "f7": "Promoter post-issue 65.69% (Chittorgarh); pledge not verified",
+    "f8": "Anchor allocation and auditor statement available only after RHP/anchor day"
+   },
+   "stale": {},
+   "soft": {},
+   "passed": 3,
+   "fails": 0,
+   "unknown": 5,
+   "verdict": "Review",
+   "m": {
+    "price_band": "",
+    "sale_type": "Fresh capital only",
+    "dates": "2 to 4 Dec, 2026",
+    "objects": [
+     [
+      "Funding the incremental working capital requirements of the Company",
+      120.0
+     ],
+     [
+      "General corporate purposes",
+      null
+     ]
+    ],
+    "eps_pre": 3.75,
+    "eps_post": 1.26,
+    "promoter_pre": 91.37,
+    "promoter_post": 65.69,
+    "rev_cagr": 20.0,
+    "pat_cagr": 32.2,
+    "revenue": [
+     142.82,
+     564.74,
+     477.29,
+     392.14
+    ],
+    "pat": [
+     3.02,
+     25.9,
+     18.21,
+     14.83
+    ],
+    "periods": [
+     "30 Jun 2026",
+     "31 Mar 2026",
+     "31 Mar 2025",
+     "31 Mar 2024"
+    ],
+    "borrowing": [
+     92.12,
+     87.34,
+     84.77,
+     80.16
+    ],
+    "networth": [
+     119.32,
+     116.74,
+     73.26,
+     60.11
+    ],
+    "de_calc": 0.77,
+    "roe": "2.56%",
+    "roce": "2.94%",
+    "ronw": "2.53%",
+    "pat_margin": "2.12%",
+    "ebitda_margin": "5.41%",
+    "de": 0.77,
     "de_period": "latest restated period (borrowing / net worth)"
    },
    "f3_ind": "U"
