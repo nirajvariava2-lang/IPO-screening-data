@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-23T10:17:50.563191+05:30",
- "as_of_label": "23 Nov 2026, 10:17 IST",
+ "as_of": "2026-11-24T09:55:36.308125+05:30",
+ "as_of_label": "24 Nov 2026, 09:55 IST",
  "rows": [
   {
    "company": "Crystal Crop Protection",
@@ -33,9 +33,9 @@
     "f4": "Final subscription: QIB (ex-anchor) 15.81x, NII 39.16x, retail 9.71x, total 17.68x; anchors Rs 135.96 cr allotted 17 Nov (Chittorgarh https://www.chittorgarh.com/ipo_subscription/crystal-crop-protection-ipo/2813/)"
    },
    "u_reasons": {
-    "f5": "Borrowings 820.04 / net worth 2,039.76 = D/E 0.40 (Mar 2026, Chittorgarh); operating cash flow not found",
-    "f7": "Promoter post-issue 75.85% (Chittorgarh); pledge not verified",
-    "f8": "Anchor allocation exists (Rs 135.96 cr, 17 Nov); auditor qualification statement not yet verified in RHP/DRHP"
+    "f5": "No offer document on SEBI site",
+    "f7": "No offer document on SEBI site",
+    "f8": "No offer document on SEBI site"
    },
    "stale": {},
    "m": {
@@ -120,13 +120,13 @@
    "group": "Upcoming",
    "new": true,
    "timing": "19-Nov",
-   "status": "Upcoming",
+   "status": "Bidding closed",
    "source_url": "https://www.chittorgarh.com/ipo/mahanadi-coalfields-ipo/3247/",
    "source_label": "Chittorgarh",
    "f1": "F",
    "f2": "F",
    "f3": "P",
-   "f4": "U",
+   "f4": "F",
    "f5": "U",
    "f6": "F",
    "f7": "U",
@@ -139,13 +139,13 @@
     "f3": "Post-issue P/E 9.22x (Chittorgarh valuation table)",
     "f6": "Total income 33,590.34 cr (FY24) -> 33,899.28 cr (FY26) CAGR 0.5%; PAT 11,841.55 -> 10,698.12 cr CAGR -4.9% (Chittorgarh restated)",
     "f5": "Borrowings 3.16 / net worth 21,371.23 cr (Mar 2026) D/E ~0; operating cash flow not found",
-    "f7": "Promoter 100% pre, 90% post-issue (Chittorgarh); pledge not verified"
+    "f7": "Promoter 100% pre, 90% post-issue (Chittorgarh); pledge not verified",
+    "f4": "Final subscription: QIB (ex-anchor) 4.95x, NII 0.66x, retail 0.48x, total 1.52x (<3x) (Chittorgarh https://www.chittorgarh.com/ipo_subscription/mahanadi-coalfields-ipo/3247/)"
    },
    "u_reasons": {
-    "f4": "Not available from SEBI/NSE sources yet",
-    "f5": "Borrowings 3.16 / net worth 21,371.23 cr (Mar 2026) D/E ~0; operating cash flow not found",
-    "f7": "Promoter 100% pre, 90% post-issue (Chittorgarh); pledge not verified",
-    "f8": "Not available from SEBI/NSE sources yet"
+    "f5": "No offer document on SEBI site",
+    "f7": "No offer document on SEBI site",
+    "f8": "No offer document on SEBI site"
    },
    "stale": {},
    "m": {
@@ -165,6 +165,10 @@
     "promoter_pre": 100.0,
     "promoter_post": 90.0,
     "anchor_cr": 2295.25,
+    "sub_total": 1.52,
+    "sub_qib": 4.95,
+    "sub_nii": 0.66,
+    "sub_retail": 0.48,
     "rev_cagr": 0.5,
     "pat_cagr": -5.0,
     "revenue": [
@@ -207,8 +211,8 @@
    },
    "f3_ind": "P",
    "passed": 1,
-   "fails": 3,
-   "unknown": 4,
+   "fails": 4,
+   "unknown": 3,
    "verdict": "Rejected"
   },
   {
@@ -750,9 +754,7 @@
     "status": "Listed on NSE/BSE 23 Oct 2026 (Chittorgarh https://www.chittorgarh.com/ipo/sahajanand-medical-technologies-ipo/2550/)",
     "f5": "Mar 2026 (Screener https://www.screener.in/company/SMT/consolidated/): borrowings 306 / equity 696 = D/E 0.44; operating cash flow 105 cr"
    },
-   "u_reasons": {
-    "f6": "Not available from SEBI/NSE sources yet"
-   },
+   "u_reasons": {},
    "stale": {
     "f8": "FY25"
    },
@@ -6191,7 +6193,7 @@
    "flag": "Chittorgarh: Fresh capital cum OFS, issue Rs 275.0 cr, band ₹153 to ₹162, post P/E 16.1, promoter 100.0% -> 69.8%, sub Nonex",
    "post_pe": 16.1,
    "u_reasons": {
-    "f8": "Not available from SEBI/NSE sources yet"
+    "f8": "No offer document on SEBI site"
    },
    "passed": 6,
    "fails": 1,
@@ -6526,7 +6528,7 @@
    "flag": "Chittorgarh: Fresh capital cum OFS, issue Rs 405.0 cr, band ₹385 to ₹405, post P/E 24.55, promoter 85.86% -> 74.51%, sub 12.23x",
    "post_pe": 24.55,
    "u_reasons": {
-    "f8": "Not available from SEBI/NSE sources yet"
+    "f8": "No offer document on SEBI site"
    },
    "passed": 3,
    "fails": 4,
@@ -7197,7 +7199,7 @@
    "flag": "Chittorgarh: OFS only, issue Rs 22563.0 cr, band ₹1700 to ₹1785, post P/E 35.4, promoter None% -> None%, sub 4.26x",
    "post_pe": 35.4,
    "u_reasons": {
-    "f8": "Not available from SEBI/NSE sources yet"
+    "f8": "No offer document on SEBI site"
    },
    "stale": {},
    "passed": 2,
@@ -7730,7 +7732,7 @@
    "flag": "Chittorgarh: Fresh capital cum OFS, issue Rs 500.0 cr, band ₹643 to ₹676, post P/E 48.11, promoter 86.89% -> 75.25%, sub 2.71x",
    "post_pe": 48.11,
    "u_reasons": {
-    "f8": "Not available from SEBI/NSE sources yet"
+    "f8": "No offer document on SEBI site"
    },
    "passed": 3,
    "fails": 4,
@@ -7937,9 +7939,8 @@
     "status": "Listed on NSE/BSE 26 Aug 2026 (Chittorgarh)"
    },
    "u_reasons": {
-    "f2": "Not available from SEBI/NSE sources yet",
-    "f7": "Promoter post-issue 54.23% (Chittorgarh); pledge not checked",
-    "f8": "Not available from SEBI/NSE sources yet"
+    "f7": "No offer document on SEBI site",
+    "f8": "No offer document on SEBI site"
    },
    "stale": {},
    "soft": {
@@ -8048,7 +8049,7 @@
     "status": "Listed on NSE/BSE 1 Sep 2026 (Chittorgarh)"
    },
    "u_reasons": {
-    "f8": "Not available from SEBI/NSE sources yet"
+    "f8": "No offer document on SEBI site"
    },
    "stale": {},
    "soft": {
@@ -8155,13 +8156,9 @@
     "f5": "Borrowings 1,729.46 / net worth 2,752.52 = D/E 0.63 (Mar 2025, Chittorgarh); operating cash flow not found"
    },
    "u_reasons": {
-    "f1": "Not available from SEBI/NSE sources yet",
-    "f3": "Not available from SEBI/NSE sources yet",
-    "f4": "Not available from SEBI/NSE sources yet",
-    "f5": "Borrowings 1,729.46 / net worth 2,752.52 = D/E 0.63 (Mar 2025, Chittorgarh); operating cash flow not found",
-    "f6": "Not available from SEBI/NSE sources yet",
-    "f7": "Not available from SEBI/NSE sources yet",
-    "f8": "Not available from SEBI/NSE sources yet"
+    "f5": "No offer document on SEBI site",
+    "f7": "No offer document on SEBI site",
+    "f8": "No offer document on SEBI site"
    },
    "stale": {},
    "soft": {},
@@ -8260,11 +8257,9 @@
     "f3": "Band 181-191; Chittorgarh valuation table: P/E pre-issue 34.29x (> 25x); post-issue P/E not meaningful (EPS negative on Sep 2026 half-year loss)"
    },
    "u_reasons": {
-    "f4": "Not available from SEBI/NSE sources yet",
-    "f5": "Borrowings 24.29 / net worth 229.35 = D/E 0.11 (Mar 2026, Chittorgarh); operating cash flow not found",
-    "f6": "Revenue CAGR FY24-26 22.7% but FY24 PAT negative (-15.35 cr) so PAT CAGR undefined (Chittorgarh); needs judgement",
-    "f7": "Not available from SEBI/NSE sources yet",
-    "f8": "Not available from SEBI/NSE sources yet"
+    "f5": "No offer document on SEBI site",
+    "f7": "No offer document on SEBI site",
+    "f8": "No offer document on SEBI site"
    },
    "stale": {},
    "soft": {},
@@ -8383,11 +8378,9 @@
     "f7": "Promoter 91.37% pre, 65.69% post-issue (Chittorgarh); pledge not verified"
    },
    "u_reasons": {
-    "f3": "Price band not yet announced; IPO opens 2 Dec 2026",
-    "f4": "Subscription available only after bidding closes (4 Dec)",
-    "f5": "D/E 0.75 (Mar 2026) but operating cash flow not found",
-    "f7": "Promoter post-issue 65.69% (Chittorgarh); pledge not verified",
-    "f8": "Anchor allocation and auditor statement available only after RHP/anchor day"
+    "f5": "No offer document on SEBI site",
+    "f7": "No offer document on SEBI site",
+    "f8": "No offer document on SEBI site"
    },
    "stale": {},
    "soft": {},
@@ -8455,6 +8448,111 @@
     "de_period": "latest restated period (borrowing / net worth)"
    },
    "f3_ind": "U"
+  },
+  {
+   "company": "Matangi Rubber",
+   "group": "Upcoming",
+   "new": true,
+   "timing": "01-Dec",
+   "status": "Upcoming",
+   "flag": "Fresh Rs 99.10 cr + OFS Rs 26.06 cr (79.2% fresh), band 163-172; Rs 45 cr of Rs 72.49 cr net proceeds go to loan repayment (F2 FAIL); post-issue P/E 19.18x (Chittorgarh); promoter 81.11% pre / 60.01% post; total income FY24 91.26 -> FY26 132.22 cr (CAGR 20.4%), PAT 4.81 -> 22.33 cr (FY24 standalone). F4/F8 pending until bidding closes; F5 operating cash flow and F7 pledge not verified.",
+   "source_url": "https://www.chittorgarh.com/ipo/matangi-rubber-ipo/3136/",
+   "source_label": "Chittorgarh",
+   "f1": "F",
+   "f2": "F",
+   "f3": "P",
+   "f4": "U",
+   "f5": "U",
+   "f6": "P",
+   "f7": "U",
+   "f8": "U",
+   "post_pe": 19.18,
+   "sources": {
+    "f1": "Fresh Rs 99.10 cr of Rs 125.16 cr = 79.2% < 90% (Chittorgarh https://www.chittorgarh.com/ipo/matangi-rubber-ipo/3136/)",
+    "f2": "Objects: loan repayment Rs 45.00 cr of Rs 72.49 cr net proceeds (62%); capex 19.06 + 8.44 (Chittorgarh objects table)",
+    "f3": "Post-issue P/E 19.18x at Rs 172 (Chittorgarh valuation table)",
+    "f5": "Debt/Equity 0.85 (Mar 2026, Chittorgarh KPI); operating cash flow not found",
+    "f6": "Total income 91.26 (FY24, standalone) -> 132.22 cr (FY26): CAGR 20.4%; PAT 4.81 -> 22.33 cr (Chittorgarh restated)",
+    "f7": "Promoter 81.11% pre, 60.01% post-issue (Chittorgarh); pledge not verified"
+   },
+   "u_reasons": {
+    "f5": "No offer document on SEBI site",
+    "f7": "No offer document on SEBI site",
+    "f8": "No offer document on SEBI site"
+   },
+   "stale": {},
+   "soft": {},
+   "passed": 2,
+   "fails": 2,
+   "unknown": 4,
+   "verdict": "Rejected",
+   "m": {
+    "price_band": "₹163 to ₹172",
+    "lot": "87 Shares",
+    "sale_type": "Fresh capital cum OFS",
+    "dates": "1 to 3 Dec, 2026",
+    "issue_cr": 125.16,
+    "fresh_cr": 99.1,
+    "ofs_cr": 26.06,
+    "fresh_pct": 79.2,
+    "objects": [
+     [
+      "Repayment/ pre-payment in full or in part, of certain outstanding loans availed by the Company",
+      45.0
+     ],
+     [
+      "Funding Capital Expenditure requirements for setting up green field manufacturing facility for Rubber Recycling Products (Bhind, Madhya Pradesh)",
+      19.06
+     ],
+     [
+      "Funding Capital Expenditure requirements for setting up green field manufacturing facility for production of Solid Tyres (Bhind, Madhya Pradesh)",
+      8.44
+     ],
+     [
+      "General Corporate Purposes",
+      null
+     ]
+    ],
+    "pe_pre": 17.6,
+    "pe_post": 19.18,
+    "eps_pre": 9.77,
+    "eps_post": 8.97,
+    "mcap_pre": 393.11,
+    "mcap_post": 492.22,
+    "promoter_pre": 81.11,
+    "promoter_post": 60.01,
+    "rev_cagr": 4.3,
+    "pat_cagr": 75.5,
+    "revenue": [
+     91.26,
+     87.46
+    ],
+    "pat": [
+     4.81,
+     2.74
+    ],
+    "periods": [
+     "31 Mar 2024",
+     "31 Mar 2023"
+    ],
+    "borrowing": [
+     61.86,
+     29.48
+    ],
+    "networth": [
+     77.83,
+     94.32
+    ],
+    "de_calc": 0.79,
+    "roe": "4.90%",
+    "roce": "4.34%",
+    "ronw": "4.90%",
+    "pat_margin": "13.39%",
+    "ebitda_margin": "22.43%",
+    "de": 0.79,
+    "de_period": "latest restated period (borrowing / net worth)"
+   },
+   "f3_ind": "P"
   }
  ],
  "sebi_note": "Only filings with FY26+ financials used for F5-F8. 51/53 IPOs have SEBI filings; most are older DRHPs. See u_reasons."
