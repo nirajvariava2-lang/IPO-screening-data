@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-24T09:55:36.308125+05:30",
- "as_of_label": "24 Nov 2026, 09:55 IST",
+ "as_of": "2026-11-25T10:03:16.769567+05:30",
+ "as_of_label": "25 Nov 2026, 10:03 IST",
  "rows": [
   {
    "company": "Crystal Crop Protection",
@@ -887,10 +887,7 @@
     "promoter_pre": 66.43,
     "promoter_post": 64.48,
     "anchor_cr": 8109.85,
-    "sub_total": 21.36,
-    "sub_qib": 67.15,
-    "sub_nii": 13.99,
-    "sub_retail": 2.76,
+    "sub_total": 16.36,
     "rev_cagr": 16.6,
     "pat_cagr": 18.4,
     "revenue": [
@@ -1002,10 +999,7 @@
     "promoter_pre": 72.8,
     "promoter_post": 63.95,
     "anchor_cr": 652.5,
-    "sub_total": 2.34,
-    "sub_qib": 3.25,
-    "sub_nii": 0.69,
-    "sub_retail": 2.1,
+    "sub_total": 1.74,
     "rev_cagr": 19.0,
     "revenue": [
      478.75,
@@ -6719,7 +6713,7 @@
     "ocf": 12.0,
     "ocf_unit": "cr"
    },
-   "f3_ind": "F"
+   "f3_ind": "P"
   },
   {
    "company": "Swastika Infra",
@@ -8389,9 +8383,13 @@
    "unknown": 5,
    "verdict": "Review",
    "m": {
-    "price_band": "",
+    "price_band": "₹60 to ₹65",
+    "lot": "225 Shares",
     "sale_type": "Fresh capital only",
     "dates": "2 to 4 Dec, 2026",
+    "issue_cr": 175.5,
+    "fresh_cr": 175.5,
+    "fresh_pct": 100.0,
     "objects": [
      [
       "Funding the incremental working capital requirements of the Company",
@@ -8402,8 +8400,12 @@
       null
      ]
     ],
+    "pe_pre": 17.33,
+    "pe_post": 51.59,
     "eps_pre": 3.75,
     "eps_post": 1.26,
+    "mcap_pre": 448.77,
+    "mcap_post": 624.27,
     "promoter_pre": 91.37,
     "promoter_post": 65.69,
     "rev_cagr": 20.0,
