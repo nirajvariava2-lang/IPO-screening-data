@@ -1,51 +1,54 @@
 {
- "as_of": "2026-11-25T10:03:16.769567+05:30",
- "as_of_label": "25 Nov 2026, 10:03 IST",
+ "as_of": "2026-11-26T12:07:05.779601+05:30",
+ "as_of_label": "26 Nov 2026, 12:07 IST",
  "rows": [
   {
    "company": "Crystal Crop Protection",
-   "group": "Upcoming",
+   "group": "Listed",
    "new": true,
-   "timing": "18-Nov",
-   "passed": 4,
-   "fails": 1,
-   "unknown": 3,
-   "verdict": "Review",
-   "flag": "Fresh Rs 354.77 cr + OFS Rs 100.71 cr (77.9% fresh), band 259-272; Rs 270 cr of net proceeds go to debt repayment (F2 FAIL); post-issue P/E 13.08x (Chittorgarh); promoter post-issue 75.85%; revenue CAGR FY24-26 18.3%, PAT CAGR 28.9%. F4/F8 cannot be filled until bidding closes; F5 operating cash flow and F7 pledge not yet verified.",
+   "timing": "26-Nov",
+   "passed": 6,
+   "fails": 2,
+   "unknown": 0,
+   "verdict": "Provisional",
+   "flag": "Fresh Rs 354.77 cr + OFS Rs 100.71 cr (77.9% fresh), band 259-272; Rs 270 cr of net proceeds go to debt repayment (F2 FAIL); post-issue P/E 13.08x (Chittorgarh); promoter post-issue 75.85%; revenue CAGR FY24-26 18.3%, PAT CAGR 28.9%. Listed 26 Nov 2026. DRHP: qualified audit opinions FY24-H1 FY26 (F8 FAIL) and a CBI chargesheet / enforcement matter on excise duty refunds (p.80); P/E on FY26 earnings about 30.6x.",
    "source_url": "https://www.chittorgarh.com/ipo/crystal-crop-protection-ipo/2813/",
    "source_label": "Chittorgarh",
    "f1": "P",
    "f2": "F",
    "f3": "P",
    "f4": "P",
-   "f5": "U",
+   "f5": "P",
    "f6": "P",
-   "f7": "U",
-   "f8": "U",
-   "status": "Bidding closed",
+   "f7": "P",
+   "f8": "F",
+   "status": "Listed",
    "post_pe": 13.08,
    "sources": {
     "f1": "Fresh Rs 354.77 cr of Rs 455.49 cr issue (Chittorgarh https://www.chittorgarh.com/ipo/crystal-crop-protection-ipo/2813/)",
     "f2": "Objects: Rs 247.94 cr + Rs 22.06 cr borrowings repayment of Rs 270 cr net proceeds; balance unidentified acquisitions/GCP (Chittorgarh)",
-    "f3": "Post-issue P/E 13.08x (Chittorgarh valuation table)",
+    "f3": "Post-issue P/E 13.08x (Chittorgarh valuation table). Note: after listing the page valuation table shows post-issue P/E 8.17x (annualised June 2026 quarter); both are within 25x (https://www.chittorgarh.com/ipo/crystal-crop-protection-ipo/2813/). Caution: on FY26 PAT 144.91 cr against market cap 4,438 cr the multiple is about 30.6x (Screener TTM 31.3x), which would not pass 25x",
     "f6": "Total income Rs 2,271.71 cr (FY24) -> 3,180.98 cr (FY26): CAGR 18.3%; PAT 87.24 -> 144.91 cr: CAGR 28.9% (Chittorgarh restated consolidated)",
-    "f5": "Borrowings 820.04 / net worth 2,039.76 = D/E 0.40 (Mar 2026, Chittorgarh); operating cash flow not found",
-    "f4": "Final subscription: QIB (ex-anchor) 15.81x, NII 39.16x, retail 9.71x, total 17.68x; anchors Rs 135.96 cr allotted 17 Nov (Chittorgarh https://www.chittorgarh.com/ipo_subscription/crystal-crop-protection-ipo/2813/)"
+    "f5": "Mar 2026 (Screener https://www.screener.in/company/CRYSTALCP/consolidated/): borrowings 898 / equity 1815 = D/E 0.49; operating cash flow 256 cr",
+    "f4": "Final subscription: QIB (ex-anchor) 15.81x, NII 39.16x, retail 9.71x, total 17.68x; anchors Rs 135.96 cr allotted 17 Nov (Chittorgarh https://www.chittorgarh.com/ipo_subscription/crystal-crop-protection-ipo/2813/)",
+    "status": "Listed on NSE/BSE 26 Nov 2026 (Chittorgarh https://www.chittorgarh.com/ipo/crystal-crop-protection-ipo/2813/)",
+    "f7": "Post-issue promoter holding 75.84% (Chittorgarh); no promoter shares pledged or encumbered (p.136, SEBI DRHP Dec 22, 2025 (https://www.sebi.gov.in/sebi_data/attachdocs/dec-2025/1766375089872.pdf))",
+    "f8": "Auditor qualified opinion on the FY24, FY25 and Sep 2025 half-year financial statements (Rs 16.3 cr insurance claim receivable recognised that should not have been; pp.78-80), and material weakness in internal financial controls; p.31 also lists a qualification on terminal excise duty not given effect for FY23-24. SEBI DRHP Dec 22, 2025 (https://www.sebi.gov.in/sebi_data/attachdocs/dec-2025/1766375089872.pdf). Check the RHP"
    },
-   "u_reasons": {
-    "f5": "No offer document on SEBI site",
-    "f7": "No offer document on SEBI site",
-    "f8": "No offer document on SEBI site"
+   "u_reasons": {},
+   "stale": {
+    "f7": "FY25"
    },
-   "stale": {},
    "m": {
     "price_band": "₹259 to ₹272",
+    "issue_price": 272.0,
     "lot": "55 Shares",
     "sale_type": "Fresh capital cum OFS",
     "dates": "18 to 20 Nov, 2026",
-    "issue_cr": 455.49,
-    "fresh_cr": 354.77,
-    "ofs_cr": 100.71,
+    "listed_on": "Thu, Nov 26, 2026",
+    "issue_cr": 455.72,
+    "fresh_cr": 355.06,
+    "ofs_cr": 100.66,
     "fresh_pct": 77.9,
     "objects": [
      [
@@ -58,7 +61,7 @@
      ],
      [
       "Funding inorganic growth through unidentified acquisitions and strategic initiatives and general corporate purposes",
-      null
+      51.14
      ]
     ],
     "pe_pre": 28.19,
@@ -68,7 +71,7 @@
     "mcap_pre": 4083.17,
     "mcap_post": 4438.18,
     "promoter_pre": 84.92,
-    "promoter_post": 75.85,
+    "promoter_post": 75.84,
     "anchor_cr": 135.96,
     "sub_total": 17.68,
     "sub_qib": 15.81,
@@ -110,7 +113,9 @@
     "roce": "9.78%",
     "ronw": "6.25%",
     "pat_margin": "11.23%",
-    "ebitda_margin": "20.20%"
+    "ebitda_margin": "20.20%",
+    "ocf": 256.0,
+    "ocf_unit": "cr"
    },
    "f3_ind": "P",
    "soft": {}
@@ -127,10 +132,10 @@
    "f2": "F",
    "f3": "P",
    "f4": "F",
-   "f5": "U",
+   "f5": "P",
    "f6": "F",
-   "f7": "U",
-   "f8": "U",
+   "f7": "P",
+   "f8": "P",
    "post_pe": 9.22,
    "flag": "100% OFS Rs 8,981.12 cr (0% fresh, F1/F2 FAIL), band 129-136; post-issue P/E 9.22x; revenue CAGR FY24-26 0.5%, PAT CAGR -4.9% (F6 FAIL); promoter post-issue 90% (Coal India/GoI). F4/F8 pending bidding close; F5 operating cash flow and F7 pledge not verified.",
    "sources": {
@@ -138,15 +143,12 @@
     "f2": "No fresh issue; no proceeds to company (Chittorgarh Objects)",
     "f3": "Post-issue P/E 9.22x (Chittorgarh valuation table)",
     "f6": "Total income 33,590.34 cr (FY24) -> 33,899.28 cr (FY26) CAGR 0.5%; PAT 11,841.55 -> 10,698.12 cr CAGR -4.9% (Chittorgarh restated)",
-    "f5": "Borrowings 3.16 / net worth 21,371.23 cr (Mar 2026) D/E ~0; operating cash flow not found",
-    "f7": "Promoter 100% pre, 90% post-issue (Chittorgarh); pledge not verified",
-    "f4": "Final subscription: QIB (ex-anchor) 4.95x, NII 0.66x, retail 0.48x, total 1.52x (<3x) (Chittorgarh https://www.chittorgarh.com/ipo_subscription/mahanadi-coalfields-ipo/3247/)"
+    "f5": "Operating cash flow Rs 12,477.5 cr in FY26 (FY25 7,705.0 cr; Q1 FY27 2,928.1 cr) (p.518); D/E ~0: borrowings 3.16 / net worth 21,371.23 cr (Chittorgarh). SEBI DRHP Sep 04, 2026 (https://www.sebi.gov.in/sebi_data/attachdocs/sep-2026/1788761365481.pdf)",
+    "f7": "Post-issue promoter holding 90% (Chittorgarh); none of Coal India's shares pledged or encumbered (p.101, SEBI DRHP Sep 04, 2026 (https://www.sebi.gov.in/sebi_data/attachdocs/sep-2026/1788761365481.pdf))",
+    "f4": "Final subscription: QIB (ex-anchor) 4.95x, NII 0.66x, retail 0.48x, total 1.52x (<3x) (Chittorgarh https://www.chittorgarh.com/ipo_subscription/mahanadi-coalfields-ipo/3247/)",
+    "f8": "Soft pass: no reservations, qualifications or adverse remarks by statutory auditors, FY25-FY26 and Q1 FY27 (p.525) (SEBI DRHP Sep 04, 2026 (https://www.sebi.gov.in/sebi_data/attachdocs/sep-2026/1788761365481.pdf)); anchor portion Rs 2,295.25 cr (Chittorgarh https://www.chittorgarh.com/ipo/mahanadi-coalfields-ipo/3247/). Confirm in RHP"
    },
-   "u_reasons": {
-    "f5": "No offer document on SEBI site",
-    "f7": "No offer document on SEBI site",
-    "f8": "No offer document on SEBI site"
-   },
+   "u_reasons": {},
    "stale": {},
    "m": {
     "price_band": "₹129 to ₹136",
@@ -210,10 +212,10 @@
     "de_period": "latest restated period (borrowing / net worth)"
    },
    "f3_ind": "P",
-   "passed": 1,
+   "passed": 4,
    "fails": 4,
-   "unknown": 3,
-   "verdict": "Rejected"
+   "unknown": 0,
+   "verdict": "Review"
   },
   {
    "company": "HD Fire Protect",
@@ -301,7 +303,11 @@
     "pat_margin": "20.92%",
     "ebitda_margin": "27.26%",
     "ocf": 92.0,
-    "ocf_unit": "cr"
+    "ocf_unit": "cr",
+    "ind_name": "Industrial Products",
+    "ind_pe": 30.5,
+    "ind_n": 138,
+    "rel": 1.63
    },
    "f3_ind": "F"
   },
@@ -416,7 +422,12 @@
     "de": 0.39,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 1012.46,
-    "ocf_unit": "mn"
+    "ocf_unit": "mn",
+    "ind_name": "Business Process Outsourcing (BPO)/ Knowledge Process Outsourcing (KPO)",
+    "ind_pe": 18.3,
+    "ind_n": 12,
+    "cur_pe": 21.5,
+    "rel": 1.02
    },
    "f3_ind": "F"
   },
@@ -524,7 +535,10 @@
     "de_calc": 0.47,
     "ronw": "-1.74%",
     "de": 0.47,
-    "de_period": "latest restated period (borrowing / net worth)"
+    "de_period": "latest restated period (borrowing / net worth)",
+    "ind_name": "Industrial Products",
+    "ind_pe": 30.5,
+    "ind_n": 138
    },
    "f3_ind": "F",
    "soft": {
@@ -623,7 +637,10 @@
     "de": 0.24,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -63.0,
-    "ocf_unit": "cr"
+    "ocf_unit": "cr",
+    "ind_name": "Aerospace & Defense",
+    "ind_pe": 70.4,
+    "ind_n": 34
    },
    "f3_ind": "F"
   },
@@ -721,7 +738,12 @@
     "de": 0.0,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 188.0,
-    "ocf_unit": "cr"
+    "ocf_unit": "cr",
+    "ind_name": "Industrial Products",
+    "ind_pe": 30.5,
+    "ind_n": 21,
+    "cur_pe": 57.2,
+    "rel": 1.22
    },
    "f3_ind": "F"
   },
@@ -754,7 +776,9 @@
     "status": "Listed on NSE/BSE 23 Oct 2026 (Chittorgarh https://www.chittorgarh.com/ipo/sahajanand-medical-technologies-ipo/2550/)",
     "f5": "Mar 2026 (Screener https://www.screener.in/company/SMT/consolidated/): borrowings 306 / equity 696 = D/E 0.44; operating cash flow 105 cr"
    },
-   "u_reasons": {},
+   "u_reasons": {
+    "f6": "FY24 PAT was a loss, so PAT CAGR is not computable (revenue CAGR 15.9%)"
+   },
    "stale": {
     "f8": "FY25"
    },
@@ -818,7 +842,12 @@
     "de": 0.51,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 105.0,
-    "ocf_unit": "cr"
+    "ocf_unit": "cr",
+    "ind_name": "Medical Equipment & Supplies",
+    "ind_pe": 36.6,
+    "ind_n": 18,
+    "cur_pe": 77.5,
+    "rel": 1.58
    },
    "f3_ind": "F"
   },
@@ -927,7 +956,12 @@
     "de": 0.18,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 77556.3,
-    "ocf_unit": "cr"
+    "ocf_unit": "cr",
+    "ind_name": "Telecom - Cellular & Fixed line services",
+    "ind_pe": 40.1,
+    "ind_n": 8,
+    "cur_pe": 41.3,
+    "rel": 0.83
    },
    "f3_ind": "P"
   },
@@ -1038,7 +1072,12 @@
     "pat_margin": "10.38%",
     "ebitda_margin": "23.70%",
     "de": 3.21,
-    "de_period": "latest restated period (borrowing / net worth)"
+    "de_period": "latest restated period (borrowing / net worth)",
+    "ind_name": "Hospital",
+    "ind_pe": 50.6,
+    "ind_n": 31,
+    "cur_pe": 130.0,
+    "rel": 0.75
    },
    "f3_ind": "P"
   },
@@ -1143,7 +1182,12 @@
     "de": 1.01,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -14.0,
-    "ocf_unit": "mn"
+    "ocf_unit": "mn",
+    "ind_name": "Civil Construction",
+    "ind_pe": 13.8,
+    "ind_n": 124,
+    "cur_pe": 12.1,
+    "rel": 1.69
    },
    "f3_ind": "F"
   },
@@ -1244,7 +1288,12 @@
     "de": 0.11,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -15.0,
-    "ocf_unit": "cr"
+    "ocf_unit": "cr",
+    "ind_name": "Gems, Jewellery And Watches",
+    "ind_pe": 16.9,
+    "ind_n": 58,
+    "cur_pe": 15.5,
+    "rel": 1.15
    },
    "f3_ind": "F"
   },
@@ -1348,7 +1397,12 @@
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -175.17,
     "ocf_unit": "mn",
-    "ocf_period": "FY25 DRHP"
+    "ocf_period": "FY25 DRHP",
+    "ind_name": "IT Enabled Services",
+    "ind_pe": 20.4,
+    "ind_n": 70,
+    "cur_pe": 17.8,
+    "rel": 0.95
    },
    "f3_ind": "P"
   },
@@ -1468,7 +1522,12 @@
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -31.91,
     "ocf_unit": "mn",
-    "ocf_period": "FY25 DRHP"
+    "ocf_period": "FY25 DRHP",
+    "ind_name": "Hospital",
+    "ind_pe": 50.6,
+    "ind_n": 31,
+    "cur_pe": 94.8,
+    "rel": 1.99
    },
    "f3_ind": "F"
   },
@@ -1573,7 +1632,12 @@
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 4492.46,
     "ocf_unit": "mn",
-    "ocf_period": "FY24 DRHP"
+    "ocf_period": "FY24 DRHP",
+    "ind_name": "Iron & Steel Products",
+    "ind_pe": 20.1,
+    "ind_n": 91,
+    "cur_pe": 10.4,
+    "rel": 0.65
    },
    "f3_ind": "P"
   },
@@ -1678,7 +1742,12 @@
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -607.75,
     "ocf_unit": "mn",
-    "ocf_period": "FY24 DRHP"
+    "ocf_period": "FY24 DRHP",
+    "ind_name": "Residential, Commercial Projects",
+    "ind_pe": 23.7,
+    "ind_n": 95,
+    "cur_pe": 12.2,
+    "rel": 0.83
    },
    "f3_ind": "P"
   },
@@ -1785,7 +1854,12 @@
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 3.0,
     "ocf_unit": "mn",
-    "ocf_period": "FY25 DRHP"
+    "ocf_period": "FY25 DRHP",
+    "ind_name": "Speciality Retail",
+    "ind_pe": 26.7,
+    "ind_n": 24,
+    "cur_pe": 63.6,
+    "rel": 1.99
    },
    "f3_ind": "F"
   },
@@ -1921,7 +1995,12 @@
     "pat_margin": "19.57%",
     "ebitda_margin": "27.59%",
     "de": 0.1,
-    "de_period": "latest restated period (borrowing / net worth)"
+    "de_period": "latest restated period (borrowing / net worth)",
+    "ind_name": "Heavy Electrical Equipment",
+    "ind_pe": 30.0,
+    "ind_n": 48,
+    "cur_pe": 48.4,
+    "rel": 1.29
    },
    "f3_ind": "F"
   },
@@ -2069,7 +2148,12 @@
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -11453.83,
     "ocf_unit": "mn",
-    "ocf_period": "FY25 DRHP"
+    "ocf_period": "FY25 DRHP",
+    "ind_name": "Financial Technology (Fintech)",
+    "ind_pe": 28.6,
+    "ind_n": 12,
+    "cur_pe": 18.2,
+    "rel": 0.3
    },
    "f3_ind": "P"
   },
@@ -2172,7 +2256,12 @@
     "de": 0.1,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -3186.22,
-    "ocf_unit": "mn"
+    "ocf_unit": "mn",
+    "ind_name": "Stockbroking & Allied",
+    "ind_pe": 16.8,
+    "ind_n": 32,
+    "cur_pe": 24.6,
+    "rel": 1.6
    },
    "f3_ind": "F"
   },
@@ -2287,7 +2376,12 @@
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -3697.69,
     "ocf_unit": "mn",
-    "ocf_period": "FY25 DRHP"
+    "ocf_period": "FY25 DRHP",
+    "ind_name": "Gems, Jewellery And Watches",
+    "ind_pe": 16.9,
+    "ind_n": 58,
+    "cur_pe": 38.2,
+    "rel": 1.1
    },
    "f3_ind": "F"
   },
@@ -2394,7 +2488,10 @@
     "de": 0.8,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -90.42,
-    "ocf_unit": "mn"
+    "ocf_unit": "mn",
+    "ind_name": "Industrial Products",
+    "ind_pe": 30.5,
+    "ind_n": 21
    },
    "f3_ind": "F"
   },
@@ -2507,7 +2604,12 @@
     "de": 0.96,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -97.85,
-    "ocf_unit": "mn"
+    "ocf_unit": "mn",
+    "ind_name": "Telecom - Equipment & Accessories",
+    "ind_pe": 54.1,
+    "ind_n": 11,
+    "cur_pe": 81.4,
+    "rel": 0.44
    },
    "f3_ind": "P"
   },
@@ -2618,7 +2720,12 @@
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 78.4,
     "ocf_unit": "mn",
-    "ocf_period": "FY25 DRHP"
+    "ocf_period": "FY25 DRHP",
+    "ind_name": "Metals & Mining",
+    "ind_pe": 19.2,
+    "ind_n": 8,
+    "cur_pe": 16.2,
+    "rel": 1.03
    },
    "f3_ind": "F"
   },
@@ -2726,7 +2833,12 @@
     "de": 0.01,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 216.25,
-    "ocf_unit": "mn"
+    "ocf_unit": "mn",
+    "ind_name": "Non - Ferrous Metals",
+    "ind_pe": 19.2,
+    "ind_n": 24,
+    "cur_pe": 23.6,
+    "rel": 1.08
    },
    "f3_ind": "F"
   },
@@ -2830,7 +2942,12 @@
     "de": 0.63,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 173.0,
-    "ocf_unit": "cr"
+    "ocf_unit": "cr",
+    "ind_name": "E-Retail/ E-Commerce",
+    "ind_pe": 53.8,
+    "ind_n": 14,
+    "cur_pe": 75.0,
+    "rel": 0.76
    },
    "f3_ind": "P"
   },
@@ -2932,7 +3049,12 @@
     "de": 0.84,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 675.0,
-    "ocf_unit": "cr"
+    "ocf_unit": "cr",
+    "ind_name": "Heavy Electrical Equipment",
+    "ind_pe": 30.0,
+    "ind_n": 48,
+    "cur_pe": 43.5,
+    "rel": 1.19
    },
    "f3_ind": "F"
   },
@@ -3044,7 +3166,12 @@
     "de": 0.97,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -1772.65,
-    "ocf_unit": "mn"
+    "ocf_unit": "mn",
+    "ind_name": "Civil Construction",
+    "ind_pe": 13.8,
+    "ind_n": 124,
+    "cur_pe": 13.4,
+    "rel": 1.07
    },
    "f3_ind": "F"
   },
@@ -3153,7 +3280,12 @@
     "de": 0.36,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 50.0,
-    "ocf_unit": "cr"
+    "ocf_unit": "cr",
+    "ind_name": "Medical Equipment & Supplies",
+    "ind_pe": 36.6,
+    "ind_n": 18,
+    "cur_pe": 234.0,
+    "rel": 1.55
    },
    "f3_ind": "F"
   },
@@ -3263,7 +3395,12 @@
     "de": 0.53,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -398.0,
-    "ocf_unit": "cr"
+    "ocf_unit": "cr",
+    "ind_name": "Gems, Jewellery And Watches",
+    "ind_pe": 16.9,
+    "ind_n": 58,
+    "cur_pe": 15.7,
+    "rel": 0.66
    },
    "f3_ind": "P"
   },
@@ -3377,7 +3514,12 @@
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 3148.57,
     "ocf_unit": "mn",
-    "ocf_period": "FY25 DRHP"
+    "ocf_period": "FY25 DRHP",
+    "ind_name": "Dairy Products",
+    "ind_pe": 31.9,
+    "ind_n": 11,
+    "cur_pe": 154.0,
+    "rel": 2.66
    },
    "f3_ind": "F"
   },
@@ -3485,7 +3627,12 @@
     "pat_margin": "7.81%",
     "ebitda_margin": "16.99%",
     "de": 1.72,
-    "de_period": "latest restated period (borrowing / net worth)"
+    "de_period": "latest restated period (borrowing / net worth)",
+    "ind_name": "Chemicals & Petrochemicals",
+    "ind_pe": 35.4,
+    "ind_n": 95,
+    "cur_pe": 107.0,
+    "rel": 1.63
    },
    "f3_ind": "F"
   },
@@ -3592,7 +3739,12 @@
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -142.6,
     "ocf_unit": "mn",
-    "ocf_period": "FY26 DRHP"
+    "ocf_period": "FY26 DRHP",
+    "ind_name": "Gems, Jewellery And Watches",
+    "ind_pe": 16.9,
+    "ind_n": 58,
+    "cur_pe": 15.3,
+    "rel": 0.96
    },
    "f3_ind": "P"
   },
@@ -3709,7 +3861,12 @@
     "de": 0.59,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 245.91,
-    "ocf_unit": "mn"
+    "ocf_unit": "mn",
+    "ind_name": "Plastic Products - Industrial",
+    "ind_pe": 19.1,
+    "ind_n": 38,
+    "cur_pe": 19.5,
+    "rel": 0.5
    },
    "f3_ind": "P"
   },
@@ -3817,7 +3974,12 @@
     "de": 0.55,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 216.84,
-    "ocf_unit": "mn"
+    "ocf_unit": "mn",
+    "ind_name": "Water Supply & Management",
+    "ind_pe": 16.5,
+    "ind_n": 8,
+    "cur_pe": 41.5,
+    "rel": 1.17
    },
    "f3_ind": "F"
   },
@@ -3922,7 +4084,12 @@
     "pat_margin": "4.33%",
     "ebitda_margin": "7.20%",
     "de": 0.88,
-    "de_period": "latest restated period (borrowing / net worth)"
+    "de_period": "latest restated period (borrowing / net worth)",
+    "ind_name": "Iron & Steel Products",
+    "ind_pe": 20.3,
+    "ind_n": 91,
+    "cur_pe": 29.2,
+    "rel": 0.71
    },
    "f3_ind": "P"
   },
@@ -4033,7 +4200,12 @@
     "de": 0.24,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 30.0,
-    "ocf_unit": "cr"
+    "ocf_unit": "cr",
+    "ind_name": "Other Industrial Products",
+    "ind_pe": 24.4,
+    "ind_n": 33,
+    "cur_pe": 28.6,
+    "rel": 0.91
    },
    "f3_ind": "P"
   },
@@ -4145,7 +4317,12 @@
     "de": 0.16,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 541.5,
-    "ocf_unit": "mn"
+    "ocf_unit": "mn",
+    "ind_name": "Industrial Products",
+    "ind_pe": 30.5,
+    "ind_n": 138,
+    "cur_pe": 58.1,
+    "rel": 1.16
    },
    "f3_ind": "F"
   },
@@ -4256,7 +4433,12 @@
     "de": 0.41,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 29.0,
-    "ocf_unit": "cr"
+    "ocf_unit": "cr",
+    "ind_name": "Auto Components & Equipments",
+    "ind_pe": 26.5,
+    "ind_n": 130,
+    "cur_pe": 26.8,
+    "rel": 0.87
    },
    "f3_ind": "P"
   },
@@ -4366,7 +4548,12 @@
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 9661.36,
     "ocf_unit": "mn",
-    "ocf_period": "FY25 DRHP"
+    "ocf_period": "FY25 DRHP",
+    "ind_name": "Oil, Gas & Consumable Fuels",
+    "ind_pe": 13.4,
+    "ind_n": 8,
+    "cur_pe": 20.2,
+    "rel": 1.31
    },
    "f3_ind": "F"
   },
@@ -4408,77 +4595,11 @@
     "f4": "total only"
    },
    "m": {
-    "price_band": "₹78 to ₹82",
-    "issue_price": 82.0,
-    "lot": "182 Shares",
-    "sale_type": "Fresh capital cum OFS",
-    "dates": "27 to 31 Aug, 2026",
-    "listed_on": "Thu, Sep 3, 2026",
-    "issue_cr": 700.0,
-    "fresh_cr": 500.0,
-    "ofs_cr": 200.0,
-    "fresh_pct": 71.4,
-    "objects": [
-     [
-      "Prepayment or re-payment, in full or in part,of certain outstanding borrowings availed by Company",
-      337.0
-     ],
-     [
-      "Capital expenditure by Company for purchase of equipment and machinery, civil works and interior development of an existing manufacturing facility",
-      15.01
-     ],
-     [
-      "General corporate purposes",
-      110.58
-     ]
-    ],
-    "pe_pre": 12.48,
-    "pe_post": 15.62,
-    "eps_pre": 6.57,
-    "eps_post": 5.25,
-    "mcap_pre": 1997.34,
-    "mcap_post": 2497.34,
-    "promoter_pre": 100.0,
-    "promoter_post": 71.97,
-    "anchor_cr": 207.0,
-    "sub_total": 87.25,
-    "rev_cagr": 21.1,
-    "pat_cagr": 35.9,
-    "revenue": [
-     2089.31,
-     1946.68,
-     1424.63
-    ],
-    "pat": [
-     160.0,
-     124.59,
-     86.61
-    ],
-    "periods": [
-     "31 Mar 2026",
-     "31 Mar 2025",
-     "31 Mar 2024"
-    ],
-    "borrowing": [
-     384.16,
-     418.83,
-     40.91
-    ],
-    "networth": [
-     729.58,
-     570.29,
-     445.86
-    ],
-    "de_calc": 0.53,
-    "roe": "24.62%",
-    "roce": "25.75%",
-    "ronw": "24.62%",
-    "pat_margin": "7.66%",
-    "ebitda_margin": "11.71%",
-    "de": 0.53,
-    "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -2985.14,
-    "ocf_unit": "mn"
+    "ocf_unit": "mn",
+    "ind_name": "Cables - Electricals",
+    "ind_pe": 20.1,
+    "ind_n": 21
    },
    "f3_ind": "P"
   },
@@ -4602,7 +4723,12 @@
     "de": 0.06,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 618.86,
-    "ocf_unit": "mn"
+    "ocf_unit": "mn",
+    "ind_name": "Iron & Steel Products",
+    "ind_pe": 20.3,
+    "ind_n": 8,
+    "cur_pe": 23.1,
+    "rel": 0.92
    },
    "f3_ind": "P"
   },
@@ -4700,7 +4826,12 @@
     "de": 0.06,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 1671.26,
-    "ocf_unit": "mn"
+    "ocf_unit": "mn",
+    "ind_name": "Film Production, Distribution & Exhibition",
+    "ind_pe": 47.3,
+    "ind_n": 14,
+    "cur_pe": 42.0,
+    "rel": 0.59
    },
    "f3_ind": "P"
   },
@@ -4812,7 +4943,12 @@
     "de": 0.76,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 93.6,
-    "ocf_unit": "mn"
+    "ocf_unit": "mn",
+    "ind_name": "Gems, Jewellery And Watches",
+    "ind_pe": 16.9,
+    "ind_n": 58,
+    "cur_pe": 22.1,
+    "rel": 0.82
    },
    "f3_ind": "P"
   },
@@ -4925,7 +5061,12 @@
     "de": 0.62,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 931.71,
-    "ocf_unit": "mn"
+    "ocf_unit": "mn",
+    "ind_name": "Packaging",
+    "ind_pe": 16.7,
+    "ind_n": 51,
+    "cur_pe": 25.6,
+    "rel": 1.34
    },
    "f3_ind": "F"
   },
@@ -5033,7 +5174,10 @@
     "de": 0.16,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 53.0,
-    "ocf_unit": "cr"
+    "ocf_unit": "cr",
+    "ind_name": "E-Retail/ E-Commerce",
+    "ind_pe": 53.7,
+    "ind_n": 14
    },
    "f3_ind": "F"
   },
@@ -5148,7 +5292,12 @@
     "de": 0.35,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 348.0,
-    "ocf_unit": "cr"
+    "ocf_unit": "cr",
+    "ind_name": "Auto Components & Equipments",
+    "ind_pe": 26.5,
+    "ind_n": 130,
+    "cur_pe": 71.5,
+    "rel": 1.69
    },
    "f3_ind": "F"
   },
@@ -5255,7 +5404,12 @@
     "de": 0.39,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 1077.0,
-    "ocf_unit": "cr"
+    "ocf_unit": "cr",
+    "ind_name": "Industrial Products",
+    "ind_pe": 30.5,
+    "ind_n": 138,
+    "cur_pe": 102.0,
+    "rel": 1.47
    },
    "f3_ind": "F"
   },
@@ -5341,7 +5495,12 @@
     "ronw": "43.02%",
     "ebitda_margin": "92.46%",
     "ocf": 2488.0,
-    "ocf_unit": "cr"
+    "ocf_unit": "cr",
+    "ind_name": "Asset Management Company",
+    "ind_pe": 37.0,
+    "ind_n": 11,
+    "cur_pe": 35.8,
+    "rel": 1.03
    },
    "f3_ind": "F"
   },
@@ -5445,7 +5604,12 @@
     "pat_margin": "6.46%",
     "ebitda_margin": "12.96%",
     "de": 1.14,
-    "de_period": "latest restated period (borrowing / net worth)"
+    "de_period": "latest restated period (borrowing / net worth)",
+    "ind_name": "Cables - Electricals",
+    "ind_pe": 20.1,
+    "ind_n": 21,
+    "cur_pe": 20.6,
+    "rel": 0.99
    },
    "f3_ind": "P"
   },
@@ -5542,7 +5706,12 @@
     "de": 0.44,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -1549.77,
-    "ocf_unit": "mn"
+    "ocf_unit": "mn",
+    "ind_name": "Other Textile Products",
+    "ind_pe": 15.5,
+    "ind_n": 116,
+    "cur_pe": 44.8,
+    "rel": 2.89
    },
    "f3_ind": "F"
   },
@@ -5644,7 +5813,12 @@
     "de": 2.19,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -920.03,
-    "ocf_unit": "mn"
+    "ocf_unit": "mn",
+    "ind_name": "Aluminium, Copper & Zinc Products",
+    "ind_pe": 14.3,
+    "ind_n": 18,
+    "cur_pe": 18.4,
+    "rel": 1.36
    },
    "f3_ind": "F"
   },
@@ -5744,7 +5918,12 @@
     "de": 0.18,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 377.94,
-    "ocf_unit": "mn"
+    "ocf_unit": "mn",
+    "ind_name": "Packaged Foods",
+    "ind_pe": 44.3,
+    "ind_n": 29,
+    "cur_pe": 20.0,
+    "rel": 0.35
    },
    "f3_ind": "P"
   },
@@ -5840,7 +6019,12 @@
     "de": 0.34,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 1627.43,
-    "ocf_unit": "mn"
+    "ocf_unit": "mn",
+    "ind_name": "Asset Management Company",
+    "ind_pe": 37.0,
+    "ind_n": 11,
+    "cur_pe": 41.9,
+    "rel": 0.9
    },
    "f1": "F",
    "f2": "F",
@@ -5967,7 +6151,12 @@
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 655.09,
     "ocf_unit": "mn",
-    "ocf_period": "FY25 DRHP"
+    "ocf_period": "FY25 DRHP",
+    "ind_name": "Waste Management",
+    "ind_pe": 21.0,
+    "ind_n": 14,
+    "cur_pe": 26.4,
+    "rel": 25.76
    },
    "f1": "F",
    "f2": "F",
@@ -6095,7 +6284,12 @@
     "de": 0.6,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 2485.26,
-    "ocf_unit": "mn"
+    "ocf_unit": "mn",
+    "ind_name": "Specialty Chemicals",
+    "ind_pe": 35.7,
+    "ind_n": 8,
+    "cur_pe": 49.2,
+    "rel": 0.64
    },
    "f1": "P",
    "f2": "P",
@@ -6168,10 +6362,11 @@
     "f2": "New showroom + expansion Rs 152.84 cr of ~Rs 220 cr fresh; debt Rs 30 cr (Chittorgarh https://www.chittorgarh.com/ipo/mksons-fine-jewels-ipo/3100/)",
     "f3": "Post-issue P/E 16.1x vs 25x limit (Chittorgarh)",
     "f6": "Revenue CAGR 57.4%, PAT CAGR 151.8% (restated, Chittorgarh)",
-    "f7": "Post-issue promoter holding 69.8% (pre 100.0%) - Chittorgarh https://www.chittorgarh.com/ipo/mksons-fine-jewels-ipo/3100/; pledge not confirmed, check RHP",
+    "f7": "Post-issue promoter holding 69.8% (Chittorgarh https://www.chittorgarh.com/ipo/mksons-fine-jewels-ipo/3100/); no promoter shares pledged (p.88, SEBI DRHP May 20, 2026 (https://www.sebi.gov.in/sebi_data/attachdocs/may-2026/1779262204888_1256.pdf))",
     "f4": "Final Day-3 subscription 5.09x overall, QIB ex-anchor 1.84x, NII 14.12x, retail 3.08x (Chittorgarh https://www.chittorgarh.com/ipo_subscription/mksons-fine-jewels-ipo/3100/, 30 Oct 17:54); anchors Rs 82.62 cr",
     "f5": "Mar 2026 (Screener https://www.screener.in/company/MKJEWELS/): borrowings 74 / equity 168 = D/E 0.44; operating cash flow 15 cr",
-    "status": "Listed on NSE/BSE 2026-11-04 (Chittorgarh IPO list, https://www.chittorgarh.com/report/ipo-in-india-list-main-board-sme/82/)"
+    "status": "Listed on NSE/BSE 2026-11-04 (Chittorgarh IPO list, https://www.chittorgarh.com/report/ipo-in-india-list-main-board-sme/82/)",
+    "f8": "Soft pass: current auditor reports unmodified for FY25 and 9M to Dec 2025; previous auditor qualified FY23 and FY24 (employee benefits, balance confirmations), adjusted in restatement (p.229) (SEBI DRHP May 20, 2026 (https://www.sebi.gov.in/sebi_data/attachdocs/may-2026/1779262204888_1256.pdf)); anchor portion Rs 82.62 cr (Chittorgarh https://www.chittorgarh.com/ipo/mksons-fine-jewels-ipo/3100/). Confirm in RHP"
    },
    "f1": "F",
    "f2": "P",
@@ -6180,18 +6375,14 @@
    "f6": "P",
    "f7": "P",
    "f5": "P",
-   "f8": "U",
-   "stale": {
-    "f7": "pledge unconfirmed"
-   },
+   "f8": "P",
+   "stale": {},
    "flag": "Chittorgarh: Fresh capital cum OFS, issue Rs 275.0 cr, band ₹153 to ₹162, post P/E 16.1, promoter 100.0% -> 69.8%, sub Nonex",
    "post_pe": 16.1,
-   "u_reasons": {
-    "f8": "No offer document on SEBI site"
-   },
-   "passed": 6,
+   "u_reasons": {},
+   "passed": 7,
    "fails": 1,
-   "unknown": 1,
+   "unknown": 0,
    "verdict": "Provisional",
    "m": {
     "price_band": "₹153 to ₹162",
@@ -6272,10 +6463,18 @@
     "de": 0.39,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 15.0,
-    "ocf_unit": "cr"
+    "ocf_unit": "cr",
+    "ind_name": "Gems, Jewellery And Watches",
+    "ind_pe": 16.9,
+    "ind_n": 8,
+    "cur_pe": 15.5,
+    "rel": 0.95
    },
    "f3_ind": "P",
-   "listed_on": "2026-11-04"
+   "listed_on": "2026-11-04",
+   "soft": {
+    "f8": "earlier-year auditor qualification (FY23-24)"
+   }
   },
   {
    "company": "Runwal Enterprises",
@@ -6382,7 +6581,12 @@
     "de": 3.79,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -181.0,
-    "ocf_unit": "cr"
+    "ocf_unit": "cr",
+    "ind_name": "Residential, Commercial Projects",
+    "ind_pe": 23.7,
+    "ind_n": 8,
+    "cur_pe": 35.4,
+    "rel": 1.02
    },
    "f3_ind": "F"
   },
@@ -6486,7 +6690,10 @@
     "de": 0.0,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -2.0,
-    "ocf_unit": "cr"
+    "ocf_unit": "cr",
+    "ind_name": "Retailing",
+    "ind_pe": 48.6,
+    "ind_n": 8
    },
    "f3_ind": "F"
   },
@@ -6522,7 +6729,7 @@
    "flag": "Chittorgarh: Fresh capital cum OFS, issue Rs 405.0 cr, band ₹385 to ₹405, post P/E 24.55, promoter 85.86% -> 74.51%, sub 12.23x",
    "post_pe": 24.55,
    "u_reasons": {
-    "f8": "No offer document on SEBI site"
+    "f8": "SEBI site lists only an addendum to the DRHP; auditor statement not available"
    },
    "passed": 3,
    "fails": 4,
@@ -6595,7 +6802,12 @@
     "de": 1.23,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 63.0,
-    "ocf_unit": "cr"
+    "ocf_unit": "cr",
+    "ind_name": "Iron & Steel Products",
+    "ind_pe": 20.3,
+    "ind_n": 91,
+    "cur_pe": 30.4,
+    "rel": 1.21
    },
    "f3_ind": "F"
   },
@@ -6711,7 +6923,12 @@
     "de": 0.96,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 12.0,
-    "ocf_unit": "cr"
+    "ocf_unit": "cr",
+    "ind_name": "IT - Services",
+    "ind_pe": 32.2,
+    "ind_n": 70,
+    "cur_pe": 20.3,
+    "rel": 0.81
    },
    "f3_ind": "P"
   },
@@ -6820,7 +7037,12 @@
     "de": 0.73,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -10.0,
-    "ocf_unit": "cr"
+    "ocf_unit": "cr",
+    "ind_name": "Civil Construction",
+    "ind_pe": 13.8,
+    "ind_n": 8,
+    "cur_pe": 13.4,
+    "rel": 1.1
    },
    "f3_ind": "F"
   },
@@ -6931,7 +7153,12 @@
     "de": 4.31,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 297.0,
-    "ocf_unit": "cr"
+    "ocf_unit": "cr",
+    "ind_name": "Diversified Commercial Services",
+    "ind_pe": 15.5,
+    "ind_n": 61,
+    "cur_pe": 226.0,
+    "rel": 2.27
    },
    "f3_ind": "F"
   },
@@ -7042,7 +7269,12 @@
     "de": 0.45,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 234.0,
-    "ocf_unit": "cr"
+    "ocf_unit": "cr",
+    "ind_name": "Ceramics",
+    "ind_pe": 24.3,
+    "ind_n": 9,
+    "cur_pe": 31.8,
+    "rel": 2.5
    },
    "f3_ind": "F"
   },
@@ -7157,7 +7389,12 @@
     "de": 2.48,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -11.0,
-    "ocf_unit": "cr"
+    "ocf_unit": "cr",
+    "ind_name": "Other Textile Products",
+    "ind_pe": 15.5,
+    "ind_n": 116,
+    "cur_pe": 20.5,
+    "rel": 1.07
    },
    "f3_ind": "F"
   },
@@ -7177,7 +7414,8 @@
     "f4": "Final subscription 4.26x overall; QIB split not shown (Chittorgarh https://www.chittorgarh.com/ipo/nse-ipo/3151/)",
     "f6": "Revenue CAGR 7.0%, PAT CAGR 11.4% (restated, Chittorgarh)",
     "f7": "No identifiable post-issue promoter holding (no promoter group) per Chittorgarh",
-    "f5": "Mar 2026 (Screener https://www.screener.in/company/544937/consolidated/): borrowings 412 / equity 32114 = D/E 0.01; operating cash flow 23836 cr"
+    "f5": "Mar 2026 (Screener https://www.screener.in/company/544937/consolidated/): borrowings 412 / equity 32114 = D/E 0.01; operating cash flow 23836 cr",
+    "f8": "Soft pass: restated information has no auditor qualifications requiring adjustment (p.282, p.294) (SEBI DRHP Jun 18, 2026 (https://www.sebi.gov.in/sebi_data/attachdocs/jun-2026/1781762714647.pdf)); anchor portion Rs 6,746.18 cr (Chittorgarh https://www.chittorgarh.com/ipo/nse-ipo/3151/). Confirm in RHP"
    },
    "f1": "F",
    "f2": "F",
@@ -7186,20 +7424,18 @@
    "f6": "F",
    "f7": "F",
    "f5": "P",
-   "f8": "U",
+   "f8": "P",
    "soft": {
     "f4": "total only"
    },
    "flag": "Chittorgarh: OFS only, issue Rs 22563.0 cr, band ₹1700 to ₹1785, post P/E 35.4, promoter None% -> None%, sub 4.26x",
    "post_pe": 35.4,
-   "u_reasons": {
-    "f8": "No offer document on SEBI site"
-   },
+   "u_reasons": {},
    "stale": {},
-   "passed": 2,
+   "passed": 3,
    "fails": 5,
-   "unknown": 1,
-   "verdict": "Rejected",
+   "unknown": 0,
+   "verdict": "Review",
    "m": {
     "price_band": "₹1700 to ₹1785",
     "issue_price": 1785.0,
@@ -7249,7 +7485,12 @@
     "ronw": "33.21%",
     "pat_margin": "58.78%",
     "ocf": 23836.0,
-    "ocf_unit": "cr"
+    "ocf_unit": "cr",
+    "ind_name": "Capital Markets",
+    "ind_pe": 39.0,
+    "ind_n": 25,
+    "cur_pe": 54.4,
+    "rel": 0.91
    },
    "f3_ind": "P"
   },
@@ -7365,7 +7606,12 @@
     "de": 0.83,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 144.0,
-    "ocf_unit": "cr"
+    "ocf_unit": "cr",
+    "ind_name": "Auto Components & Equipments",
+    "ind_pe": 26.5,
+    "ind_n": 130,
+    "cur_pe": 103.0,
+    "rel": 3.48
    },
    "f3_ind": "F"
   },
@@ -7476,7 +7722,12 @@
     "de": 0.32,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -74.0,
-    "ocf_unit": "cr"
+    "ocf_unit": "cr",
+    "ind_name": "Residential, Commercial Projects",
+    "ind_pe": 23.7,
+    "ind_n": 95,
+    "cur_pe": 25.6,
+    "rel": 1.08
    },
    "f3_ind": "F"
   },
@@ -7588,7 +7839,12 @@
     "de": 0.0,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 208.0,
-    "ocf_unit": "cr"
+    "ocf_unit": "cr",
+    "ind_name": "Financial Technology (Fintech)",
+    "ind_pe": 28.6,
+    "ind_n": 12,
+    "cur_pe": 28.7,
+    "rel": 1.08
    },
    "f3_ind": "F"
   },
@@ -7687,7 +7943,12 @@
     "de": 0.41,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 194.0,
-    "ocf_unit": "cr"
+    "ocf_unit": "cr",
+    "ind_name": "Other Financial Services",
+    "ind_pe": 19.1,
+    "ind_n": 31,
+    "cur_pe": 9.98,
+    "rel": 0.58
    },
    "f3_ind": "P"
   },
@@ -7706,8 +7967,9 @@
     "f3": "Post-issue P/E 48.11x vs 25x limit (Chittorgarh)",
     "f4": "Final subscription 2.71x overall; QIB split not shown (Chittorgarh https://www.chittorgarh.com/ipo/prasol-chemicals-ipo/2775/)",
     "f6": "Revenue CAGR 18.1%, PAT CAGR 114.1% (restated, Chittorgarh)",
-    "f7": "Post-issue promoter holding 75.25% (pre 86.89%) - Chittorgarh https://www.chittorgarh.com/ipo/prasol-chemicals-ipo/2775/; pledge not confirmed, check RHP",
-    "f5": "Mar 2025 (Screener https://www.screener.in/company/PRASOLCHEM/consolidated/): borrowings 102 / equity 368 = D/E 0.28; operating cash flow 22 cr"
+    "f7": "Post-issue promoter holding 75.25% (Chittorgarh https://www.chittorgarh.com/ipo/prasol-chemicals-ipo/2775/); no promoter shares pledged (p.167, SEBI DRHP Oct 27, 2025 (https://www.sebi.gov.in/sebi_data/attachdocs/oct-2025/1761550204673_1023.pdf))",
+    "f5": "Mar 2025 (Screener https://www.screener.in/company/PRASOLCHEM/consolidated/): borrowings 102 / equity 368 = D/E 0.28; operating cash flow 22 cr",
+    "f8": "Soft pass: no auditor qualifications not given effect (p.27); none requiring adjustment (p.350) (SEBI DRHP Oct 27, 2025 (https://www.sebi.gov.in/sebi_data/attachdocs/oct-2025/1761550204673_1023.pdf)); anchor portion Rs 150.00 cr (Chittorgarh https://www.chittorgarh.com/ipo/prasol-chemicals-ipo/2775/). Confirm in RHP"
    },
    "f1": "F",
    "f2": "F",
@@ -7716,21 +7978,20 @@
    "f6": "P",
    "f7": "P",
    "f5": "P",
-   "f8": "U",
+   "f8": "P",
    "stale": {
-    "f7": "pledge unconfirmed"
+    "f7": "FY25",
+    "f8": "FY25"
    },
    "soft": {
     "f4": "total only"
    },
    "flag": "Chittorgarh: Fresh capital cum OFS, issue Rs 500.0 cr, band ₹643 to ₹676, post P/E 48.11, promoter 86.89% -> 75.25%, sub 2.71x",
    "post_pe": 48.11,
-   "u_reasons": {
-    "f8": "No offer document on SEBI site"
-   },
-   "passed": 3,
+   "u_reasons": {},
+   "passed": 4,
    "fails": 4,
-   "unknown": 1,
+   "unknown": 0,
    "verdict": "Review",
    "m": {
     "price_band": "₹643 to ₹676",
@@ -7799,7 +8060,12 @@
     "de": 0.25,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 22.0,
-    "ocf_unit": "cr"
+    "ocf_unit": "cr",
+    "ind_name": "Specialty Chemicals",
+    "ind_pe": 35.7,
+    "ind_n": 95,
+    "cur_pe": 102.0,
+    "rel": 1.35
    },
    "f3_ind": "F"
   },
@@ -7908,7 +8174,10 @@
     "de": -7.1,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -35.0,
-    "ocf_unit": "cr"
+    "ocf_unit": "cr",
+    "ind_name": "Speciality Retail",
+    "ind_pe": 26.7,
+    "ind_n": 24
    },
    "f3_ind": "F"
   },
@@ -7929,30 +8198,32 @@
     "f4": "Final subscription 23.30x overall (Chittorgarh); category split locked on page, so QIB not verified",
     "f5": "Mar 2026 (Screener https://www.screener.in/company/GAJA/consolidated/): operating cash flow -15 cr (fails); borrowings 53 / equity 606",
     "f6": "Total income FY24 103.96 -> FY26 157.80 cr (CAGR 23.2%), PAT 44.74 -> 81.96 cr (Chittorgarh restated consolidated)",
-    "f7": "Promoter post-issue 54.23% (Chittorgarh); pledge not checked",
-    "status": "Listed on NSE/BSE 26 Aug 2026 (Chittorgarh)"
+    "f7": "Post-issue promoter holding 54.23% (Chittorgarh); no promoter shares pledged (p.113, SEBI DRHP Dec 05, 2025 (https://www.sebi.gov.in/sebi_data/attachdocs/dec-2025/1764928528769.pdf))",
+    "status": "Listed on NSE/BSE 26 Aug 2026 (Chittorgarh)",
+    "f2": "Objects: Rs 372 cr sponsor commitments to own funds including a Rs 15 cr bridge-loan repayment (p.134, SEBI DRHP Dec 05, 2025 (https://www.sebi.gov.in/sebi_data/attachdocs/dec-2025/1764928528769.pdf)) and Rs 44.25 cr GCP (Chittorgarh objects table); debt repayment about 4% of net proceeds. Judgement: sponsor commitments treated as business investment",
+    "f8": "Soft pass: no auditor qualifications not given effect (p.25); none in underlying audit reports (p.309) (SEBI DRHP Dec 05, 2025 (https://www.sebi.gov.in/sebi_data/attachdocs/dec-2025/1764928528769.pdf)); anchor portion Rs 165.00 cr (Chittorgarh https://www.chittorgarh.com/ipo/gaja-alternative-asset-management-ipo/2527/). Confirm in RHP"
    },
-   "u_reasons": {
-    "f7": "No offer document on SEBI site",
-    "f8": "No offer document on SEBI site"
+   "u_reasons": {},
+   "stale": {
+    "f7": "FY25",
+    "f8": "FY25"
    },
-   "stale": {},
    "soft": {
     "f4": "total only"
    },
    "f1": "F",
-   "f2": "U",
+   "f2": "P",
    "f3": "F",
    "f4": "P",
    "f5": "F",
    "f6": "P",
-   "f7": "U",
-   "f8": "U",
+   "f7": "P",
+   "f8": "P",
    "f3_ind": "P",
-   "passed": 2,
+   "passed": 5,
    "fails": 3,
-   "unknown": 3,
-   "verdict": "Rejected",
+   "unknown": 0,
+   "verdict": "Provisional",
    "m": {
     "price_band": "₹152 to ₹160",
     "issue_price": 160.0,
@@ -8018,7 +8289,12 @@
     "de": 0.07,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -15.0,
-    "ocf_unit": "cr"
+    "ocf_unit": "cr",
+    "ind_name": "Capital Markets",
+    "ind_pe": 39.0,
+    "ind_n": 11,
+    "cur_pe": 17.1,
+    "rel": 0.71
    }
   },
   {
@@ -8040,12 +8316,13 @@
     "f5": "Mar 2026 (Screener https://www.screener.in/company/SKYWAYS/consolidated/): borrowings 627 / equity 332 = D/E 1.88 > 1; operating cash flow 114 cr",
     "f6": "Total income FY24 1,316.81 -> FY26 2,839.67 cr (CAGR 46.9%), PAT 34.49 -> 63.52 cr (Chittorgarh)",
     "f7": "Promoter post-issue 49.25% < 50% (Chittorgarh)",
-    "status": "Listed on NSE/BSE 1 Sep 2026 (Chittorgarh)"
+    "status": "Listed on NSE/BSE 1 Sep 2026 (Chittorgarh)",
+    "f8": "Soft pass: no auditor qualifications not given effect (p.29); none requiring adjustment (p.322) (SEBI DRHP Jul 03, 2025 (https://www.sebi.gov.in/sebi_data/attachdocs/jul-2025/1751527808198_842.pdf)); anchor portion Rs 174.54 cr (Chittorgarh https://www.chittorgarh.com/ipo/skyways-air-ipo/2510/). Confirm in RHP"
    },
-   "u_reasons": {
-    "f8": "No offer document on SEBI site"
+   "u_reasons": {},
+   "stale": {
+    "f8": "FY25"
    },
-   "stale": {},
    "soft": {
     "f4": "total only"
    },
@@ -8056,12 +8333,12 @@
    "f5": "F",
    "f6": "P",
    "f7": "F",
-   "f8": "U",
+   "f8": "P",
    "f3_ind": "F",
-   "passed": 2,
+   "passed": 3,
    "fails": 5,
-   "unknown": 1,
-   "verdict": "Rejected",
+   "unknown": 0,
+   "verdict": "Review",
    "m": {
     "price_band": "₹131 to ₹138",
     "issue_price": 138.0,
@@ -8133,45 +8410,55 @@
     "de": 1.88,
     "de_period": "latest restated period (borrowing / net worth)",
     "ocf": 114.0,
-    "ocf_unit": "cr"
+    "ocf_unit": "cr",
+    "ind_name": "Logistics Solution Provider",
+    "ind_pe": 21.3,
+    "ind_n": 48,
+    "cur_pe": 29.8,
+    "rel": 1.48
    }
   },
   {
    "company": "Integris Medtech",
    "group": "Upcoming",
    "new": true,
-   "timing": "27-Nov",
+   "timing": "TBA",
    "flag": "Fresh Rs 600 cr + OFS 1.08 cr shares (price band not declared); net proceeds all debt repayment/prepayment (F2 FAIL); promoter pre-issue 83.24%; FY25 total income Rs 1,959.58 cr vs FY24 1,582.26 cr, PAT 70.68 vs -4.88 (negative base). Price band, F4/F8 pending.",
    "source_url": "https://www.chittorgarh.com/ipo/integris-medtech-ipo/2774/",
    "source_label": "Chittorgarh",
    "status": "Upcoming",
    "sources": {
     "f2": "Objects: repayment/prepayment of borrowings Rs 509.85 cr + subsidiaries Rs 93.87 cr + step-down Rs 415.98 cr; no productive capex (Chittorgarh objects table)",
-    "f5": "Borrowings 1,729.46 / net worth 2,752.52 = D/E 0.63 (Mar 2025, Chittorgarh); operating cash flow not found"
+    "f5": "Operating cash flow Rs 155.54 cr in FY25 (FY24 97.26 cr) (p.512, SEBI DRHP Oct 23, 2025 (https://www.sebi.gov.in/sebi_data/attachdocs/oct-2025/1761204614130_1020.pdf)); D/E 0.63 at Mar 2025 (Chittorgarh)"
    },
    "u_reasons": {
-    "f5": "No offer document on SEBI site",
-    "f7": "No offer document on SEBI site",
-    "f8": "No offer document on SEBI site"
+    "f7": "Post-issue holding depends on the price band, not declared; pre-issue 83.24%, no pledge at DRHP date (p.111; facilities agreement provides for a pledge)",
+    "f8": "No auditor qualification (DRHP p.24), but anchor bidding not yet held",
+    "f3": "Price band and dates not declared (Chittorgarh shows [.]), so post-issue P/E is not available",
+    "f6": "FY23 PAT was a loss, so PAT CAGR FY23-25 is not computable (total income CAGR 19.6%)",
+    "f1": "Price band not declared, so fresh share of the issue cannot be computed",
+    "f4": "Issue dates not announced"
    },
-   "stale": {},
+   "stale": {
+    "f5": "FY25"
+   },
    "soft": {},
    "f1": "U",
    "f2": "F",
    "f3": "U",
    "f4": "U",
-   "f5": "U",
+   "f5": "P",
    "f6": "U",
    "f7": "U",
    "f8": "U",
-   "passed": 0,
+   "passed": 1,
    "fails": 1,
-   "unknown": 7,
+   "unknown": 6,
    "verdict": "Rejected",
    "m": {
     "price_band": "",
     "sale_type": "Fresh capital cum OFS",
-    "dates": "27 Nov to 1 Dec, 2026",
+    "dates": "[.]",
     "fresh_cr": 600.0,
     "objects": [
      [
@@ -8243,32 +8530,36 @@
    "flag": "Fresh Rs 192 cr + OFS 88.35 lakh shares (band 181-191); net proceeds Rs 134.71 cr mostly capex, Rs 21 cr debt repayment (F2 pass); promoter pre-issue 63.40%; total income FY24 380.17 -> FY26 572.26 cr (CAGR 22.7%), PAT -15.35 -> 29.11 cr (negative base). Price band, F4/F8 pending.",
    "source_url": "https://www.chittorgarh.com/ipo/foodlink-fb-ipo/2493/",
    "source_label": "Chittorgarh",
-   "status": "Upcoming",
+   "status": "Open now",
    "sources": {
     "f2": "Objects: capex Rs 113.71 cr (kitchens, casual dining, banquets) vs debt repayment Rs 21 cr of 134.71 cr (Chittorgarh objects table)",
-    "f5": "Borrowings 24.29 / net worth 229.35 = D/E 0.11 (Mar 2026, Chittorgarh); operating cash flow not found",
+    "f5": "Operating cash flow Rs 26.93 cr in 9M to Dec 2024 and Rs 23.35 cr in FY24 (p.348, SEBI DRHP Jul 02, 2025 (https://www.sebi.gov.in/sebi_data/attachdocs/jul-2025/1751455806758_838.pdf)); D/E 0.43 at Mar 2026 (Chittorgarh KPI; borrowings/net worth 24.29/229.35 = 0.11)",
     "f1": "Fresh Rs 192.00 cr of Rs 360.76 cr issue = 53.2% < 90% (Chittorgarh https://www.chittorgarh.com/ipo/foodlink-fb-ipo/2493/)",
-    "f3": "Band 181-191; Chittorgarh valuation table: P/E pre-issue 34.29x (> 25x); post-issue P/E not meaningful (EPS negative on Sep 2026 half-year loss)"
+    "f3": "Band 181-191; Chittorgarh valuation table: P/E pre-issue 34.29x (> 25x); post-issue P/E not meaningful (EPS negative on Sep 2026 half-year loss)",
+    "f7": "Post-issue promoter holding 49.51% < 50% (pre 63.40%) (Chittorgarh promoter table, https://www.chittorgarh.com/ipo/foodlink-fb-ipo/2493/); no promoter shares pledged (p.127, SEBI DRHP Jul 02, 2025 (https://www.sebi.gov.in/sebi_data/attachdocs/jul-2025/1751455806758_838.pdf))",
+    "f8": "Soft pass: no auditor qualifications not given effect (p.31) (SEBI DRHP Jul 02, 2025 (https://www.sebi.gov.in/sebi_data/attachdocs/jul-2025/1751455806758_838.pdf)); anchor portion Rs 162.34 cr (Chittorgarh https://www.chittorgarh.com/ipo/foodlink-fb-ipo/2493/). Confirm in RHP"
    },
    "u_reasons": {
-    "f5": "No offer document on SEBI site",
-    "f7": "No offer document on SEBI site",
-    "f8": "No offer document on SEBI site"
+    "f6": "FY24 PAT was a loss (-15.35 cr), so PAT CAGR is not computable; total income CAGR 22.7%",
+    "f4": "Bidding open 26-30 Nov 2026; final subscription not available"
    },
-   "stale": {},
+   "stale": {
+    "f8": "FY25",
+    "f5": "FY25"
+   },
    "soft": {},
    "f1": "F",
    "f2": "P",
    "f3": "F",
    "f4": "U",
-   "f5": "U",
+   "f5": "P",
    "f6": "U",
-   "f7": "U",
-   "f8": "U",
-   "passed": 1,
-   "fails": 2,
-   "unknown": 5,
-   "verdict": "Rejected",
+   "f7": "F",
+   "f8": "P",
+   "passed": 3,
+   "fails": 3,
+   "unknown": 2,
+   "verdict": "Review",
    "m": {
     "price_band": "₹181 to ₹191",
     "lot": "78 Shares",
@@ -8306,6 +8597,7 @@
     "mcap_post": 1190.9,
     "promoter_pre": 63.4,
     "promoter_post": 49.51,
+    "anchor_cr": 162.34,
     "rev_cagr": 22.7,
     "revenue": [
      222.18,
@@ -8358,30 +8650,33 @@
    "source_label": "Chittorgarh",
    "f1": "P",
    "f2": "P",
-   "f3": "U",
+   "f3": "F",
    "f4": "U",
-   "f5": "U",
+   "f5": "P",
    "f6": "P",
-   "f7": "U",
+   "f7": "P",
    "f8": "U",
    "sources": {
     "f1": "Fresh capital only: 2,70,00,000 shares, 100% fresh, no OFS (Chittorgarh https://www.chittorgarh.com/ipo/monomark-engineering-ipo/2972/)",
     "f2": "Objects: incremental working capital Rs 120.00 cr + general corporate purposes; no debt repayment (Chittorgarh objects table)",
-    "f5": "Borrowings 87.34 / net worth 116.74 = D/E 0.75 (Mar 2026, Chittorgarh); operating cash flow not found",
+    "f5": "Operating cash flow Rs 16.78 cr in FY25 (latest full year; half year to Sep 2025 was -2.01 cr; FY23 -7.92 cr) (p.397, SEBI DRHP Apr 16, 2026 (https://www.sebi.gov.in/sebi_data/attachdocs/apr-2026/1776339007769_1226.pdf)); D/E 0.75 at Mar 2026 (Chittorgarh)",
     "f6": "Total income 392.14 (FY24) -> 564.74 cr (FY26): CAGR 20.0%; PAT 14.83 -> 25.90 cr: CAGR 32.2% (Chittorgarh restated)",
-    "f7": "Promoter 91.37% pre, 65.69% post-issue (Chittorgarh); pledge not verified"
+    "f7": "Post-issue promoter holding 65.69% (Chittorgarh); no promoter shares pledged (p.92, SEBI DRHP Apr 16, 2026 (https://www.sebi.gov.in/sebi_data/attachdocs/apr-2026/1776339007769_1226.pdf))",
+    "f3": "Band Rs 60-65 now declared; Chittorgarh valuation table post-issue P/E 51.59x > 25x (post EPS 1.26 appears to annualise the Jun 2026 quarter; pre-issue P/E on FY26 EPS is 17.33x, and FY26 PAT 25.90 cr against post-issue market cap 624.27 cr would be about 24.1x) (https://www.chittorgarh.com/ipo/monomark-engineering-ipo/2972/)"
    },
    "u_reasons": {
-    "f5": "No offer document on SEBI site",
-    "f7": "No offer document on SEBI site",
-    "f8": "No offer document on SEBI site"
+    "f8": "No auditor qualification not given effect (SEBI abridged prospectus p.8), but anchor bidding not yet held",
+    "f4": "Issue opens 2 Dec 2026; no subscription yet"
    },
-   "stale": {},
+   "stale": {
+    "f5": "FY25",
+    "f7": "FY25"
+   },
    "soft": {},
-   "passed": 3,
-   "fails": 0,
-   "unknown": 5,
-   "verdict": "Review",
+   "passed": 5,
+   "fails": 1,
+   "unknown": 2,
+   "verdict": "Provisional",
    "m": {
     "price_band": "₹60 to ₹65",
     "lot": "225 Shares",
@@ -8449,7 +8744,8 @@
     "de": 0.77,
     "de_period": "latest restated period (borrowing / net worth)"
    },
-   "f3_ind": "U"
+   "f3_ind": "F",
+   "post_pe": 51.59
   },
   {
    "company": "Matangi Rubber",
@@ -8464,30 +8760,29 @@
    "f2": "F",
    "f3": "P",
    "f4": "U",
-   "f5": "U",
+   "f5": "P",
    "f6": "P",
-   "f7": "U",
+   "f7": "P",
    "f8": "U",
    "post_pe": 19.18,
    "sources": {
     "f1": "Fresh Rs 99.10 cr of Rs 125.16 cr = 79.2% < 90% (Chittorgarh https://www.chittorgarh.com/ipo/matangi-rubber-ipo/3136/)",
     "f2": "Objects: loan repayment Rs 45.00 cr of Rs 72.49 cr net proceeds (62%); capex 19.06 + 8.44 (Chittorgarh objects table)",
     "f3": "Post-issue P/E 19.18x at Rs 172 (Chittorgarh valuation table)",
-    "f5": "Debt/Equity 0.85 (Mar 2026, Chittorgarh KPI); operating cash flow not found",
+    "f5": "Operating cash flow Rs 18.39 cr in FY25 and Rs 2.71 cr in 9M to Dec 2025 (pp.357-358, SEBI DRHP Jun 02, 2026 (https://www.sebi.gov.in/sebi_data/attachdocs/jun-2026/1780389306989.pdf)); FY24 was -2.03 cr; D/E 0.85 at Mar 2026 (Chittorgarh KPI)",
     "f6": "Total income 91.26 (FY24, standalone) -> 132.22 cr (FY26): CAGR 20.4%; PAT 4.81 -> 22.33 cr (Chittorgarh restated)",
-    "f7": "Promoter 81.11% pre, 60.01% post-issue (Chittorgarh); pledge not verified"
+    "f7": "Post-issue promoter holding 60.01% (Chittorgarh); no promoter or promoter group shares pledged (p.104, SEBI DRHP Jun 02, 2026 (https://www.sebi.gov.in/sebi_data/attachdocs/jun-2026/1780389306989.pdf))"
    },
    "u_reasons": {
-    "f5": "No offer document on SEBI site",
-    "f7": "No offer document on SEBI site",
-    "f8": "No offer document on SEBI site"
+    "f8": "Anchor bidding not yet held (issue opens 1 Dec) and auditor-qualification statement not yet located in DRHP",
+    "f4": "Issue opens 1 Dec 2026; no subscription yet"
    },
    "stale": {},
    "soft": {},
-   "passed": 2,
+   "passed": 4,
    "fails": 2,
-   "unknown": 4,
-   "verdict": "Rejected",
+   "unknown": 2,
+   "verdict": "Review",
    "m": {
     "price_band": "₹163 to ₹172",
     "lot": "87 Shares",
