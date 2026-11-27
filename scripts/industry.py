@@ -75,7 +75,8 @@ def company(code):
                                 pm = (float(x[3]), int(mm.group(1)))
                             except ValueError:
                                 pass
-        if links:
+        # newly listed pages can show ratios before any industry classification
+        if links or cur is not None:
             return {"links": links, "current_pe": cur, "url": r.url, "peer_median": pm}
     return None
 
@@ -117,6 +118,20 @@ if __name__ == "__main__":
         if v.get("src") != "api" and v.get("industry") in api:
             a = api[v["industry"]]
             v.update({"peers": a["peers"], "median_pe": a["median_pe"], "src": "api-shared"})
+    # Peers API refused or page missing: carry forward the earlier API-based median (tagged with "asof")
+    try:
+        prev = json.load(open(CACHE + r"\industry.json"))
+    except (OSError, ValueError):
+        prev = {}
+    for c, old in prev.items():
+        new = out.get(c)
+        if new is None:
+            out[c] = old
+        elif new.get("src") != "api" and old.get("asof") and old.get("median_pe"):
+            kept = dict(old)
+            if new.get("current_pe") is not None:
+                kept["current_pe"] = new["current_pe"]
+            out[c] = kept
     json.dump(out, open(CACHE + r"\industry.json", "w"), indent=1)
 
 

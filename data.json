@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-26T12:07:05.779601+05:30",
- "as_of_label": "26 Nov 2026, 12:07 IST",
+ "as_of": "2026-11-27T12:00:44.457403+05:30",
+ "as_of_label": "27 Nov 2026, 12:00 IST",
  "rows": [
   {
    "company": "Crystal Crop Protection",
@@ -115,17 +115,22 @@
     "pat_margin": "11.23%",
     "ebitda_margin": "20.20%",
     "ocf": 256.0,
-    "ocf_unit": "cr"
+    "ocf_unit": "cr",
+    "ind_name": "Pesticides & Agrochemicals",
+    "ind_pe": 17.7,
+    "ind_n": 23,
+    "cur_pe": 31.1,
+    "rel": 0.46
    },
    "f3_ind": "P",
    "soft": {}
   },
   {
    "company": "Mahanadi Coalfields",
-   "group": "Upcoming",
+   "group": "Listed",
    "new": true,
-   "timing": "19-Nov",
-   "status": "Bidding closed",
+   "timing": "27-Nov",
+   "status": "Listed",
    "source_url": "https://www.chittorgarh.com/ipo/mahanadi-coalfields-ipo/3247/",
    "source_label": "Chittorgarh",
    "f1": "F",
@@ -137,7 +142,7 @@
    "f7": "P",
    "f8": "P",
    "post_pe": 9.22,
-   "flag": "100% OFS Rs 8,981.12 cr (0% fresh, F1/F2 FAIL), band 129-136; post-issue P/E 9.22x; revenue CAGR FY24-26 0.5%, PAT CAGR -4.9% (F6 FAIL); promoter post-issue 90% (Coal India/GoI). F4/F8 pending bidding close; F5 operating cash flow and F7 pledge not verified.",
+   "flag": "100% OFS Rs 8,981.12 cr (0% fresh, F1/F2 FAIL), band 129-136; post-issue P/E 9.22x; revenue CAGR FY24-26 0.5%, PAT CAGR -4.9% (F6 FAIL); promoter post-issue 90% (Coal India/GoI). Subscription 1.52x (QIB 4.95x, NII 0.66x, retail 0.48x). Listed 27 Nov 2026.",
    "sources": {
     "f1": "Offer is entirely OFS by Coal India (Chittorgarh IPO Details)",
     "f2": "No fresh issue; no proceeds to company (Chittorgarh Objects)",
@@ -146,17 +151,20 @@
     "f5": "Operating cash flow Rs 12,477.5 cr in FY26 (FY25 7,705.0 cr; Q1 FY27 2,928.1 cr) (p.518); D/E ~0: borrowings 3.16 / net worth 21,371.23 cr (Chittorgarh). SEBI DRHP Sep 04, 2026 (https://www.sebi.gov.in/sebi_data/attachdocs/sep-2026/1788761365481.pdf)",
     "f7": "Post-issue promoter holding 90% (Chittorgarh); none of Coal India's shares pledged or encumbered (p.101, SEBI DRHP Sep 04, 2026 (https://www.sebi.gov.in/sebi_data/attachdocs/sep-2026/1788761365481.pdf))",
     "f4": "Final subscription: QIB (ex-anchor) 4.95x, NII 0.66x, retail 0.48x, total 1.52x (<3x) (Chittorgarh https://www.chittorgarh.com/ipo_subscription/mahanadi-coalfields-ipo/3247/)",
-    "f8": "Soft pass: no reservations, qualifications or adverse remarks by statutory auditors, FY25-FY26 and Q1 FY27 (p.525) (SEBI DRHP Sep 04, 2026 (https://www.sebi.gov.in/sebi_data/attachdocs/sep-2026/1788761365481.pdf)); anchor portion Rs 2,295.25 cr (Chittorgarh https://www.chittorgarh.com/ipo/mahanadi-coalfields-ipo/3247/). Confirm in RHP"
+    "f8": "Soft pass: no reservations, qualifications or adverse remarks by statutory auditors, FY25-FY26 and Q1 FY27 (p.525) (SEBI DRHP Sep 04, 2026 (https://www.sebi.gov.in/sebi_data/attachdocs/sep-2026/1788761365481.pdf)); anchor portion Rs 2,295.25 cr (Chittorgarh https://www.chittorgarh.com/ipo/mahanadi-coalfields-ipo/3247/). Confirm in RHP",
+    "status": "Listed on NSE and BSE 27 Nov 2026 (Chittorgarh https://www.chittorgarh.com/ipo/mahanadi-coalfields-ipo/3247/)"
    },
    "u_reasons": {},
    "stale": {},
    "m": {
     "price_band": "₹129 to ₹136",
+    "issue_price": 136.0,
     "lot": "110 Shares",
     "sale_type": "OFS only",
     "dates": "19 to 23 Nov, 2026",
-    "issue_cr": 8981.12,
-    "ofs_cr": 8981.12,
+    "listed_on": "Fri, Nov 27, 2026",
+    "issue_cr": 8997.52,
+    "ofs_cr": 8997.52,
     "fresh_pct": 0.0,
     "pe_pre": 8.42,
     "pe_post": 9.22,
@@ -426,7 +434,7 @@
     "ind_name": "Business Process Outsourcing (BPO)/ Knowledge Process Outsourcing (KPO)",
     "ind_pe": 18.3,
     "ind_n": 12,
-    "cur_pe": 21.5,
+    "cur_pe": 21.2,
     "rel": 1.02
    },
    "f3_ind": "F"
@@ -742,7 +750,7 @@
     "ind_name": "Industrial Products",
     "ind_pe": 30.5,
     "ind_n": 21,
-    "cur_pe": 57.2,
+    "cur_pe": 58.4,
     "rel": 1.22
    },
    "f3_ind": "F"
@@ -846,7 +854,7 @@
     "ind_name": "Medical Equipment & Supplies",
     "ind_pe": 36.6,
     "ind_n": 18,
-    "cur_pe": 77.5,
+    "cur_pe": 77.6,
     "rel": 1.58
    },
    "f3_ind": "F"
@@ -960,7 +968,7 @@
     "ind_name": "Telecom - Cellular & Fixed line services",
     "ind_pe": 40.1,
     "ind_n": 8,
-    "cur_pe": 41.3,
+    "cur_pe": 40.6,
     "rel": 0.83
    },
    "f3_ind": "P"
@@ -1076,7 +1084,7 @@
     "ind_name": "Hospital",
     "ind_pe": 50.6,
     "ind_n": 31,
-    "cur_pe": 130.0,
+    "cur_pe": 129.0,
     "rel": 0.75
    },
    "f3_ind": "P"
@@ -1186,7 +1194,7 @@
     "ind_name": "Civil Construction",
     "ind_pe": 13.8,
     "ind_n": 124,
-    "cur_pe": 12.1,
+    "cur_pe": 12.0,
     "rel": 1.69
    },
    "f3_ind": "F"
@@ -1292,7 +1300,7 @@
     "ind_name": "Gems, Jewellery And Watches",
     "ind_pe": 16.9,
     "ind_n": 58,
-    "cur_pe": 15.5,
+    "cur_pe": 15.3,
     "rel": 1.15
    },
    "f3_ind": "F"
@@ -1526,7 +1534,7 @@
     "ind_name": "Hospital",
     "ind_pe": 50.6,
     "ind_n": 31,
-    "cur_pe": 94.8,
+    "cur_pe": 93.0,
     "rel": 1.99
    },
    "f3_ind": "F"
@@ -1636,7 +1644,7 @@
     "ind_name": "Iron & Steel Products",
     "ind_pe": 20.1,
     "ind_n": 91,
-    "cur_pe": 10.4,
+    "cur_pe": 10.5,
     "rel": 0.65
    },
    "f3_ind": "P"
@@ -1746,7 +1754,7 @@
     "ind_name": "Residential, Commercial Projects",
     "ind_pe": 23.7,
     "ind_n": 95,
-    "cur_pe": 12.2,
+    "cur_pe": 12.5,
     "rel": 0.83
    },
    "f3_ind": "P"
@@ -1858,7 +1866,7 @@
     "ind_name": "Speciality Retail",
     "ind_pe": 26.7,
     "ind_n": 24,
-    "cur_pe": 63.6,
+    "cur_pe": 64.2,
     "rel": 1.99
    },
    "f3_ind": "F"
@@ -1999,7 +2007,7 @@
     "ind_name": "Heavy Electrical Equipment",
     "ind_pe": 30.0,
     "ind_n": 48,
-    "cur_pe": 48.4,
+    "cur_pe": 49.5,
     "rel": 1.29
    },
    "f3_ind": "F"
@@ -2152,7 +2160,7 @@
     "ind_name": "Financial Technology (Fintech)",
     "ind_pe": 28.6,
     "ind_n": 12,
-    "cur_pe": 18.2,
+    "cur_pe": 18.1,
     "rel": 0.3
    },
    "f3_ind": "P"
@@ -2260,7 +2268,7 @@
     "ind_name": "Stockbroking & Allied",
     "ind_pe": 16.8,
     "ind_n": 32,
-    "cur_pe": 24.6,
+    "cur_pe": 24.3,
     "rel": 1.6
    },
    "f3_ind": "F"
@@ -2380,7 +2388,7 @@
     "ind_name": "Gems, Jewellery And Watches",
     "ind_pe": 16.9,
     "ind_n": 58,
-    "cur_pe": 38.2,
+    "cur_pe": 37.6,
     "rel": 1.1
    },
    "f3_ind": "F"
@@ -2608,7 +2616,7 @@
     "ind_name": "Telecom - Equipment & Accessories",
     "ind_pe": 54.1,
     "ind_n": 11,
-    "cur_pe": 81.4,
+    "cur_pe": 82.0,
     "rel": 0.44
    },
    "f3_ind": "P"
@@ -2724,7 +2732,7 @@
     "ind_name": "Metals & Mining",
     "ind_pe": 19.2,
     "ind_n": 8,
-    "cur_pe": 16.2,
+    "cur_pe": 16.1,
     "rel": 1.03
    },
    "f3_ind": "F"
@@ -2837,7 +2845,7 @@
     "ind_name": "Non - Ferrous Metals",
     "ind_pe": 19.2,
     "ind_n": 24,
-    "cur_pe": 23.6,
+    "cur_pe": 24.1,
     "rel": 1.08
    },
    "f3_ind": "F"
@@ -2946,7 +2954,7 @@
     "ind_name": "E-Retail/ E-Commerce",
     "ind_pe": 53.8,
     "ind_n": 14,
-    "cur_pe": 75.0,
+    "cur_pe": 75.8,
     "rel": 0.76
    },
    "f3_ind": "P"
@@ -3053,7 +3061,7 @@
     "ind_name": "Heavy Electrical Equipment",
     "ind_pe": 30.0,
     "ind_n": 48,
-    "cur_pe": 43.5,
+    "cur_pe": 45.1,
     "rel": 1.19
    },
    "f3_ind": "F"
@@ -3399,7 +3407,7 @@
     "ind_name": "Gems, Jewellery And Watches",
     "ind_pe": 16.9,
     "ind_n": 58,
-    "cur_pe": 15.7,
+    "cur_pe": 16.0,
     "rel": 0.66
    },
    "f3_ind": "P"
@@ -3518,7 +3526,7 @@
     "ind_name": "Dairy Products",
     "ind_pe": 31.9,
     "ind_n": 11,
-    "cur_pe": 154.0,
+    "cur_pe": 160.0,
     "rel": 2.66
    },
    "f3_ind": "F"
@@ -3631,7 +3639,7 @@
     "ind_name": "Chemicals & Petrochemicals",
     "ind_pe": 35.4,
     "ind_n": 95,
-    "cur_pe": 107.0,
+    "cur_pe": 105.0,
     "rel": 1.63
    },
    "f3_ind": "F"
@@ -3743,7 +3751,7 @@
     "ind_name": "Gems, Jewellery And Watches",
     "ind_pe": 16.9,
     "ind_n": 58,
-    "cur_pe": 15.3,
+    "cur_pe": 15.5,
     "rel": 0.96
    },
    "f3_ind": "P"
@@ -3865,7 +3873,7 @@
     "ind_name": "Plastic Products - Industrial",
     "ind_pe": 19.1,
     "ind_n": 38,
-    "cur_pe": 19.5,
+    "cur_pe": 19.8,
     "rel": 0.5
    },
    "f3_ind": "P"
@@ -3978,7 +3986,7 @@
     "ind_name": "Water Supply & Management",
     "ind_pe": 16.5,
     "ind_n": 8,
-    "cur_pe": 41.5,
+    "cur_pe": 41.2,
     "rel": 1.17
    },
    "f3_ind": "F"
@@ -4204,7 +4212,7 @@
     "ind_name": "Other Industrial Products",
     "ind_pe": 24.4,
     "ind_n": 33,
-    "cur_pe": 28.6,
+    "cur_pe": 29.1,
     "rel": 0.91
    },
    "f3_ind": "P"
@@ -4321,7 +4329,7 @@
     "ind_name": "Industrial Products",
     "ind_pe": 30.5,
     "ind_n": 138,
-    "cur_pe": 58.1,
+    "cur_pe": 57.0,
     "rel": 1.16
    },
    "f3_ind": "F"
@@ -4552,7 +4560,7 @@
     "ind_name": "Oil, Gas & Consumable Fuels",
     "ind_pe": 13.4,
     "ind_n": 8,
-    "cur_pe": 20.2,
+    "cur_pe": 20.7,
     "rel": 1.31
    },
    "f3_ind": "F"
@@ -4595,11 +4603,82 @@
     "f4": "total only"
    },
    "m": {
+    "price_band": "₹78 to ₹82",
+    "issue_price": 82.0,
+    "lot": "182 Shares",
+    "sale_type": "Fresh capital cum OFS",
+    "dates": "27 to 31 Aug, 2026",
+    "listed_on": "Thu, Sep 3, 2026",
+    "issue_cr": 700.0,
+    "fresh_cr": 500.0,
+    "ofs_cr": 200.0,
+    "fresh_pct": 71.4,
+    "objects": [
+     [
+      "Prepayment or re-payment, in full or in part,of certain outstanding borrowings availed by Company",
+      337.0
+     ],
+     [
+      "Capital expenditure by Company for purchase of equipment and machinery, civil works and interior development of an existing manufacturing facility",
+      15.01
+     ],
+     [
+      "General corporate purposes",
+      110.58
+     ]
+    ],
+    "pe_pre": 12.48,
+    "pe_post": 15.62,
+    "eps_pre": 6.57,
+    "eps_post": 5.25,
+    "mcap_pre": 1997.34,
+    "mcap_post": 2497.34,
+    "promoter_pre": 100.0,
+    "promoter_post": 71.97,
+    "anchor_cr": 207.0,
+    "sub_total": 87.25,
+    "rev_cagr": 21.1,
+    "pat_cagr": 35.9,
+    "revenue": [
+     2089.31,
+     1946.68,
+     1424.63
+    ],
+    "pat": [
+     160.0,
+     124.59,
+     86.61
+    ],
+    "periods": [
+     "31 Mar 2026",
+     "31 Mar 2025",
+     "31 Mar 2024"
+    ],
+    "borrowing": [
+     384.16,
+     418.83,
+     40.91
+    ],
+    "networth": [
+     729.58,
+     570.29,
+     445.86
+    ],
+    "de_calc": 0.53,
+    "roe": "24.62%",
+    "roce": "25.75%",
+    "ronw": "24.62%",
+    "pat_margin": "7.66%",
+    "ebitda_margin": "11.71%",
+    "de": 0.53,
+    "de_period": "latest restated period (borrowing / net worth)",
     "ocf": -2985.14,
     "ocf_unit": "mn",
     "ind_name": "Cables - Electricals",
     "ind_pe": 20.1,
-    "ind_n": 21
+    "ind_n": 21,
+    "cur_pe": 15.1,
+    "rel": 0.78
    },
    "f3_ind": "P"
   },
@@ -4727,7 +4806,7 @@
     "ind_name": "Iron & Steel Products",
     "ind_pe": 20.3,
     "ind_n": 8,
-    "cur_pe": 23.1,
+    "cur_pe": 22.7,
     "rel": 0.92
    },
    "f3_ind": "P"
@@ -4830,7 +4909,7 @@
     "ind_name": "Film Production, Distribution & Exhibition",
     "ind_pe": 47.3,
     "ind_n": 14,
-    "cur_pe": 42.0,
+    "cur_pe": 50.1,
     "rel": 0.59
    },
    "f3_ind": "P"
@@ -4947,7 +5026,7 @@
     "ind_name": "Gems, Jewellery And Watches",
     "ind_pe": 16.9,
     "ind_n": 58,
-    "cur_pe": 22.1,
+    "cur_pe": 24.3,
     "rel": 0.82
    },
    "f3_ind": "P"
@@ -5065,7 +5144,7 @@
     "ind_name": "Packaging",
     "ind_pe": 16.7,
     "ind_n": 51,
-    "cur_pe": 25.6,
+    "cur_pe": 25.5,
     "rel": 1.34
    },
    "f3_ind": "F"
@@ -5296,7 +5375,7 @@
     "ind_name": "Auto Components & Equipments",
     "ind_pe": 26.5,
     "ind_n": 130,
-    "cur_pe": 71.5,
+    "cur_pe": 74.3,
     "rel": 1.69
    },
    "f3_ind": "F"
@@ -5408,7 +5487,7 @@
     "ind_name": "Industrial Products",
     "ind_pe": 30.5,
     "ind_n": 138,
-    "cur_pe": 102.0,
+    "cur_pe": 106.0,
     "rel": 1.47
    },
    "f3_ind": "F"
@@ -5499,7 +5578,7 @@
     "ind_name": "Asset Management Company",
     "ind_pe": 37.0,
     "ind_n": 11,
-    "cur_pe": 35.8,
+    "cur_pe": 35.6,
     "rel": 1.03
    },
    "f3_ind": "F"
@@ -5608,7 +5687,7 @@
     "ind_name": "Cables - Electricals",
     "ind_pe": 20.1,
     "ind_n": 21,
-    "cur_pe": 20.6,
+    "cur_pe": 21.7,
     "rel": 0.99
    },
    "f3_ind": "P"
@@ -5710,7 +5789,7 @@
     "ind_name": "Other Textile Products",
     "ind_pe": 15.5,
     "ind_n": 116,
-    "cur_pe": 44.8,
+    "cur_pe": 44.9,
     "rel": 2.89
    },
    "f3_ind": "F"
@@ -5817,7 +5896,7 @@
     "ind_name": "Aluminium, Copper & Zinc Products",
     "ind_pe": 14.3,
     "ind_n": 18,
-    "cur_pe": 18.4,
+    "cur_pe": 18.3,
     "rel": 1.36
    },
    "f3_ind": "F"
@@ -6023,7 +6102,7 @@
     "ind_name": "Asset Management Company",
     "ind_pe": 37.0,
     "ind_n": 11,
-    "cur_pe": 41.9,
+    "cur_pe": 43.4,
     "rel": 0.9
    },
    "f1": "F",
@@ -6155,7 +6234,7 @@
     "ind_name": "Waste Management",
     "ind_pe": 21.0,
     "ind_n": 14,
-    "cur_pe": 26.4,
+    "cur_pe": 27.0,
     "rel": 25.76
    },
    "f1": "F",
@@ -6288,7 +6367,7 @@
     "ind_name": "Specialty Chemicals",
     "ind_pe": 35.7,
     "ind_n": 8,
-    "cur_pe": 49.2,
+    "cur_pe": 50.6,
     "rel": 0.64
    },
    "f1": "P",
@@ -6585,7 +6664,7 @@
     "ind_name": "Residential, Commercial Projects",
     "ind_pe": 23.7,
     "ind_n": 8,
-    "cur_pe": 35.4,
+    "cur_pe": 32.9,
     "rel": 1.02
    },
    "f3_ind": "F"
@@ -6806,7 +6885,7 @@
     "ind_name": "Iron & Steel Products",
     "ind_pe": 20.3,
     "ind_n": 91,
-    "cur_pe": 30.4,
+    "cur_pe": 38.2,
     "rel": 1.21
    },
    "f3_ind": "F"
@@ -6927,7 +7006,7 @@
     "ind_name": "IT - Services",
     "ind_pe": 32.2,
     "ind_n": 70,
-    "cur_pe": 20.3,
+    "cur_pe": 20.1,
     "rel": 0.81
    },
    "f3_ind": "P"
@@ -7041,7 +7120,7 @@
     "ind_name": "Civil Construction",
     "ind_pe": 13.8,
     "ind_n": 8,
-    "cur_pe": 13.4,
+    "cur_pe": 14.0,
     "rel": 1.1
    },
    "f3_ind": "F"
@@ -7157,7 +7236,7 @@
     "ind_name": "Diversified Commercial Services",
     "ind_pe": 15.5,
     "ind_n": 61,
-    "cur_pe": 226.0,
+    "cur_pe": 224.0,
     "rel": 2.27
    },
    "f3_ind": "F"
@@ -7273,7 +7352,7 @@
     "ind_name": "Ceramics",
     "ind_pe": 24.3,
     "ind_n": 9,
-    "cur_pe": 31.8,
+    "cur_pe": 31.4,
     "rel": 2.5
    },
    "f3_ind": "F"
@@ -7489,7 +7568,7 @@
     "ind_name": "Capital Markets",
     "ind_pe": 39.0,
     "ind_n": 25,
-    "cur_pe": 54.4,
+    "cur_pe": 53.8,
     "rel": 0.91
    },
    "f3_ind": "P"
@@ -7610,7 +7689,7 @@
     "ind_name": "Auto Components & Equipments",
     "ind_pe": 26.5,
     "ind_n": 130,
-    "cur_pe": 103.0,
+    "cur_pe": 101.0,
     "rel": 3.48
    },
    "f3_ind": "F"
@@ -7726,7 +7805,7 @@
     "ind_name": "Residential, Commercial Projects",
     "ind_pe": 23.7,
     "ind_n": 95,
-    "cur_pe": 25.6,
+    "cur_pe": 25.7,
     "rel": 1.08
    },
    "f3_ind": "F"
@@ -7843,7 +7922,7 @@
     "ind_name": "Financial Technology (Fintech)",
     "ind_pe": 28.6,
     "ind_n": 12,
-    "cur_pe": 28.7,
+    "cur_pe": 28.1,
     "rel": 1.08
    },
    "f3_ind": "F"
@@ -7947,7 +8026,7 @@
     "ind_name": "Other Financial Services",
     "ind_pe": 19.1,
     "ind_n": 31,
-    "cur_pe": 9.98,
+    "cur_pe": 10.0,
     "rel": 0.58
    },
    "f3_ind": "P"
@@ -8064,7 +8143,7 @@
     "ind_name": "Specialty Chemicals",
     "ind_pe": 35.7,
     "ind_n": 95,
-    "cur_pe": 102.0,
+    "cur_pe": 101.0,
     "rel": 1.35
    },
    "f3_ind": "F"
@@ -8293,7 +8372,7 @@
     "ind_name": "Capital Markets",
     "ind_pe": 39.0,
     "ind_n": 11,
-    "cur_pe": 17.1,
+    "cur_pe": 18.6,
     "rel": 0.71
    }
   },
@@ -8414,7 +8493,7 @@
     "ind_name": "Logistics Solution Provider",
     "ind_pe": 21.3,
     "ind_n": 48,
-    "cur_pe": 29.8,
+    "cur_pe": 29.5,
     "rel": 1.48
    }
   },
@@ -8753,7 +8832,7 @@
    "new": true,
    "timing": "01-Dec",
    "status": "Upcoming",
-   "flag": "Fresh Rs 99.10 cr + OFS Rs 26.06 cr (79.2% fresh), band 163-172; Rs 45 cr of Rs 72.49 cr net proceeds go to loan repayment (F2 FAIL); post-issue P/E 19.18x (Chittorgarh); promoter 81.11% pre / 60.01% post; total income FY24 91.26 -> FY26 132.22 cr (CAGR 20.4%), PAT 4.81 -> 22.33 cr (FY24 standalone). F4/F8 pending until bidding closes; F5 operating cash flow and F7 pledge not verified.",
+   "flag": "Fresh Rs 99.10 cr + OFS Rs 26.06 cr (79.2% fresh), band 163-172; Rs 45 cr of Rs 72.49 cr net proceeds go to loan repayment (F2 FAIL); post-issue P/E 19.18x (Chittorgarh); promoter 81.11% pre / 60.01% post; total income FY24 91.26 -> FY26 132.22 cr (CAGR 20.4%), PAT 4.81 -> 22.33 cr (FY24 standalone). F4/F8 pending until bidding closes; No auditor qualification (abridged prospectus p.11); F8 awaits anchor bidding.",
    "source_url": "https://www.chittorgarh.com/ipo/matangi-rubber-ipo/3136/",
    "source_label": "Chittorgarh",
    "f1": "F",
@@ -8774,7 +8853,7 @@
     "f7": "Post-issue promoter holding 60.01% (Chittorgarh); no promoter or promoter group shares pledged (p.104, SEBI DRHP Jun 02, 2026 (https://www.sebi.gov.in/sebi_data/attachdocs/jun-2026/1780389306989.pdf))"
    },
    "u_reasons": {
-    "f8": "Anchor bidding not yet held (issue opens 1 Dec) and auditor-qualification statement not yet located in DRHP",
+    "f8": "Anchor bidding not yet held (issue opens 1 Dec). No auditor qualifications per SEBI abridged prospectus p.11 (https://www.sebi.gov.in/sebi_data/commondocs/jun-2026/Matangi%20Rubber%20Limited%20-%20Abridged_p.pdf)",
     "f4": "Issue opens 1 Dec 2026; no subscription yet"
    },
    "stale": {},
